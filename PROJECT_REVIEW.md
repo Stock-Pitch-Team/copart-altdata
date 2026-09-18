@@ -9,7 +9,7 @@ views, 11 manual CSVs and 10 processed datasets with provenance sidecars.
 - SEC collector for CPRT, RBA, ACVA and PGR, with revenue-tag aliases and derived Q4 flows.
 - BLS repair/used-vehicle and other CPI inputs through August 2026.
 - TLF model: 28 observations, chosen lag 3 quarters, R² 0.656, adjusted R² 0.629.
-  CY2026 Q3 fitted value 22.19%, residual band 20.12–24.26%; latest actual 23.3%.
+  CY2026 Q3 fitted value 22.17%, residual band 20.10–24.24%; latest actual 23.3%.
 - NOAA event aggregation: county/forecast-zone, state and year/type outputs.
 - Six-page static site, theme switch, charts/tables and methods disclosure.
 - Existing manual KPI, analyst-target, catalyst and scenario panels.
@@ -32,6 +32,14 @@ No inventory observations exist to backtest yet. Prospective observations cannot
 be validated against earlier years without a separately acquired historical feed.
 
 ## Corrections made for this release
+
+- Fixed a calendar-gap bug in CPI annual changes: October 2025 repair CPI is
+  absent, so shifting 12 rows matched the wrong prior month. Annual changes now
+  join the same month one year earlier without filling missing data. This corrects
+  39 observations across affected series. August repair inflation is **5.24%**,
+  not 7.8%; versus used vehicles at **-2.32%**, the spread is **7.56 points**,
+  not 10.1. The nowcast is **22.17%**, still 22.2% rounded. Regression tests
+  cover missing intervening months, missing prior-year observations and normal history.
 
 - Removed false claim that inventory history is already accumulating.
 - Added visible working-draft status to every page.

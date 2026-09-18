@@ -61,9 +61,9 @@ From the August 2026 BLS release:
 
 | Series | YoY |
 |---|---|
-| Motor vehicle maintenance and repair CPI | **+7.8%** |
+| Motor vehicle maintenance and repair CPI | **+5.2%** |
 | Used cars and trucks CPI | **−2.3%** |
-| Spread ("the scissors") | **+10.1 points** |
+| Spread ("the scissors") | **+7.6 points** |
 
 Fitted on 28 quarters against the CCC total-loss-frequency series, with the
 spread lagged three quarters plus a linear trend for the structural drift from

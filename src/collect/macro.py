@@ -1,4 +1,4 @@
-"""Project 3 (inputs) — the macro series that drive total-loss frequency.
+"""Project 3 (inputs) â€” the macro series that drive total-loss frequency.
 
 The economic chain we are testing:
     repair cost inflation UP + used vehicle values DOWN
@@ -117,6 +117,22 @@ def _parse_bls(data: dict) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+
+def add_calendar_yoy(df: pd.DataFrame) -> pd.DataFrame:
+    """Match the same calendar month last year; never substitute an older row.
+
+    BLS can omit months (for example October 2025). Row-based pct_change(12)
+    silently compares the wrong months after a gap.
+    """
+    df = df.drop(columns=["value_yoy_pct"], errors="ignore").copy()
+    prior = df[["series", "date", "value"]].copy()
+    prior["date"] = (pd.to_datetime(prior["date"]) + pd.DateOffset(years=1)).dt.strftime("%Y-%m-%d")
+    prior = prior.rename(columns={"value": "prior_year_value"})
+    df = df.merge(prior, on=["series", "date"], how="left", validate="one_to_one")
+    df["value_yoy_pct"] = ((df["value"] / df["prior_year_value"] - 1) * 100).round(2)
+    return df.drop(columns=["prior_year_value"])
+
+
 def main() -> int:
     has_key = bool(key("BLS_API_KEY"))
     # Keyless v1 allows a 10-year span per request; v2 allows 20.
@@ -145,9 +161,7 @@ def main() -> int:
 
     # Year-over-year change is what actually matters for the thesis, so compute
     # it here rather than in every chart.
-    df["value_yoy_pct"] = (
-        df.groupby("series")["value"].pct_change(periods=12) * 100
-    ).round(2)
+    df = add_calendar_yoy(df)
 
     wide = df.pivot_table(index="date", columns="series", values="value").reset_index()
 

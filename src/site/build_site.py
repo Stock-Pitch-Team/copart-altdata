@@ -112,8 +112,8 @@ def safe_json(obj) -> str:
         raw.replace("<", "\\u003c")
         .replace(">", "\\u003e")
         .replace("&", "\\u0026")
-        .replace("â€¨", "\\u2028")
-        .replace("â€©", "\\u2029")
+        .replace(" ", "\\u2028")
+        .replace(" ", "\\u2029")
     )
 
 
@@ -161,7 +161,7 @@ def page_thesis() -> dict:
 
     # ---- Hero: reported US insurance unit growth vs the ex-customer figure ---
     periods = ["FY26Q1", "FY26Q2", "FY26Q3", "FY26Q4"]
-    labels = ["FY26 Q1\nAugâ€“Oct 25", "FY26 Q2\nNovâ€“Jan", "FY26 Q3\nFebâ€“Apr", "FY26 Q4\nMayâ€“Jul 26"]
+    labels = ["FY26 Q1\nAug–Oct 25", "FY26 Q2\nNov–Jan", "FY26 Q3\nFeb–Apr", "FY26 Q4\nMay–Jul 26"]
     reported = [kpi(kpis, p, "us_insurance_units_yoy") for p in periods]
     ex_customer = [None, None, None, kpi(kpis, "FY26Q4", "us_insurance_units_yoy_ex_lost_customer")]
 
@@ -248,7 +248,7 @@ def page_thesis() -> dict:
         cards.append(
             card(
                 "scenarios",
-                "Illustrative scenarios â€” earnings assumptions remain provisional",
+                "Illustrative scenarios — earnings assumptions remain provisional",
                 opt,
                 {
                     "caption": f"Probability-weighted value ${weighted:.2f} versus ${price:.2f} today",
@@ -288,7 +288,7 @@ def page_thesis() -> dict:
         "template": "index.html",
         "page_title": "Thesis",
         "heading": "Copart's problem is one customer, and it laps in FY27 Q2",
-        "eyebrow": "Long CPRT â€” variant view",
+        "eyebrow": "Long CPRT — variant view",
         "lede": (
             "Copart's US insurance volumes fell 7.5% last quarter and the market is "
             "extrapolating a share-loss spiral. Management disclosed that excluding one lost "
@@ -388,7 +388,7 @@ def page_company() -> dict:
                 )
             )
 
-    # EPS actual vs consensus â€” the FY26 Q4 story in one chart.
+    # EPS actual vs consensus — the FY26 Q4 story in one chart.
     fin = manual("cprt_quarterly_financials")
     if fin is not None:
         f = fin.dropna(subset=["eps_consensus"]).copy()
@@ -437,7 +437,7 @@ def page_company() -> dict:
             )
         )
 
-    # Cost inflation vs revenue per unit â€” the operating leverage case.
+    # Cost inflation vs revenue per unit — the operating leverage case.
     kpis = manual("cprt_quarterly_kpis")
     if kpis is not None:
         rows = [
@@ -815,7 +815,7 @@ def page_industry() -> dict:
                 },
                 subtitle=(
                     "An insurer writes a vehicle off when repairing it costs too much relative "
-                    "to what the vehicle is worth. In August 2026 repair CPI was rising 7.8% "
+                    "to what the vehicle is worth. In August 2026 repair CPI was rising 5.2% "
                     "year over year while used-vehicle CPI was falling 2.3%. Every quarter the "
                     "blue line sits above the orange one, more borderline claims tip into total "
                     "losses, and more cars enter the salvage channel."

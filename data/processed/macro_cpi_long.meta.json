@@ -1,7 +1,7 @@
 {
   "dataset": "macro_cpi_long",
   "source": "US Bureau of Labor Statistics public API (api.bls.gov), public domain",
-  "method": "Monthly seasonally-adjusted CPI index levels for vehicle repair, used vehicles, new vehicles, motor vehicle insurance, gasoline, transportation and all items. Year-over-year percent change computed as a 12-month change on the index level. Collected via v1 (keyless).",
+  "method": "Monthly seasonally-adjusted CPI index levels for vehicle repair, used vehicles, new vehicles, motor vehicle insurance, gasoline, transportation and all items. Year-over-year percent change computed as a 12-month change on the index level. Collected via v1 (keyless). Year-over-year values corrected on 18 September 2026 to match the same calendar month one year earlier, preserving missing months; original index levels and collection timestamp unchanged.",
   "gaps": "The keyless v1 endpoint returns at most a 10-year window, so history before 2017 requires a free BLS_API_KEY. CPI measures consumer prices, which proxy but do not equal the insurer-paid repair costs that drive total-loss decisions. The Manheim wholesale index is not published by BLS and is hand-entered in data/manual instead.",
   "units": "index level, and percent for value_yoy_pct",
   "frequency": "monthly",
