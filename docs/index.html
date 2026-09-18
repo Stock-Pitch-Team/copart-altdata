@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Thesis — Copart (CPRT) research</title>
+<title>Thesis â€” Copart (CPRT) research</title>
 <meta name="description" content="Long Copart (CPRT): the US insurance unit decline is one lost customer, it laps in FY27 Q2, and IAA bought its share gains with take-rate concessions.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>📊</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>ðŸ“Š</text></svg>">
 <link rel="stylesheet" href="assets/style.css">
 <script>
 /* Stamp the saved theme before first paint so there is no flash. */
@@ -33,10 +33,13 @@
 </header>
 
 <main>
+  <div class="callout warn"><strong>Research v1 â€” working draft, 18 September 2026.</strong>
+  Valuation assumptions are provisional; the nowcast has not been tested out of sample.
+  The inventory tracker is not built. See <a href="methods.html">Data &amp; methods</a> for limitations.</div>
   <div class="page-head">
-    <div class="eyebrow">Long CPRT — variant view</div>
+    <div class="eyebrow">Long CPRT â€” variant view</div>
     <h1>Copart&#39;s problem is one customer, and it laps in FY27 Q2</h1>
-<p class="lede">Copart&#39;s US insurance volumes fell 7.5% last quarter and the market is extrapolating a share-loss spiral. Management disclosed that excluding one lost customer the same number would have been positive 2.3%. We think three things are mispriced: the timing of when that customer stops flattering the comparison, the price IAA is paying for the volume it won, and how much margin comes back when Copart&#39;s fixed cost base is used again.</p>  </div>
+<p class="lede">Copart&#39;s US insurance volumes fell 7.5% last quarter and the market is extrapolating a share-loss spiral. Management disclosed that excluding one lost customer the same number would have been positive 2.3%. We think three things are mispriced: the timing of when that customer stops depressing the comparison, the price IAA is paying for the volume it won, and how much margin comes back when Copart&#39;s fixed cost base is used again.</p>  </div>
 
 
 <div class="tiles">
@@ -47,7 +50,7 @@
   <div class="tile">
   <div class="tile-label">FY26 EPS</div>
   <div class="tile-value">$1.55</div>
-<div class="tile-note">Revenue $4.70bn, up 0.4%</div></div>
+<div class="tile-note">Revenue $4.67bn, up 0.4%</div></div>
   <div class="tile">
   <div class="tile-label">US insurance units</div>
   <div class="tile-value delta-bad">-7.5%</div>
@@ -95,11 +98,10 @@
 </div>
 
 <div class="callout">
-  <div class="callout-title">4. The cost base is idle, not broken</div>
+  <div class="callout-title">4. Lower utilisation may explain part of the cost pressure</div>
   <p style="margin:0">Operating cost per car rose 12.7% and US facility cost per unit rose 14.2%,
-  against revenue per unit up 5.4%. Most of that gap is fixed cost spread across fewer units.
-  Gross margin fell to 41.8% from a run rate near 45%, and that roughly three-point gap is what
-  returns if volume stabilises.</p>
+  against revenue per unit up 5.4%. Lower utilisation, fuel and wages may all contribute.
+  The cost-decomposition study is not built, so the recoverable margin benefit is still a hypothesis.</p>
 </div>
 
   <figure class="card" data-view="chart" style="margin-inline:0">
@@ -115,7 +117,7 @@
 
   <div class="chart tall" id="hero-units" role="img"
        aria-label="The whole decline is one customer. Copart&#39;s US insurance volumes have fallen for four straight quarters. On the FY26 Q4 call management said that excluding one single customer loss, domestic insurance assignments would have risen 2.3%. That one customer is therefore worth about ten points of growth, and it laps in FY27 Q2. The same data is available in the table view."></div>
-  <script type="application/json" data-chart="hero-units">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":true,"top":0,"left":0,"itemWidth":10,"itemHeight":10,"itemGap":16,"icon":"roundRect","textStyle":{"color":"@text-secondary","fontSize":11}},"grid":{"left":8,"right":14,"top":26,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"%","valueDecimals":1},"xAxis":{"type":"category","data":["FY26 Q1\nAug\u2013Oct 25","FY26 Q2\nNov\u2013Jan","FY26 Q3\nFeb\u2013Apr","FY26 Q4\nMay\u2013Jul 26"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false}},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}%"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"As reported","type":"bar","data":[-10.0,-10.7,-4.2,-7.5],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%","markLine":{"silent":true,"symbol":"none","data":[{"yAxis":0}],"lineStyle":{"color":"@baseline","width":1,"type":"solid"},"label":{"show":false}}},{"name":"Excluding the one lost customer","type":"bar","data":[null,null,null,2.3],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-3"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"}]}</script>
+  <script type="application/json" data-chart="hero-units">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":true,"top":0,"left":0,"itemWidth":10,"itemHeight":10,"itemGap":16,"icon":"roundRect","textStyle":{"color":"@text-secondary","fontSize":11}},"grid":{"left":8,"right":14,"top":26,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"%","valueDecimals":1},"xAxis":{"type":"category","data":["FY26 Q1\nAug\u00e2\u20ac\u201cOct 25","FY26 Q2\nNov\u00e2\u20ac\u201cJan","FY26 Q3\nFeb\u00e2\u20ac\u201cApr","FY26 Q4\nMay\u00e2\u20ac\u201cJul 26"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false}},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}%"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"As reported","type":"bar","data":[-10.0,-10.7,-4.2,-7.5],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%","markLine":{"silent":true,"symbol":"none","data":[{"yAxis":0}],"lineStyle":{"color":"@baseline","width":1,"type":"solid"},"label":{"show":false}}},{"name":"Excluding the one lost customer","type":"bar","data":[null,null,null,2.3],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-3"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"}]}</script>
 
   <div class="table-view">
     <table>
@@ -123,10 +125,10 @@
     <tr><th class="wrap" scope="col">Fiscal quarter</th><th scope="col">As reported (%)</th><th scope="col">Excluding one lost customer (%)</th></tr>
   </thead>
   <tbody>
-    <tr><th scope="row" class="wrap">FY26 Q1 Aug–Oct 25</th><td>-10.0</td><td>n/a</td></tr>
-    <tr><th scope="row" class="wrap">FY26 Q2 Nov–Jan</th><td>-10.7</td><td>n/a</td></tr>
-    <tr><th scope="row" class="wrap">FY26 Q3 Feb–Apr</th><td>-4.2</td><td>n/a</td></tr>
-    <tr><th scope="row" class="wrap">FY26 Q4 May–Jul 26</th><td>-7.5</td><td>+2.3</td></tr>
+    <tr><th scope="row" class="wrap">FY26 Q1 Augâ€“Oct 25</th><td>-10.0</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">FY26 Q2 Novâ€“Jan</th><td>-10.7</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">FY26 Q3 Febâ€“Apr</th><td>-4.2</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">FY26 Q4 Mayâ€“Jul 26</th><td>-7.5</td><td>+2.3</td></tr>
   </tbody>
 </table>
   </div>
@@ -141,8 +143,8 @@
   <figure class="card" data-view="chart" style="margin-inline:0">
   <div class="card-head">
     <div>
-      <h3 class="card-title">Four scenarios, and what each is worth</h3>
-<p class="card-sub">Probability-weighted value of $31.90 against $29.57 today. The asymmetry comes from the downside already being close to the current price, because the market has largely priced the bear case.</p>    </div>
+      <h3 class="card-title">Illustrative scenarios â€” earnings assumptions remain provisional</h3>
+<p class="card-sub">Probability-weighted value of $31.70 against $29.57 today. These are illustrative assumptions, not a completed valuation model or evidence that downside is limited.</p>    </div>
     <div class="view-toggle" role="group" aria-label="View as chart or table">
       <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
       <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
@@ -150,18 +152,18 @@
   </div>
 
   <div class="chart" id="scenarios" role="img"
-       aria-label="Four scenarios, and what each is worth. Probability-weighted value of $31.90 against $29.57 today. The asymmetry comes from the downside already being close to the current price, because the market has largely priced the bear case. The same data is available in the table view."></div>
-  <script type="application/json" data-chart="scenarios">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":false},"grid":{"left":8,"right":14,"top":16,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"","valueDecimals":2},"xAxis":{"type":"category","data":["Bear","Base","Our case","Bull"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false}},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"${value}"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"Implied price","type":"bar","data":[23.0,29.0,37.5,47.5],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%","markLine":{"silent":true,"symbol":"none","data":[{"yAxis":29.57,"label":{"show":true,"formatter":"Today $29.57","color":"@text-secondary","fontSize":11,"position":"insideEndTop"}}],"lineStyle":{"color":"@baseline","width":1,"type":"solid"}},"label":{"show":true,"position":"top","color":"@text-secondary","fontSize":11,"formatter":"${c}"}}]}</script>
+       aria-label="Illustrative scenarios â€” earnings assumptions remain provisional. Probability-weighted value of $31.70 against $29.57 today. These are illustrative assumptions, not a completed valuation model or evidence that downside is limited. The same data is available in the table view."></div>
+  <script type="application/json" data-chart="scenarios">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":false},"grid":{"left":8,"right":14,"top":16,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"","valueDecimals":2},"xAxis":{"type":"category","data":["Bear","Base","Our case","Bull"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false}},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"${value}"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"Implied price","type":"bar","data":[22.5,28.88,37.38,47.5],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%","markLine":{"silent":true,"symbol":"none","data":[{"yAxis":29.57,"label":{"show":true,"formatter":"Today $29.57","color":"@text-secondary","fontSize":11,"position":"insideEndTop"}}],"lineStyle":{"color":"@baseline","width":1,"type":"solid"}},"label":{"show":true,"position":"top","color":"@text-secondary","fontSize":11,"formatter":"${c}"}}]}</script>
 
   <div class="table-view">
     <table>
-<caption>Probability-weighted value $31.90 versus $29.57 today</caption>  <thead>
+<caption>Probability-weighted value $31.70 versus $29.57 today</caption>  <thead>
     <tr><th class="wrap" scope="col">Scenario</th><th scope="col">Probability</th><th scope="col">US insurance units FY27 (%)</th><th scope="col">Gross margin (%)</th><th scope="col">FY27 EPS ($)</th><th scope="col">Multiple (x)</th><th scope="col">Implied price ($)</th></tr>
   </thead>
   <tbody>
-    <tr><th scope="row" class="wrap">Bear</th><td>25%</td><td>-6.0</td><td>42.0</td><td>1.50</td><td>15.0</td><td>23.00</td></tr>
-    <tr><th scope="row" class="wrap">Base</th><td>35%</td><td>-1.5</td><td>44.0</td><td>1.65</td><td>17.5</td><td>29.00</td></tr>
-    <tr><th scope="row" class="wrap">Our case</th><td>30%</td><td>+0.5</td><td>45.0</td><td>1.78</td><td>21.0</td><td>37.50</td></tr>
+    <tr><th scope="row" class="wrap">Bear</th><td>25%</td><td>-6.0</td><td>42.0</td><td>1.50</td><td>15.0</td><td>22.50</td></tr>
+    <tr><th scope="row" class="wrap">Base</th><td>35%</td><td>-1.5</td><td>44.0</td><td>1.65</td><td>17.5</td><td>28.88</td></tr>
+    <tr><th scope="row" class="wrap">Our case</th><td>30%</td><td>+0.5</td><td>45.0</td><td>1.78</td><td>21.0</td><td>37.38</td></tr>
     <tr><th scope="row" class="wrap">Bull</th><td>10%</td><td>+3.0</td><td>46.0</td><td>1.90</td><td>25.0</td><td>47.50</td></tr>
   </tbody>
 </table>
@@ -171,7 +173,7 @@
     <strong>Source.</strong> Team estimates. Bear case anchored on the Barclays $26 target at 10x EV/EBITDA; base case on Bloomberg consensus FY27 EPS of $1.67.
     <details>
       <summary>Method and known gaps</summary>
-<p style="margin:6px 0 0"><strong>Method.</strong> Each scenario sets US insurance unit growth and gross margin, which drive FY27 EPS, then applies a P/E multiple. Probabilities are our judgement and sum to 100%. Implied price is EPS times multiple.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> These are placeholder figures pending the full three-statement model. The EPS numbers are not yet derived from a units-times-revenue-per-unit build, so treat them as scenario framing rather than a finished forecast.</p>    </details>
+<p style="margin:6px 0 0"><strong>Method.</strong> Each scenario assumes US insurance unit growth, gross margin and FY27 EPS independently, then applies a P/E multiple. Probabilities are our judgement and sum to 100%. Implied price is EPS times multiple.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> These are placeholder figures pending the full three-statement model. The EPS numbers are not yet derived from a units-times-revenue-per-unit build, so treat them as scenario framing rather than a finished forecast.</p>    </details>
   </figcaption>
 </figure>
 
@@ -185,8 +187,8 @@
       <li><strong>A one-customer problem read as structural decay.</strong> It laps in FY27 Q2 to
       Q3 and the rest of the insurance book is already growing 2.3%.</li>
       <li><strong>Operating leverage in reverse.</strong> Cost per car is inflated by
-      under-utilisation. Volume stabilisation restores roughly three points of gross margin
-      without any price increase.</li>
+      under-utilisation and input inflation. Volume stabilisation could improve margin;
+      the size of that benefit still needs to be modelled.</li>
       <li><strong>Priced for the bear case.</strong> Near the bottom of a twenty-year multiple
       range, no debt, net cash, $1.63bn of buybacks in FY26, and a consensus that already assumes
       flat-to-negative US service revenue.</li>
@@ -210,9 +212,9 @@
 
 <div class="callout risk">
   <div class="callout-title">What would make us wrong, stated in advance</div>
-  <p style="margin:0">A second large carrier disclosed as lost in FY27 Q1. RB Global's automotive
-  take rate stabilising or rising while its volume growth stays above 8%, which would mean the
-  incentives were never the driver. Copart's cost per car still rising at a double-digit rate in
+  <p style="margin:0">A second large carrier disclosed as lost in FY27 Q1. RB Global's consolidated
+  take rate stabilising or rising while automotive volume growth stays above 8% would weaken our
+  pricing-pressure thesis, subject to acquisition mix. Copart's cost per car still rising at a double-digit rate in
   FY27 Q1. Or the Manheim used-vehicle index falling below roughly 195, which removes the pricing
   offset.</p>
 </div>
@@ -229,13 +231,13 @@
     <div class="tl-date">2026-10-31</div>
     <div class="tl-event">Copart FY27Q1 quarter end</div>
     <div class="tl-body">Last quarter that still comps against a pre-Progressive-loss base</div>
-    <div class="tl-watch"><strong>Watch for:</strong> Our inventory tracker should show the listing gap narrowing through Oct</div>
+    <div class="tl-watch"><strong>Watch for:</strong> Once built our inventory tracker can test whether the listing gap narrows</div>
   </li>
   <li>
     <div class="tl-date">2026-11-05 (approx)</div>
     <div class="tl-event">RB Global Q3 2026 results</div>
     <div class="tl-body">The single most important read on whether IAA bought its volume</div>
-    <div class="tl-watch"><strong>Watch for:</strong> Automotive take rate. A further decline with volume growth still above 8pct supports our thesis. Stabilising take rate with strong volume weakens it.</div>
+    <div class="tl-watch"><strong>Watch for:</strong> Consolidated take rate (control for acquisition mix). A further decline with volume growth still above 8pct supports our thesis. Stabilising take rate with strong volume weakens it.</div>
   </li>
   <li>
     <div class="tl-date">2026-11-15 (approx)</div>
@@ -279,7 +281,7 @@
   <div class="callout-title">Status of this work</div>
   <p style="margin:0">The scenario earnings figures are placeholders pending the full
   three-statement model, and the daily inventory tracker that will independently verify the volume
-  data is still accumulating history. Both are flagged wherever they appear. See
+  data has not been built and has no collected history. Both are flagged wherever they appear. See
   <a href="methods.html">Data &amp; methods</a> for the state of every dataset.</p>
 </div>
 
@@ -293,9 +295,9 @@
     <p>Every figure is sourced. Where a number came from a licensed broker report, the
     report is credited but not reproduced. Scraped listing counts are labelled
     "listings observed" and are never presented as reported unit sales. Model outputs
-    state their sample size and confidence interval. See
+    state their sample size and uncertainty band. See
     <a href="methods.html">Data &amp; methods</a> for every source, method and known gap.</p>
-    <p>Built 18 September 2026 00:29 UTC. Data as of the collection dates shown under each chart.</p>
+    <p>Built 18 September 2026 19:00 UTC. Data as of the collection dates shown under each chart.</p>
   </div>
 </footer>
 

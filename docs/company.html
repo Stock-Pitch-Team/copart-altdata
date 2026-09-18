@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Copart — Copart (CPRT) research</title>
+<title>Copart â€” Copart (CPRT) research</title>
 <meta name="description" content="Copart quarterly revenue, margin, earnings surprise and unit cost inflation, sourced from SEC filings and earnings calls.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>📊</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>ðŸ“Š</text></svg>">
 <link rel="stylesheet" href="assets/style.css">
 <script>
 /* Stamp the saved theme before first paint so there is no flash. */
@@ -33,6 +33,9 @@
 </header>
 
 <main>
+  <div class="callout warn"><strong>Research v1 â€” working draft, 18 September 2026.</strong>
+  Valuation assumptions are provisional; the nowcast has not been tested out of sample.
+  The inventory tracker is not built. See <a href="methods.html">Data &amp; methods</a> for limitations.</div>
   <div class="page-head">
     <div class="eyebrow">Company fundamentals</div>
     <h1>What the filings actually show</h1>
@@ -132,7 +135,7 @@
   <div class="card-head">
     <div>
       <h3 class="card-title">Copart beat on revenue and missed on earnings</h3>
-<p class="card-sub">In FY26 Q4 revenue came in at about $1.20bn against roughly $1.14bn expected, while EPS was $0.35 against $0.38. A revenue beat with an earnings miss is a cost problem, not a demand problem, and cost is the part management says it can fix.</p>    </div>
+<p class="card-sub">In FY26 Q4 revenue came in at $1.152bn against roughly $1.14bn expected, while EPS was $0.35 against $0.38. A revenue beat with an earnings miss highlights margin pressure; it does not rule out demand weakness. Cost is the part management says it can fix.</p>    </div>
     <div class="view-toggle" role="group" aria-label="View as chart or table">
       <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
       <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
@@ -140,19 +143,19 @@
   </div>
 
   <div class="chart" id="cprt-eps-surprise" role="img"
-       aria-label="Copart beat on revenue and missed on earnings. In FY26 Q4 revenue came in at about $1.20bn against roughly $1.14bn expected, while EPS was $0.35 against $0.38. A revenue beat with an earnings miss is a cost problem, not a demand problem, and cost is the part management says it can fix. The same data is available in the table view."></div>
+       aria-label="Copart beat on revenue and missed on earnings. In FY26 Q4 revenue came in at $1.152bn against roughly $1.14bn expected, while EPS was $0.35 against $0.38. A revenue beat with an earnings miss highlights margin pressure; it does not rule out demand weakness. Cost is the part management says it can fix. The same data is available in the table view."></div>
   <script type="application/json" data-chart="cprt-eps-surprise">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":true,"top":0,"left":0,"itemWidth":10,"itemHeight":10,"itemGap":16,"icon":"roundRect","textStyle":{"color":"@text-secondary","fontSize":11}},"grid":{"left":8,"right":14,"top":26,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"","valueDecimals":2},"xAxis":{"type":"category","data":["FY26 Q1","FY26 Q2","FY26 Q3","FY26 Q4","FY27 Q1"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false}},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"${value}"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"Copart","type":"bar","data":[0.41,0.36,0.43,0.35,null],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"},{"name":"Consensus","type":"bar","data":[0.39,0.39,0.41,0.38,0.4],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-3"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"}]}</script>
 
   <div class="table-view">
     <table>
-<caption>Adjusted diluted EPS, reported versus consensus</caption>  <thead>
+<caption>Diluted EPS (vendor basis may differ), reported versus consensus</caption>  <thead>
     <tr><th class="wrap" scope="col">Fiscal quarter</th><th scope="col">Reported ($)</th><th scope="col">Consensus ($)</th><th scope="col">Revenue reported ($mn)</th><th scope="col">Revenue consensus ($mn)</th></tr>
   </thead>
   <tbody>
     <tr><th scope="row" class="wrap">FY26 Q1</th><td>0.41</td><td>0.39</td><td>1,155</td><td>1,170</td></tr>
     <tr><th scope="row" class="wrap">FY26 Q2</th><td>0.36</td><td>0.39</td><td>1,122</td><td>1,170</td></tr>
     <tr><th scope="row" class="wrap">FY26 Q3</th><td>0.43</td><td>0.41</td><td>1,237</td><td>1,197</td></tr>
-    <tr><th scope="row" class="wrap">FY26 Q4</th><td>0.35</td><td>0.38</td><td>1,200</td><td>1,140</td></tr>
+    <tr><th scope="row" class="wrap">FY26 Q4</th><td>0.35</td><td>0.38</td><td>1,152</td><td>1,140</td></tr>
     <tr><th scope="row" class="wrap">FY27 Q1</th><td>n/a</td><td>0.40</td><td>n/a</td><td>1,171</td></tr>
   </tbody>
 </table>
@@ -162,14 +165,14 @@
     <strong>Source.</strong> Reported figures from Copart press releases and SEC filings. Consensus from a Bloomberg consensus export dated 27 August 2026 and from Barclays and J.P. Morgan notes, credited but not reproduced.
     <details>
       <summary>Method and known gaps</summary>
-<p style="margin:6px 0 0"><strong>Method.</strong> Adjusted diluted EPS as reported against the consensus figure available immediately before the print.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> Consensus for earlier quarters is taken from whichever broker note recorded it at the time, so the vendor basis is not perfectly consistent across quarters. FY27 Q1 has an estimate but no actual yet.</p>    </details>
+<p style="margin:6px 0 0"><strong>Method.</strong> Diluted EPS (vendor basis may differ) as reported against the consensus figure available immediately before the print.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> Consensus for earlier quarters is taken from whichever broker note recorded it at the time, so the vendor basis is not perfectly consistent across quarters. FY27 Q1 has an estimate but no actual yet.</p>    </details>
   </figcaption>
 </figure>
     <figure class="card" data-view="chart" style="margin-inline:0">
   <div class="card-head">
     <div>
       <h3 class="card-title">Costs per unit are rising twice as fast as revenue per unit</h3>
-<p class="card-sub">Facility cost per unit rose 14.2% while revenue per unit rose 5.4%. Most of that gap is fixed cost spread over fewer units, which reverses when volume returns. Some of it is not: fuel is genuinely more expensive, and gasoline prices were up 27% year over year in August.</p>    </div>
+<p class="card-sub">Facility cost per unit rose 14.2% while revenue per unit rose 5.4%. Lower utilisation and input inflation both may contribute. The analysis does not yet separate their effects or quantify a recoverable margin benefit.</p>    </div>
     <div class="view-toggle" role="group" aria-label="View as chart or table">
       <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
       <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
@@ -177,7 +180,7 @@
   </div>
 
   <div class="chart short" id="cprt-costs" role="img"
-       aria-label="Costs per unit are rising twice as fast as revenue per unit. Facility cost per unit rose 14.2% while revenue per unit rose 5.4%. Most of that gap is fixed cost spread over fewer units, which reverses when volume returns. Some of it is not: fuel is genuinely more expensive, and gasoline prices were up 27% year over year in August. The same data is available in the table view."></div>
+       aria-label="Costs per unit are rising twice as fast as revenue per unit. Facility cost per unit rose 14.2% while revenue per unit rose 5.4%. Lower utilisation and input inflation both may contribute. The analysis does not yet separate their effects or quantify a recoverable margin benefit. The same data is available in the table view."></div>
   <script type="application/json" data-chart="cprt-costs">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":false},"grid":{"left":8,"right":14,"top":16,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"%","valueDecimals":1},"xAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}%"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"yAxis":{"type":"category","data":["US facility cost per unit","Operating cost per car","US facility cost, total","International facility cost per unit","Revenue per unit"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false},"inverse":true},"series":[{"name":"FY26 Q4 change","type":"bar","data":[14.2,12.7,7.7,7.2,5.4],"itemStyle":{"borderRadius":[0,4,4,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"}]}</script>
 
   <div class="table-view">
@@ -213,9 +216,9 @@
     <p>Every figure is sourced. Where a number came from a licensed broker report, the
     report is credited but not reproduced. Scraped listing counts are labelled
     "listings observed" and are never presented as reported unit sales. Model outputs
-    state their sample size and confidence interval. See
+    state their sample size and uncertainty band. See
     <a href="methods.html">Data &amp; methods</a> for every source, method and known gap.</p>
-    <p>Built 18 September 2026 00:29 UTC. Data as of the collection dates shown under each chart.</p>
+    <p>Built 18 September 2026 19:00 UTC. Data as of the collection dates shown under each chart.</p>
   </div>
 </footer>
 

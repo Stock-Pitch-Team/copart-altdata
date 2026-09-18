@@ -5,6 +5,10 @@ competition. The output is a website your whole team can read, backed by
 collectors that pull from public sources and models whose assumptions are
 written down.
 
+**Review and next steps:** [PROJECT_REVIEW.md](PROJECT_REVIEW.md). This is a working research draft, not a completed pitch.
+
+**Team website:** https://stock-pitch-team.github.io/copart-altdata/
+
 **Start here:**
 
 | File | What it is |
@@ -57,7 +61,7 @@ Then open `docs/index.html`, or serve it:
 |---|---|---|---|
 | `src/collect/sec_financials.py` | SEC EDGAR XBRL | No (email in User-Agent) | Working — CPRT, RBA, ACVA, PGR |
 | `src/collect/macro.py` | BLS public API | No (key raises limits) | Working — through August 2026 |
-| `src/collect/noaa_storms.py` | NOAA Storm Events | No | Working — 184k events, 3,730 counties |
+| `src/collect/noaa_storms.py` | NOAA Storm Events | No | Working — 184k events, 3,730 county/forecast-zone labels |
 | `src/build/tlf_nowcast.py` | Derived | No | Working — R² 0.66, n=28 |
 | `src/site/build_site.py` | Local CSVs | No | Working — 18 charts, 6 pages |
 

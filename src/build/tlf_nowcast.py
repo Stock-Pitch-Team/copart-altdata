@@ -208,7 +208,7 @@ def main() -> int:
         log.info("nowcast for quarters CCC has not published:")
         for _, r in nowcasts.iterrows():
             log.info(
-                "  %s  scissors=%+.1f  ->  TLF %.1f%% (95%% CI %.1f to %.1f)",
+                "  %s  scissors=%+.1f  ->  TLF %.1f%% (approx. residual band %.1f to %.1f)",
                 r["quarter_end"].date(), r["scissors_lagged"],
                 r["tlf_fitted"], r["tlf_nowcast_low"], r["tlf_nowcast_high"],
             )
@@ -246,6 +246,9 @@ def main() -> int:
             f"CCC actual ({stats['last_published_actual']})."
         ),
         gaps=(
+            "Lag selection and fit use the same sample, with no held-out validation. The band is "
+            "plus/minus 1.96 residual standard deviations, not a calibrated forecast interval; "
+            "it excludes parameter and lag-selection uncertainty and serial correlation. "
             f"Only {stats['n']} overlapping quarterly observations, so this is directional "
             "rather than precise. Consumer CPI proxies but does not equal insurer-paid "
             "repair cost or wholesale salvage value. The relationship is correlational: "

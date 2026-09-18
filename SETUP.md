@@ -1,5 +1,10 @@
 # Setup — do these in order
 
+> **18 September 2026 release update:** The repository is `stock-pitch-team/copart-altdata`.
+> Pages uses **GitHub Actions** via `.github/workflows/pages.yml`, not branch publishing.
+> Weekly refresh is deferred; the refresh workflow is manually callable.
+> See [PROJECT_REVIEW.md](PROJECT_REVIEW.md) for verified status and current instructions.
+
 Written for someone who has never used an API key. Nothing here assumes prior
 knowledge. Every step says exactly what to click and what to paste.
 

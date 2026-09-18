@@ -2,7 +2,7 @@
   "dataset": "tlf_nowcast",
   "source": "Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.",
   "method": "Defined the repair-to-value 'scissors' as repair CPI year-over-year minus used-vehicle CPI year-over-year, averaged monthly CPI to calendar quarters, then fitted ordinary least squares of total-loss frequency on (a) the scissors lagged 3 quarter(s) and (b) a linear time trend that represents the structural drift from the ageing fleet and rising vehicle complexity. Lags 0-3 were tested and the highest adjusted R-squared chosen (R2=0.656, adjusted 0.629, n=28). Fitted: scissors +0.0618 pts per point of spread (p=0.0002), trend +0.396 pts per year (p=0.0006). The nowcast band is the 95 percent residual interval and is populated only for quarters after the last published CCC actual (2026-06-30).",
-  "gaps": "Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.",
+  "gaps": "Lag selection and fit use the same sample, with no held-out validation. The band is plus/minus 1.96 residual standard deviations, not a calibrated forecast interval; it excludes parameter and lag-selection uncertainty and serial correlation. Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.",
   "units": "percent for all columns except is_nowcast",
   "frequency": "quarterly",
   "rows": 35,
@@ -19,5 +19,5 @@
     "tlf_nowcast_high",
     "is_nowcast"
   ],
-  "collected_utc": "2026-09-18 00:29 UTC"
+  "collected_utc": "2026-09-18 18:59 UTC"
 }

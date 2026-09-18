@@ -30,7 +30,7 @@ Copart's US insurance unit decline is almost entirely one customer. Fiscal Q4 US
 Note: your notes say 21x vs 36x. Use ~19x trailing GAAP for CPRT and ~25x adjusted (higher on GAAP) for RBA, and say which basis. Do not mix GAAP and adjusted across the two companies.
 
 ### FY26 Q4 (May–Jul 2026, reported 10 Sep 2026)
-- Revenue $1.20B (+2.4%). Service revenue $969.5M (+1.4%). Vehicle sales $182.9M (+8.3%).
+- Revenue $1.152439B (+2.4%; exact statement table). Service revenue $969.5M (+1.4%). Vehicle sales $182.9M (+8.3%).
 - Gross profit $481.4M (−5.5%); gross margin 41.8% (vs ~45.3% prior-year Q4). Operating income $368.9M (−10.6%). Net income $327.4M (−17.4%). EPS $0.35 vs $0.41.
 - Global units −2.9%. US units −5.7%. International units +10%.
 - **Global insurance units −4.2%; US insurance −7.5% (−8% for FY); international insurance +11.2%.**
@@ -47,7 +47,7 @@ Note: your notes say 21x vs 36x. Use ~19x trailing GAAP for CPRT and ~25x adjust
 - Stock: −4% in regular session, +8.6% after hours on the print plus ACV announcement; gave back most of it into the HSBC downgrade.
 
 ### FY26 full year
-- Revenue $4.70B (+0.4%). Service $3.97B (flat). Operating income $1.65B (−2.6%). Net income $1.48B (−4.4%). EPS $1.55.
+- Revenue $4.666209B (+0.4%; exact statement table). Service $3.97B (flat). Operating income $1.65B (−2.6%). Net income $1.48B (−4.4%). EPS $1.55.
 - Quarterly US insurance units: Q1 −10% (−7% ex-CAT), Q2 −10.7% (−4.8% ex-CAT), Q3 −4.2%, Q4 −7.5%.
 
 ### Corporate events

@@ -9,10 +9,7 @@
 name: Refresh data and rebuild site
 
 on:
-  schedule:
-    # 07:20 UTC every Monday. After the US market week starts, and well clear of
-    # the BLS CPI release time so the newest month is available.
-    - cron: "20 7 * * 1"
+  # Scheduled refresh deferred until hard-coded narrative and stale-data handling are fixed.
   workflow_dispatch: {}   # lets you run it by hand from the Actions tab
 
 permissions:
@@ -57,7 +54,7 @@ jobs:
         run: python -m src.collect.macro || echo "BLS collector failed; continuing"
 
       - name: Run the total-loss-frequency model
-        run: python -m src.build.tlf_nowcast || echo "model failed; continuing"
+        run: python -m src.build.tlf_nowcast
 
       - name: Rebuild the website
         run: python -m src.site.build_site

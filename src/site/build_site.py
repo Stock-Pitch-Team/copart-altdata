@@ -50,7 +50,7 @@ FACTS = {
     "price": 29.57,
     "price_date": "17 September 2026",
     "fy26_eps": 1.55,
-    "fy26_revenue_bn": 4.70,
+    "fy26_revenue_bn": 4.666209,
     "q4_us_ins_units": -7.5,
     "q4_us_ins_units_ex": 2.3,
     "q4_opex_per_car": 12.7,
@@ -112,8 +112,8 @@ def safe_json(obj) -> str:
         raw.replace("<", "\\u003c")
         .replace(">", "\\u003e")
         .replace("&", "\\u0026")
-        .replace(" ", "\\u2028")
-        .replace(" ", "\\u2029")
+        .replace("â€¨", "\\u2028")
+        .replace("â€©", "\\u2029")
     )
 
 
@@ -161,7 +161,7 @@ def page_thesis() -> dict:
 
     # ---- Hero: reported US insurance unit growth vs the ex-customer figure ---
     periods = ["FY26Q1", "FY26Q2", "FY26Q3", "FY26Q4"]
-    labels = ["FY26 Q1\nAug–Oct 25", "FY26 Q2\nNov–Jan", "FY26 Q3\nFeb–Apr", "FY26 Q4\nMay–Jul 26"]
+    labels = ["FY26 Q1\nAugâ€“Oct 25", "FY26 Q2\nNovâ€“Jan", "FY26 Q3\nFebâ€“Apr", "FY26 Q4\nMayâ€“Jul 26"]
     reported = [kpi(kpis, p, "us_insurance_units_yoy") for p in periods]
     ex_customer = [None, None, None, kpi(kpis, "FY26Q4", "us_insurance_units_yoy_ex_lost_customer")]
 
@@ -248,7 +248,7 @@ def page_thesis() -> dict:
         cards.append(
             card(
                 "scenarios",
-                "Four scenarios, and what each is worth",
+                "Illustrative scenarios â€” earnings assumptions remain provisional",
                 opt,
                 {
                     "caption": f"Probability-weighted value ${weighted:.2f} versus ${price:.2f} today",
@@ -264,13 +264,13 @@ def page_thesis() -> dict:
                 },
                 subtitle=(
                     f"Probability-weighted value of ${weighted:.2f} against ${price:.2f} today. "
-                    "The asymmetry comes from the downside already being close to the current "
-                    "price, because the market has largely priced the bear case."
+                    "These are illustrative assumptions, not a completed valuation model or "
+                    "evidence that downside is limited."
                 ),
                 source="Team estimates. Bear case anchored on the Barclays $26 target at 10x EV/EBITDA; base case on Bloomberg consensus FY27 EPS of $1.67.",
                 method=(
-                    "Each scenario sets US insurance unit growth and gross margin, which drive "
-                    "FY27 EPS, then applies a P/E multiple. Probabilities are our judgement and "
+                    "Each scenario assumes US insurance unit growth, gross margin and "
+                    "FY27 EPS independently, then applies a P/E multiple. Probabilities are our judgement and "
                     "sum to 100%. Implied price is EPS times multiple."
                 ),
                 gaps=(
@@ -288,12 +288,12 @@ def page_thesis() -> dict:
         "template": "index.html",
         "page_title": "Thesis",
         "heading": "Copart's problem is one customer, and it laps in FY27 Q2",
-        "eyebrow": "Long CPRT — variant view",
+        "eyebrow": "Long CPRT â€” variant view",
         "lede": (
             "Copart's US insurance volumes fell 7.5% last quarter and the market is "
             "extrapolating a share-loss spiral. Management disclosed that excluding one lost "
             "customer the same number would have been positive 2.3%. We think three things are "
-            "mispriced: the timing of when that customer stops flattering the comparison, the "
+            "mispriced: the timing of when that customer stops depressing the comparison, the "
             "price IAA is paying for the volume it won, and how much margin comes back when "
             "Copart's fixed cost base is used again."
         ),
@@ -388,7 +388,7 @@ def page_company() -> dict:
                 )
             )
 
-    # EPS actual vs consensus — the FY26 Q4 story in one chart.
+    # EPS actual vs consensus â€” the FY26 Q4 story in one chart.
     fin = manual("cprt_quarterly_financials")
     if fin is not None:
         f = fin.dropna(subset=["eps_consensus"]).copy()
@@ -409,7 +409,7 @@ def page_company() -> dict:
                     y_name="US$ per share",
                 ),
                 {
-                    "caption": "Adjusted diluted EPS, reported versus consensus",
+                    "caption": "Diluted EPS (vendor basis may differ), reported versus consensus",
                     "columns": ["Fiscal quarter", "Reported ($)", "Consensus ($)", "Revenue reported ($mn)", "Revenue consensus ($mn)"],
                     "rows": [
                         [lab, fmt_num(r["eps_actual"], 2), fmt_num(r["eps_consensus"], 2),
@@ -418,9 +418,9 @@ def page_company() -> dict:
                     ],
                 },
                 subtitle=(
-                    "In FY26 Q4 revenue came in at about $1.20bn against roughly $1.14bn "
+                    "In FY26 Q4 revenue came in at $1.152bn against roughly $1.14bn "
                     "expected, while EPS was $0.35 against $0.38. A revenue beat with an "
-                    "earnings miss is a cost problem, not a demand problem, and cost is the "
+                    "earnings miss highlights margin pressure; it does not rule out demand weakness. Cost is the "
                     "part management says it can fix."
                 ),
                 source=(
@@ -428,7 +428,7 @@ def page_company() -> dict:
                     "a Bloomberg consensus export dated 27 August 2026 and from Barclays and "
                     "J.P. Morgan notes, credited but not reproduced."
                 ),
-                method="Adjusted diluted EPS as reported against the consensus figure available immediately before the print.",
+                method="Diluted EPS (vendor basis may differ) as reported against the consensus figure available immediately before the print.",
                 gaps=(
                     "Consensus for earlier quarters is taken from whichever broker note recorded "
                     "it at the time, so the vendor basis is not perfectly consistent across "
@@ -437,7 +437,7 @@ def page_company() -> dict:
             )
         )
 
-    # Cost inflation vs revenue per unit — the operating leverage case.
+    # Cost inflation vs revenue per unit â€” the operating leverage case.
     kpis = manual("cprt_quarterly_kpis")
     if kpis is not None:
         rows = [
@@ -465,10 +465,9 @@ def page_company() -> dict:
                     "rows": [[k, fmt_num(v, 1, plus=True)] for k, v in rows],
                 },
                 subtitle=(
-                    "Facility cost per unit rose 14.2% while revenue per unit rose 5.4%. Most of "
-                    "that gap is fixed cost spread over fewer units, which reverses when volume "
-                    "returns. Some of it is not: fuel is genuinely more expensive, and gasoline "
-                    "prices were up 27% year over year in August."
+                    "Facility cost per unit rose 14.2% while revenue per unit rose 5.4%. "
+                    "Lower utilisation and input inflation both may contribute. The analysis "
+                    "does not yet separate their effects or quantify a recoverable margin benefit."
                 ),
                 source="Copart FY26 Q4 earnings call, 10 September 2026.",
                 method="Figures as stated by management on the call. Horizontal bars so the long measure names stay readable.",
@@ -559,7 +558,7 @@ def page_competition() -> dict:
         cards.append(
             card(
                 "rba-take-rate",
-                "The price IAA paid: its take rate is falling",
+                "RB Global's consolidated take rate fell as automotive volume grew",
                 ch.line(
                     labels,
                     [{"name": "Service revenue take rate", "data": jnull(tr["value"]),
@@ -579,7 +578,8 @@ def page_competition() -> dict:
                     "RB Global's take rate fell 110 basis points year over year to 20.0% in Q2 "
                     "2026. The company attributes it to acquisition mix and, in its own words, "
                     "automotive pricing incentives tied to higher transaction volumes. That is "
-                    "the company telling you it bought volume with price."
+                    "evidence of pricing concessions, but the aggregate decline cannot be "
+                    "attributed entirely to IAA or to one customer."
                 ),
                 source="RB Global Q2 2026 results (SEC Form 8-K exhibit 99.1) and Q2 2026 earnings call, 4 August 2026.",
                 method="Service revenue divided by gross transaction value, as disclosed. Shown as a separate chart from volume growth because a rate and a growth rate on one pair of axes would imply a relationship the data does not establish.",
@@ -858,7 +858,7 @@ def page_industry() -> dict:
                     "From 15.6% of claims in 2015 to 23.1% in 2025, a record. This happened "
                     "while crash frequency fell, which means the driver is not more accidents "
                     "but a higher probability that a damaged car is uneconomic to repair. That "
-                    "is a structural widening of Copart's addressable volume."
+                    "supports total-loss propensity, but falling claim frequency can offset the unit benefit."
                 ),
                 source="CCC Intelligent Solutions Crash Course reports, as presented in Freedom Broker's Copart initiation of 26 June 2026. Credited, not reproduced.",
                 method="Annual share of claims resulting in a total loss, on CCC's all-loss-categories definition.",
@@ -944,7 +944,7 @@ def page_industry() -> dict:
                 },
                 subtitle=(
                     "Across 2016 to 2026 we counted about 184,000 vehicle-damaging events in "
-                    "3,730 counties. The concentration is in the hail belt, Colorado, South "
+                    "3,730 county/forecast-zone labels. The concentration is in the hail belt, Colorado, South "
                     "Dakota, Texas and Oklahoma, not the hurricane coast. That matters this year "
                     "because the 2026 Atlantic hurricane outlook is below normal, while hail and "
                     "flood exposure is unaffected by that forecast."
@@ -959,10 +959,10 @@ def page_industry() -> dict:
     return {
         "template": "page.html",
         "page_title": "Industry funnel",
-        "heading": "The pipe feeding both auctions keeps widening",
+        "heading": "Repair economics support total-loss frequency; unit supply also depends on claims",
         "eyebrow": "Structural drivers",
         "lede": (
-            "Whatever happens to share, the number of cars written off in America is rising, and "
+            "A higher fraction of claims can become total losses even while claim counts fall, and "
             "the reason is arithmetic: repair costs keep climbing while used-car values do not. "
             "We can track that spread monthly from public data and use it to nowcast total-loss "
             "frequency ahead of the quarterly industry release."
@@ -1018,7 +1018,8 @@ def page_valuation() -> dict:
                     "Points below the diagonal trade cheaper than their own history. Copart sits "
                     "well below it. These are duopoly and oligopoly businesses with similar "
                     "economics: rating agencies, card networks, credit bureaus and tower REITs. "
-                    "Copart is the cheapest relative to its own past in the group."
+                    "This historical snapshot is dated 21 November 2025; Copart is not the "
+                    "largest relative discount in the group."
                 ),
                 source="J.P. Morgan F1Q26 note, Table 3, priced 21 November 2025. Credited, not reproduced.",
                 method="Forward P/E on consensus estimates plotted against each company's own ten-year average P/E. The diagonal is parity, where a company trades exactly at its historical average.",
@@ -1060,7 +1061,7 @@ def page_valuation() -> dict:
                 "The street is split, and the low end is already here",
                 opt,
                 {
-                    "caption": "Published price targets, most recent per broker where several exist",
+                    "caption": "Published price-target history, including multiple vintages per broker",
                     "columns": ["Broker", "Date", "Rating", "Target ($)", "Basis"],
                     "rows": [
                         [r["broker"], r["date"], r["rating"], fmt_num(r["price_target"], 0), r["basis"]]

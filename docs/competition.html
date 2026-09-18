@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Copart vs IAA — Copart (CPRT) research</title>
+<title>Copart vs IAA â€” Copart (CPRT) research</title>
 <meta name="description" content="Copart versus RB Global&#39;s IAA: volume share shifts, the take-rate concessions behind them, and the carrier that moved.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>📊</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>ðŸ“Š</text></svg>">
 <link rel="stylesheet" href="assets/style.css">
 <script>
 /* Stamp the saved theme before first paint so there is no flash. */
@@ -33,6 +33,9 @@
 </header>
 
 <main>
+  <div class="callout warn"><strong>Research v1 â€” working draft, 18 September 2026.</strong>
+  Valuation assumptions are provisional; the nowcast has not been tested out of sample.
+  The inventory tracker is not built. See <a href="methods.html">Data &amp; methods</a> for limitations.</div>
   <div class="page-head">
     <div class="eyebrow">Competitive position</div>
     <h1>IAA won volume. Look at what it paid.</h1>
@@ -75,8 +78,8 @@
     <figure class="card" data-view="chart" style="margin-inline:0">
   <div class="card-head">
     <div>
-      <h3 class="card-title">The price IAA paid: its take rate is falling</h3>
-<p class="card-sub">RB Global&#39;s take rate fell 110 basis points year over year to 20.0% in Q2 2026. The company attributes it to acquisition mix and, in its own words, automotive pricing incentives tied to higher transaction volumes. That is the company telling you it bought volume with price.</p>    </div>
+      <h3 class="card-title">RB Global&#39;s consolidated take rate fell as automotive volume grew</h3>
+<p class="card-sub">RB Global&#39;s take rate fell 110 basis points year over year to 20.0% in Q2 2026. The company attributes it to acquisition mix and, in its own words, automotive pricing incentives tied to higher transaction volumes. That is evidence of pricing concessions, but the aggregate decline cannot be attributed entirely to IAA or to one customer.</p>    </div>
     <div class="view-toggle" role="group" aria-label="View as chart or table">
       <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
       <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
@@ -84,7 +87,7 @@
   </div>
 
   <div class="chart" id="rba-take-rate" role="img"
-       aria-label="The price IAA paid: its take rate is falling. RB Global&#39;s take rate fell 110 basis points year over year to 20.0% in Q2 2026. The company attributes it to acquisition mix and, in its own words, automotive pricing incentives tied to higher transaction volumes. That is the company telling you it bought volume with price. The same data is available in the table view."></div>
+       aria-label="RB Global&#39;s consolidated take rate fell as automotive volume grew. RB Global&#39;s take rate fell 110 basis points year over year to 20.0% in Q2 2026. The company attributes it to acquisition mix and, in its own words, automotive pricing incentives tied to higher transaction volumes. That is evidence of pricing concessions, but the aggregate decline cannot be attributed entirely to IAA or to one customer. The same data is available in the table view."></div>
   <script type="application/json" data-chart="rba-take-rate">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":false},"grid":{"left":8,"right":14,"top":16,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"%","valueDecimals":1},"xAxis":{"type":"category","data":["Q2 2025","Q1 2026 (derived)","H1 2026","Q2 2026"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false},"boundaryGap":false},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}%"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"Service revenue take rate","type":"line","data":[21.1,20.6,20.3,20.0],"smooth":false,"connectNulls":false,"symbol":"circle","symbolSize":8,"showSymbol":true,"lineStyle":{"width":2,"color":"@series-2"},"itemStyle":{"color":"@series-2","borderColor":"@surface-1","borderWidth":2},"emphasis":{"focus":"series"},"z":3,"areaStyle":{"color":"@series-2","opacity":0.1}}]}</script>
 
   <div class="table-view">
@@ -248,9 +251,9 @@
     <p>Every figure is sourced. Where a number came from a licensed broker report, the
     report is credited but not reproduced. Scraped listing counts are labelled
     "listings observed" and are never presented as reported unit sales. Model outputs
-    state their sample size and confidence interval. See
+    state their sample size and uncertainty band. See
     <a href="methods.html">Data &amp; methods</a> for every source, method and known gap.</p>
-    <p>Built 18 September 2026 00:29 UTC. Data as of the collection dates shown under each chart.</p>
+    <p>Built 18 September 2026 19:00 UTC. Data as of the collection dates shown under each chart.</p>
   </div>
 </footer>
 

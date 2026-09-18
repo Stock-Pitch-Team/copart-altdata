@@ -1,8 +1,8 @@
 # Build plan — Tier 1 approved
 
 Six projects, sequenced so each one produces a chart on the website rather than
-a notebook only you can read. Status is honest: two are working today, four are
-scaffolded or pending.
+a notebook only you can read. Audit update (18 September 2026): see PROJECT_REVIEW.md for verified status.
+Two research projects have working implementations; the remaining projects are partial or unbuilt.
 
 **The deliverable is the website**, not the code. Every project below ends in a
 card on a page with a title a non-technical reader understands, a chart, a table
@@ -17,9 +17,9 @@ twin, and a source note. If a project cannot produce that, it is not done.
 | 6 | KPI panel from filings and calls | all | **Working** (SEC) + seeded (manual) | Yes, 6 charts |
 | 3 | Total-loss-frequency nowcast | P4 | **Working**, R²=0.66 | Yes, 2 charts |
 | 2 | Carrier-mix / addressable volume | P1 | Seeded, 3 data points | Yes, 1 chart, flagged thin |
-| 5 | Fee-schedule archaeology | P3 | Scaffolded, source rate-limited | Not yet |
-| 4 | Storm-county exposure map | P2 | Scaffolded, source verified | Not yet |
-| 1 | Copart vs IAA inventory tracker | P1 P2 P3 | Scaffolded, needs history | Not yet |
+| 5 | Fee-schedule archaeology | P3 | Not built; source rate-limited previously | Not yet |
+| 4 | Storm-county exposure map | P2 | Partial: NOAA event rankings built; yard join missing | Yes, event chart only |
+| 1 | Copart vs IAA inventory tracker | P1 P2 P3 | Not built; no history | Not yet |
 
 Pillars: **P1** the loss is one customer and IAA bought its share ·
 **P2** Copart's land and buyer liquidity are better · **P3** operating leverage ·
@@ -111,7 +111,7 @@ which is the revenue-per-unit line in the model. J.P. Morgan notes Copart's last
 fee increase was November 2024. If we can show a decade of increases that stuck,
 the "can they price?" question is answered with data rather than assertion.
 
-**Status:** `src/collect/wayback_fees.py` is scaffolded. The Wayback API returned
+**Status:** `src/collect/wayback_fees.py` does not exist yet. The Wayback API returned
 HTTP 429 (rate limited) during testing, so it needs a slow, patient run with
 backoff. Run it overnight.
 

@@ -325,7 +325,7 @@ def band_line(
     fitted: list,
     actual_name: str = "Published actual",
     fitted_name: str = "Model fit",
-    band_name: str = "95% interval",
+    band_name: str = "Approx. 95% residual band",
     value_suffix: str = "%",
     y_name: str = "",
     rotate: int = 0,
