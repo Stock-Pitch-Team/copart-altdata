@@ -59,16 +59,16 @@
     <tr><th class="wrap" scope="col">Dataset</th><th scope="col">Frequency</th><th scope="col">Rows</th><th scope="col">Collected (UTC)</th><th scope="col">Source</th></tr>
   </thead>
   <tbody>
-    <tr><th scope="row" class="wrap">macro_cpi_long</th><td>monthly</td><td>807</td><td>2026-09-17 23:57 UTC</td><td>US Bureau of Labor Statistics public API (api.bls.gov), public domain</td></tr>
-    <tr><th scope="row" class="wrap">macro_cpi_wide</th><td>monthly</td><td>116</td><td>2026-09-17 23:57 UTC</td><td>US Bureau of Labor Statistics public API (api.bls.gov), public domain</td></tr>
-    <tr><th scope="row" class="wrap">sec_annual</th><td>annual</td><td>447</td><td>2026-09-17 23:51 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
-    <tr><th scope="row" class="wrap">sec_balance_sheet</th><td>quarterly (as filed)</td><td>1239</td><td>2026-09-17 23:51 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
-    <tr><th scope="row" class="wrap">sec_quarterly</th><td>quarterly</td><td>1321</td><td>2026-09-17 23:51 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">macro_cpi_long</th><td>monthly</td><td>807</td><td>2026-09-18 00:29 UTC</td><td>US Bureau of Labor Statistics public API (api.bls.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">macro_cpi_wide</th><td>monthly</td><td>116</td><td>2026-09-18 00:29 UTC</td><td>US Bureau of Labor Statistics public API (api.bls.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">sec_annual</th><td>annual</td><td>447</td><td>2026-09-18 00:29 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">sec_balance_sheet</th><td>quarterly (as filed)</td><td>1239</td><td>2026-09-18 00:29 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">sec_quarterly</th><td>quarterly</td><td>1321</td><td>2026-09-18 00:29 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
     <tr><th scope="row" class="wrap">storm_county</th><td>cumulative over the period</td><td>3730</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
     <tr><th scope="row" class="wrap">storm_state</th><td>cumulative over the period</td><td>55</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
     <tr><th scope="row" class="wrap">storm_year_type</th><td>annual</td><td>87</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
-    <tr><th scope="row" class="wrap">tlf_nowcast</th><td>quarterly</td><td>35</td><td>2026-09-18 00:00 UTC</td><td>Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.</td></tr>
-    <tr><th scope="row" class="wrap">tlf_nowcast_stats</th><td>one row</td><td>1</td><td>2026-09-18 00:00 UTC</td><td>Computed by src/build/tlf_nowcast.py</td></tr>
+    <tr><th scope="row" class="wrap">tlf_nowcast</th><td>quarterly</td><td>35</td><td>2026-09-18 00:29 UTC</td><td>Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.</td></tr>
+    <tr><th scope="row" class="wrap">tlf_nowcast_stats</th><td>one row</td><td>1</td><td>2026-09-18 00:29 UTC</td><td>Computed by src/build/tlf_nowcast.py</td></tr>
   </tbody>
 </table>
 </div>
@@ -106,7 +106,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
 <div class="card">
   <h3 class="card-title" style="margin-bottom:8px">macro_cpi_long</h3>
   <p class="card-sub" style="margin-top:0">
-    monthly &middot; 807 rows &middot; collected 2026-09-17 23:57 UTC  </p>
+    monthly &middot; 807 rows &middot; collected 2026-09-18 00:29 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> US Bureau of Labor Statistics public API (api.bls.gov), public domain</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> Monthly seasonally-adjusted CPI index levels for vehicle repair, used vehicles, new vehicles, motor vehicle insurance, gasoline, transportation and all items. Year-over-year percent change computed as a 12-month change on the index level. Collected via v1 (keyless).</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> The keyless v1 endpoint returns at most a 10-year window, so history before 2017 requires a free BLS_API_KEY. CPI measures consumer prices, which proxy but do not equal the insurer-paid repair costs that drive total-loss decisions. The Manheim wholesale index is not published by BLS and is hand-entered in data/manual instead.</p>  </div>
@@ -114,7 +114,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
 <div class="card">
   <h3 class="card-title" style="margin-bottom:8px">macro_cpi_wide</h3>
   <p class="card-sub" style="margin-top:0">
-    monthly &middot; 116 rows &middot; collected 2026-09-17 23:57 UTC  </p>
+    monthly &middot; 116 rows &middot; collected 2026-09-18 00:29 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> US Bureau of Labor Statistics public API (api.bls.gov), public domain</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> Same data as macro_cpi_long, pivoted to one column per series for charting.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> See macro_cpi_long.</p>  </div>
@@ -122,7 +122,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
 <div class="card">
   <h3 class="card-title" style="margin-bottom:8px">sec_annual</h3>
   <p class="card-sub" style="margin-top:0">
-    annual &middot; 447 rows &middot; collected 2026-09-17 23:51 UTC  </p>
+    annual &middot; 447 rows &middot; collected 2026-09-18 00:29 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> SEC EDGAR XBRL company facts API (data.sec.gov), public domain</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> As sec_quarterly but keeping duration facts of 300-400 days as fiscal years.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Fiscal years differ across companies: Copart ends 31 July, the others 31 December.</p>  </div>
@@ -130,7 +130,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
 <div class="card">
   <h3 class="card-title" style="margin-bottom:8px">sec_balance_sheet</h3>
   <p class="card-sub" style="margin-top:0">
-    quarterly (as filed) &middot; 1239 rows &middot; collected 2026-09-17 23:51 UTC  </p>
+    quarterly (as filed) &middot; 1239 rows &middot; collected 2026-09-18 00:29 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> SEC EDGAR XBRL company facts API (data.sec.gov), public domain</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> Point-in-time (instant) facts such as cash, PP&amp;E, equity and goodwill.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Reported at each filing date, so the series is quarterly but irregular.</p>  </div>
@@ -138,7 +138,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
 <div class="card">
   <h3 class="card-title" style="margin-bottom:8px">sec_quarterly</h3>
   <p class="card-sub" style="margin-top:0">
-    quarterly &middot; 1321 rows &middot; collected 2026-09-17 23:51 UTC  </p>
+    quarterly &middot; 1321 rows &middot; collected 2026-09-18 00:29 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> SEC EDGAR XBRL company facts API (data.sec.gov), public domain</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> Downloaded the companyfacts bundle for CPRT, RBA, ACVA and PGR. Kept duration facts of 60-120 days as quarters. Where an issuer files no Q4 10-Q, fiscal Q4 is derived as the 10-K full year minus the three reported quarters (flagged frame=derived_fy_minus_q1q2q3). Where the same period appears in several filings the most recently filed restated value is kept.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Diluted EPS is not derived for Q4 because per-share figures do not sum. Copart stopped tagging GrossProfit and cost of revenue after FY2020, so gross margin for recent quarters comes from the hand-curated panel in data/manual/cprt_quarterly_financials.csv instead. Segment detail (US vs International, insurance vs non-insurance units, ASPs) is reported only as XBRL dimensions, which the companyfacts API strips out, so that also comes from the manual panel. RB Global&#39;s gross transaction value is not an XBRL concept at all. The most recent fiscal quarter appears only after the 10-Q or 10-K is filed, which lags the earnings release by days to weeks.</p>  </div>
@@ -170,7 +170,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
 <div class="card">
   <h3 class="card-title" style="margin-bottom:8px">tlf_nowcast</h3>
   <p class="card-sub" style="margin-top:0">
-    quarterly &middot; 35 rows &middot; collected 2026-09-18 00:00 UTC  </p>
+    quarterly &middot; 35 rows &middot; collected 2026-09-18 00:29 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> Defined the repair-to-value &#39;scissors&#39; as repair CPI year-over-year minus used-vehicle CPI year-over-year, averaged monthly CPI to calendar quarters, then fitted ordinary least squares of total-loss frequency on (a) the scissors lagged 3 quarter(s) and (b) a linear time trend that represents the structural drift from the ageing fleet and rising vehicle complexity. Lags 0-3 were tested and the highest adjusted R-squared chosen (R2=0.656, adjusted 0.629, n=28). Fitted: scissors +0.0618 pts per point of spread (p=0.0002), trend +0.396 pts per year (p=0.0006). The nowcast band is the 95 percent residual interval and is populated only for quarters after the last published CCC actual (2026-06-30).</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.</p>  </div>
@@ -178,7 +178,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
 <div class="card">
   <h3 class="card-title" style="margin-bottom:8px">tlf_nowcast_stats</h3>
   <p class="card-sub" style="margin-top:0">
-    one row &middot; 1 rows &middot; collected 2026-09-18 00:00 UTC  </p>
+    one row &middot; 1 rows &middot; collected 2026-09-18 00:29 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> Computed by src/build/tlf_nowcast.py</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> Regression diagnostics for the chosen specification.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> See tlf_nowcast.</p>  </div>
@@ -230,7 +230,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
     "listings observed" and are never presented as reported unit sales. Model outputs
     state their sample size and confidence interval. See
     <a href="methods.html">Data &amp; methods</a> for every source, method and known gap.</p>
-    <p>Built 18 September 2026 00:27 UTC. Data as of the collection dates shown under each chart.</p>
+    <p>Built 18 September 2026 00:29 UTC. Data as of the collection dates shown under each chart.</p>
   </div>
 </footer>
 
