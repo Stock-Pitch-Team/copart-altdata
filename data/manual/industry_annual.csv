@@ -1,0 +1,29 @@
+year,tlf_all_categories,tlf_noncomp,personal_auto_combined_ratio,billion_dollar_disasters,avg_light_vehicle_age,vehicles_in_operation_mn,source_note
+2000,,,,5,,226.0,Disasters Climate Central; VIO Bureau of Transportation Statistics (both via Freedom Broker initiation 26-Jun-2026)
+2001,,,,3,,235.0,As above
+2002,,,,6,,235.0,As above
+2003,,,,7,,237.0,As above
+2004,,,,6,,243.0,As above
+2005,,,,6,,247.0,As above
+2006,,,,8,,251.0,As above
+2007,,,,5,,254.0,As above
+2008,,,,12,,255.0,As above
+2009,,,,9,,254.0,As above
+2010,,,,7,10.6,250.0,Fleet age read off Freedom Broker Graph 4 (BTS) - chart read approximate
+2011,,,,18,,253.0,As above
+2012,,,,11,,254.0,As above
+2013,,,,10,11.4,256.0,As above
+2014,,,,10,11.4,260.0,As above
+2015,15.6,16.2,,11,11.5,264.0,TLF from CCC via Freedom Broker Graph 8
+2016,16.7,17.3,,15,11.6,268.0,As above
+2017,17.9,18.3,102.6,19,11.7,272.0,Combined ratio Triple-I/Milliman via Freedom Broker Graph 10
+2018,18.5,19.0,97.7,16,11.7,274.0,As above
+2019,19.2,19.9,98.8,14,11.8,276.0,As above
+2020,20.6,21.7,92.5,22,11.9,276.0,As above
+2021,19.7,20.6,101.4,20,12.0,281.0,As above
+2022,18.8,19.7,112.2,18,12.2,282.0,As above
+2023,20.2,21.2,104.9,28,12.4,285.0,As above
+2024,22.3,22.9,95.3,27,12.5,298.0,As above
+2025,23.1,23.9,94.4,23,12.8,,2025 combined ratio is an estimate; TLF from CCC Crash Course 2026
+2026,,,95.5,,,,Triple-I/Milliman forecast via Freedom Broker Graph 10
+2027,,,95.5,,,,Triple-I/Milliman forecast via Freedom Broker Graph 10

@@ -1,0 +1,24 @@
+{
+  "dataset": "sec_quarterly",
+  "source": "SEC EDGAR XBRL company facts API (data.sec.gov), public domain",
+  "method": "Downloaded the companyfacts bundle for CPRT, RBA, ACVA and PGR. Kept duration facts of 60-120 days as quarters. Where an issuer files no Q4 10-Q, fiscal Q4 is derived as the 10-K full year minus the three reported quarters (flagged frame=derived_fy_minus_q1q2q3). Where the same period appears in several filings the most recently filed restated value is kept.",
+  "gaps": "Diluted EPS is not derived for Q4 because per-share figures do not sum. Copart stopped tagging GrossProfit and cost of revenue after FY2020, so gross margin for recent quarters comes from the hand-curated panel in data/manual/cprt_quarterly_financials.csv instead. Segment detail (US vs International, insurance vs non-insurance units, ASPs) is reported only as XBRL dimensions, which the companyfacts API strips out, so that also comes from the manual panel. RB Global's gross transaction value is not an XBRL concept at all. The most recent fiscal quarter appears only after the 10-Q or 10-K is filed, which lags the earnings release by days to weeks.",
+  "units": "USD, or USD per share for eps_diluted, or share counts",
+  "frequency": "quarterly",
+  "rows": 1321,
+  "columns": [
+    "ticker",
+    "metric",
+    "concept",
+    "period_type",
+    "start",
+    "end",
+    "value",
+    "unit",
+    "fy",
+    "fp",
+    "form",
+    "frame"
+  ],
+  "collected_utc": "2026-09-17 23:51 UTC"
+}

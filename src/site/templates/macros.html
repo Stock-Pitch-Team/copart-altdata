@@ -1,0 +1,94 @@
+{# ---------------------------------------------------------------------------
+   Reusable page components.
+   Every chart card renders BOTH a chart and a table view. That is not optional:
+   it is what makes the numbers reachable without hovering, keeps the site
+   readable in print and under forced colours, and satisfies the contrast relief
+   rule for the lighter series colours.
+   --------------------------------------------------------------------------- #}
+
+{% macro tile(label, value, note="", tone="") -%}
+<div class="tile">
+  <div class="tile-label">{{ label }}</div>
+  <div class="tile-value{% if tone %} delta-{{ tone }}{% endif %}">{{ value }}</div>
+  {% if note %}<div class="tile-note">{{ note }}</div>{% endif %}
+</div>
+{%- endmacro %}
+
+
+{% macro table(t) -%}
+<table>
+  {% if t.caption %}<caption>{{ t.caption }}</caption>{% endif %}
+  <thead>
+    <tr>{% for c in t.columns %}<th{% if loop.first %} class="wrap"{% endif %} scope="col">{{ c }}</th>{% endfor %}</tr>
+  </thead>
+  <tbody>
+    {% for row in t.rows %}
+    <tr>{% for cell in row %}
+      {% if loop.first %}<th scope="row" class="wrap">{{ cell }}</th>{% else %}<td>{{ cell }}</td>{% endif %}
+    {% endfor %}</tr>
+    {% endfor %}
+  </tbody>
+</table>
+{%- endmacro %}
+
+
+{% macro chart_card(c) -%}
+<figure class="card" data-view="chart" style="margin-inline:0">
+  <div class="card-head">
+    <div>
+      <h3 class="card-title">{{ c.title }}</h3>
+      {% if c.subtitle %}<p class="card-sub">{{ c.subtitle }}</p>{% endif %}
+    </div>
+    <div class="view-toggle" role="group" aria-label="View as chart or table">
+      <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
+      <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
+    </div>
+  </div>
+
+  <div class="chart{% if c.height %} {{ c.height }}{% endif %}" id="{{ c.id }}" role="img"
+       aria-label="{{ c.title }}. {{ c.subtitle|default('', true) }} The same data is available in the table view."></div>
+  <script type="application/json" data-chart="{{ c.id }}">{{ c.option_json|safe }}</script>
+
+  <div class="table-view">
+    {{ table(c.table) }}
+  </div>
+
+  <figcaption class="footnote">
+    <strong>Source.</strong> {{ c.source }}
+    {% if c.method or c.gaps %}
+    <details>
+      <summary>Method and known gaps</summary>
+      {% if c.method %}<p style="margin:6px 0 0"><strong>Method.</strong> {{ c.method }}</p>{% endif %}
+      {% if c.gaps %}<p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> {{ c.gaps }}</p>{% endif %}
+    </details>
+    {% endif %}
+  </figcaption>
+</figure>
+{%- endmacro %}
+
+
+{% macro data_card(t, source="", method="", gaps="") -%}
+<div class="data-table">
+  {{ table(t) }}
+  {% if source %}
+  <div class="footnote">
+    <strong>Source.</strong> {{ source }}
+    {% if method or gaps %}
+    <details>
+      <summary>Method and known gaps</summary>
+      {% if method %}<p style="margin:6px 0 0"><strong>Method.</strong> {{ method }}</p>{% endif %}
+      {% if gaps %}<p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> {{ gaps }}</p>{% endif %}
+    </details>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+{%- endmacro %}
+
+
+{% macro callout(title, body, kind="") -%}
+<div class="callout{% if kind %} {{ kind }}{% endif %}">
+  <div class="callout-title">{{ title }}</div>
+  <p style="margin:0">{{ body }}</p>
+</div>
+{%- endmacro %}

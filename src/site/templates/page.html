@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+  {% for c in cards %}
+    {{ m.chart_card(c) }}
+  {% endfor %}
+
+  {% if not cards %}
+  <div class="callout warn">
+    <div class="callout-title">No data collected yet</div>
+    <p style="margin:0">The collectors for this page have not been run. See
+    <a href="methods.html">Data &amp; methods</a> for what each one needs.</p>
+  </div>
+  {% endif %}
+{% endblock %}

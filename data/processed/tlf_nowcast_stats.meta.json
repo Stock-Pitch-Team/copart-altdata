@@ -1,0 +1,25 @@
+{
+  "dataset": "tlf_nowcast_stats",
+  "source": "Computed by src/build/tlf_nowcast.py",
+  "method": "Regression diagnostics for the chosen specification.",
+  "gaps": "See tlf_nowcast.",
+  "units": "mixed",
+  "frequency": "one row",
+  "rows": 1,
+  "columns": [
+    "lag",
+    "rsquared",
+    "rsquared_adj",
+    "n",
+    "const",
+    "beta_scissors",
+    "beta_trend_per_year",
+    "pvalue_scissors",
+    "pvalue_trend",
+    "resid_std",
+    "trend_origin",
+    "band_95",
+    "last_published_actual"
+  ],
+  "collected_utc": "2026-09-18 00:00 UTC"
+}

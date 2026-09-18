@@ -1,0 +1,11 @@
+broker,date,rating,price_target,basis,source
+Barclays,2025-11-11,Underweight,32,14x EV/EBITDA on 2026E,Barclays rating history table
+Barclays,2025-11-20,Underweight,33,14x EV/EBITDA on 2026E,Barclays rating history table
+JP Morgan,2025-11-24,Neutral,45,50/50 blend 18.5x EV/EBITDA and 23x P/E on FY27E,JPM F1Q26 note
+Barclays,2026-02-20,Underweight,32,14x EV/EBITDA on 2026E,Barclays F2Q26 review
+Barclays,2026-05-22,Underweight,32,14x EV/EBITDA on 2026E,Barclays F3Q26 review
+Freedom Broker,2026-06-26,Buy,39,DCF 6.9pct WACC 3.0pct terminal growth,Freedom Broker initiation
+Barclays,2026-07-21,Underweight,26,10.0x EV/EBITDA on F2027E (cut from 14.0x),Barclays US Auto Retail 2Q26 Preview
+Baird,2026-09-11,Outperform,38,Post-Q4 model update (cut from 42),Investing.com summary
+Barrington,2026-09-11,Outperform,40,Upgraded from Market Perform on ACV deal,Investing.com / Yahoo Finance summary
+HSBC,2026-09-17,Hold,36,Downgraded from Buy on US insurance volume decline (cut from 46),ad-hoc-news / Investing.com summary

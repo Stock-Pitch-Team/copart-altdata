@@ -1,0 +1,24 @@
+{
+  "dataset": "sec_balance_sheet",
+  "source": "SEC EDGAR XBRL company facts API (data.sec.gov), public domain",
+  "method": "Point-in-time (instant) facts such as cash, PP&E, equity and goodwill.",
+  "gaps": "Reported at each filing date, so the series is quarterly but irregular.",
+  "units": "USD",
+  "frequency": "quarterly (as filed)",
+  "rows": 1239,
+  "columns": [
+    "ticker",
+    "metric",
+    "concept",
+    "period_type",
+    "start",
+    "end",
+    "value",
+    "unit",
+    "fy",
+    "fp",
+    "form",
+    "frame"
+  ],
+  "collected_utc": "2026-09-17 23:51 UTC"
+}

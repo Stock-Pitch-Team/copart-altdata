@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+
+<div class="tiles">
+  {{ m.tile("Share price", "$%.2f"|format(facts.price), facts.price_date) }}
+  {{ m.tile("FY26 EPS", "$%.2f"|format(facts.fy26_eps), "Revenue $%.2fbn, up 0.4%%"|format(facts.fy26_revenue_bn)) }}
+  {{ m.tile("US insurance units", "%.1f%%"|format(facts.q4_us_ins_units), "FY26 Q4, year over year", "bad") }}
+  {{ m.tile("Same, ex one customer", "+%.1f%%"|format(facts.q4_us_ins_units_ex), "What the quarter would have been", "good") }}
+  {{ m.tile("Cost per car", "+%.1f%%"|format(facts.q4_opex_per_car), "The margin problem, and the opportunity", "bad") }}
+  {{ m.tile("FY26 buybacks", "$%.2fbn"|format(facts.fy26_buybacks_bn), "About 4% of shares retired") }}
+</div>
+
+<h2>The argument in four steps</h2>
+
+<div class="callout">
+  <div class="callout-title">1. The decline is one customer, not a trend</div>
+  <p style="margin:0">US insurance units fell 7.5% in FY26 Q4. Management said that excluding
+  one single customer loss, domestic insurance assignments would have <strong>risen 2.3%</strong>.
+  Reporting and analyst commentary identify the customer as Progressive, which shifted from
+  roughly 75% to roughly 90% of its salvage volume to IAA beginning around January 2026.</p>
+</div>
+
+<div class="callout">
+  <div class="callout-title">2. The comparison stops hurting in FY27 Q2</div>
+  <p style="margin:0">Because the shift began in January 2026, FY27 Q1 (August to October 2026)
+  still compares against a pre-loss base and will probably print another decline of six to eight
+  percent. The lap arrives in <strong>FY27 Q2</strong> and completes in Q3. That is when the
+  underlying two to three percent growth becomes the reported number. This is a correction to our
+  own earlier framing, which had the inflection a quarter too early.</p>
+</div>
+
+<div class="callout">
+  <div class="callout-title">3. IAA bought the volume with price</div>
+  <p style="margin:0">RB Global's service revenue take rate fell 110 basis points year over year
+  to 20.0% in Q2 2026. The company attributes this to acquisition mix and to
+  &ldquo;automotive pricing incentives tied to higher transaction volumes&rdquo;. Copart declined to
+  match: its chief executive said on the call, &ldquo;We don't need to play that game. We've got
+  amazing liquidity.&rdquo;</p>
+</div>
+
+<div class="callout">
+  <div class="callout-title">4. The cost base is idle, not broken</div>
+  <p style="margin:0">Operating cost per car rose 12.7% and US facility cost per unit rose 14.2%,
+  against revenue per unit up 5.4%. Most of that gap is fixed cost spread across fewer units.
+  Gross margin fell to 41.8% from a run rate near 45%, and that roughly three-point gap is what
+  returns if volume stabilises.</p>
+</div>
+
+{% for c in cards %}
+  {{ m.chart_card(c) }}
+{% endfor %}
+
+<h2>Three reasons long, three reasons short</h2>
+<p>The judges asked for both sides argued honestly. Here they are.</p>
+
+<div class="split">
+  <div class="panel">
+    <h3><span class="badge long">Long</span> Why this works</h3>
+    <ol>
+      <li><strong>A one-customer problem read as structural decay.</strong> It laps in FY27 Q2 to
+      Q3 and the rest of the insurance book is already growing 2.3%.</li>
+      <li><strong>Operating leverage in reverse.</strong> Cost per car is inflated by
+      under-utilisation. Volume stabilisation restores roughly three points of gross margin
+      without any price increase.</li>
+      <li><strong>Priced for the bear case.</strong> Near the bottom of a twenty-year multiple
+      range, no debt, net cash, $1.63bn of buybacks in FY26, and a consensus that already assumes
+      flat-to-negative US service revenue.</li>
+    </ol>
+  </div>
+  <div class="panel">
+    <h3><span class="badge short">Short</span> Why it might not</h3>
+    <ol>
+      <li><strong>The share loss may be structural.</strong> Six straight quarters of IAA
+      outperformance, disclosed service-level metrics that insurers value, and its largest partner
+      now covered in all 50 states. Barclays explicitly flags risk of further losses.</li>
+      <li><strong>Not all the cost inflation is cyclical.</strong> Gasoline CPI was up 27% year
+      over year in August and diesel rose 36% in the quarter. If used-vehicle values roll over,
+      the pricing offset that has held revenue flat disappears at the same time.</li>
+      <li><strong>Capital allocation and leadership changed.</strong> The founder-era chief
+      executive returned in July, and $1.9bn of cash is going to ACV Auctions, a
+      dealer-to-dealer marketplace outside core salvage that is only breakeven in FY27.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="callout risk">
+  <div class="callout-title">What would make us wrong, stated in advance</div>
+  <p style="margin:0">A second large carrier disclosed as lost in FY27 Q1. RB Global's automotive
+  take rate stabilising or rising while its volume growth stays above 8%, which would mean the
+  incentives were never the driver. Copart's cost per car still rising at a double-digit rate in
+  FY27 Q1. Or the Manheim used-vehicle index falling below roughly 195, which removes the pricing
+  offset.</p>
+</div>
+
+{% if catalysts %}
+<h2>What to watch, and when</h2>
+<ul class="timeline">
+  {% for c in catalysts %}
+  <li>
+    <div class="tl-date">{{ c.date }}{% if c.date_precision == "approx" %} (approx){% endif %}</div>
+    <div class="tl-event">{{ c.event }}</div>
+    <div class="tl-body">{{ c.why_it_matters }}</div>
+    <div class="tl-watch"><strong>Watch for:</strong> {{ c.watch_for }}</div>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<div class="callout warn">
+  <div class="callout-title">Status of this work</div>
+  <p style="margin:0">The scenario earnings figures are placeholders pending the full
+  three-statement model, and the daily inventory tracker that will independently verify the volume
+  data is still accumulating history. Both are flagged wherever they appear. See
+  <a href="methods.html">Data &amp; methods</a> for the state of every dataset.</p>
+</div>
+
+{% endblock %}

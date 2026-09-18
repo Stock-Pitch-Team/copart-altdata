@@ -1,0 +1,20 @@
+{
+  "dataset": "macro_cpi_wide",
+  "source": "US Bureau of Labor Statistics public API (api.bls.gov), public domain",
+  "method": "Same data as macro_cpi_long, pivoted to one column per series for charting.",
+  "gaps": "See macro_cpi_long.",
+  "units": "index level",
+  "frequency": "monthly",
+  "rows": 116,
+  "columns": [
+    "date",
+    "cpi_all_items",
+    "cpi_gasoline_all_types",
+    "cpi_motor_vehicle_insurance",
+    "cpi_motor_vehicle_maintenance_repair",
+    "cpi_new_vehicles",
+    "cpi_transportation",
+    "cpi_used_cars_trucks"
+  ],
+  "collected_utc": "2026-09-17 23:57 UTC"
+}

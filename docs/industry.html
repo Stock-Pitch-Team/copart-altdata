@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Industry funnel — Copart (CPRT) research</title>
+<meta name="description" content="Total-loss frequency nowcast from the repair-to-value spread, plus the structural drivers of salvage supply.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>📊</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+/* Stamp the saved theme before first paint so there is no flash. */
+(function(){try{var t=localStorage.getItem("cprt-theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-ticker">CPRT</span>
+      <span class="brand-sub">Alt-data research</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html">Thesis</a>
+      <a href="company.html">Copart</a>
+      <a href="competition.html">Copart vs IAA</a>
+      <a href="industry.html" aria-current="page">Industry funnel</a>
+      <a href="valuation.html">Valuation</a>
+      <a href="methods.html">Data &amp; methods</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch theme">&#9790;</button>
+  </div>
+</header>
+
+<main>
+  <div class="page-head">
+    <div class="eyebrow">Structural drivers</div>
+    <h1>The pipe feeding both auctions keeps widening</h1>
+<p class="lede">Whatever happens to share, the number of cars written off in America is rising, and the reason is arithmetic: repair costs keep climbing while used-car values do not. We can track that spread monthly from public data and use it to nowcast total-loss frequency ahead of the quarterly industry release.</p>  </div>
+
+    <figure class="card" data-view="chart" style="margin-inline:0">
+  <div class="card-head">
+    <div>
+      <h3 class="card-title">Nowcasting the salvage supply funnel</h3>
+<p class="card-sub">Total-loss frequency is published quarterly by CCC with a long lag, and the sell side quotes it months late. Repair and used-vehicle CPI are monthly with a two-week lag, so the fitted line gives an early read. The fit uses the repair-versus-value spread lagged 3 quarters plus a structural trend, with an R-squared of 0.66 on 28 observations.</p>    </div>
+    <div class="view-toggle" role="group" aria-label="View as chart or table">
+      <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
+      <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
+    </div>
+  </div>
+
+  <div class="chart tall" id="tlf-nowcast" role="img"
+       aria-label="Nowcasting the salvage supply funnel. Total-loss frequency is published quarterly by CCC with a long lag, and the sell side quotes it months late. Repair and used-vehicle CPI are monthly with a two-week lag, so the fitted line gives an early read. The fit uses the repair-versus-value spread lagged 3 quarters plus a structural trend, with an R-squared of 0.66 on 28 observations. The same data is available in the table view."></div>
+  <script type="application/json" data-chart="tlf-nowcast">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":true,"top":0,"left":0,"itemWidth":10,"itemHeight":10,"itemGap":16,"icon":"roundRect","textStyle":{"color":"@text-secondary","fontSize":11},"data":["Published actual","Model fit","95% interval"]},"grid":{"left":8,"right":14,"top":26,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"%","valueDecimals":1},"xAxis":{"type":"category","data":["Mar 18","Jun 18","Sep 18","Dec 18","Mar 19","Jun 19","Sep 19","Dec 19","Mar 20","Jun 20","Sep 20","Dec 20","Mar 21","Jun 21","Sep 21","Dec 21","Mar 22","Jun 22","Sep 22","Dec 22","Mar 23","Jun 23","Sep 23","Dec 23","Mar 24","Jun 24","Sep 24","Dec 24","Mar 25","Jun 25","Sep 25","Dec 25","Mar 26","Jun 26","Sep 26"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false},"boundaryGap":false},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}%"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"95% interval (baseline)","type":"line","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,20.12],"stack":"band","lineStyle":{"opacity":0},"showSymbol":false,"itemStyle":{"color":"transparent"},"areaStyle":{"color":"transparent"},"tooltip":{"show":false},"silent":true,"z":1},{"name":"95% interval","type":"line","data":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,4.14],"stack":"band","lineStyle":{"opacity":0},"showSymbol":false,"itemStyle":{"color":"@series-1"},"areaStyle":{"color":"@series-1","opacity":0.14},"silent":true,"z":1},{"name":"Model fit","type":"line","data":[null,null,null,18.99,19.1,19.16,19.27,19.31,19.56,19.65,19.76,19.94,20.07,19.81,19.51,19.69,18.39,18.5,18.72,18.38,20.02,20.8,21.7,22.43,22.11,22.2,21.93,21.83,22.3,22.25,22.22,21.95,21.96,21.99,22.19],"lineStyle":{"width":2,"color":"@text-muted","type":"dashed"},"itemStyle":{"color":"@text-muted"},"showSymbol":false,"z":2},{"name":"Published actual","type":"line","data":[null,null,null,null,19.2,18.5,18.7,20.4,20.0,19.5,21.0,21.7,20.7,19.7,19.3,19.2,18.2,17.1,17.5,20.1,19.6,19.0,19.9,21.5,21.8,21.5,21.8,23.8,22.8,22.2,22.6,null,null,23.3,null],"connectNulls":false,"symbol":"circle","symbolSize":8,"showSymbol":true,"lineStyle":{"width":2,"color":"@series-1"},"itemStyle":{"color":"@series-1","borderColor":"@surface-1","borderWidth":2},"z":4}]}</script>
+
+  <div class="table-view">
+    <table>
+<caption>Total-loss frequency: published actuals, model fit, and nowcast interval</caption>  <thead>
+    <tr><th class="wrap" scope="col">Quarter</th><th scope="col">Repair CPI YoY (%)</th><th scope="col">Used CPI YoY (%)</th><th scope="col">Spread (pts)</th><th scope="col">Published actual (%)</th><th scope="col">Model fit (%)</th><th scope="col">Nowcast low</th><th scope="col">Nowcast high</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row" class="wrap">Mar 18</th><td>1.4</td><td>-0.3</td><td>1.8</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 18</th><td>1.8</td><td>-0.1</td><td>1.9</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 18</th><td>2.3</td><td>0.9</td><td>1.3</td><td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Dec 18</th><td>2.4</td><td>1.0</td><td>1.4</td><td>n/a</td><td>19.0</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Mar 19</th><td>3.0</td><td>2.5</td><td>0.6</td><td>19.2</td><td>19.1</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 19</th><td>3.6</td><td>0.6</td><td>3.0</td><td>18.5</td><td>19.2</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 19</th><td>3.5</td><td>0.7</td><td>2.8</td><td>18.7</td><td>19.3</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Dec 19</th><td>3.3</td><td>0.3</td><td>3.0</td><td>20.4</td><td>19.3</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Mar 20</th><td>3.4</td><td>-0.9</td><td>4.3</td><td>20.0</td><td>19.6</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 20</th><td>3.4</td><td>-1.4</td><td>4.8</td><td>19.5</td><td>19.6</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 20</th><td>3.3</td><td>4.4</td><td>-1.1</td><td>21.0</td><td>19.8</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Dec 20</th><td>3.4</td><td>10.9</td><td>-7.5</td><td>21.7</td><td>19.9</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Mar 21</th><td>3.4</td><td>9.6</td><td>-6.2</td><td>20.7</td><td>20.1</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 21</th><td>3.1</td><td>32.0</td><td>-28.8</td><td>19.7</td><td>19.8</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 21</th><td>4.1</td><td>32.6</td><td>-28.6</td><td>19.3</td><td>19.5</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Dec 21</th><td>5.0</td><td>31.7</td><td>-26.7</td><td>19.2</td><td>19.7</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Mar 22</th><td>5.3</td><td>39.0</td><td>-33.7</td><td>18.2</td><td>18.4</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 22</th><td>6.4</td><td>15.3</td><td>-8.9</td><td>17.1</td><td>18.5</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 22</th><td>9.4</td><td>7.2</td><td>2.2</td><td>17.5</td><td>18.7</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Dec 22</th><td>11.7</td><td>-3.4</td><td>15.1</td><td>20.1</td><td>18.4</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Mar 23</th><td>13.3</td><td>-12.0</td><td>25.4</td><td>19.6</td><td>20.0</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 23</th><td>13.2</td><td>-5.4</td><td>18.6</td><td>19.0</td><td>20.8</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 23</th><td>11.6</td><td>-6.8</td><td>18.4</td><td>19.9</td><td>21.7</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Dec 23</th><td>8.4</td><td>-4.0</td><td>12.4</td><td>21.5</td><td>22.4</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Mar 24</th><td>7.1</td><td>-2.1</td><td>9.2</td><td>21.8</td><td>22.1</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 24</th><td>6.9</td><td>-8.2</td><td>15.2</td><td>21.5</td><td>22.2</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 24</th><td>4.5</td><td>-8.3</td><td>12.8</td><td>21.8</td><td>21.9</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Dec 24</th><td>5.9</td><td>-4.9</td><td>10.8</td><td>23.8</td><td>21.8</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Mar 25</th><td>5.5</td><td>0.8</td><td>4.8</td><td>22.8</td><td>22.3</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 25</th><td>5.3</td><td>2.0</td><td>3.3</td><td>22.2</td><td>22.2</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 25</th><td>7.6</td><td>5.3</td><td>2.2</td><td>22.6</td><td>22.2</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Dec 25</th><td>6.4</td><td>2.6</td><td>3.8</td><td>n/a</td><td>21.9</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Mar 26</th><td>6.1</td><td>-2.8</td><td>8.9</td><td>n/a</td><td>22.0</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Jun 26</th><td>6.4</td><td>-2.1</td><td>8.5</td><td>23.3</td><td>22.0</td><td>n/a</td><td>n/a</td></tr>
+    <tr><th scope="row" class="wrap">Sep 26</th><td>7.7</td><td>-2.1</td><td>9.8</td><td>n/a</td><td>22.2</td><td>20.1</td><td>24.3</td></tr>
+  </tbody>
+</table>
+  </div>
+
+  <figcaption class="footnote">
+    <strong>Source.</strong> Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.
+    <details>
+      <summary>Method and known gaps</summary>
+<p style="margin:6px 0 0"><strong>Method.</strong> Defined the repair-to-value &#39;scissors&#39; as repair CPI year-over-year minus used-vehicle CPI year-over-year, averaged monthly CPI to calendar quarters, then fitted ordinary least squares of total-loss frequency on (a) the scissors lagged 3 quarter(s) and (b) a linear time trend that represents the structural drift from the ageing fleet and rising vehicle complexity. Lags 0-3 were tested and the highest adjusted R-squared chosen (R2=0.656, adjusted 0.629, n=28). Fitted: scissors +0.0618 pts per point of spread (p=0.0002), trend +0.396 pts per year (p=0.0006). The nowcast band is the 95 percent residual interval and is populated only for quarters after the last published CCC actual (2026-06-30).</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.</p>    </details>
+  </figcaption>
+</figure>
+    <figure class="card" data-view="chart" style="margin-inline:0">
+  <div class="card-head">
+    <div>
+      <h3 class="card-title">The mechanism: repair costs up, used values down</h3>
+<p class="card-sub">An insurer writes a vehicle off when repairing it costs too much relative to what the vehicle is worth. In August 2026 repair CPI was rising 7.8% year over year while used-vehicle CPI was falling 2.3%. Every quarter the blue line sits above the orange one, more borderline claims tip into total losses, and more cars enter the salvage channel.</p>    </div>
+    <div class="view-toggle" role="group" aria-label="View as chart or table">
+      <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
+      <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
+    </div>
+  </div>
+
+  <div class="chart" id="scissors" role="img"
+       aria-label="The mechanism: repair costs up, used values down. An insurer writes a vehicle off when repairing it costs too much relative to what the vehicle is worth. In August 2026 repair CPI was rising 7.8% year over year while used-vehicle CPI was falling 2.3%. Every quarter the blue line sits above the orange one, more borderline claims tip into total losses, and more cars enter the salvage channel. The same data is available in the table view."></div>
+  <script type="application/json" data-chart="scissors">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":true,"top":0,"left":0,"itemWidth":10,"itemHeight":10,"itemGap":16,"icon":"roundRect","textStyle":{"color":"@text-secondary","fontSize":11}},"grid":{"left":8,"right":14,"top":26,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"%","valueDecimals":1},"xAxis":{"type":"category","data":["Mar 18","Jun 18","Sep 18","Dec 18","Mar 19","Jun 19","Sep 19","Dec 19","Mar 20","Jun 20","Sep 20","Dec 20","Mar 21","Jun 21","Sep 21","Dec 21","Mar 22","Jun 22","Sep 22","Dec 22","Mar 23","Jun 23","Sep 23","Dec 23","Mar 24","Jun 24","Sep 24","Dec 24","Mar 25","Jun 25","Sep 25","Dec 25","Mar 26","Jun 26","Sep 26"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false},"boundaryGap":false},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}%"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"Vehicle repair CPI","type":"line","data":[1.44,1.8,2.28,2.36,3.05,3.57,3.51,3.33,3.36,3.41,3.32,3.41,3.36,3.15,4.09,5.01,5.3,6.4,9.41,11.69,13.35,13.16,11.59,8.36,7.14,6.94,4.53,5.9,5.5,5.28,7.57,6.38,6.1,6.37,7.74],"smooth":false,"connectNulls":false,"symbol":"circle","symbolSize":8,"showSymbol":false,"lineStyle":{"width":2,"color":"@series-1"},"itemStyle":{"color":"@series-1","borderColor":"@surface-1","borderWidth":2},"emphasis":{"focus":"series"},"z":3,"markLine":{"silent":true,"symbol":"none","data":[{"yAxis":0}],"lineStyle":{"color":"@baseline","width":1,"type":"solid"},"label":{"show":false}}},{"name":"Used vehicle CPI","type":"line","data":[-0.31,-0.13,0.94,0.97,2.48,0.57,0.7,0.28,-0.94,-1.38,4.4,10.88,9.55,31.98,32.65,31.73,38.99,15.3,7.18,-3.39,-12.02,-5.39,-6.82,-4.01,-2.06,-8.21,-8.28,-4.86,0.75,2.0,5.33,2.59,-2.78,-2.15,-2.09],"smooth":false,"connectNulls":false,"symbol":"circle","symbolSize":8,"showSymbol":false,"lineStyle":{"width":2,"color":"@series-2"},"itemStyle":{"color":"@series-2","borderColor":"@surface-1","borderWidth":2},"emphasis":{"focus":"series"},"z":3}]}</script>
+
+  <div class="table-view">
+    <table>
+<caption>Year-over-year change in repair costs and used vehicle values</caption>  <thead>
+    <tr><th class="wrap" scope="col">Quarter</th><th scope="col">Repair CPI YoY (%)</th><th scope="col">Used vehicle CPI YoY (%)</th><th scope="col">Spread (pts)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row" class="wrap">Mar 18</th><td>1.4</td><td>-0.3</td><td>1.8</td></tr>
+    <tr><th scope="row" class="wrap">Jun 18</th><td>1.8</td><td>-0.1</td><td>1.9</td></tr>
+    <tr><th scope="row" class="wrap">Sep 18</th><td>2.3</td><td>0.9</td><td>1.3</td></tr>
+    <tr><th scope="row" class="wrap">Dec 18</th><td>2.4</td><td>1.0</td><td>1.4</td></tr>
+    <tr><th scope="row" class="wrap">Mar 19</th><td>3.0</td><td>2.5</td><td>0.6</td></tr>
+    <tr><th scope="row" class="wrap">Jun 19</th><td>3.6</td><td>0.6</td><td>3.0</td></tr>
+    <tr><th scope="row" class="wrap">Sep 19</th><td>3.5</td><td>0.7</td><td>2.8</td></tr>
+    <tr><th scope="row" class="wrap">Dec 19</th><td>3.3</td><td>0.3</td><td>3.0</td></tr>
+    <tr><th scope="row" class="wrap">Mar 20</th><td>3.4</td><td>-0.9</td><td>4.3</td></tr>
+    <tr><th scope="row" class="wrap">Jun 20</th><td>3.4</td><td>-1.4</td><td>4.8</td></tr>
+    <tr><th scope="row" class="wrap">Sep 20</th><td>3.3</td><td>4.4</td><td>-1.1</td></tr>
+    <tr><th scope="row" class="wrap">Dec 20</th><td>3.4</td><td>10.9</td><td>-7.5</td></tr>
+    <tr><th scope="row" class="wrap">Mar 21</th><td>3.4</td><td>9.6</td><td>-6.2</td></tr>
+    <tr><th scope="row" class="wrap">Jun 21</th><td>3.1</td><td>32.0</td><td>-28.8</td></tr>
+    <tr><th scope="row" class="wrap">Sep 21</th><td>4.1</td><td>32.6</td><td>-28.6</td></tr>
+    <tr><th scope="row" class="wrap">Dec 21</th><td>5.0</td><td>31.7</td><td>-26.7</td></tr>
+    <tr><th scope="row" class="wrap">Mar 22</th><td>5.3</td><td>39.0</td><td>-33.7</td></tr>
+    <tr><th scope="row" class="wrap">Jun 22</th><td>6.4</td><td>15.3</td><td>-8.9</td></tr>
+    <tr><th scope="row" class="wrap">Sep 22</th><td>9.4</td><td>7.2</td><td>2.2</td></tr>
+    <tr><th scope="row" class="wrap">Dec 22</th><td>11.7</td><td>-3.4</td><td>15.1</td></tr>
+    <tr><th scope="row" class="wrap">Mar 23</th><td>13.3</td><td>-12.0</td><td>25.4</td></tr>
+    <tr><th scope="row" class="wrap">Jun 23</th><td>13.2</td><td>-5.4</td><td>18.6</td></tr>
+    <tr><th scope="row" class="wrap">Sep 23</th><td>11.6</td><td>-6.8</td><td>18.4</td></tr>
+    <tr><th scope="row" class="wrap">Dec 23</th><td>8.4</td><td>-4.0</td><td>12.4</td></tr>
+    <tr><th scope="row" class="wrap">Mar 24</th><td>7.1</td><td>-2.1</td><td>9.2</td></tr>
+    <tr><th scope="row" class="wrap">Jun 24</th><td>6.9</td><td>-8.2</td><td>15.2</td></tr>
+    <tr><th scope="row" class="wrap">Sep 24</th><td>4.5</td><td>-8.3</td><td>12.8</td></tr>
+    <tr><th scope="row" class="wrap">Dec 24</th><td>5.9</td><td>-4.9</td><td>10.8</td></tr>
+    <tr><th scope="row" class="wrap">Mar 25</th><td>5.5</td><td>0.8</td><td>4.8</td></tr>
+    <tr><th scope="row" class="wrap">Jun 25</th><td>5.3</td><td>2.0</td><td>3.3</td></tr>
+    <tr><th scope="row" class="wrap">Sep 25</th><td>7.6</td><td>5.3</td><td>2.2</td></tr>
+    <tr><th scope="row" class="wrap">Dec 25</th><td>6.4</td><td>2.6</td><td>3.8</td></tr>
+    <tr><th scope="row" class="wrap">Mar 26</th><td>6.1</td><td>-2.8</td><td>8.9</td></tr>
+    <tr><th scope="row" class="wrap">Jun 26</th><td>6.4</td><td>-2.1</td><td>8.5</td></tr>
+    <tr><th scope="row" class="wrap">Sep 26</th><td>7.7</td><td>-2.1</td><td>9.8</td></tr>
+  </tbody>
+</table>
+  </div>
+
+  <figcaption class="footnote">
+    <strong>Source.</strong> US Bureau of Labor Statistics public API, series CUSR0000SETD (motor vehicle maintenance and repair) and CUSR0000SETA02 (used cars and trucks).
+    <details>
+      <summary>Method and known gaps</summary>
+<p style="margin:6px 0 0"><strong>Method.</strong> Monthly seasonally-adjusted index levels converted to year-over-year percentage change, then averaged to calendar quarters.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> Consumer CPI is a proxy. Insurers pay negotiated repair rates, not retail prices, and salvage vehicles clear at wholesale rather than retail used values. The direction is reliable; the exact level is not a like-for-like match to insurer economics.</p>    </details>
+  </figcaption>
+</figure>
+    <figure class="card" data-view="chart" style="margin-inline:0">
+  <div class="card-head">
+    <div>
+      <h3 class="card-title">A decade-long structural climb</h3>
+<p class="card-sub">From 15.6% of claims in 2015 to 23.1% in 2025, a record. This happened while crash frequency fell, which means the driver is not more accidents but a higher probability that a damaged car is uneconomic to repair. That is a structural widening of Copart&#39;s addressable volume.</p>    </div>
+    <div class="view-toggle" role="group" aria-label="View as chart or table">
+      <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
+      <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
+    </div>
+  </div>
+
+  <div class="chart" id="tlf-annual" role="img"
+       aria-label="A decade-long structural climb. From 15.6% of claims in 2015 to 23.1% in 2025, a record. This happened while crash frequency fell, which means the driver is not more accidents but a higher probability that a damaged car is uneconomic to repair. That is a structural widening of Copart&#39;s addressable volume. The same data is available in the table view."></div>
+  <script type="application/json" data-chart="tlf-annual">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":false},"grid":{"left":8,"right":14,"top":16,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"%","valueDecimals":1},"xAxis":{"type":"category","data":["2015","2016","2017","2018","2019","2020","2021","2022","2023","2024","2025"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false}},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}%"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"Total-loss frequency","type":"bar","data":[15.6,16.7,17.9,18.5,19.2,20.6,19.7,18.8,20.2,22.3,23.1],"itemStyle":{"borderRadius":[4,4,0,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"}]}</script>
+
+  <div class="table-view">
+    <table>
+<caption>Share of auto claims ending in a total loss, all loss categories</caption>  <thead>
+    <tr><th class="wrap" scope="col">Year</th><th scope="col">All loss categories (%)</th><th scope="col">Non-comprehensive (%)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row" class="wrap">2015</th><td>15.6</td><td>16.2</td></tr>
+    <tr><th scope="row" class="wrap">2016</th><td>16.7</td><td>17.3</td></tr>
+    <tr><th scope="row" class="wrap">2017</th><td>17.9</td><td>18.3</td></tr>
+    <tr><th scope="row" class="wrap">2018</th><td>18.5</td><td>19.0</td></tr>
+    <tr><th scope="row" class="wrap">2019</th><td>19.2</td><td>19.9</td></tr>
+    <tr><th scope="row" class="wrap">2020</th><td>20.6</td><td>21.7</td></tr>
+    <tr><th scope="row" class="wrap">2021</th><td>19.7</td><td>20.6</td></tr>
+    <tr><th scope="row" class="wrap">2022</th><td>18.8</td><td>19.7</td></tr>
+    <tr><th scope="row" class="wrap">2023</th><td>20.2</td><td>21.2</td></tr>
+    <tr><th scope="row" class="wrap">2024</th><td>22.3</td><td>22.9</td></tr>
+    <tr><th scope="row" class="wrap">2025</th><td>23.1</td><td>23.9</td></tr>
+  </tbody>
+</table>
+  </div>
+
+  <figcaption class="footnote">
+    <strong>Source.</strong> CCC Intelligent Solutions Crash Course reports, as presented in Freedom Broker&#39;s Copart initiation of 26 June 2026. Credited, not reproduced.
+    <details>
+      <summary>Method and known gaps</summary>
+<p style="margin:6px 0 0"><strong>Method.</strong> Annual share of claims resulting in a total loss, on CCC&#39;s all-loss-categories definition.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> Read from a chart in a broker note rather than from CCC directly, so values carry rounding. CCC&#39;s quarterly series used in the nowcast above has a slightly different definition, so the two are not strictly comparable.</p>    </details>
+  </figcaption>
+</figure>
+    <figure class="card" data-view="chart" style="margin-inline:0">
+  <div class="card-head">
+    <div>
+      <h3 class="card-title">Insurers can afford to process claims normally again</h3>
+<p class="card-sub">The combined ratio peaked at 112.2% in 2022, when carriers were losing money on every premium dollar and pulled back hard on advertising and growth. It is now near 95% and forecast to stay there. Profitable carriers grow policies, and more policies eventually mean more total losses.</p>    </div>
+    <div class="view-toggle" role="group" aria-label="View as chart or table">
+      <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
+      <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
+    </div>
+  </div>
+
+  <div class="chart short" id="combined-ratio" role="img"
+       aria-label="Insurers can afford to process claims normally again. The combined ratio peaked at 112.2% in 2022, when carriers were losing money on every premium dollar and pulled back hard on advertising and growth. It is now near 95% and forecast to stay there. Profitable carriers grow policies, and more policies eventually mean more total losses. The same data is available in the table view."></div>
+  <script type="application/json" data-chart="combined-ratio">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":false},"grid":{"left":8,"right":14,"top":16,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"%","valueDecimals":1},"xAxis":{"type":"category","data":["2017","2018","2019","2020","2021","2022","2023","2024","2025","2026","2027"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false},"boundaryGap":false},"yAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}%"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"series":[{"name":"Personal auto combined ratio","type":"line","data":[102.6,97.7,98.8,92.5,101.4,112.2,104.9,95.3,94.4,95.5,95.5],"smooth":false,"connectNulls":false,"symbol":"circle","symbolSize":8,"showSymbol":true,"lineStyle":{"width":2,"color":"@series-1"},"itemStyle":{"color":"@series-1","borderColor":"@surface-1","borderWidth":2},"emphasis":{"focus":"series"},"z":3,"markLine":{"silent":true,"symbol":"none","data":[{"yAxis":100,"label":{"show":true,"formatter":"Break-even 100%","color":"@text-muted","fontSize":11}}],"lineStyle":{"color":"@baseline","width":1,"type":"solid"}}}]}</script>
+
+  <div class="table-view">
+    <table>
+<caption>US personal auto combined ratio; below 100% means underwriting profit</caption>  <thead>
+    <tr><th class="wrap" scope="col">Year</th><th scope="col">Combined ratio (%)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row" class="wrap">2017</th><td>102.6</td></tr>
+    <tr><th scope="row" class="wrap">2018</th><td>97.7</td></tr>
+    <tr><th scope="row" class="wrap">2019</th><td>98.8</td></tr>
+    <tr><th scope="row" class="wrap">2020</th><td>92.5</td></tr>
+    <tr><th scope="row" class="wrap">2021</th><td>101.4</td></tr>
+    <tr><th scope="row" class="wrap">2022</th><td>112.2</td></tr>
+    <tr><th scope="row" class="wrap">2023</th><td>104.9</td></tr>
+    <tr><th scope="row" class="wrap">2024</th><td>95.3</td></tr>
+    <tr><th scope="row" class="wrap">2025</th><td>94.4</td></tr>
+    <tr><th scope="row" class="wrap">2026</th><td>95.5</td></tr>
+    <tr><th scope="row" class="wrap">2027</th><td>95.5</td></tr>
+  </tbody>
+</table>
+  </div>
+
+  <figcaption class="footnote">
+    <strong>Source.</strong> Triple-I and Milliman projections, as presented in Freedom Broker&#39;s Copart initiation of 26 June 2026.
+    <details>
+      <summary>Method and known gaps</summary>
+<p style="margin:6px 0 0"><strong>Method.</strong> Industry combined ratio for personal auto lines. 2025 is an estimate and 2026 to 2027 are forecasts.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> The last three points are forecasts, not actuals, and come from a single forecasting source.</p>    </details>
+  </figcaption>
+</figure>
+    <figure class="card" data-view="chart" style="margin-inline:0">
+  <div class="card-head">
+    <div>
+      <h3 class="card-title">Catastrophe volume is a hail problem, not just a hurricane one</h3>
+<p class="card-sub">Across 2016 to 2026 we counted about 184,000 vehicle-damaging events in 3,730 counties. The concentration is in the hail belt, Colorado, South Dakota, Texas and Oklahoma, not the hurricane coast. That matters this year because the 2026 Atlantic hurricane outlook is below normal, while hail and flood exposure is unaffected by that forecast.</p>    </div>
+    <div class="view-toggle" role="group" aria-label="View as chart or table">
+      <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
+      <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
+    </div>
+  </div>
+
+  <div class="chart tall" id="storm-counties" role="img"
+       aria-label="Catastrophe volume is a hail problem, not just a hurricane one. Across 2016 to 2026 we counted about 184,000 vehicle-damaging events in 3,730 counties. The concentration is in the hail belt, Colorado, South Dakota, Texas and Oklahoma, not the hurricane coast. That matters this year because the 2026 Atlantic hurricane outlook is below normal, while hail and flood exposure is unaffected by that forecast. The same data is available in the table view."></div>
+  <script type="application/json" data-chart="storm-counties">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":true,"top":0,"left":0,"itemWidth":10,"itemHeight":10,"itemGap":16,"icon":"roundRect","textStyle":{"color":"@text-secondary","fontSize":11}},"grid":{"left":8,"right":14,"top":26,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":"","valueDecimals":0},"xAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value}"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"yAxis":{"type":"category","data":["El Paso, Colorado","Pennington, South Dakota","Tarrant, Texas","Maricopa, Arizona","Oklahoma, Oklahoma","Bexar, Texas","Weld, Colorado","Allegheny, Pennsylvania","San Bernardino, California","Tulsa, Oklahoma","Cleveland, Oklahoma","Sedgwick, Kansas"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false},"inverse":true},"series":[{"name":"Hail","type":"bar","data":[756.0,631.0,509.0,98.0,395.0,294.0,431.0,143.0,16.0,308.0,340.0,325.0],"itemStyle":{"borderRadius":[0,4,4,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"},{"name":"Flood","type":"bar","data":[78.0,32.0,104.0,505.0,115.0,192.0,19.0,329.0,448.0,126.0,81.0,124.0],"itemStyle":{"borderRadius":[0,4,4,0],"color":"@series-3"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"},{"name":"Hurricane and tornado","type":"bar","data":[6.0,4.0,20.0,13.0,29.0,6.0,34.0,12.0,2.0,26.0,38.0,2.0],"itemStyle":{"borderRadius":[0,4,4,0],"color":"@series-2"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"}]}</script>
+
+  <div class="table-view">
+    <table>
+<caption>Counties with the most vehicle-damaging weather events, 2016 to 2026</caption>  <thead>
+    <tr><th class="wrap" scope="col">County</th><th scope="col">State</th><th scope="col">Total events</th><th scope="col">Hail</th><th scope="col">Flood</th><th scope="col">Hurricane/tornado</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row" class="wrap">El Paso</th><td>Colorado</td><td>840</td><td>756</td><td>78</td><td>6</td></tr>
+    <tr><th scope="row" class="wrap">Pennington</th><td>South Dakota</td><td>667</td><td>631</td><td>32</td><td>4</td></tr>
+    <tr><th scope="row" class="wrap">Tarrant</th><td>Texas</td><td>633</td><td>509</td><td>104</td><td>20</td></tr>
+    <tr><th scope="row" class="wrap">Maricopa</th><td>Arizona</td><td>616</td><td>98</td><td>505</td><td>13</td></tr>
+    <tr><th scope="row" class="wrap">Oklahoma</th><td>Oklahoma</td><td>539</td><td>395</td><td>115</td><td>29</td></tr>
+    <tr><th scope="row" class="wrap">Bexar</th><td>Texas</td><td>492</td><td>294</td><td>192</td><td>6</td></tr>
+    <tr><th scope="row" class="wrap">Weld</th><td>Colorado</td><td>484</td><td>431</td><td>19</td><td>34</td></tr>
+    <tr><th scope="row" class="wrap">Allegheny</th><td>Pennsylvania</td><td>484</td><td>143</td><td>329</td><td>12</td></tr>
+    <tr><th scope="row" class="wrap">San Bernardino</th><td>California</td><td>466</td><td>16</td><td>448</td><td>2</td></tr>
+    <tr><th scope="row" class="wrap">Tulsa</th><td>Oklahoma</td><td>460</td><td>308</td><td>126</td><td>26</td></tr>
+    <tr><th scope="row" class="wrap">Cleveland</th><td>Oklahoma</td><td>459</td><td>340</td><td>81</td><td>38</td></tr>
+    <tr><th scope="row" class="wrap">Sedgwick</th><td>Kansas</td><td>451</td><td>325</td><td>124</td><td>2</td></tr>
+  </tbody>
+</table>
+  </div>
+
+  <figcaption class="footnote">
+    <strong>Source.</strong> NOAA National Centers for Environmental Information, Storm Events Database (public domain)
+    <details>
+      <summary>Method and known gaps</summary>
+<p style="margin:6px 0 0"><strong>Method.</strong> Downloaded the yearly &#39;details&#39; files for 2016-2026 and kept only event types that plausibly total a vehicle: hail, flood, flash flood, coastal flood, storm surge, hurricane, tornado and tropical storm. Heat, drought, cold and straight-line wind are excluded. Property damage strings such as &#39;2.50K&#39; and &#39;1.2M&#39; are parsed to dollars and summed.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> Storm Events counts REPORTED events, so densely populated counties are over-represented relative to sparsely populated ones. Property damage is an all-property figure, not vehicle-specific, so it proxies rather than measures salvage supply. County names come from NOAA&#39;s CZ_NAME field, which mixes counties and forecast zones, so joining to yard locations needs care. The current year is incomplete. Separately: NOAA&#39;s August 2026 seasonal outlook gives a 75 percent chance of a below-normal Atlantic hurricane season, so this data supports a claim about durable land advantage, not a forecast of catastrophe-driven upside this year.</p>    </details>
+  </figcaption>
+</figure>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p><strong>Not investment advice.</strong> This site is student work prepared for a
+    stock-pitch competition. Nothing here is a recommendation to buy or sell any security.
+    The authors hold no position and are not licensed advisers.</p>
+    <p>Every figure is sourced. Where a number came from a licensed broker report, the
+    report is credited but not reproduced. Scraped listing counts are labelled
+    "listings observed" and are never presented as reported unit sales. Model outputs
+    state their sample size and confidence interval. See
+    <a href="methods.html">Data &amp; methods</a> for every source, method and known gap.</p>
+    <p>Built 18 September 2026 00:27 UTC. Data as of the collection dates shown under each chart.</p>
+  </div>
+</footer>
+
+<!-- app.js loads ECharts itself, trying each CDN in turn. If every source fails
+     it switches all cards to their table view, so no value becomes unreachable. -->
+<script src="assets/app.js"></script>
+</body>
+</html>

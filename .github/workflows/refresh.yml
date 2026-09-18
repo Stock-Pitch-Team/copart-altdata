@@ -1,0 +1,75 @@
+# Refresh the public-API datasets and rebuild the website.
+#
+# DELIBERATELY LIMITED SCOPE: this workflow only runs collectors that hit
+# official public APIs (SEC EDGAR, BLS, NOAA). The auction-site inventory
+# tracker is NOT run here, because GitHub's datacenter IP ranges are blocked by
+# both copart.com and iaai.com, and getting an IP banned would cost us the whole
+# dataset. That collector runs locally only.
+
+name: Refresh data and rebuild site
+
+on:
+  schedule:
+    # 07:20 UTC every Monday. After the US market week starts, and well clear of
+    # the BLS CPI release time so the newest month is available.
+    - cron: "20 7 * * 1"
+  workflow_dispatch: {}   # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Playwright is only needed by the local-only tracker, so skip it here.
+          pip install pandas numpy requests beautifulsoup4 lxml jinja2 \
+                      python-dotenv pyyaml tenacity statsmodels
+
+      - name: Validate hand-entered CSVs
+        # If a teammate commits a CSV with an unquoted comma, fail loudly here
+        # rather than publishing shifted columns to the website.
+        run: python run_all.py --check
+
+      - name: Collect from SEC EDGAR
+        env:
+          # The SEC requires a descriptive User-Agent with a real contact address.
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python -m src.collect.sec_financials || echo "SEC collector failed; continuing"
+
+      - name: Collect macro price indices
+        env:
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+        run: python -m src.collect.macro || echo "BLS collector failed; continuing"
+
+      - name: Run the total-loss-frequency model
+        run: python -m src.build.tlf_nowcast || echo "model failed; continuing"
+
+      - name: Rebuild the website
+        run: python -m src.site.build_site
+
+      - name: Commit any changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed docs
+          if git diff --staged --quiet; then
+            echo "No data changed this week."
+          else
+            git commit -m "Weekly refresh: public-API data and site rebuild"
+            git push
+          fi

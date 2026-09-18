@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% import "macros.html" as m %}
+
+{% block content %}
+
+<div class="callout risk">
+  <div class="callout-title">Licensed research is credited, never reproduced</div>
+  <p style="margin:0">Some figures come from Barclays, J.P. Morgan and Freedom Broker notes and
+  from a Bloomberg terminal export. Those documents are licensed to a named individual and are
+  marked as not for reproduction or redistribution. We cite the figures and attribute them, and
+  the files themselves are excluded from the public repository. Anything published here is either
+  a public-domain government source, a company filing or disclosure, a press report, or our own
+  calculation.</p>
+</div>
+
+<h2>Collected datasets</h2>
+<p>Built automatically by the collectors in <code>src/collect</code> and the models in
+<code>src/build</code>. Re-running a collector refreshes the data and the timestamp.</p>
+
+{% if dataset_rows %}
+{{ m.data_card({
+  "caption": "One row per automatically collected dataset",
+  "columns": ["Dataset", "Frequency", "Rows", "Collected (UTC)", "Source"],
+  "rows": dataset_rows
+}) }}
+{% else %}
+<div class="callout warn">
+  <div class="callout-title">Nothing collected yet</div>
+  <p style="margin:0">Run the collectors, then rebuild the site.</p>
+</div>
+{% endif %}
+
+<h2>Hand-curated datasets</h2>
+<p>Neither Copart nor RB Global publishes a machine-readable panel of operating metrics such as
+unit growth by segment, average selling prices or cost per car. Those figures exist only in
+earnings-call transcripts and research notes, so they are transcribed by hand into
+<code>data/manual</code>. Every row carries a <code>source</code> column naming the document it
+came from, and derived rather than reported values are labelled as derived.</p>
+
+{{ m.data_card({
+  "caption": "Hand-entered source files, each row individually cited",
+  "columns": ["File", "Rows"],
+  "rows": manual_rows
+}) }}
+
+<h2>Source, method and known gaps, dataset by dataset</h2>
+
+{% for d in detail %}
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">{{ d.dataset }}</h3>
+  <p class="card-sub" style="margin-top:0">
+    {{ d.frequency }}{% if d.rows %} &middot; {{ d.rows }} rows{% endif %}{% if d.collected %} &middot; collected {{ d.collected }}{% endif %}
+  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> {{ d.source }}</p>
+    {% if d.method %}<p style="margin:8px 0 0"><strong>Method.</strong> {{ d.method }}</p>{% endif %}
+    {% if d.gaps %}<p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> {{ d.gaps }}</p>{% endif %}
+  </div>
+</div>
+{% endfor %}
+
+<h2>Rules we hold ourselves to</h2>
+<div class="panel">
+  <ul>
+    <li><strong>No invented numbers.</strong> If a figure is not in a filing, a transcript, a
+    public dataset or our own calculation from those, it does not appear.</li>
+    <li><strong>Derived is labelled derived.</strong> Where we computed something the company did
+    not report, such as RB Global's implied Q1 take rate, the table says so.</li>
+    <li><strong>Scraped counts are listings, not sales.</strong> Inventory-tracker output is
+    always described as listings observed, never as reported unit sales.</li>
+    <li><strong>Models state their sample size.</strong> Every regression reports its number of
+    observations, R-squared and confidence interval, and we say plainly when a sample is small.</li>
+    <li><strong>Every chart has a table.</strong> No value is reachable only by hovering, which
+    also keeps the site readable in print and for colour-vision-deficient readers.</li>
+    <li><strong>Disconfirming evidence gets equal billing.</strong> The competitive data that
+    supports the bear case is presented first on its own page, not buried.</li>
+  </ul>
+</div>
+
+<h2>Reproducing this site</h2>
+<div class="panel">
+  <ol>
+    <li>Clone the repository and create the virtual environment.</li>
+    <li>Copy <code>.env.example</code> to <code>.env</code> and set at least
+    <code>SEC_USER_AGENT</code> to your name and email, which the SEC requires.</li>
+    <li>Run <code>python -m src.collect.sec_financials</code> and
+    <code>python -m src.collect.macro</code>.</li>
+    <li>Run <code>python -m src.build.tlf_nowcast</code>.</li>
+    <li>Run <code>python -m src.site.build_site</code> and open <code>docs/index.html</code>.</li>
+  </ol>
+  <p style="margin:10px 0 0;font-size:13px;color:var(--text-secondary)">The full step-by-step
+  version, written for someone who has never used an API key, is in <code>SETUP.md</code> in the
+  repository.</p>
+</div>
+
+{% endblock %}

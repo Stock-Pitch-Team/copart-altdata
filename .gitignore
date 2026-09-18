@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------------------
+# LICENSED RESEARCH — NEVER COMMIT.
+# Barclays, J.P. Morgan and Freedom Broker reports and Bloomberg exports are
+# licensed to a named individual and are marked "may not be reproduced or
+# redistributed". Publishing them to a public repo breaches that licence.
+# Facts and figures extracted from them (with attribution) are fine; the files
+# themselves are not.
+# ---------------------------------------------------------------------------
+research/
+*.pdf
+*.PDF
+*.xlsx
+*.xls
+
+# Secrets
+.env
+.env.local
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Raw scrape payloads (large, regenerable). Processed CSVs ARE committed so the
+# site can build without re-collecting and so history is auditable.
+data/raw/**
+!data/raw/.gitkeep
+data/cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

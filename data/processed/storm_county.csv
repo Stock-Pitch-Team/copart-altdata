@@ -1,0 +1,3731 @@
+state,county,events,hail_events,flood_events,wind_events,damage_usd
+Colorado,El Paso,840,756,78,6,341980000.0
+South Dakota,Pennington,667,631,32,4,4450000.0
+Texas,Tarrant,633,509,104,20,1430277000.0
+Arizona,Maricopa,616,98,505,13,29340000.0
+Oklahoma,Oklahoma,539,395,115,29,56532000.0
+Texas,Bexar,492,294,192,6,1383820000.0
+Colorado,Weld,484,431,19,34,5570500.0
+Pennsylvania,Allegheny,484,143,329,12,16919600.0
+California,San Bernardino,466,16,448,2,38214200.0
+Oklahoma,Tulsa,460,308,126,26,68364000.0
+Oklahoma,Cleveland,459,340,81,38,53521000.0
+Kansas,Sedgwick,451,325,124,2,5632100.0
+Wyoming,Laramie,447,388,39,20,1461000.0
+Illinois,Cook,442,182,227,33,1048210000.0
+Texas,Denton,429,375,44,10,371585000.0
+Arizona,Mohave,427,20,404,3,3217000.0
+Colorado,Yuma,403,359,13,31,1316000.0
+South Carolina,Charleston,403,57,299,47,474500.0
+Virginia,Fairfax,396,40,350,6,335000.0
+Texas,Dallas,368,221,135,12,3318962000.0
+Maryland,Montgomery,358,55,296,7,7702600.0
+Texas,Collin,354,313,32,9,2183201500.0
+Missouri,Douglas,335,96,226,13,16873000.0
+Missouri,Greene,334,158,159,17,329164000.0
+California,Kern,328,7,319,2,304000.0
+Maryland,Baltimore,316,42,266,8,26135000.0
+Wisconsin,Dane,306,266,27,13,43100000.0
+North Carolina,Wake,305,125,169,11,186394500.0
+Colorado,Kit Carson,303,246,23,34,225510.0
+South Dakota,Meade,300,280,17,3,3117000.0
+Arizona,Yavapai,287,38,244,5,9500000.0
+Minnesota,St. Louis,287,210,70,7,3321000.0
+South Dakota,Minnehaha,286,118,160,8,11257000.0
+Texas,Harris,281,146,100,35,10248198100.0
+Louisiana,Caddo,280,110,139,31,56973000.0
+Texas,Tom Green,279,193,81,5,7700000.0
+California,Fresno,278,2,271,5,1141100.0
+Colorado,Washington,276,185,3,88,80000.0
+Puerto Rico,San Juan,275,0,275,0,433200.0
+Oklahoma,Comanche,272,208,55,9,660000.0
+Alabama,Madison,272,142,107,23,0.0
+Texas,Williamson,271,212,47,12,325981000.0
+California,San Diego,261,10,250,1,37202550.0
+Pennsylvania,Westmoreland,260,70,173,17,5809000.0
+Arizona,Pima,259,48,202,9,13828500.0
+Kansas,Sherman,258,219,29,10,4510.0
+California,Sonoma,258,20,238,0,5140.0
+Iowa,Polk,257,162,79,16,92755000.0
+Mississippi,Rankin,256,60,154,42,18831100.0
+Kansas,Butler,256,195,46,15,39047000.0
+Arkansas,Benton,254,170,64,20,99020000.0
+Texas,Randall,246,188,46,12,7766200.0
+Texas,Grayson,246,198,43,5,2211000.0
+South Dakota,Custer,246,231,12,3,1222000.0
+Texas,Travis,244,157,82,5,320163000.0
+Nebraska,Lincoln,242,221,16,5,857000.0
+Nebraska,Cherry,241,217,8,16,127000.0
+Nebraska,Douglas,241,177,58,6,1725000.0
+Missouri,Barry,241,97,129,15,97151000.0
+Texas,Potter,238,187,47,4,18200000.0
+Arkansas,Pulaski,237,83,138,16,88801000.0
+Texas,Pecos,235,186,26,23,613000.0
+Missouri,Howell,234,90,137,7,74712000.0
+Kansas,Johnson,234,207,20,7,110000.0
+Arkansas,Woodruff,233,1,228,4,535000.0
+Nebraska,Custer,226,167,43,16,4353000.0
+Kansas,Ford,225,167,28,30,3115200.0
+Texas,Midland,225,142,78,5,2835000.0
+Missouri,St. Louis,224,175,31,18,59430500.0
+California,Riverside,220,7,210,3,107269000.0
+Texas,Wichita,220,204,9,7,133000.0
+Wyoming,Goshen,217,183,19,15,727000.0
+Arizona,Coconino,213,32,171,10,12850000.0
+Texas,Smith,212,116,82,14,1540000.0
+Colorado,Pueblo,211,139,70,2,500000.0
+Virginia,Prince William,210,19,190,1,254000.0
+Texas,Ector,209,152,54,3,208426200.0
+Maryland,St. Mary'S,209,27,175,7,1280000.0
+Maryland,Frederick,209,22,183,4,44947000.0
+Ohio,Washington,208,36,171,1,227850.0
+Oklahoma,Grady,207,165,18,24,374000.0
+Missouri,Jackson,206,132,59,15,160000.0
+Missouri,Wright,206,48,143,15,10688000.0
+South Carolina,Richland,205,46,138,21,19025970.0
+New Jersey,Bergen,204,42,162,0,0.0
+West Virginia,Kanawha,204,57,139,8,69705400.0
+Arkansas,Washington,201,129,50,22,24989000.0
+Missouri,Webster,201,66,127,8,81701000.0
+Missouri,Christian,201,103,83,15,38737000.0
+Colorado,Lincoln,200,179,5,16,80000.0
+Missouri,Ozark,200,33,163,4,11220500.0
+Missouri,Jasper,199,87,102,10,10216000.0
+Pennsylvania,Berks,198,61,129,8,332000.0
+Wyoming,Campbell,197,188,2,7,50000.0
+Florida,Miami-Dade,197,43,137,17,5273000.0
+Louisiana,Orleans,196,4,181,11,108136000.0
+Kansas,Cheyenne,195,163,23,9,414550.0
+Montana,Yellowstone,194,185,8,1,1600000.0
+California,Tulare,194,4,189,1,8278700.0
+Mississippi,Hinds,194,42,105,47,28490000.0
+Oklahoma,Pontotoc,193,138,33,22,13894000.0
+Texas,Bell,192,123,60,9,10878000.0
+Massachusetts,Worcester,192,40,139,13,5477500.0
+Pennsylvania,Washington,192,64,113,15,9471500.0
+Illinois,Will,192,95,64,33,2532000.0
+Arizona,Gila,190,13,176,1,77585000.0
+Pennsylvania,Chester,190,24,164,2,40650000.0
+South Dakota,Lawrence,189,179,7,3,2499000.0
+Ohio,Franklin,187,90,88,9,1798000.0
+District Of Columbia,District Of Columbia,186,19,163,4,800000.0
+Kansas,Thomas,186,149,24,13,61500.0
+Texas,Parker,185,159,13,13,7179500.0
+Pennsylvania,Montgomery,184,60,120,4,65094000.0
+Wyoming,Crook,184,169,8,7,3200.0
+Texas,Ellis,183,146,28,9,33433000.0
+Colorado,Logan,183,156,5,22,130000.0
+Kansas,Logan,183,143,31,9,80300.0
+Missouri,Newton,182,88,86,8,3342000.0
+Missouri,Taney,182,89,82,11,14029000.0
+Iowa,Clay,181,49,127,5,26450000.0
+Nebraska,Lancaster,180,143,25,12,1650000.0
+Colorado,Arapahoe,178,160,7,11,277260000.0
+Iowa,Story,176,126,40,10,4338000.0
+Illinois,Sangamon,176,125,35,16,3126000.0
+Kentucky,Jefferson,175,56,108,11,1621000.0
+Florida,Bay,175,24,129,22,24433000.0
+Colorado,Elbert,175,165,5,5,115000.0
+Kansas,Barton,174,137,23,14,824200.0
+Iowa,Linn,173,132,22,19,2488000.0
+Colorado,Larimer,173,143,29,1,1325000.0
+Oklahoma,Canadian,173,136,24,13,976500.0
+Maryland,Harford,173,15,157,1,1030000.0
+Ohio,Hamilton,173,57,112,4,5408600.0
+Texas,Wise,172,133,29,10,10502500.0
+Kansas,Cowley,171,136,17,18,75800.0
+Wyoming,Platte,170,144,18,8,10000.0
+Nebraska,Scotts Bluff,170,145,17,8,6635000.0
+Virginia,Albemarle,169,28,139,2,115000.0
+South Dakota,Brown,169,84,79,6,895300.0
+Nevada,Clark,169,29,140,0,79763000.0
+Texas,Hutchinson,168,149,9,10,45000.0
+Texas,Johnson,167,132,25,10,4852500.0
+Maryland,Anne Arundel,167,26,135,6,1695000.0
+Colorado,Adams,167,141,5,21,1150000.0
+Florida,Duval,167,61,95,11,570200.0
+New Mexico,Eddy,166,103,59,4,1405900.0
+Texas,Mclennan,165,126,29,10,8469500.0
+Louisiana,Bossier,165,83,60,22,5996000.0
+California,Sacramento,165,2,159,4,268201000.0
+Missouri,Mcdonald,164,65,94,5,25341000.0
+Iowa,Scott,164,109,34,21,52000.0
+Florida,Palm Beach,164,55,78,31,83227000.0
+Texas,Taylor,164,124,34,6,11204000.0
+Tennessee,Davidson,163,69,76,18,1125742000.0
+California,Alameda,163,19,144,0,5000170.0
+Kansas,Ellis,161,134,21,6,100000.0
+Kansas,Shawnee,161,117,37,7,60000.0
+Iowa,Sioux,161,51,101,9,8780000.0
+Illinois,Du Page,160,64,76,20,353000.0
+Alabama,Mobile,160,26,89,45,290000.0
+Indiana,Gibson,160,25,124,11,6707000.0
+Oklahoma,Tillman,159,119,17,23,199000.0
+Oklahoma,Stephens,159,117,28,14,5720000.0
+Missouri,Polk,159,67,83,9,23605000.0
+Kansas,Gove,159,135,14,10,159000.0
+Florida,Broward,159,45,87,27,34610100.0
+Louisiana,St. Tammany,158,22,104,32,28404000.0
+Kansas,Saline,157,118,28,11,348300.0
+Iowa,Plymouth,157,70,80,7,4131000.0
+Massachusetts,Middlesex,156,23,129,4,2535000.0
+Texas,Carson,156,132,16,8,37000.0
+Texas,Nueces,156,13,139,4,1303255000.0
+Nebraska,Sheridan,156,142,4,10,98000.0
+Kansas,Rawlins,155,137,11,7,30400.0
+Pennsylvania,Delaware,155,27,126,2,30450000.0
+Colorado,Jefferson,155,151,4,0,2300045000.0
+Oklahoma,Mccurtain,155,79,62,14,36410000.0
+Nebraska,Hitchcock,155,137,10,8,1627100.0
+New Mexico,Union,154,134,11,9,5332000.0
+Nebraska,Cheyenne,153,124,18,11,0.0
+Minnesota,Winona,153,89,52,12,8874500.0
+Tennessee,Williamson,153,99,48,6,9445000.0
+Colorado,Cheyenne,153,118,12,23,332510.0
+New York,Broome,153,56,94,3,22868000.0
+Oklahoma,Le Flore,152,96,41,15,1720000.0
+Oklahoma,Kay,151,119,19,13,635000.0
+South Carolina,Lexington,151,73,44,34,16771170.0
+California,Santa Clara,150,33,117,0,10005100.0
+Tennessee,Shelby,149,66,82,1,4864500.0
+South Dakota,Lincoln,148,52,86,10,23507000.0
+New Jersey,Middlesex,148,28,118,2,50110030.0
+Oklahoma,Mcclain,148,110,10,28,10340000.0
+Colorado,Douglas,147,142,2,3,45000.0
+New Mexico,San Miguel,147,94,48,5,4290000.0
+Minnesota,Hennepin,146,126,17,3,15551000.0
+Oklahoma,Osage,146,94,22,30,13334000.0
+Texas,Burnet,145,111,30,4,46117500.0
+Louisiana,East Baton Rouge,144,34,98,12,2664495000.0
+New York,Westchester,143,16,126,1,92650000.0
+Oklahoma,Rogers,143,92,29,22,49610000.0
+Texas,Lubbock,143,108,31,4,193269000.0
+Missouri,Texas,142,58,72,12,10353000.0
+Pennsylvania,Butler,142,80,53,9,10223500.0
+Virginia,Loudoun,142,56,82,4,6390000.0
+New Hampshire,Grafton,142,32,107,3,18684000.0
+New Mexico,Lincoln,140,51,81,8,3797500.0
+South Carolina,Horry,139,47,72,20,10521500.0
+Minnesota,Crow Wing,139,123,10,6,1510000.0
+Oklahoma,Garfield,139,107,24,8,60000.0
+Louisiana,Calcasieu,139,45,59,35,7688763000.0
+Colorado,Denver,138,127,8,3,800000.0
+Kansas,Mcpherson,138,105,32,1,56600.0
+Colorado,Morgan,138,108,5,25,645000.0
+Iowa,Dickinson,138,60,71,7,2596000.0
+Wisconsin,Trempealeau,137,63,64,10,12567000.0
+North Dakota,Grand Forks,137,85,21,31,2068500.0
+North Dakota,Cass,137,104,18,15,4815500.0
+Missouri,Laclede,137,51,77,9,99399000.0
+California,Inyo,137,0,136,1,524407200.0
+South Dakota,Hutchinson,137,71,64,2,2388000.0
+South Dakota,Union,136,29,107,0,55830000.0
+Oklahoma,Texas,136,120,8,8,60000.0
+New York,Suffolk,136,13,113,10,6320000.0
+Minnesota,Itasca,136,117,16,3,15000.0
+Minnesota,Otter Tail,136,110,12,14,3226000.0
+Arkansas,Sebastian,136,79,42,15,6265000.0
+Wisconsin,Waukesha,136,107,19,10,106513500.0
+Texas,Gray,136,122,8,6,204000.0
+California,Monterey,136,18,117,1,150.0
+Pennsylvania,Philadelphia,136,16,116,4,100000010.0
+Virginia,Chesterfield,135,44,89,2,1148000.0
+South Dakota,Brookings,135,35,94,6,561500.0
+Missouri,Clay,135,101,29,5,0.0
+Iowa,Black Hawk,135,59,72,4,3392000.0
+Kansas,Dickinson,135,116,12,7,0.0
+Colorado,Boulder,134,131,3,0,40000.0
+South Dakota,Charles Mix,134,83,50,1,3887000.0
+Kansas,Lyon,134,101,26,7,20000.0
+Kansas,Marion,132,92,34,6,265500.0
+Oklahoma,Garvin,132,88,29,15,1395000.0
+Mississippi,Jones,132,33,75,24,18578500.0
+Oklahoma,Johnston,131,74,39,18,2097500.0
+New Jersey,Burlington,131,57,64,10,28010.0
+Maryland,Prince George'S,131,16,114,1,255000.0
+Ohio,Warren,131,28,90,13,2164000.0
+New Mexico,Lea,131,112,15,4,3697000.0
+Iowa,Clayton,130,33,93,4,4723000.0
+South Dakota,Bon Homme,130,47,80,3,2831000.0
+Oklahoma,Caddo,130,95,19,16,343000.0
+Pennsylvania,Bradford,130,12,113,5,5198500.0
+Arkansas,White,129,38,83,8,367000.0
+Illinois,Henry,129,86,13,30,227000.0
+Arkansas,Saline,128,59,62,7,1205000.0
+Alabama,Lauderdale,128,32,83,13,10708000.0
+Wisconsin,Rock,128,66,48,14,63666000.0
+Oklahoma,Pottawatomie,128,74,21,33,5528000.0
+Oklahoma,Jackson,127,103,15,9,392000.0
+New Mexico,Chaves,127,80,39,8,517678500.0
+Oklahoma,Beaver,127,109,9,9,21000.0
+Utah,Washington,127,7,119,1,7242000.0
+Iowa,Johnson,126,92,20,14,1500000.0
+South Carolina,Orangeburg,126,36,62,28,1260540.0
+Arizona,Pinal,126,27,94,5,11403500.0
+Illinois,Peoria,126,99,17,10,4635000.0
+Alabama,Jefferson,125,50,56,19,5000000.0
+Oklahoma,Okmulgee,125,65,44,16,6300000.0
+Illinois,Kane,125,82,20,23,515000.0
+Illinois,Tazewell,125,88,19,18,675000.0
+Missouri,Lawrence,125,49,65,11,121180000.0
+Minnesota,Dakota,125,107,5,13,2351000.0
+Alabama,Morgan,125,42,71,12,15000.0
+Montana,Valley,125,78,41,6,0.0
+Connecticut,Hartford,124,27,94,3,10162300.0
+Alabama,Baldwin,124,38,61,25,1345000.0
+South Dakota,Codington,124,54,65,5,621700.0
+New York,Steuben,124,18,105,1,99708000.0
+Virginia,Augusta,124,22,100,2,375000.0
+Oklahoma,Carter,124,95,17,12,21667000.0
+Illinois,Winnebago,123,70,42,11,3530000.0
+Missouri,Stone,123,68,47,8,2912000.0
+South Dakota,Oglala Lakota,123,106,15,2,607000.0
+Texas,Ochiltree,123,97,9,17,1383000.0
+South Dakota,Fall River,122,117,4,1,277000.0
+Texas,Howard,122,85,33,4,418100.0
+South Dakota,Harding,122,113,5,4,100000.0
+Minnesota,Olmsted,121,93,18,10,10466000.0
+Wisconsin,Grant,121,46,68,7,3941000.0
+Delaware,New Castle,121,19,97,5,3740000.0
+Texas,Kerr,121,99,22,0,200010000.0
+Texas,Montague,121,96,16,9,7210000.0
+Nebraska,Keith,121,105,6,10,6254000.0
+Nebraska,Dodge,121,83,31,7,1150000.0
+Texas,Donley,120,103,7,10,441000.0
+Ohio,Cuyahoga,120,60,54,6,37634000.0
+Florida,Leon,120,21,74,25,346486000.0
+Oklahoma,Beckham,120,99,11,10,25082000.0
+Pennsylvania,Bucks,119,35,72,12,50210000.0
+Minnesota,Polk,119,87,12,20,6803000.0
+North Dakota,Morton,119,108,3,8,5725000.0
+Kansas,Wallace,119,100,7,12,60000.0
+Arizona,Cochise,119,33,83,3,4285500.0
+California,Los Angeles,119,6,107,6,0.0
+Illinois,Champaign,119,78,26,15,6949000.0
+New York,Albany,119,27,92,0,633000.0
+Kansas,Sheridan,119,103,5,11,188100.0
+Mississippi,Harrison,118,29,55,34,54095000.0
+Kansas,Reno,117,94,14,9,240900.0
+Texas,Mcculloch,117,100,11,6,153000.0
+Missouri,Shannon,117,37,72,8,14273700.0
+Minnesota,Cass,117,107,3,7,150000.0
+New Mexico,Curry,117,90,18,9,1154000.0
+Texas,Rusk,117,62,37,18,2215000.0
+Texas,Deaf Smith,116,102,10,4,134000.0
+South Dakota,Butte,116,106,7,3,796000.0
+Texas,Comal,116,78,32,6,1650000.0
+Texas,Hidalgo,115,58,54,3,166181000.0
+Iowa,Warren,115,91,13,11,20757500.0
+Nebraska,Holt,115,103,10,2,652000.0
+Iowa,O'Brien,115,56,55,4,2890000.0
+Indiana,Ripley,114,12,93,9,867000.0
+Massachusetts,Hampden,114,50,63,1,265000.0
+Maine,Oxford,114,17,94,3,13384000.0
+Minnesota,Lyon,113,67,44,2,1300000.0
+New Mexico,Bernalillo,113,77,31,5,4591000.0
+North Carolina,Guilford,113,41,66,6,85630000.0
+Ohio,Montgomery,113,48,55,10,502397500.0
+Ohio,Athens,113,23,88,2,224500.0
+South Dakota,Perkins,113,106,4,3,355000.0
+Louisiana,Ouachita,113,51,52,10,285990000.0
+Arkansas,Craighead,113,62,32,19,312033000.0
+Illinois,Lake,112,62,45,5,12800000.0
+Texas,Scurry,112,78,29,5,1189100.0
+Louisiana,Natchitoches,112,45,46,21,1218500.0
+Nebraska,Buffalo,112,97,10,5,58325000.0
+West Virginia,Berkeley,112,27,82,3,175000.0
+North Dakota,Burleigh,112,94,6,12,74625000.0
+Kentucky,Christian,112,30,56,26,10664000.0
+Pennsylvania,Lawrence,112,44,67,1,1180000.0
+Oklahoma,Cimarron,112,89,5,18,9000.0
+California,Humboldt,111,21,89,1,65950.0
+North Carolina,Brunswick,111,20,70,21,7756400.0
+Alabama,Colbert,111,23,72,16,608000.0
+Texas,Cooke,111,92,13,6,16605000.0
+Oklahoma,Ottawa,111,53,45,13,1555000.0
+Indiana,Posey,111,11,90,10,2451000.0
+Virginia,Rockingham,111,16,94,1,30000.0
+Arkansas,Lawrence,111,21,87,3,7175000.0
+Wisconsin,La Crosse,111,64,43,4,56576200.0
+Mississippi,Forrest,110,21,72,17,17217000.0
+Texas,Cameron,110,32,69,9,310938500.0
+Illinois,Madison,110,91,6,13,29945000.0
+Texas,Jones,110,93,8,9,6250000.0
+California,Merced,110,1,109,0,10017000.0
+Illinois,Fulton,110,82,14,14,2610000.0
+West Virginia,Putnam,109,45,61,3,4580250.0
+Wisconsin,Vernon,109,35,68,6,79502000.0
+Colorado,Prowers,109,94,7,8,20000.0
+Nebraska,Dundy,109,89,10,10,291000.0
+Texas,Hill,108,80,17,11,1498000.0
+Alabama,Cullman,108,42,44,22,25000.0
+Arkansas,Faulkner,108,57,44,7,2121000.0
+Kansas,Sumner,108,79,22,7,2345900.0
+American Samoa,Tutuila,108,0,106,2,57820000.0
+Missouri,St. Charles,108,88,11,9,38787000.0
+Mississippi,Madison,108,31,50,27,7428100.0
+Texas,Cherokee,108,47,47,14,12181000.0
+Minnesota,Beltrami,107,86,4,17,2305000.0
+Missouri,Dent,107,45,55,7,16805000.0
+Missouri,Platte,107,85,21,1,100000.0
+Oklahoma,Mayes,107,64,16,27,11553000.0
+New Jersey,Monmouth,107,32,67,8,5115010.0
+Illinois,Jackson,107,43,58,6,8172000.0
+Nebraska,Red Willow,107,96,7,4,5500.0
+Iowa,Webster,107,51,38,18,3021500.0
+Wisconsin,Milwaukee,107,74,31,2,66239000.0
+Kansas,Ellsworth,107,87,16,4,5600.0
+Florida,Brevard,107,56,25,26,150848500.0
+Maryland,Carroll,107,16,82,9,12409000.0
+Wyoming,Weston,106,98,5,3,40000.0
+Nebraska,Platte,106,77,21,8,557000.0
+Illinois,Mclean,106,69,19,18,12336000.0
+Texas,Hays,106,63,38,5,10715000.0
+Texas,Harrison,106,48,37,21,1601500.0
+Tennessee,Knox,106,42,63,1,36239000.0
+Arkansas,Crawford,106,48,39,19,20250000.0
+Massachusetts,Bristol,106,19,82,5,344500.0
+Oklahoma,Lincoln,106,72,19,15,714000.0
+Iowa,Pottawattamie,106,72,17,17,625000.0
+Alabama,Jackson,106,23,55,28,12032300.0
+Missouri,Camden,105,75,26,4,63900000.0
+Kansas,Pawnee,105,94,7,4,0.0
+Missouri,Phelps,105,59,36,10,5641000.0
+Texas,Nacogdoches,105,50,43,12,1685000.0
+Texas,Hansford,105,88,4,13,192000.0
+Minnesota,Wabasha,105,59,36,10,2418000.0
+New Mexico,Colfax,105,79,21,5,2177000.0
+Virginia,Frederick,104,20,84,0,0.0
+Texas,Gregg,104,45,52,7,1106000.0
+Kansas,Montgomery,104,63,37,4,160900.0
+Georgia,Lowndes,104,12,81,11,537493000.0
+Oklahoma,Payne,104,79,16,9,260000.0
+Pennsylvania,Lancaster,104,33,64,7,8500000.0
+Puerto Rico,Naguabo,104,0,104,0,137100.0
+Nebraska,Clay,103,92,3,8,11010000.0
+Kansas,Wichita,103,91,5,7,220.0
+Virginia,Greene,103,8,95,0,4777000.0
+Arkansas,Lonoke,103,55,38,10,4720000.0
+Texas,Brown,103,90,9,4,2405000.0
+Iowa,Lyon,103,35,62,6,15695000.0
+Kansas,Edwards,102,88,2,12,0.0
+Kansas,Decatur,102,90,8,4,2000.0
+Texas,Jefferson,102,28,61,13,3577663000.0
+Missouri,Barton,102,37,57,8,4615000.0
+Indiana,Marion,102,64,35,3,1977250.0
+Ohio,Greene,102,41,53,8,51364500.0
+Oklahoma,Pittsburg,102,66,22,14,3265000.0
+Virginia,Fauquier,102,13,85,4,0.0
+Wisconsin,Jefferson,102,51,33,18,1538000.0
+Nebraska,Furnas,102,97,2,3,6000000.0
+Texas,Val Verde,102,82,16,4,10050000.0
+Iowa,Woodbury,101,62,31,8,11880000.0
+Iowa,Benton,101,69,12,20,125000.0
+Texas,Gillespie,101,81,19,1,115000.0
+Tennessee,Lawrence,101,26,62,13,1487000.0
+Maryland,Howard,101,13,81,7,36155000.0
+Texas,Coleman,101,88,9,4,500000.0
+Texas,Coryell,101,79,18,4,1651000.0
+New York,Herkimer,100,19,77,4,3620500.0
+Texas,Hartley,100,96,2,2,36000.0
+South Dakota,Spink,100,51,43,6,1280000.0
+Kansas,Russell,100,83,12,5,100600.0
+Virginia,Halifax,100,32,64,4,4460630.0
+Kentucky,Muhlenberg,100,19,74,7,3208000.0
+Nebraska,Morrill,100,88,6,6,2600000.0
+Arkansas,Ouachita,100,20,75,5,35000.0
+Connecticut,Fairfield,100,8,90,2,5575000.0
+New York,Ulster,100,28,69,3,335500.0
+Wisconsin,Marathon,100,79,7,14,8425500.0
+Wyoming,Niobrara,100,94,1,5,0.0
+Illinois,Rock Island,100,34,49,17,967000.0
+Oklahoma,Logan,100,77,14,9,310000.0
+Nebraska,Cass,99,65,21,13,15125000.0
+Pennsylvania,Beaver,99,31,59,9,1270500.0
+Missouri,Vernon,99,61,33,5,28155000.0
+Ohio,Butler,99,38,52,9,1527500.0
+Kansas,Norton,98,90,6,2,71000.0
+Massachusetts,Norfolk,98,9,85,4,30077200.0
+New Hampshire,Cheshire,98,46,47,5,2131000.0
+Kansas,Cherokee,98,70,21,7,2469000.0
+New Jersey,Camden,98,30,65,3,80000.0
+Oklahoma,Roger Mills,98,79,5,14,386000.0
+Texas,Angelina,98,30,62,6,190000.0
+New York,Saratoga,98,53,40,5,458500.0
+Virginia,Madison,98,6,92,0,107000.0
+Virginia,Nelson,98,14,83,1,530000.0
+Nebraska,Dawson,98,85,7,6,61187000.0
+Nebraska,Saunders,98,67,21,10,54720000.0
+Illinois,White,98,10,82,6,2498000.0
+California,Imperial,98,0,98,0,37954500.0
+Missouri,Cass,98,66,28,4,10000.0
+Maryland,Washington,98,31,66,1,4700000.0
+Utah,Kane,97,7,90,0,279000.0
+Texas,Brazos,97,81,10,6,23440800.0
+Illinois,Vermilion,97,70,13,14,7485000.0
+Kentucky,Daviess,97,39,49,9,4293000.0
+Missouri,Jefferson,97,72,15,10,1180000.0
+Texas,Hunt,97,78,17,2,838000.0
+South Carolina,Greenville,97,69,18,10,9490500.0
+Oklahoma,Murray,97,65,20,12,14204000.0
+South Dakota,Moody,97,20,77,0,1434000.0
+Virginia,Shenandoah,97,8,89,0,0.0
+Texas,Llano,97,71,26,0,71001000.0
+Kansas,Harvey,97,77,16,4,30800.0
+Nebraska,Adams,97,77,9,11,43189000.0
+Nebraska,Dawes,97,92,2,3,0.0
+Iowa,Dubuque,96,50,36,10,509000.0
+Texas,Uvalde,96,49,47,0,102000.0
+Connecticut,Litchfield,96,17,68,11,1936500.0
+California,San Francisco,96,10,86,0,80.0
+Ohio,Meigs,96,18,76,2,1003250.0
+South Dakota,Yankton,96,47,49,0,31747000.0
+Alabama,Houston,96,12,49,35,11327000.0
+Rhode Island,Providence,96,10,80,6,2440500.0
+Virginia,Orange,96,14,80,2,0.0
+Texas,Clay,96,76,7,13,122000.0
+New York,Erie,95,35,51,9,559000.0
+Arkansas,Clark,95,25,65,5,0.0
+Missouri,Dallas,95,22,66,7,934250.0
+Pennsylvania,Lehigh,95,38,51,6,20006000.0
+Nebraska,Box Butte,95,90,2,3,1000000.0
+New Mexico,Santa Fe,95,60,32,3,3059500.0
+Kentucky,Floyd,95,25,70,0,485500.0
+Ohio,Licking,95,41,48,6,1936000.0
+Kentucky,Mccracken,95,20,67,8,5076000.0
+Illinois,Christian,95,54,17,24,122463000.0
+Michigan,Marquette,94,75,17,2,11297500.0
+Texas,Fannin,94,68,16,10,2177000.0
+Massachusetts,Essex,94,16,78,0,350900.0
+South Dakota,Beadle,94,52,39,3,170000.0
+Texas,Kaufman,94,62,28,4,4126000.0
+Pennsylvania,Fayette,94,24,61,9,8209000.0
+Minnesota,Stearns,94,80,3,11,2565000.0
+California,Butte,94,3,89,2,551828000.0
+Virginia,Culpeper,94,10,83,1,400000.0
+Kansas,Ottawa,94,74,14,6,4790000.0
+Wisconsin,Sawyer,93,76,17,0,310250.0
+New Mexico,Roosevelt,93,67,15,11,6040000.0
+Kansas,Scott,93,81,0,12,150000.0
+Tennessee,Sumner,93,43,41,9,23950000.0
+Florida,Walton,93,15,53,25,12030000.0
+Ohio,Clermont,93,28,57,8,3910000.0
+Mississippi,Lee,93,43,32,18,112687500.0
+Tennessee,Wilson,93,40,40,13,412465000.0
+South Dakota,Hamlin,92,49,38,5,201900.0
+Oklahoma,Kiowa,92,66,10,16,273000.0
+Kansas,Riley,92,73,12,7,27290000.0
+Texas,Limestone,92,51,32,9,1155000.0
+Minnesota,Pipestone,92,24,64,4,1299000.0
+Georgia,Fulton,92,34,48,10,8008500.0
+Minnesota,Aitkin,92,72,14,6,558000.0
+Indiana,Vanderburgh,92,17,65,10,2304000.0
+Illinois,Alexander,92,10,81,1,11000000.0
+Colorado,Las Animas,92,80,4,8,0.0
+Missouri,Benton,92,39,47,6,1065000.0
+Iowa,Cerro Gordo,92,58,25,9,1237000.0
+South Dakota,Turner,91,45,44,2,8450000.0
+Minnesota,Pine,91,74,15,2,0.0
+Mississippi,Jackson,91,25,31,35,12488000.0
+West Virginia,Harrison,91,12,78,1,2561900.0
+Illinois,Mcdonough,91,58,17,16,222000.0
+West Virginia,Wood,91,33,57,1,315100.0
+Iowa,Clinton,91,43,29,19,195000.0
+Iowa,Marion,91,64,9,18,120522000.0
+Kansas,Rice,91,73,14,4,146200.0
+South Carolina,Berkeley,90,66,18,6,55000.0
+Missouri,Cape Girardeau,90,24,59,7,5275000.0
+Arizona,La Paz,90,1,88,1,928000.0
+Kansas,Pratt,90,75,8,7,2505000.0
+Texas,Moore,90,83,2,5,200000.0
+Arkansas,Franklin,90,51,24,15,1625000.0
+Mississippi,Lauderdale,90,22,45,23,8082000.0
+Oklahoma,Cherokee,90,41,28,21,3190000.0
+Kansas,Trego,90,86,3,1,0.0
+Virginia,Henrico,90,36,54,0,13540.0
+Nebraska,Kimball,90,71,6,13,0.0
+Kansas,Rush,90,78,7,5,0.0
+North Carolina,Burke,90,54,33,3,42424000.0
+Minnesota,Wright,90,83,4,3,435000.0
+Illinois,St. Clair,90,56,17,17,18650500.0
+Oklahoma,Custer,90,66,10,14,758000.0
+Kansas,Graham,89,67,18,4,728000.0
+Montana,Powder River,89,82,7,0,2000.0
+Virginia,Stafford,89,22,65,2,258000.0
+Alabama,Limestone,89,45,23,21,3328000.0
+West Virginia,Cabell,89,26,61,2,1758500.0
+New Hampshire,Hillsborough,89,37,52,0,1405000.0
+Alabama,Marshall,89,43,31,15,2000.0
+Florida,Jackson,89,10,63,16,512965000.0
+Nebraska,Sarpy,89,66,18,5,420025000.0
+Ohio,Fairfield,89,33,52,4,1266000.0
+Oklahoma,Creek,89,65,11,13,3980000.0
+Ohio,Hocking,89,16,70,3,2221000.0
+Nebraska,Chase,88,77,5,6,455000.0
+Pennsylvania,Luzerne,88,22,63,3,12897000.0
+Texas,Dallam,88,75,3,10,74000.0
+Maine,Aroostook,88,51,35,2,3800000.0
+Tennessee,Madison,88,52,30,6,2116000.0
+Texas,Lipscomb,88,75,5,8,53000.0
+Montana,Cascade,88,68,20,0,110000.0
+Kansas,Grant,88,78,7,3,0.0
+New York,Washington,87,4,82,1,32315000.0
+South Carolina,Lancaster,87,44,36,7,47440.0
+Arkansas,Randolph,87,11,67,9,18590000.0
+Mississippi,Yazoo,87,17,40,30,6725000.0
+South Carolina,Dorchester,87,41,31,15,1138000.0
+Colorado,Baca,87,78,2,7,2000.0
+California,Marin,87,11,76,0,550.0
+Texas,Henderson,86,70,9,7,4756500.0
+Pennsylvania,Indiana,86,40,39,7,216000.0
+South Dakota,Lyman,86,67,16,3,25500.0
+Maryland,Dorchester,86,14,65,7,1614000.0
+Louisiana,Union,86,50,17,19,7191000.0
+Missouri,Johnson,86,61,23,2,0.0
+Indiana,Pike,86,11,71,4,1830000.0
+Pennsylvania,Mercer,86,45,37,4,174000.0
+Kansas,Hodgeman,86,72,3,11,60000.0
+Kansas,Pottawatomie,86,74,3,9,250.0
+Kansas,Marshall,86,60,15,11,20000.0
+Florida,St. Johns,86,35,32,19,2000095000.0
+Texas,Webb,86,49,36,1,1768000.0
+Texas,Bastrop,86,51,28,7,1660000.0
+Minnesota,Washington,86,80,1,5,1850000.0
+Texas,Wheeler,86,71,6,9,110000.0
+New York,Oneida,85,24,50,11,14488000.0
+Texas,Bosque,85,62,18,5,1362000.0
+Texas,Hockley,85,52,16,17,3750000.0
+West Virginia,Marion,85,12,72,1,1325500.0
+Texas,Mitchell,85,63,20,2,44400.0
+Virginia,Campbell,85,22,58,5,6930300.0
+Oklahoma,Woodward,85,75,5,5,91600.0
+Missouri,Pulaski,85,45,37,3,8807000.0
+Florida,Flagler,85,39,35,11,73000500.0
+West Virginia,Greenbrier,85,12,72,1,41113560.0
+New York,Nassau,85,8,76,1,8260000.0
+New Mexico,Quay,85,75,7,3,545000.0
+North Carolina,New Hanover,85,12,57,16,6400200.0
+Kansas,Hamilton,85,74,1,10,0.0
+Virginia,Pittsylvania,85,43,36,6,5065930.0
+Kansas,Morton,85,80,3,2,80000.0
+Louisiana,De Soto,85,24,32,29,3730000.0
+Wisconsin,Dodge,84,55,18,11,7562000.0
+Kansas,Osage,84,65,10,9,0.0
+Puerto Rico,Guaynabo,84,1,83,0,1357950.0
+Ohio,Brown,84,18,56,10,1118000.0
+South Dakota,Jackson,84,71,12,1,450000.0
+Illinois,Williamson,84,46,27,11,36083000.0
+Texas,Runnels,84,72,7,5,6000000.0
+Louisiana,Sabine,84,33,33,18,2011000.0
+California,Mariposa,84,3,80,1,2022000.0
+Kansas,Clark,83,77,3,3,0.0
+New Mexico,Mora,83,39,40,4,2793000.0
+Louisiana,Rapides,83,25,26,32,616125000.0
+New Hampshire,Carroll,83,35,47,1,1332000.0
+Kentucky,Calloway,83,32,40,11,5469000.0
+North Carolina,Rockingham,83,34,44,5,10272000.0
+Illinois,La Salle,83,40,22,21,1202000.0
+Iowa,Butler,83,40,39,4,2278000.0
+Illinois,Macon,83,52,13,18,518000.0
+Arkansas,Garland,83,51,27,5,5000000.0
+Missouri,Hickory,83,33,48,2,1251000.0
+Pennsylvania,Lackawanna,83,20,57,6,14463000.0
+South Dakota,Hand,83,61,14,8,1170500.0
+Arkansas,Union,83,44,30,9,2385000.0
+Texas,El Paso,83,37,45,1,301120000.0
+Kansas,Lincoln,83,68,13,2,700.0
+Texas,Lamar,82,59,14,9,5745000.0
+Massachusetts,Barnstable,82,4,53,25,5319600.0
+Ohio,Scioto,82,8,74,0,246000.0
+Missouri,Morgan,82,32,42,8,940000.0
+Kansas,Finney,82,69,7,6,0.0
+Ohio,Belmont,82,32,47,3,1188000.0
+Wisconsin,Walworth,82,50,12,20,12140000.0
+Minnesota,Cottonwood,82,39,34,9,22882000.0
+Nebraska,Garden,82,74,4,4,750000.0
+North Carolina,Surry,82,28,51,3,1541500.0
+New Jersey,Union,82,3,78,1,117000.0
+Mississippi,Lamar,82,25,37,20,6747000.0
+Iowa,Jasper,82,55,12,15,51009000.0
+West Virginia,Monongalia,82,34,44,4,213000.0
+Oklahoma,Wagoner,82,45,17,20,5690000.0
+New Hampshire,Coos,82,26,55,1,1813000.0
+Illinois,Franklin,81,29,48,4,1162000.0
+Alabama,Dekalb,81,25,39,17,3000.0
+Maryland,Charles,81,25,53,3,175000.0
+Nebraska,Jefferson,81,71,8,2,5000.0
+Texas,Bowie,81,48,22,11,10205000.0
+Texas,Hood,81,65,12,4,4733500.0
+Minnesota,Murray,81,41,30,10,3558000.0
+Kansas,Gray,81,72,3,6,70000.0
+Minnesota,Jackson,81,55,26,0,1845000.0
+Florida,Volusia,80,43,19,18,1434948000.0
+Oklahoma,Kingfisher,80,55,11,14,45000.0
+Ohio,Ross,80,11,64,5,617000.0
+Connecticut,New Haven,80,8,66,6,1385000.0
+Mississippi,Simpson,80,20,25,35,4074000.0
+West Virginia,Mercer,80,18,62,0,3493000.0
+Texas,Navarro,80,47,23,10,2016000.0
+Massachusetts,Suffolk,80,4,73,3,765000.0
+South Dakota,Tripp,80,62,14,4,67000.0
+Mississippi,Lincoln,80,31,19,30,4270500.0
+Mississippi,Lowndes,80,36,29,15,9006000.0
+Louisiana,Jefferson,80,10,58,12,90897000.0
+Wisconsin,St. Croix,80,75,2,3,8175000.0
+Kentucky,Pike,80,27,53,0,743120.0
+Texas,Wood,80,51,24,5,506000.0
+Oklahoma,Sequoyah,80,36,27,17,1055000.0
+South Dakota,Dewey,79,70,9,0,198800.0
+Kansas,Allen,79,50,28,1,701500.0
+Kansas,Crawford,79,45,30,4,1337000.0
+Kentucky,Warren,79,37,32,10,750000.0
+New Jersey,Passaic,79,6,73,0,3200000.0
+Wisconsin,Outagamie,79,61,5,13,5554000.0
+Iowa,Lee,79,45,24,10,0.0
+Virginia,Franklin,79,25,52,2,3378900.0
+Kansas,Douglas,79,45,30,4,591000.0
+Mississippi,Scott,79,29,24,26,2122000.0
+South Dakota,Todd,79,70,5,4,1610000.0
+Iowa,Floyd,79,41,27,11,4375000.0
+Iowa,Dallas,79,48,22,9,752000.0
+Illinois,Bureau,79,48,16,15,8000.0
+Minnesota,Anoka,79,70,4,5,1675000.0
+Missouri,Franklin,78,57,11,10,1743000.0
+Arkansas,Chicot,78,18,46,14,7509000.0
+Tennessee,Maury,78,26,45,7,11539900.0
+Tennessee,Rutherford,78,36,31,11,6320000.0
+South Dakota,Sanborn,78,17,60,1,494000.0
+Minnesota,Rice,78,50,6,22,3425000.0
+Texas,Palo Pinto,78,53,15,10,1633000.0
+West Virginia,Lincoln,78,6,71,1,1694250.0
+Arkansas,Perry,78,15,60,3,5000.0
+Texas,Archer,78,64,9,5,12000.0
+New Jersey,Essex,78,2,75,1,330000.0
+New Mexico,Sandoval,78,40,32,6,3095000.0
+Kansas,Geary,78,68,6,4,0.0
+Oklahoma,Mcintosh,78,53,12,13,1455000.0
+North Dakota,Grant,78,76,1,1,1308000.0
+Kansas,Coffey,78,59,16,3,102000.0
+Nebraska,Frontier,78,62,7,9,113000.0
+Mississippi,Newton,78,35,27,16,3134000.0
+Florida,Holmes,78,1,63,14,9418000.0
+Oklahoma,Muskogee,78,37,24,17,2027000.0
+Nebraska,Perkins,78,69,1,8,1000.0
+New Jersey,Mercer,78,23,46,9,53040010.0
+Indiana,Allen,77,63,9,5,358500.0
+Utah,Garfield,77,6,68,3,443000.0
+Indiana,Lake,77,27,33,17,14000000.0
+Kentucky,Graves,77,27,32,18,9676000.0
+Ohio,Tuscarawas,77,45,30,2,70000.0
+New Jersey,Ocean,77,29,40,8,71010.0
+Arkansas,Yell,77,13,60,4,200000.0
+Minnesota,Mower,77,37,34,6,2192500.0
+Wisconsin,Crawford,77,12,64,1,16753000.0
+California,Orange,77,2,75,0,1185500.0
+Missouri,Grundy,77,53,16,8,0.0
+North Carolina,Mcdowell,77,36,39,2,106954000.0
+North Carolina,Pitt,77,30,43,4,50000.0
+Illinois,Whiteside,77,39,20,18,553000.0
+Pennsylvania,Susquehanna,77,14,60,3,3082000.0
+South Dakota,Edmunds,77,67,7,3,39600.0
+South Carolina,Chesterfield,77,41,24,12,64960.0
+Arizona,Navajo,77,13,59,5,30000.0
+Tennessee,Dickson,76,36,31,9,7824610.0
+Ohio,Vinton,76,2,68,6,356100.0
+Kansas,Washington,76,69,4,3,10000.0
+Maryland,Allegany,76,14,62,0,200000.0
+Texas,Galveston,76,18,46,12,10001945510.0
+Kansas,Kearny,76,68,3,5,0.0
+Illinois,Kankakee,76,35,21,20,1100000.0
+Colorado,Kiowa,76,60,3,13,20000.0
+Missouri,Wayne,76,30,41,5,11145000.0
+Colorado,Phillips,76,62,2,12,50000.0
+Louisiana,Webster,76,40,20,16,2745000.0
+Iowa,Muscatine,76,44,25,7,252000.0
+Nebraska,Hamilton,76,62,4,10,6401000.0
+Nebraska,Gage,76,53,14,9,8000.0
+Vermont,Windham,76,4,71,1,6426000.0
+Texas,Sherman,76,69,2,5,10000.0
+Florida,Washington,76,5,55,16,281163000.0
+Pennsylvania,Northampton,76,21,52,3,50290000.0
+Puerto Rico,Carolina,76,0,76,0,750324200.0
+Mississippi,Leake,75,24,24,27,3293500.0
+California,Santa Cruz,75,15,57,3,5000100.0
+South Dakota,Corson,75,52,21,2,0.0
+Illinois,Hancock,75,55,15,5,0.0
+Kansas,Jefferson,75,45,28,2,30000.0
+New Jersey,Somerset,75,13,60,2,100045010.0
+Virginia,Bedford,75,44,24,7,1589440.0
+Texas,Bandera,75,50,25,0,0.0
+Wisconsin,Clark,75,37,17,21,4744000.0
+North Dakota,Stark,75,71,1,3,2055000.0
+Kansas,Stanton,75,63,7,5,0.0
+Kentucky,Hardin,75,31,32,12,1888000.0
+South Dakota,Davison,74,29,45,0,26655000.0
+Minnesota,Goodhue,74,56,2,16,3720000.0
+Ohio,Lawrence,74,18,52,4,427500.0
+Virginia,Virginia Beach (C),74,13,59,2,29000000.0
+North Carolina,Mecklenburg,74,34,30,10,31473000.0
+Ohio,Gallia,74,15,58,1,168750.0
+Texas,Jack,74,55,10,9,656500.0
+Texas,Brewster,74,57,13,4,100000.0
+North Carolina,Pender,74,16,41,17,6961050.0
+Wisconsin,Columbia,74,28,42,4,943760.0
+Indiana,Warrick,74,12,52,10,2898000.0
+Missouri,Butler,74,28,34,12,20327000.0
+Tennessee,Robertson,74,39,26,9,19880000.0
+South Carolina,Spartanburg,74,49,15,10,12286000.0
+New Jersey,Morris,73,31,39,3,10100010.0
+Utah,Wayne,73,2,71,0,3126000.0
+Wyoming,Sheridan,73,70,3,0,125000.0
+Wisconsin,Juneau,73,33,36,4,32972000.0
+Wisconsin,Jackson,73,28,39,6,1930000.0
+Mississippi,Marion,73,18,34,21,30606000.0
+Mississippi,Warren,73,17,29,27,6031000.0
+Kansas,Phillips,73,67,6,0,2815000.0
+West Virginia,Wayne,73,10,60,3,306650.0
+Kansas,Osborne,73,62,7,4,4517000.0
+Missouri,Carter,73,36,31,6,12837000.0
+Delaware,Sussex,73,17,47,9,0.0
+Pennsylvania,York,73,28,40,5,255000.0
+Oklahoma,Washington,73,54,14,5,15590000.0
+Texas,Callahan,73,61,9,3,1060000.0
+Kansas,Ness,73,64,3,6,0.0
+Illinois,Kendall,73,40,16,17,300000.0
+Colorado,Otero,72,47,19,6,0.0
+South Dakota,Haakon,72,60,11,1,100000.0
+California,Shasta,72,8,64,0,7324500.0
+Illinois,Stephenson,72,40,22,10,7000000.0
+North Carolina,Watauga,72,8,61,3,253098000.0
+North Dakota,Stutsman,72,61,3,8,12290000.0
+Georgia,Chatham,72,30,34,8,82000.0
+Indiana,Hamilton,72,52,17,3,1148500.0
+North Dakota,Barnes,72,61,1,10,30000.0
+Puerto Rico,Bayamon,71,0,70,1,750449500.0
+Hawaii,Honolulu,71,1,70,0,1025661000.0
+Iowa,Des Moines,71,29,36,6,108000.0
+Texas,Hall,71,54,8,9,6550500.0
+Pennsylvania,Armstrong,71,32,37,2,300000.0
+New York,Queens,71,3,67,1,60010000.0
+Louisiana,St. Charles,71,11,48,12,615972000.0
+Nebraska,Hall,71,58,9,4,21735000.0
+North Carolina,Carteret,71,12,37,22,103180000.0
+North Carolina,Wilkes,71,29,35,7,5443500.0
+Oklahoma,Seminole,71,48,10,13,918000.0
+Kansas,Anderson,71,38,33,0,70000.0
+New York,Orange,71,9,59,3,10075000.0
+Ohio,Clinton,71,29,35,7,198000.0
+Florida,Pinellas,71,5,21,45,753365000.0
+Georgia,Thomas,71,19,37,15,7848000.0
+South Dakota,Gregory,71,59,7,5,9587000.0
+North Carolina,Orange,70,9,55,6,61131000.0
+Florida,Orange,70,45,11,14,333646100.0
+Ohio,Pickaway,70,15,48,7,3502000.0
+Ohio,Clark,70,15,40,15,2754000.0
+Mississippi,De Soto,70,37,28,5,6988000.0
+South Dakota,Mcpherson,70,57,11,2,121800.0
+Virginia,Richmond,70,7,61,2,3312000.0
+Virginia,Richmond (C),70,3,62,5,50000.0
+Pennsylvania,Jefferson,70,29,37,4,215000.0
+South Carolina,Aiken,70,44,14,12,43040490.0
+California,Tehama,70,13,52,5,14300000.0
+Montana,Fergus,70,62,8,0,236000.0
+Kansas,Wabaunsee,70,49,6,15,0.0
+North Dakota,Mchenry,70,62,1,7,310000.0
+Georgia,Dougherty,70,11,52,7,605173000.0
+Wyoming,Albany,70,45,16,9,91380.0
+Montana,Musselshell,70,63,7,0,0.0
+Montana,Roosevelt,70,55,15,0,0.0
+Montana,Dawson,70,61,8,1,0.0
+North Carolina,Bladen,69,18,42,9,5257500.0
+Oklahoma,Ellis,69,58,1,10,401000.0
+Nebraska,Thayer,69,57,9,3,2027000.0
+Virginia,Norfolk (C),69,10,59,0,19000000.0
+North Dakota,Ward,69,68,1,0,440000.0
+Kentucky,Union,69,9,48,12,16050000.0
+Kansas,Barber,69,58,6,5,0.0
+New Hampshire,Merrimack,69,27,40,2,120100.0
+Oklahoma,Okfuskee,69,44,9,16,1535000.0
+Texas,Hemphill,69,57,3,9,148000.0
+Montana,Custer,69,63,6,0,0.0
+Minnesota,Ramsey,69,64,4,1,750000.0
+Mississippi,Jefferson Davis,69,16,16,37,28332000.0
+Minnesota,Nobles,69,50,8,11,4451000.0
+Kansas,Greenwood,69,43,17,9,17590600.0
+Arkansas,Prairie,69,15,46,8,80000.0
+Wisconsin,Green,69,42,19,8,2624000.0
+Minnesota,Becker,68,61,3,4,24000.0
+Mississippi,Copiah,68,35,16,17,6142000.0
+Mississippi,Clarke,68,17,25,26,3598000.0
+North Dakota,Bottineau,68,64,0,4,1155000.0
+Illinois,Woodford,68,44,13,11,11520000.0
+Indiana,Clark,68,36,27,5,275000.0
+New Jersey,Hudson,68,0,67,1,0.0
+Montana,Carter,68,60,3,5,0.0
+Georgia,Worth,68,9,45,14,18003000.0
+New York,Allegany,68,7,58,3,514000.0
+North Carolina,Durham,68,15,46,7,13191000.0
+Wyoming,Converse,68,60,2,6,10000.0
+Wisconsin,Bayfield,68,36,32,0,2380000.0
+West Virginia,Jefferson,68,18,47,3,150000.0
+Arkansas,Ashley,68,17,37,14,7140000.0
+Kansas,Leavenworth,68,40,26,2,26000000.0
+Kansas,Seward,68,61,4,3,200000.0
+Iowa,Buchanan,68,38,18,12,2655000.0
+Ohio,Summit,67,41,21,5,7180000.0
+Kansas,Rooks,67,57,6,4,5372000.0
+Ohio,Muskingum,67,35,23,9,1843000.0
+Oklahoma,Bryan,67,51,9,7,510000.0
+Texas,Anderson,67,46,20,1,2217000.0
+South Carolina,Sumter,67,23,25,19,343130.0
+Pennsylvania,Clarion,67,26,33,8,412000.0
+Oklahoma,Major,67,51,5,11,112000.0
+Oklahoma,Love,67,48,7,12,150435000.0
+Minnesota,Hubbard,67,62,1,4,152000.0
+Minnesota,Marshall,67,51,10,6,439600.0
+Nebraska,Saline,67,48,14,5,325000.0
+Louisiana,Tangipahoa,67,16,24,27,1052123000.0
+New York,Warren,67,7,56,4,4892500.0
+Texas,Hamilton,67,54,12,1,568250.0
+South Dakota,Hughes,67,54,13,0,184600.0
+Texas,Van Zandt,67,39,12,16,4285000.0
+Arkansas,Hempstead,67,31,30,6,1200000.0
+South Carolina,Beaufort,67,23,26,18,1470000.0
+Arkansas,Jefferson,67,29,31,7,1208000.0
+Arkansas,Greene,67,39,15,13,4621000.0
+North Dakota,Williams,66,63,1,2,2560000.0
+Colorado,Huerfano,66,12,53,1,5000.0
+Kansas,Mitchell,66,60,2,4,3130000.0
+North Dakota,Mckenzie,66,58,1,7,8047000.0
+Florida,Seminole,66,47,9,10,819490000.0
+Florida,Coastal Miami-Dade County,66,0,61,5,0.0
+Kentucky,Breathitt,66,23,43,0,183000.0
+Kentucky,Ballard,66,19,40,7,2024000.0
+Oklahoma,Adair,66,15,32,19,1345000.0
+Mississippi,Smith,66,11,22,33,4705000.0
+Nebraska,Brown,66,52,7,7,201000.0
+New Mexico,Torrance,66,47,12,7,1532000.0
+Missouri,Oregon,66,23,39,4,5557000.0
+Nebraska,Webster,66,55,5,6,16780000.0
+Louisiana,Livingston,66,25,25,16,2232927000.0
+Minnesota,Blue Earth,66,50,9,7,885000.0
+Michigan,Wayne,66,21,35,10,211010000.0
+Iowa,Van Buren,66,54,7,5,0.0
+Texas,Erath,66,54,8,4,2487000.0
+Iowa,Cherokee,66,37,21,8,5660000.0
+Texas,Gaines,66,45,18,3,126500.0
+Tennessee,Gibson,66,31,26,9,5870000.0
+Kansas,Franklin,66,47,17,2,280000.0
+California,Mendocino,65,0,64,1,1500000.0
+Texas,Haskell,65,43,16,6,2400000.0
+Iowa,Boone,65,41,13,11,241500.0
+Texas,Kimble,65,46,16,3,19100000.0
+Alabama,Clarke,65,25,25,15,2510000.0
+Texas,San Patricio,65,13,48,4,503335000.0
+Texas,Medina,65,54,10,1,1555000.0
+South Dakota,Bennett,65,53,5,7,1380000.0
+Kansas,Labette,65,41,21,3,600.0
+Oklahoma,Greer,65,48,7,10,605000.0
+Ohio,Noble,65,16,49,0,108000.0
+Illinois,Jo Daviess,65,33,25,7,6745000.0
+Minnesota,Carlton,65,51,11,3,100000.0
+New Jersey,Gloucester,65,12,47,6,5030010.0
+Missouri,Henry,65,47,11,7,0.0
+Oklahoma,Delaware,65,40,6,19,2420000.0
+Ohio,Logan,65,15,48,2,6134000.0
+North Dakota,Mclean,65,55,1,9,640000.0
+North Dakota,Mountrail,65,61,1,3,410000.0
+Nebraska,Seward,65,54,8,3,0.0
+Nebraska,Nuckolls,65,53,5,7,3407000.0
+Montana,Rosebud,64,63,1,0,0.0
+Montana,Phillips,64,46,16,2,0.0
+New York,Monroe,64,19,44,1,3753500.0
+North Carolina,Columbus,64,14,38,12,94391250.0
+Kentucky,Pulaski,64,27,35,2,90500.0
+Texas,Nolan,64,54,9,1,3100000.0
+Iowa,Harrison,64,43,8,13,2925000.0
+Indiana,St. Joseph,64,44,11,9,6311000.0
+Ohio,Adams,64,7,55,2,1801000.0
+California,San Mateo,64,9,55,0,40.0
+Kentucky,Marshall,64,22,32,10,5798000.0
+New York,Delaware,64,16,46,2,6310000.0
+Massachusetts,Hampshire,64,37,26,1,290000.0
+North Carolina,Caldwell,64,30,31,3,40718500.0
+Alabama,Shelby,63,19,26,18,0.0
+Montana,Stillwater,63,54,9,0,804000.0
+Nebraska,Sioux,63,59,1,3,6000.0
+Georgia,Turner,63,23,31,9,17603000.0
+Illinois,Effingham,63,27,26,10,190000.0
+North Dakota,Benson,63,54,3,6,621000.0
+New York,Oswego,63,28,33,2,4564500.0
+North Carolina,Cumberland,63,16,41,6,102727000.0
+Mississippi,Winston,63,25,21,17,4509100.0
+Texas,Oldham,63,55,2,6,24000.0
+Iowa,Kossuth,63,36,23,4,896000.0
+Florida,Escambia,63,20,32,11,27160000.0
+Kansas,Greeley,63,44,9,10,3000.0
+Minnesota,Fillmore,63,37,12,14,3830000.0
+Mississippi,Neshoba,63,20,25,18,18573000.0
+Mississippi,Jasper,63,16,20,27,19732000.0
+Louisiana,Grant,63,24,27,12,835000.0
+Texas,Fort Bend,63,28,23,12,8006953000.0
+Iowa,Cedar,63,45,5,13,353000.0
+Kansas,Cloud,63,55,3,5,0.0
+Iowa,Buena Vista,62,26,26,10,4725000.0
+West Virginia,Mason,62,20,42,0,98550.0
+Wisconsin,Buffalo,62,39,16,7,9426000.0
+North Dakota,Hettinger,62,57,3,2,2250000.0
+Ohio,Highland,62,17,36,9,1819000.0
+South Dakota,Day,62,44,9,9,254300.0
+Tennessee,Putnam,62,27,27,8,101490000.0
+Arkansas,Jackson,62,21,30,11,520000.0
+New York,Chautauqua,62,27,33,2,377000.0
+Kansas,Kingman,62,43,15,4,201000.0
+Iowa,Clarke,62,55,3,4,1130000.0
+Kansas,Wyandotte,62,52,10,0,0.0
+Missouri,St. Francois,62,44,13,5,135000.0
+Louisiana,Beauregard,62,23,15,24,1161833000.0
+New York,Dutchess,62,20,37,5,2648000.0
+New Mexico,Otero,62,31,29,2,338000.0
+Minnesota,Clay,62,43,11,8,137500.0
+Missouri,Ripley,61,31,26,4,6885000.0
+Nebraska,Knox,61,53,8,0,1240000.0
+Illinois,Morgan,61,38,11,12,10000.0
+North Dakota,Dunn,61,53,2,6,20871000.0
+Illinois,Mchenry,61,34,20,7,3900000.0
+Illinois,Logan,61,38,9,14,300000.0
+Minnesota,Rock,61,21,38,2,2550000.0
+Wyoming,Fremont,61,25,34,2,6425500.0
+West Virginia,Raleigh,61,18,43,0,115800.0
+Arkansas,Arkansas,61,20,31,10,158500.0
+Alabama,Tuscaloosa,61,22,17,22,3350000.0
+Arkansas,Monroe,61,6,54,1,50000.0
+South Carolina,Colleton,61,14,33,14,380000.0
+Oklahoma,Washita,61,43,8,10,405000.0
+Tennessee,Hamilton,61,19,40,2,6294000.0
+Iowa,Adair,61,49,3,9,31532000.0
+California,Contra Costa,61,12,49,0,60.0
+North Dakota,Pembina,61,43,15,3,1654000.0
+North Dakota,Walsh,61,48,6,7,2116000.0
+Hawaii,Kauai,60,0,60,0,93300000.0
+Hawaii,Maui,60,0,60,0,45920000.0
+North Dakota,Richland,60,44,7,9,414000.0
+North Carolina,Onslow,60,19,31,10,34500000.0
+Wisconsin,Washington,60,50,9,1,7422000.0
+Missouri,Harrison,60,48,11,1,30000.0
+North Carolina,Duplin,60,13,36,11,98405000.0
+Illinois,Gallatin,60,5,51,4,668000.0
+Texas,Fayette,60,31,24,5,54210000.0
+Iowa,Fremont,60,36,15,9,36000000.0
+Texas,Real,60,40,20,0,0.0
+Kansas,Stafford,60,55,2,3,0.0
+Tennessee,Sevier,60,21,39,0,3870000.0
+Maine,Franklin,60,7,53,0,9697000.0
+Missouri,Dade,60,30,21,9,1450000.0
+Ohio,Guernsey,60,31,27,2,428000.0
+Kentucky,Bell,60,10,50,0,4208200.0
+Texas,Hardeman,60,54,0,6,1000.0
+South Dakota,Clay,60,31,28,1,6970000.0
+California,Madera,60,3,54,3,71000.0
+Kansas,Miami,60,44,12,4,150000.0
+Pennsylvania,Venango,60,22,35,3,223700.0
+Arkansas,Sharp,59,23,32,4,110000.0
+Texas,Shelby,59,27,19,13,1090000.0
+Illinois,Livingston,59,28,18,13,10000.0
+Illinois,Clay,59,23,30,6,10061000.0
+Minnesota,Dodge,59,47,7,5,442000.0
+Mississippi,Covington,59,8,27,24,37907000.0
+North Carolina,Henderson,59,24,32,3,221587000.0
+Wisconsin,Burnett,59,49,8,2,40000.0
+Texas,Baylor,59,48,5,6,700000.0
+Colorado,Bent,59,47,4,8,5000.0
+Maine,Somerset,59,7,52,0,16940000.0
+Nebraska,Washington,59,44,8,7,10000.0
+Montana,Big Horn,59,54,4,1,0.0
+Nebraska,Butler,59,44,11,4,226000.0
+Louisiana,Richland,59,22,18,19,2757000.0
+North Carolina,Davidson,59,24,30,5,4448000.0
+Kentucky,Hopkins,59,19,35,5,3125000.0
+North Carolina,Robeson,59,22,25,12,5154000.0
+Arkansas,Poinsett,59,38,7,14,7243000.0
+Arkansas,Calhoun,59,14,42,3,60000.0
+Texas,Montgomery,59,27,25,7,7199816500.0
+Texas,Menard,59,37,21,1,7100000.0
+Texas,Red River,59,33,19,7,7885000.0
+Arkansas,Montgomery,59,27,30,2,241000.0
+Texas,Hardin,59,25,30,4,648601000.0
+Texas,Collingsworth,59,50,3,6,63000.0
+Ohio,Perry,59,19,38,2,470250.0
+Kentucky,Henderson,59,10,43,6,824000.0
+Indiana,Dubois,58,13,40,5,415000.0
+New Mexico,Dona Ana,58,24,34,0,2003000.0
+Nebraska,Madison,58,43,5,10,294000.0
+Wisconsin,Monroe,58,33,19,6,34238000.0
+Illinois,Lee,58,36,11,11,2000.0
+Minnesota,Wadena,58,51,3,4,1067000.0
+North Dakota,Adams,58,55,1,2,1445000.0
+Indiana,Knox,58,27,28,3,1242500.0
+Puerto Rico,Ponce,58,0,58,0,500133700.0
+South Carolina,York,58,32,19,7,27658000.0
+North Dakota,Ramsey,58,48,3,7,450500.0
+Kentucky,Carter,58,11,47,0,2714750.0
+Oklahoma,Grant,58,43,8,7,270000.0
+Oklahoma,Marshall,58,45,4,9,2070000.0
+Texas,Jasper,58,19,24,15,109806000.0
+Arkansas,Lafayette,58,14,33,11,565000.0
+Texas,Guadalupe,58,39,14,5,2550000.0
+Texas,Hale,58,42,8,8,1250000.0
+Texas,Cass,58,33,13,12,4231000.0
+Kansas,Kiowa,58,45,6,7,5000.0
+West Virginia,Upshur,58,15,43,0,147650.0
+Virginia,Roanoke,58,22,36,0,2638400.0
+Massachusetts,Franklin,57,21,35,1,567000.0
+North Carolina,Johnston,57,13,33,11,28583310.0
+Iowa,Humboldt,57,27,22,8,1628000.0
+Arkansas,Mississippi,57,27,15,15,3107000.0
+Texas,Roberts,57,50,2,5,104000.0
+Alabama,Lawrence,57,29,18,10,1000.0
+Texas,Caldwell,57,27,25,5,12890000.0
+Texas,San Saba,57,51,6,0,0.0
+Arkansas,Pope,57,35,17,5,2070000.0
+West Virginia,Preston,57,30,24,3,805500.0
+Virginia,Tazewell,57,13,44,0,2462600.0
+Missouri,Miller,57,27,27,3,15135000.0
+Kansas,Chase,57,40,5,12,25200.0
+New York,Ontario,57,14,41,2,384000.0
+West Virginia,Jackson,57,19,37,1,1524500.0
+Mississippi,Washington,57,22,30,5,2958000.0
+Missouri,Dunklin,57,40,8,9,6039000.0
+Hawaii,Hawaii,57,1,56,0,23500000.0
+Nebraska,Kearney,57,44,2,11,3455000.0
+Mississippi,Hancock,57,7,23,27,54063000.0
+West Virginia,Randolph,57,10,47,0,1172850.0
+Mississippi,Monroe,57,29,13,15,84617000.0
+Illinois,De Kalb,56,30,12,14,0.0
+Iowa,Fayette,56,24,29,3,3678000.0
+Iowa,Ida,56,43,8,5,1085000.0
+Indiana,Franklin,56,6,45,5,1995000.0
+Virginia,Northampton,56,2,49,5,840000.0
+Kansas,Wilson,56,28,19,9,800.0
+Michigan,Washtenaw,56,48,7,1,9040000.0
+Wisconsin,Brown,56,38,15,3,1727500.0
+Tennessee,Montgomery,56,16,32,8,32686000.0
+New York,Onondaga,56,22,34,0,10788000.0
+Indiana,Elkhart,56,42,12,2,1722000.0
+South Dakota,Brule,56,43,13,0,638000.0
+Florida,Santa Rosa,56,13,31,12,605000.0
+Louisiana,Acadia,56,22,17,17,696425000.0
+Kansas,Morris,56,43,6,7,0.0
+Kansas,Neosho,56,34,22,0,110400.0
+Tennessee,Henry,56,31,21,4,5013000.0
+Virginia,Isle Of Wight,56,8,40,8,1540000.0
+Nebraska,Nemaha,56,41,11,4,10000.0
+California,Placer,56,5,50,1,5045000.0
+New Jersey,Hunterdon,56,10,43,3,5000000.0
+North Carolina,Catawba,56,29,18,9,63706500.0
+New Mexico,Harding,56,51,4,1,81300.0
+New York,Rockland,56,9,45,2,3155000.0
+Texas,Kendall,56,46,9,1,5000000.0
+Arkansas,Conway,56,25,26,5,2195000.0
+California,El Dorado,56,9,46,1,2071000.0
+Wisconsin,Sauk,56,29,26,1,7002500.0
+Wyoming,Johnson,56,44,8,4,22000.0
+Arkansas,Clay,56,40,7,9,2530000.0
+Kentucky,Laurel,56,27,28,1,60700.0
+Wisconsin,Washburn,56,46,10,0,580000.0
+South Dakota,Mccook,56,39,14,3,2955000.0
+Nebraska,Franklin,56,50,2,4,5327000.0
+Virginia,Warren,55,3,52,0,0.0
+Missouri,New Madrid,55,12,30,13,3040000.0
+Texas,Andrews,55,43,11,1,530000.0
+Wisconsin,Douglas,55,39,14,2,150000.0
+Montana,Garfield,55,49,6,0,0.0
+West Virginia,Logan,55,12,43,0,157900.0
+Alabama,Franklin,55,28,14,13,0.0
+Alabama,Elmore,55,18,16,21,0.0
+Missouri,St. Clair,55,34,17,4,602000.0
+West Virginia,Fayette,55,20,33,2,13227500.0
+Minnesota,Freeborn,55,26,5,24,580000.0
+Louisiana,Lafayette,55,19,29,7,1482326000.0
+South Dakota,Walworth,55,46,7,2,3292300.0
+Ohio,Delaware,55,14,35,6,1146500.0
+Alabama,Geneva,55,8,30,17,2418860.0
+Kansas,Haskell,55,50,4,1,0.0
+Georgia,Bartow,55,18,28,9,1412000.0
+Louisiana,Winn,55,20,18,17,323000.0
+Iowa,Mills,55,39,9,7,97000.0
+Illinois,Ogle,55,23,19,13,1000.0
+Arizona,Yuma,55,1,53,1,193500.0
+Alabama,Lee,55,24,9,22,0.0
+Michigan,Macomb,55,28,25,2,9995000.0
+Iowa,Franklin,55,35,13,7,1061000.0
+Missouri,Stoddard,55,20,23,12,3935000.0
+Kentucky,Greenup,55,3,50,2,2141500.0
+Alabama,Blount,54,27,10,17,0.0
+Kansas,Comanche,54,42,8,4,85000.0
+Missouri,Nodaway,54,44,5,5,0.0
+Florida,Collier,54,15,30,9,229000.0
+Massachusetts,Berkshire,54,9,44,1,1748000.0
+Wisconsin,Price,54,38,14,2,299000.0
+Missouri,Crawford,54,39,8,7,60000.0
+Puerto Rico,Caguas,54,0,54,0,752541200.0
+West Virginia,Morgan,54,10,44,0,0.0
+Florida,Lee,54,11,23,20,515736000.0
+South Dakota,Jones,54,39,13,2,54400.0
+Minnesota,Renville,54,40,9,5,1549000.0
+Colorado,Fremont,54,21,32,1,10000.0
+Indiana,Madison,54,41,5,8,5150500.0
+Louisiana,Vernon,54,23,12,19,972333000.0
+North Carolina,Sampson,54,7,36,11,25251000.0
+California,San Joaquin,54,3,50,1,107600000.0
+Texas,Mason,54,41,12,1,8500000.0
+Arkansas,Baxter,54,46,4,4,130000.0
+Massachusetts,Plymouth,54,22,31,1,141000.0
+Maryland,Cecil,54,12,37,5,1000000.0
+Illinois,Wayne,54,11,40,3,432000.0
+Wyoming,Natrona,54,43,6,5,2967000.0
+Texas,Young,53,42,9,2,264000.0
+Illinois,Saline,53,28,19,6,2247000.0
+Iowa,Tama,53,24,24,5,943500.0
+Mississippi,Oktibbeha,53,8,35,10,2640000.0
+Texas,Fisher,53,38,10,5,0.0
+Iowa,Jones,53,29,4,20,1110000.0
+Wisconsin,Wood,53,45,8,0,176500.0
+Illinois,Perry,53,22,28,3,2215000.0
+Texas,Childress,53,47,6,0,2135000.0
+Illinois,Mercer,53,21,20,12,225000.0
+Illinois,Pulaski,53,11,40,2,422000.0
+Iowa,Pocahontas,53,34,3,16,322200.0
+Minnesota,Mcleod,53,42,2,9,393500.0
+Tennessee,Tipton,53,22,23,8,85755000.0
+Indiana,Monroe,53,38,9,6,50184500.0
+North Dakota,Traill,53,40,5,8,1350000.0
+Texas,Blanco,53,39,12,2,11000000.0
+Michigan,Oakland,53,33,16,4,15035000.0
+Nebraska,Sherman,53,37,11,5,10866000.0
+Kansas,Jackson,53,41,5,7,0.0
+Louisiana,Bienville,53,20,18,15,470000.0
+Nebraska,Dixon,53,35,18,0,3540000.0
+Ohio,Mercer,53,14,28,11,33476000.0
+Mississippi,Pontotoc,53,33,14,6,3660000.0
+South Dakota,Aurora,53,35,16,2,4489000.0
+Missouri,Clark,53,35,15,3,100000.0
+Missouri,Lafayette,53,33,15,5,0.0
+South Dakota,Stanley,53,41,11,1,0.0
+Nebraska,Hayes,53,39,9,5,1715000.0
+Minnesota,Sherburne,53,52,0,1,2000.0
+North Carolina,Stanly,52,4,40,8,5716000.0
+Iowa,Washington,52,36,9,7,50000.0
+New York,Cayuga,52,13,39,0,5089000.0
+Wisconsin,Lafayette,52,22,23,7,2964500.0
+Illinois,Massac,52,12,35,5,1632000.0
+Arkansas,Howard,52,27,23,2,300000.0
+Oklahoma,Blaine,52,42,3,7,84000.0
+Pennsylvania,Greene,52,9,38,5,431500.0
+Georgia,White,52,13,36,3,1647000.0
+Texas,Armstrong,52,35,8,9,108000.0
+Florida,St. Lucie,52,24,12,16,552777000.0
+Minnesota,Lincoln,52,26,25,1,285000.0
+Indiana,Porter,52,27,20,5,3706000.0
+Kentucky,Whitley,52,18,34,0,4100700.0
+South Dakota,Grant,52,24,23,5,225800.0
+Missouri,Bates,52,39,8,5,0.0
+North Carolina,Cabarrus,51,23,22,6,797000.0
+Wisconsin,Racine,51,29,16,6,24411000.0
+Illinois,Wabash,51,9,40,2,671000.0
+Arizona,Apache,51,5,42,4,5000.0
+Iowa,Marshall,51,33,12,6,202457000.0
+Minnesota,Roseau,51,45,2,4,405000.0
+Illinois,Iroquois,51,14,17,20,1500000.0
+North Carolina,Wilson,51,16,26,9,38442000.0
+North Dakota,Cavalier,51,39,3,9,1701000.0
+Minnesota,Kandiyohi,51,39,2,10,1000000.0
+Tennessee,Henderson,51,38,8,5,4465000.0
+Indiana,Boone,51,38,8,5,388000.0
+Virginia,Lancaster,51,1,42,8,3747000.0
+Kentucky,Boyd,51,2,47,2,575350.0
+Virginia,Northumberland,51,3,39,9,1909500.0
+Illinois,Boone,51,24,16,11,226000.0
+Ohio,Auglaize,51,16,24,11,6322000.0
+Alabama,Montgomery,51,16,15,20,0.0
+Georgia,Mitchell,51,8,31,12,51028000.0
+Louisiana,Franklin,51,24,16,11,3546000.0
+Virginia,Prince George,51,7,43,1,130000.0
+Kentucky,Nelson,51,27,21,3,210000.0
+Puerto Rico,San Sebastian,51,1,50,0,138000.0
+South Carolina,Pickens,51,31,8,12,3080500.0
+Indiana,Dearborn,51,13,34,4,322000.0
+South Dakota,Faulk,51,42,6,3,271100.0
+Oklahoma,Harper,51,43,1,7,80000.0
+Iowa,Winneshiek,51,11,34,6,5701000.0
+New Mexico,Socorro,51,23,24,4,1450000.0
+Kansas,Clay,50,31,10,9,30000.0
+West Virginia,Mcdowell,50,12,38,0,11736650.0
+Indiana,Harrison,50,38,7,5,820000.0
+Florida,Polk,50,24,0,26,129335000.0
+Nebraska,Colfax,50,31,11,8,280000.0
+Missouri,Bollinger,50,20,22,8,26295000.0
+Arkansas,Polk,50,32,17,1,0.0
+Illinois,Montgomery,50,21,8,21,65000.0
+Texas,Wilbarger,50,35,6,9,225000.0
+Maine,Androscoggin,50,14,35,1,2484000.0
+Texas,Tyler,50,24,18,8,86265000.0
+California,Yolo,50,2,47,1,11002000.0
+Georgia,Lee,50,12,29,9,7563000.0
+Wisconsin,Iowa,50,35,9,6,754000.0
+Tennessee,Hickman,50,16,25,9,1368330.0
+North Carolina,Wayne,50,16,26,8,145986000.0
+Louisiana,Morehouse,50,19,17,14,3182000.0
+Virginia,Montgomery,50,14,33,3,866000.0
+Virginia,Mecklenburg,50,14,32,4,550500.0
+Georgia,Chattooga,50,8,35,7,262000.0
+Maine,Penobscot,50,31,18,1,0.0
+Texas,Panola,50,21,13,16,3155000.0
+Arkansas,Boone,50,35,10,5,1455000.0
+Texas,Edwards,50,32,18,0,10000.0
+New Mexico,Guadalupe,50,39,7,4,133000.0
+North Carolina,Beaufort,50,19,18,13,4240000.0
+Texas,Hopkins,50,33,12,5,1754000.0
+New Mexico,De Baca,50,36,12,2,30000.0
+Texas,Castro,49,30,5,14,1139000.0
+Texas,Throckmorton,49,38,8,3,860000.0
+Virginia,Alexandria (C),49,1,48,0,0.0
+Illinois,Knox,49,35,6,8,150000.0
+Texas,Stephens,49,43,5,1,1243000.0
+Illinois,Monroe,49,33,6,10,250000.0
+Texas,Rockwall,49,40,5,4,75230000.0
+Kentucky,Campbell,49,20,29,0,151250.0
+Nebraska,Otoe,49,31,12,6,75000.0
+South Dakota,Mellette,49,44,5,0,10000.0
+West Virginia,Boone,49,12,37,0,138500.0
+West Virginia,Barbour,49,7,41,1,110650.0
+Ohio,Trumbull,49,22,18,9,5235000.0
+West Virginia,Mingo,49,11,38,0,5703000.0
+New York,Niagara,49,17,32,0,2775000.0
+South Carolina,Oconee,49,37,8,4,100519000.0
+Nebraska,Logan,49,44,3,2,256000.0
+Colorado,Mesa,49,14,35,0,177000.0
+Louisiana,Ascension,49,15,19,15,1732026000.0
+Missouri,Scott,49,18,23,8,19042000.0
+Oklahoma,Craig,49,32,10,7,588000.0
+Oklahoma,Noble,49,34,7,8,417000.0
+Alabama,Coffee,49,15,25,9,705000.0
+Illinois,Coles,49,27,14,8,2000000.0
+Wisconsin,Fond Du Lac,49,24,12,13,332000.0
+Minnesota,Norman,49,28,7,14,1072500.0
+Maryland,Calvert,49,14,32,3,1105000.0
+North Carolina,Buncombe,49,28,18,3,636523000.0
+Texas,Crockett,49,40,6,3,500.0
+Kansas,Meade,49,41,2,6,1000000.0
+North Carolina,Moore,49,16,28,5,19580000.0
+North Carolina,Harnett,49,18,24,7,21690000.0
+Iowa,Montgomery,49,38,3,8,237000.0
+Montana,Mccone,48,44,4,0,0.0
+Oklahoma,Atoka,48,31,7,10,1117000.0
+West Virginia,Tyler,48,9,39,0,106250.0
+Mississippi,Pearl River,48,17,16,15,17959000.0
+South Dakota,Hanson,48,14,34,0,971000.0
+Mississippi,Lawrence,48,18,13,17,4288500.0
+Virginia,Arlington,48,5,40,3,655000.0
+Maryland,Garrett,48,8,38,2,1514000.0
+Texas,Glasscock,48,35,4,9,306000.0
+Texas,Reeves,48,36,10,2,116250.0
+North Carolina,Forsyth,48,18,26,4,3290000.0
+New York,Rensselaer,48,13,34,1,3824000.0
+Texas,Knox,48,39,5,4,700000.0
+Iowa,Appanoose,48,35,8,5,1290000.0
+California,Santa Barbara,48,0,47,1,0.0
+Ohio,Shelby,48,11,33,4,332000.0
+California,Ventura,48,0,46,2,0.0
+Texas,Brazoria,48,20,12,16,2001602000.0
+Minnesota,Big Stone,48,29,12,7,332000.0
+Virginia,Hanover,48,13,32,3,75000.0
+Minnesota,Scott,48,40,3,5,400000.0
+Virginia,Henry,48,19,28,1,11233580.0
+South Carolina,Anderson,48,32,7,9,8356000.0
+Kentucky,Lawrence,48,7,39,2,705900.0
+Kentucky,Mason,48,4,39,5,1270000.0
+South Dakota,Lake,48,34,12,2,2655000.0
+Tennessee,Benton,48,26,15,7,1190500.0
+Nebraska,Richardson,48,28,12,8,500000.0
+Nebraska,Burt,48,32,8,8,12000.0
+Georgia,Pike,48,3,33,12,194000.0
+Wisconsin,Waupaca,47,33,7,7,948500.0
+Iowa,Hancock,47,38,6,3,220500.0
+Arizona,Santa Cruz,47,15,32,0,1257500.0
+Kansas,Nemaha,47,31,12,4,30000.0
+Texas,Walker,47,18,27,2,600907000.0
+Texas,Upshur,47,31,10,6,2385000.0
+North Dakota,Emmons,47,39,3,5,1655000.0
+Minnesota,Sibley,47,33,5,9,252000.0
+Virginia,Chesapeake (C),47,16,27,4,24811000.0
+Louisiana,St. Landry,47,6,19,22,152030000.0
+Connecticut,New London,47,9,36,2,769740.0
+Kentucky,Simpson,47,1,42,4,105000.0
+Florida,Alachua,47,20,20,7,18000.0
+Nebraska,Fillmore,47,37,3,7,1128000.0
+Delaware,Kent,47,12,29,6,0.0
+Louisiana,Avoyelles,47,14,9,24,74545000.0
+Virginia,Patrick,47,17,28,2,1135620.0
+Oklahoma,Coal,47,25,12,10,135000.0
+Ohio,Richland,47,29,14,4,2345000.0
+West Virginia,Hampshire,47,9,36,2,400000.0
+North Carolina,Alamance,47,15,25,7,3734000.0
+North Carolina,Cleveland,47,28,8,11,7883500.0
+Illinois,Macoupin,47,30,3,14,76000.0
+Arkansas,Independence,47,24,23,0,0.0
+North Carolina,Nash,47,25,12,10,518312000.0
+Texas,Lynn,47,39,6,2,66600.0
+Montana,Petroleum,46,37,7,2,500000.0
+West Virginia,Lewis,46,17,29,0,74650.0
+Florida,Coastal Broward County,46,0,39,7,20000.0
+Kentucky,Ohio,46,15,24,7,850000.0
+Iowa,Louisa,46,18,25,3,2200000.0
+Iowa,Bremer,46,22,21,3,1831000.0
+Georgia,Burke,46,15,21,10,1607230.0
+Kansas,Jewell,46,44,2,0,2445000.0
+Kansas,Harper,46,33,9,4,400.0
+Alabama,Calhoun,46,26,10,10,0.0
+Georgia,Bulloch,46,29,10,7,90000.0
+North Carolina,Randolph,46,20,23,3,22656000.0
+Texas,Crosby,46,34,6,6,1131000.0
+Maine,Cumberland,46,11,31,4,1066000.0
+Kansas,Republic,46,38,4,4,0.0
+Nebraska,York,46,42,2,2,21461250.0
+North Dakota,Kidder,46,41,1,4,1750000.0
+Minnesota,Morrison,46,33,5,8,3529500.0
+Tennessee,Cheatham,46,17,26,3,2771650.0
+North Dakota,Towner,46,35,3,8,117000.0
+Tennessee,Greene,46,20,26,0,23441000.0
+Texas,Coke,46,42,2,2,0.0
+Utah,Grand,46,14,32,0,40105450.0
+Texas,Lamb,46,33,7,6,10163000.0
+Florida,Lake,46,22,9,15,59635700.0
+Alabama,Etowah,46,28,8,10,0.0
+Mississippi,Bolivar,46,17,19,10,7909000.0
+Nebraska,Phelps,46,34,3,9,6665000.0
+Mississippi,Attala,46,18,9,19,1366000.0
+Wisconsin,Adams,46,32,14,0,1685000.0
+South Dakota,Clark,46,30,8,8,270800.0
+Colorado,Sedgwick,46,36,0,10,0.0
+Indiana,Delaware,46,19,21,6,4642000.0
+Ohio,Preble,46,11,29,6,958000.0
+West Virginia,Roane,46,9,37,0,2602150.0
+Georgia,Colquitt,46,21,9,16,9773000.0
+Georgia,Columbia,46,23,19,4,225017360.0
+Montana,Blaine,46,33,11,2,3070000.0
+New York,Cattaraugus,46,9,33,4,165000.0
+Nebraska,Garfield,45,39,6,0,120000.0
+Minnesota,Todd,45,36,1,8,435000.0
+Mississippi,Holmes,45,17,10,18,5771000.0
+Wisconsin,Ozaukee,45,23,22,0,1433000.0
+Puerto Rico,Fajardo,45,0,45,0,1177300.0
+Montana,Fallon,45,41,1,3,2500000.0
+Iowa,Palo Alto,45,26,18,1,1358000.0
+Arkansas,Columbia,45,18,19,8,135000.0
+Ohio,Stark,45,25,14,6,11079000.0
+Kentucky,Jackson,45,15,30,0,94000.0
+Missouri,St. Louis (C),45,31,13,1,1685681000.0
+Ohio,Union,45,17,26,2,518000.0
+Ohio,Miami,45,18,10,17,12905000.0
+South Dakota,Roberts,45,20,16,9,391000.0
+South Dakota,Deuel,45,20,8,17,138700.0
+Nebraska,Harlan,45,35,5,5,2340000.0
+Nebraska,Johnson,45,38,4,3,0.0
+Kansas,Lane,45,34,0,11,0.0
+North Dakota,Eddy,45,40,2,3,61000.0
+Texas,Starr,45,28,16,1,35657000.0
+North Carolina,Stokes,45,19,24,2,23560000.0
+Wisconsin,Kenosha,45,18,24,3,4918000.0
+North Dakota,Wells,45,37,5,3,2910000.0
+Arkansas,Scott,45,19,24,2,160000.0
+Arkansas,Hot Spring,45,25,15,5,10000.0
+Texas,Kinney,45,31,13,1,0.0
+Arkansas,Logan,45,28,10,7,627000.0
+Arkansas,Marion,45,26,15,4,301000.0
+Iowa,Emmet,45,15,28,2,11396000.0
+Iowa,Iowa,45,28,12,5,1000.0
+Arkansas,Van Buren,45,30,15,0,0.0
+Texas,Garza,45,30,9,6,20000.0
+Texas,Eastland,45,32,10,3,1419000.0
+Texas,Floyd,45,39,2,4,25000.0
+Florida,Okaloosa,44,6,28,10,976000.0
+Nebraska,Rock,44,40,4,0,275000.0
+Louisiana,Red River,44,14,22,8,285000.0
+Wisconsin,Chippewa,44,29,8,7,4032000.0
+Indiana,Wayne,44,9,31,4,514000.0
+Iowa,Chickasaw,44,20,21,3,1715000.0
+Arkansas,Miller,44,22,17,5,75300.0
+New Hampshire,Sullivan,44,14,28,2,2300000.0
+Texas,Orange,44,8,29,7,2693690000.0
+Texas,Houston,44,31,7,6,6635000.0
+Maine,Kennebec,44,9,35,0,1241000.0
+Oklahoma,Cotton,44,36,2,6,67000.0
+Florida,Calhoun,44,7,25,12,501101000.0
+Kentucky,Grayson,44,17,19,8,605000.0
+Illinois,Adams,44,31,7,6,195000.0
+Montana,Richland,44,37,7,0,0.0
+Connecticut,Windham,44,11,26,7,928000.0
+New York,Columbia,44,15,29,0,28000.0
+Georgia,Coweta,44,21,6,17,20823000.0
+Louisiana,La Salle,44,13,21,10,2865000.0
+Indiana,Morgan,44,28,12,4,8388750.0
+Minnesota,Traverse,43,18,17,8,0.0
+North Dakota,Mercer,43,38,2,3,85000.0
+Virginia,Page,43,5,37,1,55000.0
+Ohio,Coshocton,43,19,23,1,169000.0
+South Dakota,Douglas,43,33,10,0,1388000.0
+Virginia,Southampton,43,14,21,8,9615000.0
+Kentucky,Boone,43,17,24,2,388000.0
+Ohio,Pike,43,4,35,4,550000.0
+Kentucky,Fulton,43,9,27,7,4040000.0
+Mississippi,Union,43,27,9,7,2635000.0
+Missouri,Boone,43,21,18,4,22000.0
+Kentucky,Webster,43,15,25,3,59000.0
+Ohio,Lorain,43,23,13,7,4822000.0
+Nebraska,Boone,43,31,5,7,102000.0
+Montana,Sheridan,43,37,3,3,0.0
+Florida,Marion,43,16,17,10,20500.0
+New York,Montgomery,43,7,35,1,279000.0
+Wisconsin,Oconto,43,24,16,3,815000.0
+New York,Chenango,43,10,32,1,2402000.0
+Iowa,Union,43,30,2,11,1110000.0
+Missouri,Pettis,43,30,9,4,0.0
+Kentucky,Logan,43,8,27,8,970000.0
+Minnesota,Kittson,43,32,10,1,182000.0
+Minnesota,Nicollet,43,27,6,10,30000.0
+Utah,Salt Lake,43,28,15,0,27657000.0
+Tennessee,Obion,43,10,19,14,14240000.0
+Georgia,Laurens,43,6,15,22,1671000.0
+Wisconsin,Eau Claire,43,29,7,7,660000.0
+Virginia,Giles,43,9,34,0,1121000.0
+North Carolina,Lenoir,43,5,29,9,43200000.0
+Texas,Robertson,43,24,13,6,377000.0
+North Carolina,Iredell,43,22,11,10,1076500.0
+Kansas,Bourbon,42,24,17,1,105000.0
+Alabama,Marion,42,24,6,12,0.0
+Iowa,Jackson,42,15,13,14,5251000.0
+New Jersey,Eastern Ocean,42,0,39,3,0.0
+Nebraska,Valley,42,36,5,1,4910000.0
+Nebraska,Stanton,42,24,7,11,350000.0
+Michigan,Berrien,42,29,12,1,9773500.0
+Mississippi,Wayne,42,8,11,23,1305000.0
+Kentucky,Scott,42,7,34,1,70000.0
+South Carolina,Newberry,42,28,3,11,19210780.0
+Virginia,Smyth,42,17,25,0,7280000.0
+Kentucky,Todd,42,7,26,9,3863000.0
+New York,Essex,42,17,25,0,6691500.0
+New York,Lewis,42,6,33,3,1523000.0
+New York,Cortland,42,8,32,2,996000.0
+Tennessee,Carroll,42,22,14,6,1650000.0
+Virginia,Dickenson,42,8,34,0,327300.0
+Mississippi,Itawamba,42,25,8,9,1196000.0
+Virginia,Botetourt,42,14,27,1,859830.0
+Mississippi,Franklin,42,13,16,13,2222100.0
+Missouri,Cedar,42,28,13,1,13065000.0
+Kentucky,Taylor,42,16,21,5,115000.0
+Missouri,Scotland,42,33,4,5,200000.0
+Florida,Hillsborough,42,12,21,9,6560000.0
+Pennsylvania,Somerset,42,1,38,3,1105000.0
+Minnesota,Carver,42,31,2,9,575000.0
+Oklahoma,Woods,42,33,2,7,31000.0
+Kentucky,Madison,42,18,20,4,0.0
+Oklahoma,Choctaw,42,31,4,7,4550000.0
+Alabama,Walker,42,29,6,7,0.0
+Florida,Martin,42,13,13,16,19983700.0
+Tennessee,Weakley,42,17,18,7,7515500.0
+Montana,Missoula,42,23,19,0,480000.0
+Ohio,Darke,42,8,21,13,2065000.0
+West Virginia,Ritchie,42,12,30,0,245500.0
+Kentucky,Fayette,42,19,23,0,70000.0
+Kentucky,Breckinridge,41,20,12,9,110000.0
+Ohio,Huron,41,19,8,14,1890000.0
+Ohio,Lucas,41,31,7,3,15652000.0
+North Dakota,Logan,41,40,0,1,10000.0
+Nebraska,Howard,41,27,8,6,15140000.0
+Nebraska,Pawnee,41,32,2,7,0.0
+North Carolina,Ashe,41,10,29,2,116685000.0
+Iowa,Madison,41,25,5,11,75356000.0
+North Dakota,La Moure,41,31,2,8,1025000.0
+North Dakota,Griggs,41,36,0,5,1000.0
+North Dakota,Billings,41,40,1,0,195000.0
+Indiana,Spencer,41,12,22,7,630000.0
+North Carolina,Craven,41,19,10,12,28000000.0
+North Carolina,Franklin,41,11,23,7,1903000.0
+New Jersey,Eastern Monmouth,41,0,39,2,0.0
+Kansas,Stevens,41,39,2,0,0.0
+Louisiana,Allen,41,15,13,13,502396000.0
+Mississippi,Lafayette,41,27,9,5,1025000.0
+Delaware,Delaware Beaches,41,0,39,2,0.0
+Virginia,Carroll,41,19,20,2,1767000.0
+Minnesota,Le Sueur,41,31,5,5,0.0
+Tennessee,Coffee,41,23,12,6,1547890.0
+Tennessee,Blount,41,23,16,2,2756000.0
+Virginia,Grayson,41,11,28,2,26108240.0
+Washington,Okanogan,41,4,37,0,20399510.0
+Missouri,Perry,41,15,21,5,13790000.0
+Pennsylvania,Erie,41,26,11,4,9732000.0
+Pennsylvania,Crawford,41,26,9,6,4049000.0
+Alabama,Talladega,41,30,6,5,0.0
+Kentucky,Rockcastle,41,11,29,1,644510.0
+Georgia,Tift,41,15,16,10,11265000.0
+Virginia,Westmoreland,41,3,35,3,920000.0
+Louisiana,West Carroll,41,14,16,11,2170000.0
+Montana,Carbon,41,36,5,0,0.0
+Oklahoma,Alfalfa,41,31,3,7,440000.0
+Kentucky,Lewis,41,4,36,1,414000.0
+Illinois,Carroll,40,19,16,5,12000.0
+Alabama,Dale,40,15,12,13,536000.0
+Missouri,Audrain,40,30,6,4,170000.0
+Mississippi,Tishomingo,40,20,7,13,5653000.0
+Kentucky,Oldham,40,23,12,5,350000.0
+Missouri,Daviess,40,24,14,2,30000.0
+Tennessee,Hawkins,40,19,21,0,207000.0
+South Dakota,Kingsbury,40,26,8,6,547000.0
+Georgia,Irwin,40,14,18,8,11853000.0
+New York,Otsego,40,14,26,0,432000.0
+Arkansas,Sevier,40,26,9,5,975500.0
+North Dakota,Steele,40,32,2,6,460000.0
+Iowa,Page,40,31,1,8,0.0
+Mississippi,Carroll,40,12,16,12,7482000.0
+Minnesota,Redwood,40,32,7,1,2175000.0
+Tennessee,Hardin,40,22,10,8,4345000.0
+West Virginia,Marshall,40,8,31,1,7807000.0
+Missouri,Washington,40,27,8,5,750000.0
+Virginia,Spotsylvania,40,10,29,1,20000.0
+Kentucky,Mclean,40,9,28,3,1105000.0
+Oklahoma,Pawnee,40,24,15,1,355000.0
+Puerto Rico,Aguada,40,2,37,1,750065400.0
+Texas,Atascosa,40,33,7,0,500.0
+Texas,Wilson,40,30,7,3,1050000.0
+Ohio,Jackson,40,11,26,3,233000.0
+Kentucky,Bullitt,40,11,26,3,497000.0
+North Dakota,Oliver,40,36,1,3,150000.0
+Kansas,Smith,40,37,1,2,1542000.0
+Nebraska,Keya Paha,40,37,3,0,100000.0
+New Jersey,Cape May,40,4,34,2,1010.0
+Arkansas,Drew,40,17,17,6,510500.0
+Iowa,Guthrie,40,24,4,12,581000.0
+New York,Schenectady,40,10,30,0,37000.0
+Iowa,Henry,40,33,3,4,2000.0
+Texas,Martin,40,32,8,0,106100.0
+Illinois,Shelby,40,12,23,5,825000.0
+Illinois,Moultrie,40,24,8,8,50000.0
+Texas,Motley,40,30,3,7,400.0
+Arkansas,Nevada,40,15,17,8,440000.0
+Georgia,Berrien,40,9,21,10,106738000.0
+Kentucky,Butler,40,16,19,5,90000.0
+Kentucky,Estill,40,8,31,1,54600.0
+Missouri,Lincoln,39,22,15,2,12511000.0
+Mississippi,Prentiss,39,23,9,7,664500.0
+Oklahoma,Hughes,39,31,2,6,2012000.0
+Nebraska,Banner,39,34,3,2,145000.0
+North Carolina,Gaston,39,21,9,9,4641000.0
+Maryland,Somerset,39,4,31,4,1270000.0
+Alabama,Henry,39,2,11,26,2747590.0
+Iowa,Allamakee,39,5,31,3,1287000.0
+Kansas,Elk,39,25,7,7,5000.0
+Maryland,Wicomico,39,4,28,7,1540000.0
+North Dakota,Dickey,39,34,3,2,975000.0
+New Hampshire,Rockingham,39,30,9,0,250000.0
+Indiana,Vigo,39,24,14,1,417250.0
+Texas,Lampasas,39,29,9,1,461000.0
+Alabama,Cherokee,39,16,17,6,0.0
+Arkansas,Grant,39,18,18,3,100000.0
+Tennessee,Fayette,39,29,6,4,140000.0
+Alabama,Escambia,39,16,15,8,4070000.0
+Texas,Aransas,39,5,30,4,1951170000.0
+Oklahoma,Harmon,39,26,1,12,20000.0
+Texas,Upton,39,29,6,4,51300.0
+Nebraska,Arthur,39,38,0,1,0.0
+Georgia,Richmond,39,26,10,3,500326120.0
+Indiana,Crawford,39,27,10,2,4252000.0
+Kentucky,Magoffin,39,13,25,1,524000.0
+Puerto Rico,Mayaguez,39,2,37,0,7035200.0
+Louisiana,Iberia,39,12,20,7,362940000.0
+Louisiana,Jefferson Davis,39,12,15,12,1165291000.0
+South Carolina,Florence,39,10,23,6,3199500.0
+Illinois,Crawford,39,14,19,6,500000.0
+Tennessee,Marshall,39,18,15,6,2329940.0
+Louisiana,Lincoln,39,22,9,8,61500000.0
+Nebraska,Loup,38,31,1,6,190000.0
+North Dakota,Sioux,38,36,1,1,809000.0
+Illinois,Randolph,38,22,9,7,3162000.0
+Alabama,Choctaw,38,5,15,18,1525000.0
+North Carolina,Rutherford,38,19,15,4,35981000.0
+Michigan,Houghton,38,18,20,0,125293000.0
+Arkansas,Newton,38,26,8,4,411000.0
+North Carolina,Transylvania,38,5,31,2,66178500.0
+Arkansas,Johnson,38,17,15,6,23000.0
+Arkansas,Madison,38,17,12,9,820000.0
+Georgia,Effingham,38,26,5,7,100000.0
+New York,Southern Nassau,38,0,36,2,0.0
+Iowa,Osceola,38,29,4,5,5050000.0
+Iowa,Mitchell,38,17,18,3,1729000.0
+Texas,Kent,38,34,2,2,0.0
+Arkansas,Carroll,38,28,4,6,425000.0
+Texas,Irion,38,30,7,1,0.0
+Alabama,Hale,38,12,0,26,0.0
+Missouri,Lewis,38,33,4,1,5000.0
+Missouri,Iron,38,18,8,12,870500.0
+Puerto Rico,Humacao,38,0,38,0,1135500.0
+Florida,Indian River,38,10,12,16,90462240.0
+Illinois,Jefferson,38,16,19,3,1143000.0
+Texas,Dickens,38,24,2,12,755000.0
+Texas,Terrell,38,27,7,4,502000.0
+Kentucky,Casey,38,12,25,1,425000.0
+West Virginia,Pocahontas,38,8,29,1,581750.0
+Nebraska,Cedar,38,30,5,3,0.0
+Nebraska,Boyd,38,27,10,1,21546000.0
+Texas,Swisher,38,25,7,6,0.0
+Nebraska,Mcpherson,38,33,0,5,60000.0
+Ohio,Jefferson,38,24,10,4,700000.0
+Montana,Judith Basin,38,33,2,3,0.0
+Kentucky,Hickman,38,4,27,7,1397000.0
+Virginia,Rockbridge,38,17,20,1,78000.0
+South Dakota,Hyde,38,29,6,3,177800.0
+Kentucky,Trigg,38,9,17,12,1215000.0
+Virginia,York,38,4,29,5,530000.0
+Missouri,Buchanan,38,21,14,3,105000.0
+Washington,Spokane,38,6,27,5,10294000.0
+Virginia,Buchanan,38,10,28,0,14902700.0
+Mississippi,George,38,12,11,15,2405000.0
+Tennessee,Franklin,38,12,15,11,10000.0
+Minnesota,Steele,38,25,6,7,106000.0
+Wisconsin,Sheboygan,38,24,12,2,105000.0
+Georgia,De Kalb,38,13,11,14,16643000.0
+New York,Livingston,38,16,21,1,111000.0
+New York,Madison,38,14,20,4,1216000.0
+Iowa,Wapello,38,18,18,2,2556000.0
+Wisconsin,Portage,38,32,4,2,611000.0
+Georgia,Coastal Chatham,37,0,19,18,10000000.0
+Texas,Liberty,37,14,13,10,1095982000.0
+Iowa,Hardin,37,21,4,12,346000.0
+Georgia,Cobb,37,19,11,7,2144000.0
+Texas,Freestone,37,20,13,4,234000.0
+North Dakota,Nelson,37,25,2,10,250000.0
+Alabama,Marengo,37,13,1,23,0.0
+Ohio,Fayette,37,9,23,5,378000.0
+Nebraska,Cuming,37,19,9,9,300000.0
+Nebraska,Blaine,37,34,1,2,26000.0
+Ohio,Monroe,37,9,27,1,535000.0
+Montana,Prairie,37,30,7,0,0.0
+Indiana,Huntington,37,35,0,2,6500.0
+Indiana,Jackson,37,20,11,6,692000.0
+Texas,Bailey,37,24,6,7,500000.0
+Florida,Madison,37,4,15,18,1033156000.0
+Florida,Coastal Palm Beach County,37,0,28,9,1330000.0
+Florida,Coastal Duval,37,0,23,14,10000000.0
+Minnesota,Grant,37,24,1,12,3150000.0
+Florida,Clay,37,12,17,8,0.0
+South Carolina,Georgetown,37,11,20,6,413250.0
+South Carolina,Southern Colleton,37,0,27,10,576000.0
+Delaware,Inland Sussex,37,0,35,2,0.0
+Mississippi,Panola,37,22,9,6,1726000.0
+Louisiana,Evangeline,37,4,17,16,169174000.0
+Virginia,Rappahannock,37,4,33,0,0.0
+South Dakota,Potter,37,31,6,0,259500.0
+Alabama,Chilton,37,13,5,19,0.0
+Iowa,Taylor,37,28,2,7,145000.0
+New York,Greene,37,2,33,2,249500.0
+North Carolina,Chatham,36,13,18,5,10478000.0
+Georgia,Gordon,36,18,7,11,1646000.0
+Wisconsin,Taylor,36,31,2,3,242000.0
+Texas,Jim Wells,36,6,26,4,362000.0
+Texas,Leon,36,22,10,4,346000.0
+Iowa,Howard,36,13,10,13,3659200.0
+New Jersey,Atlantic,36,7,27,2,80000.0
+New Jersey,Eastern Atlantic,36,0,35,1,0.0
+Georgia,Brooks,36,6,16,14,17153000.0
+Michigan,Alger,36,30,6,0,1094500.0
+Indiana,Washington,36,8,18,10,840000.0
+North Carolina,Union,36,15,14,7,2361000.0
+North Dakota,Bowman,36,36,0,0,302000.0
+Texas,Milam,36,15,15,6,270000.0
+Texas,Polk,36,23,11,2,308649000.0
+Texas,Falls,36,21,10,5,554500.0
+North Dakota,Mcintosh,36,33,1,2,20000.0
+Texas,Concho,36,31,3,2,0.0
+Texas,Cottle,36,28,2,6,11000.0
+Ohio,Hancock,36,21,12,3,14027500.0
+West Virginia,Nicholas,36,23,12,1,26019900.0
+Texas,Sabine,36,7,22,7,110000.0
+Montana,Lewis And Clark,36,15,21,0,800000.0
+Alabama,St. Clair,36,17,9,10,0.0
+Indiana,La Porte,36,30,2,4,814000.0
+Kentucky,Kenton,36,10,25,1,148000.0
+Georgia,Troup,36,20,7,9,1705000.0
+Missouri,Warren,36,23,9,4,25000.0
+Oklahoma,Dewey,36,32,1,3,3000.0
+Oklahoma,Nowata,36,18,10,8,185000.0
+Pennsylvania,Dauphin,36,18,14,4,190000.0
+Pennsylvania,Lycoming,36,8,26,2,26300000.0
+Virginia,Petersburg (C),36,0,36,0,5120000.0
+Puerto Rico,Toa Baja,36,0,36,0,2500159600.0
+Puerto Rico,Vega Alta,36,0,36,0,750070000.0
+Puerto Rico,Yauco,36,0,36,0,126100.0
+South Carolina,Calhoun,36,14,5,17,1215710.0
+Washington,Chelan,36,1,35,0,903250.0
+Tennessee,Lincoln,36,11,15,10,2000.0
+Texas,Lee,36,27,5,4,350000.0
+Wisconsin,Vilas,36,33,1,2,1000.0
+Wisconsin,Pierce,36,27,2,7,0.0
+Iowa,Wright,35,13,13,9,600000.0
+Louisiana,Catahoula,35,14,9,12,1562000.0
+Illinois,Richland,35,18,12,5,70000.0
+Virginia,Surry,35,1,30,4,292000.0
+Tennessee,Dyer,35,15,15,5,4686000.0
+North Carolina,Currituck,35,5,28,2,515000.0
+Georgia,Habersham,35,15,15,5,1047500.0
+Illinois,Ford,35,11,14,10,12000000.0
+Tennessee,Humphreys,35,5,23,7,100690000.0
+Arkansas,Desha,35,11,20,4,1460000.0
+Virginia,Prince Edward,35,11,24,0,5000.0
+New York,Sullivan,35,15,18,2,406500.0
+Mississippi,Greene,35,15,7,13,750000.0
+Minnesota,Lake,35,22,11,2,30000.0
+Minnesota,Brown,35,23,4,8,465000.0
+Kentucky,Carlisle,35,6,26,3,1505000.0
+Indiana,Montgomery,35,23,6,6,168500.0
+Virginia,Pulaski,35,9,24,2,15371820.0
+Colorado,Crowley,35,33,1,1,0.0
+Virginia,Clarke,35,10,23,2,25000.0
+Alabama,Monroe,35,19,9,7,125000.0
+Illinois,Douglas,35,22,9,4,0.0
+Utah,Iron,35,7,27,1,12352000.0
+Georgia,Muscogee,35,13,14,8,1045000.0
+Kentucky,Powell,35,8,27,0,204760.0
+Alabama,Russell,35,16,11,8,0.0
+Nevada,Elko,35,11,20,4,9323000.0
+Wisconsin,Dunn,35,28,3,4,250000.0
+Texas,Franklin,35,24,7,4,375000.0
+Missouri,Callaway,35,21,9,5,2135000.0
+South Carolina,Darlington,35,18,9,8,1461250.0
+South Carolina,Edgefield,35,23,7,5,41940010.0
+Texas,Newton,35,12,14,9,135532000.0
+Minnesota,Pennington,35,29,2,4,252000.0
+Texas,Parmer,35,29,4,2,3000.0
+Mississippi,Sunflower,35,11,22,2,2280000.0
+Missouri,Atchison,35,26,7,2,100000.0
+Georgia,Upson,35,6,14,15,1393000.0
+Oklahoma,Jefferson,35,24,6,5,100000.0
+Tennessee,Stewart,35,12,21,2,5540000.0
+Kentucky,Livingston,35,12,18,5,1102000.0
+South Dakota,Ziebach,35,24,11,0,1052000.0
+New Jersey,Western Ocean,35,0,34,1,0.0
+New Jersey,Western Monmouth,35,0,33,2,0.0
+New Jersey,Warren,35,6,27,2,0.0
+Iowa,Poweshiek,35,17,9,9,525000.0
+West Virginia,Ohio,35,8,27,0,3571000.0
+Minnesota,Houston,35,13,17,5,2384000.0
+Kentucky,Hart,35,13,16,6,220000.0
+Ohio,Morgan,35,11,24,0,100500.0
+Minnesota,Waseca,35,13,13,9,0.0
+Virginia,Accomack,34,8,21,5,861000.0
+Mississippi,Adams,34,14,13,7,2602000.0
+Virginia,Suffolk (C),34,7,19,8,6262000.0
+Minnesota,Pope,34,25,1,8,512000.0
+Virginia,James City,34,1,29,4,460000.0
+South Dakota,Campbell,34,22,8,4,43700.0
+Mississippi,Noxubee,34,6,10,18,2578000.0
+Colorado,Teller,34,25,4,5,0.0
+Illinois,Hamilton,34,10,23,1,466000.0
+Iowa,Calhoun,34,22,3,9,2652000.0
+Kansas,Atchison,34,21,12,1,200000.0
+Wisconsin,Polk,34,26,1,7,518000.0
+North Carolina,Edgecombe,34,10,13,11,72560000.0
+Wisconsin,Shawano,34,17,4,13,100000.0
+Tennessee,Perry,34,12,17,5,130000.0
+Missouri,Saline,34,15,17,2,0.0
+Pennsylvania,Wayne,34,4,28,2,773000.0
+Georgia,Gwinnett,34,20,10,4,10707000.0
+Virginia,Newport News (C),34,10,23,1,250000.0
+Texas,Victoria,34,12,18,4,160730000.0
+Texas,Burleson,34,28,2,4,20232900.0
+Mississippi,Amite,34,8,5,21,2953000.0
+Louisiana,Vermilion,34,8,19,7,576042000.0
+Florida,Osceola,34,15,6,13,347070000.0
+Mississippi,Grenada,34,9,22,3,1404000.0
+Kentucky,Perry,34,15,19,0,110110.0
+Louisiana,Jackson,34,13,7,14,2746000.0
+Texas,Gonzales,34,17,16,1,105000.0
+Minnesota,Clearwater,34,29,4,1,523500.0
+Idaho,Bonneville,34,18,15,1,30902200.0
+Missouri,Clinton,34,28,2,4,12000.0
+Minnesota,Meeker,34,28,0,6,250000.0
+Arkansas,Little River,34,18,12,4,49000.0
+Oregon,Coos,34,0,34,0,0.0
+Nebraska,Gosper,34,31,3,0,670000.0
+Ohio,Geauga,34,22,4,8,463000.0
+Ohio,Ashland,34,16,14,4,1085000.0
+Kentucky,Bath,34,6,26,2,306100.0
+Texas,Dawson,34,16,14,4,20224000.0
+Indiana,Floyd,34,17,10,7,0.0
+Indiana,Daviess,34,16,12,6,1667500.0
+Nevada,Washoe,34,5,28,1,9520000.0
+Iowa,Greene,33,20,3,10,3196000.0
+Kansas,Brown,33,23,7,3,0.0
+Kansas,Chautauqua,33,18,9,6,500.0
+New York,Bronx,33,2,30,1,63440000.0
+Illinois,Cass,33,17,6,10,344000.0
+New Jersey,Eastern Cape May,33,0,31,2,0.0
+Wisconsin,Oneida,33,30,1,2,450000.0
+Mississippi,Tate,33,21,8,4,2530000.0
+North Dakota,Ransom,33,23,4,6,119000.0
+Louisiana,St. Martin,33,12,15,6,230440000.0
+South Carolina,Fairfield,33,19,3,11,1005210.0
+Indiana,Switzerland,33,8,23,2,18326000.0
+Nevada,Lincoln,33,0,33,0,694000.0
+North Carolina,Yadkin,33,11,19,3,10225000.0
+South Carolina,Saluda,33,19,4,10,16835530.0
+Alabama,Tallapoosa,33,20,2,11,0.0
+Minnesota,Wilkin,33,22,5,6,155000.0
+South Dakota,Sully,33,28,4,1,181300.0
+Tennessee,Cumberland,33,12,16,5,714000.0
+New York,Kings,33,2,31,0,60000000.0
+Vermont,Caledonia,33,7,26,0,17456000.0
+Wisconsin,Manitowoc,33,24,7,2,490000.0
+Tennessee,Washington,33,14,19,0,39331000.0
+Nebraska,Merrick,33,25,4,4,4475000.0
+Kentucky,Franklin,33,10,21,2,0.0
+Puerto Rico,Cabo Rojo,33,0,33,0,751109100.0
+Minnesota,Stevens,33,27,3,3,296000.0
+Kentucky,Clay,33,8,25,0,269010.0
+Puerto Rico,Arecibo,33,1,30,2,750318910.0
+West Virginia,Pendleton,33,8,25,0,0.0
+West Virginia,Wetzel,33,9,24,0,2374000.0
+North Carolina,Bertie,32,8,13,11,11962000.0
+North Carolina,Pasquotank,32,3,22,7,805000.0
+North Carolina,Greene,32,7,21,4,200000.0
+Iowa,Hamilton,32,17,6,9,778000.0
+Maryland,Worcester,32,4,24,4,760000.0
+Iowa,Mahaska,32,10,18,4,710000.0
+Tennessee,Giles,32,13,15,4,4360000.0
+Indiana,Steuben,32,26,0,6,312000.0
+Puerto Rico,Rio Grande,32,0,32,0,28500.0
+West Virginia,Wyoming,32,11,21,0,263000.0
+Texas,Sterling,32,29,1,2,0.0
+Louisiana,Madison,32,6,5,21,1160000.0
+Louisiana,St. Mary,32,6,17,9,101546000.0
+Nebraska,Pierce,32,25,6,1,480000.0
+Illinois,Edgar,32,17,10,5,260000.0
+Texas,Foard,32,25,3,4,0.0
+Minnesota,Martin,32,26,1,5,1500000.0
+Iowa,Adams,32,19,3,10,2978000.0
+Virginia,Wythe,32,12,20,0,1203000.0
+Mississippi,Stone,32,8,22,2,100000.0
+North Carolina,Rowan,32,15,11,6,295500.0
+Kentucky,Shelby,32,14,13,5,0.0
+Mississippi,Marshall,32,18,9,5,3450000.0
+Nebraska,Deuel,32,29,1,2,178000.0
+Ohio,Hardin,32,11,17,4,647000.0
+Kentucky,Knox,32,10,21,1,2771200.0
+Texas,Borden,32,30,1,1,75400.0
+Montana,Daniels,32,26,5,1,0.0
+Illinois,Lawrence,32,13,18,1,0.0
+Indiana,Hendricks,32,18,8,6,1939500.0
+Ohio,Portage,32,17,11,4,1530000.0
+Georgia,Union,32,10,19,3,472000.0
+Tennessee,Scott,32,9,19,4,1736000.0
+North Carolina,Caswell,32,22,9,1,610000.0
+Florida,Gadsden,32,7,12,13,300278000.0
+Tennessee,Sullivan,32,12,20,0,5000.0
+Kentucky,Marion,32,8,18,6,245000.0
+Tennessee,Cocke,32,12,20,0,524300.0
+Tennessee,Crockett,32,8,22,2,238000.0
+New York,Tioga,32,6,26,0,1428000.0
+Georgia,Early,32,3,8,21,152465000.0
+Texas,Madison,31,15,12,4,84647000.0
+Iowa,Keokuk,31,22,5,4,0.0
+Wisconsin,Richland,31,19,12,0,4048000.0
+Virginia,Hampton (C),31,11,20,0,2000000.0
+North Carolina,Martin,31,17,9,5,0.0
+Missouri,Reynolds,31,16,5,10,751500.0
+Arizona,Graham,31,7,24,0,2278300.0
+Texas,Maverick,31,16,14,1,5000.0
+Georgia,Whitfield,31,8,20,3,200000.0
+Tennessee,Marion,31,19,10,2,3522000.0
+Vermont,Bennington,31,4,27,0,1281000.0
+Florida,Gulf,31,12,19,0,100000.0
+Virginia,Appomattox,31,9,21,1,11270500.0
+Iowa,Delaware,31,12,8,11,156000.0
+Indiana,Tippecanoe,31,20,4,7,257500.0
+Georgia,Houston,31,9,7,15,1463000.0
+Iowa,Monona,31,22,6,3,5300000.0
+Georgia,Floyd,31,6,20,5,205000.0
+Mississippi,Montgomery,31,12,11,8,10451200.0
+Indiana,Decatur,31,15,12,4,359500.0
+Alabama,Fayette,31,13,4,14,0.0
+Georgia,Cherokee,31,24,1,6,2400000.0
+Maryland,Queen Anne'S,31,10,19,2,0.0
+Louisiana,Caldwell,31,11,11,9,4790000.0
+Indiana,Hancock,31,23,6,2,336500.0
+Virginia,Buckingham,31,18,13,0,60000.0
+North Dakota,Renville,31,30,0,1,150000.0
+Nebraska,Polk,31,22,4,5,2970000.0
+Maine,Piscataquis,31,11,20,0,0.0
+Indiana,Lawrence,31,14,11,6,1089500.0
+Ohio,Madison,31,10,15,6,1356250.0
+Ohio,Medina,31,14,12,5,14620000.0
+Alabama,Pike,31,8,2,21,0.0
+Idaho,Bannock,31,18,13,0,652500.0
+West Virginia,Mineral,31,6,25,0,0.0
+Michigan,Genesee,31,18,7,6,22210000.0
+Indiana,Orange,31,19,5,7,75000.0
+North Dakota,Sheridan,31,24,1,6,1182000.0
+Texas,Titus,31,25,5,1,60000.0
+Minnesota,Mahnomen,31,24,1,6,61500.0
+California,Napa,31,1,29,1,20.0
+Missouri,Holt,31,21,6,4,200000.0
+Michigan,Kent,31,14,5,12,11370000.0
+West Virginia,Webster,31,5,26,0,9042600.0
+Tennessee,Bedford,31,10,14,7,1535400.0
+Wisconsin,Barron,31,26,0,5,10700000.0
+Indiana,Grant,31,27,0,4,9500.0
+Tennessee,Smith,30,12,12,6,7145000.0
+North Carolina,Polk,30,13,15,2,15324000.0
+Iowa,Cass,30,12,7,11,506000.0
+New Jersey,Cumberland,30,6,22,2,0.0
+Arkansas,Fulton,30,18,10,2,10000.0
+Pennsylvania,Centre,30,20,8,2,5220000.0
+West Virginia,Clay,30,4,26,0,17159100.0
+Alabama,Autauga,30,9,6,15,0.0
+Texas,Kleberg,30,12,14,4,3940000.0
+Georgia,Hall,30,9,11,10,3955000.0
+Mississippi,Perry,30,7,15,8,2070000.0
+Alabama,Washington,30,13,8,9,1820000.0
+Texas,Briscoe,30,22,3,5,125500.0
+Connecticut,Tolland,30,15,8,7,1476500.0
+North Carolina,Dare,30,2,26,2,250000.0
+Maryland,Baltimore City (C),30,6,19,5,5765000.0
+West Virginia,Gilmer,30,5,25,0,97400.0
+Vermont,Addison,30,11,16,3,2967000.0
+West Virginia,Grant,30,5,25,0,1000.0
+Texas,Jeff Davis,30,25,4,1,1040500.0
+Michigan,Grand Traverse,30,18,11,1,456000.0
+Virginia,Brunswick,30,5,23,2,20000.0
+Virginia,Lynchburg (C),30,12,17,1,27831500.0
+Kentucky,Morgan,30,6,24,0,483000.0
+Alabama,Pickens,30,14,0,16,0.0
+Illinois,Menard,30,19,6,5,0.0
+North Dakota,Foster,30,25,1,4,360000.0
+Tennessee,Overton,30,11,14,5,1771460.0
+Kentucky,Wolfe,30,10,20,0,526000.0
+Alabama,Sumter,30,17,4,9,0.0
+Illinois,Jasper,30,13,11,6,10000.0
+Mississippi,Wilkinson,30,10,7,13,9923000.0
+Arkansas,Lincoln,30,13,14,3,135000.0
+Nevada,Nye,30,1,28,1,661000.0
+Kansas,Woodson,30,21,7,2,200.0
+Puerto Rico,Vega Baja,30,0,30,0,161600.0
+Missouri,De Kalb,30,22,7,1,5000.0
+Florida,Nassau,30,15,10,5,25000.0
+Montana,Gallatin,30,27,3,0,1000000.0
+Ohio,Van Wert,30,17,2,11,461000.0
+Kentucky,Harlan,30,8,22,0,6042000.0
+North Dakota,Slope,30,30,0,0,352000.0
+Missouri,Maries,30,11,17,2,2590000.0
+Wisconsin,Ashland,30,15,14,1,4000.0
+Missouri,Macon,30,23,7,0,0.0
+New Mexico,San Juan,30,6,22,2,3200000.0
+Alabama,Barbour,30,6,2,22,0.0
+Florida,Putnam,30,6,17,7,0.0
+West Virginia,Taylor,30,13,17,0,4468000.0
+Virginia,Sussex,30,2,26,2,2815000.0
+New Jersey,Western Atlantic,30,0,29,1,0.0
+New York,Chemung,30,8,22,0,333000.0
+Alabama,Covington,30,15,5,10,400000.0
+Georgia,Dodge,29,5,6,18,538000.0
+Vermont,Washington,29,4,25,0,118755000.0
+Iowa,Sac,29,17,4,8,400000.0
+Vermont,Chittenden,29,12,17,0,2551000.0
+Louisiana,Lafourche,29,17,6,6,4770000.0
+Ohio,Columbiana,29,13,11,5,840000.0
+Illinois,Henderson,29,10,19,0,0.0
+Minnesota,Watonwan,29,23,2,4,20000.0
+Georgia,Paulding,29,8,16,5,1492000.0
+Texas,Terry,29,20,5,4,0.0
+Kentucky,Barren,29,7,16,6,100000.0
+Kentucky,Caldwell,29,13,11,5,985000.0
+Texas,Trinity,29,14,14,1,2856000.0
+Georgia,Spalding,29,7,5,17,819000.0
+Virginia,Dinwiddie,29,3,23,3,493000.0
+Washington,Whitman,29,5,24,0,1255500.0
+Texas,Cochran,29,17,3,9,5000.0
+South Dakota,Marshall,29,15,10,4,293300.0
+South Carolina,Kershaw,29,21,2,6,2001830.0
+South Carolina,Laurens,29,13,5,11,25391000.0
+Ohio,Seneca,29,21,5,3,600000.0
+Kentucky,Green,29,15,11,3,230000.0
+Kentucky,Harrison,29,8,20,1,130000.0
+Tennessee,Roane,29,11,16,2,10550000.0
+Texas,Live Oak,29,14,7,8,135000.0
+Iowa,Grundy,29,15,7,7,300000.0
+Pennsylvania,Lebanon,29,12,15,2,0.0
+Oregon,Deschutes,29,26,2,1,6000.0
+Illinois,Warren,29,17,4,8,200000.0
+Illinois,Union,29,8,16,5,1685000.0
+Tennessee,Hardeman,29,14,9,6,2477000.0
+West Virginia,Doddridge,29,4,25,0,1531000.0
+California,San Luis Obispo,29,1,26,2,0.0
+Michigan,Monroe,29,17,4,8,6975000.0
+Virginia,Louisa,29,10,15,4,333000.0
+Nebraska,Thomas,29,26,2,1,26000.0
+Ohio,Mahoning,29,22,6,1,8962000.0
+Montana,Sweet Grass,29,26,3,0,0.0
+Georgia,Talbot,29,2,10,17,1474000.0
+Michigan,Manistee,29,25,4,0,5552000.0
+South Carolina,Clarendon,29,10,4,15,226110.0
+Texas,Frio,29,21,6,2,150000.0
+Missouri,Cole,29,17,9,3,173100000.0
+Illinois,Marion,29,11,11,7,2240000.0
+Indiana,Wells,29,25,1,3,187500.0
+Alabama,Coosa,28,14,1,13,0.0
+New Mexico,Grant,28,13,15,0,5000.0
+Louisiana,Cameron,28,7,7,14,25372000.0
+New Mexico,Mckinley,28,1,22,5,125000.0
+New Mexico,Rio Arriba,28,12,16,0,3040000.0
+Nebraska,Wayne,28,18,7,3,3310000.0
+Nebraska,Antelope,28,20,8,0,40000.0
+Massachusetts,Eastern Plymouth,28,0,23,5,536500.0
+Wisconsin,Waushara,28,17,5,6,779000.0
+Texas,Grimes,28,7,15,6,51704000.0
+North Carolina,Lincoln,28,14,6,8,1427000.0
+Texas,Bee,28,15,10,3,1455000.0
+Montana,Hill,28,24,3,1,3210000.0
+Tennessee,White,28,11,12,5,220000.0
+Virginia,Wise,28,2,26,0,219000.0
+Georgia,Coastal Glynn,28,0,12,16,0.0
+Pennsylvania,Monroe,28,4,23,1,100000.0
+Wisconsin,Marinette,28,22,2,4,4130500.0
+Utah,Utah,28,10,18,0,1141000.0
+Illinois,Grundy,28,7,14,7,335000.0
+Georgia,Wayne,28,13,4,11,10000.0
+Virginia,Floyd,28,16,11,1,217100.0
+Mississippi,Choctaw,28,6,13,9,1715000.0
+South Carolina,Cherokee,28,17,5,6,5436000.0
+Texas,San Augustine,28,12,11,5,5150000.0
+Indiana,Rush,28,17,6,5,872500.0
+Missouri,Montgomery,28,15,8,5,25000.0
+South Dakota,Jerauld,28,25,3,0,250000.0
+Tennessee,Anderson,28,14,14,0,604000.0
+Virginia,Roanoke (C),28,2,26,0,700500.0
+Minnesota,Swift,28,17,0,11,2320000.0
+Minnesota,Chisago,28,24,0,4,500000.0
+Ohio,Champaign,28,6,19,3,204000.0
+California,Nevada,28,2,26,0,3736000.0
+Texas,Comanche,28,23,5,0,1190000.0
+Texas,Sutton,28,16,12,0,8000000.0
+Colorado,Custer,28,12,14,2,0.0
+Louisiana,Washington,28,5,13,10,18500000.0
+North Dakota,Pierce,28,27,1,0,485000.0
+Utah,San Juan,28,9,13,6,70250.0
+Georgia,Cook,27,7,6,14,58413000.0
+Illinois,Pope,27,3,22,2,211000.0
+Iowa,Crawford,27,19,3,5,485000.0
+Pennsylvania,Wyoming,27,5,21,1,640000.0
+Georgia,Crisp,27,9,7,11,400000.0
+Alabama,Lamar,27,13,5,9,0.0
+Ohio,Wayne,27,12,12,3,9427000.0
+Oregon,Umatilla,27,13,10,4,53710000.0
+North Carolina,Jones,27,9,10,8,32799999.999999996
+New Hampshire,Coastal Rockingham,27,0,26,1,58970000.0
+Michigan,Ottawa,27,20,3,4,5600000.0
+North Carolina,Alexander,27,12,8,7,1010500.0
+Louisiana,Concordia,27,11,7,9,805000.0
+New Jersey,Western Cape May,27,0,26,1,0.0
+Ohio,Crawford,27,16,4,7,3791000.0
+Minnesota,Lac Qui Parle,27,19,3,5,560000.0
+Louisiana,East Carroll,27,8,15,4,1077000.0
+Texas,Shackelford,27,20,3,4,0.0
+Minnesota,Chippewa,27,19,2,6,75000.0
+West Virginia,Tucker,27,10,17,0,8000.0
+Virginia,Amherst,27,17,8,2,4445380.0
+Alabama,Chambers,27,9,6,12,0.0
+Virginia,King George,27,2,23,2,500000.0
+Wisconsin,Lincoln,27,22,2,3,2000.0
+Texas,Mills,27,22,5,0,223000.0
+Texas,Rains,27,21,4,2,1077000.0
+Tennessee,Cannon,27,12,12,3,3222940.0
+Florida,Coastal Flagler,27,0,19,8,42500000.0
+Louisiana,Claiborne,27,15,5,7,240000.0
+Iowa,Worth,27,14,7,6,165000.0
+Montana,Wibaux,27,27,0,0,0.0
+Ohio,Lake,27,12,12,3,438000.0
+Minnesota,Douglas,27,22,0,5,0.0
+Illinois,Mason,27,12,5,10,240000.0
+North Dakota,Sargent,27,24,1,2,100000.0
+Virginia,Danville (C),27,6,20,1,13421560.0
+Louisiana,Iberville,27,12,5,10,26504000.0
+Missouri,Caldwell,27,13,12,2,10000.0
+North Dakota,Burke,27,26,1,0,645000.0
+Arkansas,Searcy,27,12,11,4,340000.0
+Montana,Golden Valley,27,24,3,0,0.0
+Georgia,Walton,27,3,15,9,1395000.0
+Florida,Manatee,27,4,11,12,3062000.0
+Georgia,Forsyth,26,17,3,6,5141000.0
+Georgia,Grady,26,8,4,14,53153000.0
+Kentucky,Carroll,26,5,19,2,96000.0
+California,Calaveras,26,1,24,1,7630000.0
+Ohio,Defiance,26,19,2,5,58500.0
+New York,Tompkins,26,8,16,2,331000.0
+Indiana,Fayette,26,4,20,2,243000.0
+Ohio,Harrison,26,11,14,1,359000.0
+Georgia,Polk,26,10,14,2,5552000.0
+Iowa,Shelby,26,19,0,7,0.0
+Illinois,Clark,26,14,8,4,0.0
+New York,Richmond,26,5,21,0,60000000.0
+North Carolina,Chowan,26,9,10,7,1260000.0
+Minnesota,Lake Of The Woods,26,22,0,4,10000.0
+Texas,Chambers,26,1,17,8,81118000.0
+Puerto Rico,Hormigueros,26,0,26,0,2647000.0
+Puerto Rico,Las Piedras,26,0,25,1,593000.0
+Texas,Ward,26,24,1,1,63000.0
+Rhode Island,Washington,26,7,14,5,1170300.0
+Texas,Reagan,26,22,2,2,5000.0
+Wisconsin,Calumet,26,16,8,2,385000.0
+Idaho,Caribou,26,18,6,2,2049000.0
+South Carolina,Hampton,26,10,7,9,1475000.0
+Montana,Ravalli,26,20,6,0,73000.0
+Ohio,Putnam,26,18,2,6,578000.0
+Montana,Teton,26,22,4,0,250000.0
+Alabama,Mobile Coastal,26,0,20,6,86710000.0
+Mississippi,Claiborne,26,5,7,14,1701000.0
+Mississippi,Clay,26,9,14,3,457000.0
+North Dakota,Rolette,26,22,1,3,870000.0
+Kentucky,Owen,26,3,23,0,125500.0
+Kentucky,Pendleton,26,1,24,1,75000.0
+West Virginia,Braxton,26,3,23,0,493250.0
+Kentucky,Montgomery,26,3,23,0,805300.0
+California,San Benito,26,2,22,2,15500000.0
+Missouri,Ray,26,16,7,3,50000.0
+Kentucky,Larue,26,6,14,6,100000.0
+Oklahoma,Latimer,26,20,4,2,170000.0
+Arkansas,Pike,26,13,11,2,200000.0
+Michigan,Cass,26,13,6,7,818500.0
+Indiana,Howard,26,10,7,9,11842000.0
+West Virginia,Monroe,26,9,17,0,720000.0
+Virginia,Washington,26,9,17,0,105001000.0
+South Carolina,Marion,26,7,11,8,5053500.0
+Florida,Hendry,26,13,4,9,463000.0
+Oklahoma,Pushmataha,26,19,4,3,370000.0
+North Carolina,Eastern Currituck,26,0,20,6,680000.0
+Tennessee,Macon,26,9,13,4,1362000.0
+Mississippi,Pike,26,2,5,19,2220000.0
+Mississippi,Walthall,26,6,4,16,12675000.0
+Iowa,Lucas,25,16,5,4,1650000.0
+Indiana,Randolph,25,17,5,3,25037000.0
+California,Lake,25,1,24,0,7065000.0
+California,Kings,25,2,23,0,638190.0
+Puerto Rico,Northeast,25,0,19,6,112700.0
+New York,St. Lawrence,25,15,8,2,7285000.0
+Illinois,Pike,25,17,3,5,0.0
+New Mexico,Sierra,25,8,17,0,2400000.0
+New Mexico,Valencia,25,14,10,1,8265000.0
+Montana,Wheatland,25,23,1,1,0.0
+Louisiana,East Feliciana,25,8,13,4,29407000.0
+Mississippi,Calhoun,25,6,10,9,1477000.0
+Mississippi,Alcorn,25,12,7,6,1312000.0
+Florida,Pasco,25,5,6,14,90620000.0
+Kentucky,Spencer,25,6,15,4,100000.0
+Iowa,Monroe,25,16,8,1,234000.0
+Tennessee,Monroe,25,14,9,2,10050000.0
+North Dakota,Golden Valley,25,23,1,1,1015000.0
+Alabama,Macon,25,5,5,15,0.0
+Florida,Taylor,25,0,16,9,5693000.0
+Ohio,Carroll,25,11,11,3,846100.0
+Florida,Monroe,25,2,10,13,116200.0
+Montana,Jefferson,25,20,4,1,100000.0
+Alabama,Winston,25,13,2,10,0.0
+Virginia,Virginia Beach,25,0,19,6,435000.0
+Missouri,Ste. Genevieve,25,18,4,3,30000.0
+Georgia,Washington,25,1,6,18,1060000.0
+Florida,Liberty,25,2,9,14,450774000.0
+Missouri,Randolph,25,19,3,3,200000.0
+Ohio,Wood,25,19,5,1,180000.0
+Michigan,St. Joseph,25,18,1,6,872000.0
+Montana,Chouteau,25,20,4,1,194000.0
+North Carolina,Person,25,13,11,1,1077000.0
+Louisiana,Terrebonne,25,12,9,4,260000.0
+North Carolina,Lee,25,8,12,5,9868000.0
+Oregon,Tillamook,25,1,21,3,1205400.0
+Virginia,Charlotte,25,9,14,2,1183310.0
+Kentucky,Mccreary,25,11,13,1,228400.0
+Kentucky,Meade,25,9,10,6,200000.0
+Indiana,Johnson,25,15,6,4,8821500.0
+Indiana,Jefferson,25,13,8,4,275000.0
+Alabama,Perry,25,4,3,18,0.0
+Vermont,Orleans,25,10,15,0,3440000.0
+Vermont,Rutland,25,10,14,1,3797000.0
+Missouri,Osage,25,12,12,1,0.0
+Maine,Coastal York,24,0,23,1,64336500.0
+Illinois,Marshall,24,9,7,8,525000.0
+Texas,Stonewall,24,18,3,3,20500.0
+Missouri,Livingston,24,14,8,2,5000.0
+Puerto Rico,Patillas,24,0,24,0,138000.0
+Missouri,Linn,24,16,3,5,250000.0
+Puerto Rico,Utuado,24,2,22,0,750292700.0
+Illinois,Washington,24,18,4,2,53500.0
+Guam,Guam,24,0,17,7,4442735000.0
+New York,Jefferson,24,5,18,1,3245000.0
+New York,New York,24,4,20,0,114000000.0
+New York,Hamilton,24,3,18,3,3800500.0
+North Carolina,Granville,24,10,10,4,1138000.0
+Wisconsin,Iron,24,19,3,2,1000.0
+Michigan,Dickinson,24,18,6,0,307000.0
+Missouri,Marion,24,18,4,2,0.0
+Arkansas,St. Francis,24,11,9,4,178000.0
+Texas,Zapata,24,11,13,0,395000.0
+Missouri,Mississippi,24,9,11,4,395000.0
+Texas,Winkler,24,22,2,0,1500.0
+Kentucky,Washington,24,5,17,2,250000.0
+Nebraska,Dakota,24,9,15,0,2690000.0
+Minnesota,Isanti,24,21,1,2,55000.0
+Wisconsin,Marquette,24,14,5,5,2139000.0
+North Carolina,Anson,24,5,12,7,11040000.0
+Indiana,Marshall,24,15,5,4,1938500.0
+South Carolina,Jasper,24,6,11,7,1065000.0
+Arkansas,Izard,24,18,5,1,325000.0
+Pennsylvania,Blair,24,7,17,0,0.0
+Georgia,Coffee,24,8,3,13,0.0
+Kansas,Linn,24,19,4,1,0.0
+Nebraska,Nance,24,19,4,1,26100000.0
+Kentucky,Anderson,24,12,10,2,0.0
+Texas,Austin,24,10,12,2,2700000.0
+Kentucky,Boyle,24,7,10,7,270000.0
+Georgia,Liberty,24,16,2,6,5080000.0
+Tennessee,Haywood,24,8,12,4,520000.0
+Nebraska,Grant,24,23,0,1,0.0
+Georgia,Rabun,24,9,12,3,223500.0
+Wisconsin,Kewaunee,24,7,16,1,146500.0
+Kentucky,Leslie,24,7,17,0,522600.0
+Nebraska,Hooker,24,23,0,1,0.0
+Kentucky,Knott,24,7,17,0,23200.0
+Indiana,Kosciusko,24,15,4,5,73500.0
+Vermont,Windsor,24,8,16,0,30125000.0
+Pennsylvania,Cambria,24,7,12,5,20000.0
+Georgia,Camden,24,13,4,7,0.0
+Indiana,Putnam,24,18,5,1,171500.0
+Utah,Emery,24,1,22,1,1081000.0
+Florida,Coastal Nassau,24,0,12,12,10000000.0
+Ohio,Ottawa,24,8,12,4,5634000.0
+West Virginia,Calhoun,23,7,16,0,352250.0
+Ohio,Sandusky,23,12,5,6,1400000.0
+New Hampshire,Belknap,23,8,13,2,120000.0
+Illinois,Cumberland,23,6,11,6,0.0
+Minnesota,Mille Lacs,23,19,2,2,215000.0
+Tennessee,Mcnairy,23,14,5,4,33500000.0
+Kentucky,Menifee,23,3,20,0,2684500.0
+Georgia,Pickens,23,14,5,4,100000.0
+Texas,De Witt,23,12,10,1,3100000.0
+Missouri,Gentry,23,15,5,3,0.0
+South Carolina,Bamberg,23,4,7,12,3415010.0
+North Carolina,Camden,23,2,13,8,1080000.0
+Alabama,Conecuh,23,9,2,12,800000.0
+New York,Clinton,23,12,10,1,1010000.0
+Texas,Willacy,23,7,12,4,164730000.0
+Pennsylvania,Schuylkill,23,6,15,2,45000.0
+Tennessee,Morgan,23,7,12,4,513000.0
+Iowa,Winnebago,23,18,1,4,123000.0
+Wisconsin,Winnebago,23,14,5,4,9000.0
+Kentucky,Nicholas,23,0,23,0,2000000.0
+Georgia,Dade,23,14,6,3,720000.0
+Tennessee,Claiborne,23,8,12,3,1500000.0
+Tennessee,Lauderdale,23,13,2,8,250500.0
+Tennessee,Jackson,23,9,12,2,1504630.0
+New Mexico,Cibola,23,9,12,2,160000.0
+Alabama,Greene,23,7,2,14,0.0
+Maine,Knox,23,6,15,2,16833000.0
+Indiana,Martin,23,13,7,3,1352500.0
+North Carolina,Alleghany,23,11,12,0,5051300.0
+Mississippi,Yalobusha,23,17,6,0,225000.0
+Illinois,Schuyler,23,13,6,4,272000.0
+Arkansas,Crittenden,23,9,10,4,1361000.0
+Michigan,Gogebic,23,13,8,2,25518000.0
+Illinois,Piatt,23,12,5,6,0.0
+New York,Schoharie,23,7,16,0,103000.0
+New Jersey,Salem,23,6,16,1,0.0
+Missouri,Madison,23,6,8,9,201000.0
+Indiana,Sullivan,23,13,6,4,18604500.0
+Indiana,Owen,23,14,7,2,21827500.0
+Texas,Refugio,23,5,15,3,500140000.0
+Pennsylvania,Franklin,23,14,7,2,180000.0
+Wyoming,Park,23,11,11,1,25045000.0
+Indiana,Bartholomew,23,9,13,1,2351000.0
+Idaho,Idaho,23,14,9,0,14248600.0
+Michigan,Livingston,23,16,4,3,1620000.0
+Florida,Coastal St. Johns,23,0,14,9,45100000.0
+Pennsylvania,Fulton,23,6,13,4,66000.0
+Texas,Camp,23,16,5,2,250000.0
+Virginia,Caroline,23,6,15,2,285000.0
+Alaska,Kuskokwim Delta,23,1,22,0,0.0
+Missouri,Putnam,23,15,7,1,0.0
+Oklahoma,Haskell,23,15,4,4,595000.0
+Mississippi,Kemper,23,9,6,8,1705000.0
+Minnesota,Yellow Medicine,23,19,2,2,0.0
+Florida,Sarasota,23,3,12,8,24260000.0
+Montana,Glacier,23,22,1,0,0.0
+Tennessee,Chester,23,18,4,1,88000.0
+Louisiana,St. John The Baptist,23,0,13,10,621520000.0
+Illinois,Clinton,23,10,4,9,1049000.0
+Pennsylvania,Tioga,22,4,16,2,335000.0
+California,Glenn,22,3,19,0,5995000.0
+Texas,Duval,22,14,6,2,275000.0
+New York,Wayne,22,5,16,1,5725000.0
+Florida,Coastal Manatee,22,0,7,15,1031160000.0
+Puerto Rico,Adjuntas,22,4,18,0,750796600.0
+Iowa,Carroll,22,15,3,4,95000.0
+South Carolina,Marlboro,22,4,11,7,1793750.0
+Georgia,Douglas,22,6,8,8,368000.0
+Georgia,Decatur,22,3,7,12,300516000.0
+Alabama,Bibb,22,5,0,17,0.0
+Alabama,Crenshaw,22,7,4,11,363000.0
+Michigan,Baraga,22,17,5,0,19825000.0
+Rhode Island,Kent,22,4,18,0,5000.0
+California,Tuolumne,22,3,18,1,93020000.0
+Kentucky,Edmonson,22,7,11,4,5000.0
+Kentucky,Crittenden,22,3,19,0,220000.0
+Michigan,St. Clair,22,12,9,1,12490000.0
+Louisiana,Lower Plaquemines,22,0,14,8,570000000.0
+Mississippi,Chickasaw,22,4,10,8,650000.0
+Mississippi,Jefferson,22,11,2,9,726000.0
+Virginia,New Kent,22,4,17,1,50000.0
+Missouri,Shelby,22,12,5,5,195000.0
+Florida,Hardee,22,5,6,11,4368000.0
+Missouri,Pemiscot,22,15,1,6,1505000.0
+Colorado,Park,22,15,2,5,15000.0
+North Carolina,Halifax,22,8,8,6,75730000.0
+North Carolina,Northampton,22,8,9,5,710000.0
+Louisiana,St. James,22,1,8,13,275446000.0
+North Carolina,Hoke,22,6,10,6,7220000.0
+Kentucky,Hancock,22,9,12,1,6000.0
+Kentucky,Metcalfe,22,3,13,6,850000.0
+Kentucky,Monroe,22,9,9,4,10000.0
+Kentucky,Clark,22,6,14,2,5000.0
+West Virginia,Brooke,22,6,16,0,1919000.0
+Ohio,Holmes,22,14,5,3,150000.0
+Ohio,Marion,22,7,13,2,313000.0
+Tennessee,Fentress,22,7,10,5,1949250.0
+Ohio,Morrow,22,12,7,3,160000.0
+Georgia,Jackson,22,10,7,5,1004000.0
+Alabama,Wilcox,22,7,4,11,100000.0
+Georgia,Bibb,22,4,4,14,2766000.0
+Tennessee,Decatur,22,13,6,3,350000.0
+Georgia,Meriwether,22,6,4,12,6140000.0
+Kentucky,Lyon,22,2,12,8,627000.0
+Alabama,Dallas,22,7,3,12,0.0
+Kentucky,Owsley,21,10,11,0,3000.0
+Michigan,Ingham,21,17,1,3,75212000.0
+Tennessee,Mcminn,21,6,13,2,2000.0
+Ohio,Allen,21,15,2,4,31500.0
+Arkansas,Bradley,21,7,12,2,30000.0
+Massachusetts,Eastern Essex,21,0,19,2,100000.0
+Florida,Baker,21,3,9,9,3000.0
+Wisconsin,Green Lake,21,12,7,2,23000.0
+Indiana,Newton,21,7,5,9,1000.0
+Tennessee,Lewis,21,13,1,7,1050000.0
+Texas,Yoakum,21,18,2,1,0.0
+Kentucky,Adair,21,9,11,1,760000.0
+Louisiana,Pointe Coupee,21,6,7,8,36799000.0
+Florida,Monroe/Lower Keys,21,0,9,12,43500.0
+Kentucky,Bracken,21,7,12,2,1120000.0
+Tennessee,Bradley,21,11,6,4,0.0
+North Carolina,Perquimans,21,1,11,9,945000.0
+Indiana,Greene,21,11,5,5,2941000.0
+Montana,Flathead,21,16,5,0,2102000.0
+Iowa,Jefferson,21,14,6,1,0.0
+Georgia,Lanier,21,6,5,10,102653000.0
+Kentucky,Cumberland,21,5,12,4,50000.0
+Tennessee,Wayne,21,11,7,3,860000.0
+Tennessee,Bledsoe,21,10,11,0,850000.0
+Georgia,Tattnall,21,10,8,3,75000.0
+Washington,Wahkiakum,21,1,20,0,0.0
+Illinois,De Witt,21,15,3,3,0.0
+Minnesota,Red Lake,21,18,1,2,250000.0
+South Dakota,Miner,21,15,4,2,668000.0
+Idaho,Fremont,21,14,6,1,221000.0
+Kentucky,Henry,21,12,4,5,285000.0
+Indiana,Clinton,21,11,8,2,757750.0
+Mississippi,Leflore,21,6,11,4,2040000.0
+Virginia,Amelia,21,9,10,2,282000.0
+Virginia,Alleghany,21,5,16,0,6102000.0
+Virgin Islands,St. Croix,21,1,17,3,520000.0
+Kentucky,Rowan,21,6,15,0,387000.0
+Minnesota,Cook,21,9,10,2,30000.0
+Florida,Columbia,21,3,10,8,0.0
+Indiana,Shelby,21,8,8,5,353500.0
+Georgia,Carroll,21,7,4,10,954000.0
+Florida,Franklin,21,1,14,6,90000.0
+Alabama,Randolph,20,10,3,7,0.0
+Georgia,Coastal Camden,20,0,11,9,0.0
+Florida,Coastal Collier County,20,0,16,4,2704599000.0
+Ohio,Erie,20,10,8,2,2780000.0
+Maine,Coastal Cumberland,20,0,19,1,31495000.0
+Indiana,Noble,20,16,1,3,907000.0
+Puerto Rico,Manati,20,0,19,1,74700.0
+Florida,Wakulla,20,4,6,10,180000.0
+Indiana,Wabash,20,16,1,3,4500.0
+North Carolina,Gates,20,5,10,5,880000.0
+Mississippi,Webster,20,5,11,4,469000.0
+Puerto Rico,Luquillo,20,0,20,0,16500.0
+Indiana,Jennings,20,11,7,2,240250.0
+West Virginia,Hancock,20,10,9,1,1277000.0
+Texas,Karnes,20,9,10,1,0.0
+Missouri,Gasconade,20,12,8,0,0.0
+Florida,Bradford,20,3,5,12,4035000.0
+Maine,York,20,8,12,0,2706000.0
+Puerto Rico,San German,20,0,20,0,77500.0
+Kentucky,Letcher,20,4,16,0,447000.0
+Georgia,Miller,20,2,9,9,250381000.0
+Massachusetts,Dukes,20,1,16,3,10700.0
+Minnesota,Benton,20,18,2,0,350000.0
+Alabama,Cleburne,20,12,2,6,0.0
+New York,Orleans,20,4,16,0,1125000.0
+Georgia,Glynn,20,5,10,5,1000.0
+Texas,Morris,20,14,2,4,5775000.0
+Georgia,Randolph,20,6,2,12,1505000.0
+Vermont,Lamoille,20,5,15,0,3455000.0
+Utah,Tooele,20,7,13,0,1643100.0
+Alaska,Juneau Borough,20,0,20,0,27850740.0
+Georgia,Ben Hill,20,3,10,7,11273000.0
+Oregon,Lane,20,2,18,0,35000.0
+Indiana,Cass,20,13,2,5,528000.0
+North Carolina,Montgomery,20,8,8,4,1927000.0
+Ohio,Knox,20,9,8,3,148500.0
+Washington,Ferry,20,2,18,0,6535000.0
+Georgia,Harris,20,4,6,10,1055000.0
+Tennessee,Carter,20,4,16,0,64542000.0
+Florida,Coastal Wakulla,20,0,7,13,202554000.0
+Colorado,Montrose,20,4,16,0,340000.0
+Tennessee,Trousdale,20,6,8,6,2335000.0
+Puerto Rico,Aguadilla,20,0,19,1,750070500.0
+Missouri,Mercer,20,13,5,2,0.0
+California,Solano,20,1,19,0,0.0
+Michigan,Midland,20,11,9,0,326400000.0
+Missouri,Sullivan,20,16,3,1,0.0
+Virginia,Lee,20,9,9,2,5000.0
+Ohio,Henry,20,15,1,4,1500.0
+Indiana,Brown,20,9,9,2,862000.0
+Georgia,Candler,20,12,5,3,125000.0
+West Virginia,Wirt,20,6,14,0,25500.0
+Georgia,Toombs,20,2,4,14,260000.0
+Florida,Jefferson,20,4,10,6,2000.0
+Virginia,Norfolk,20,0,14,6,470000.0
+North Carolina,Scotland,20,6,9,5,10970000.0
+Colorado,Broomfield,20,19,1,0,10000.0
+Iowa,Ringgold,20,11,3,6,790000.0
+Kansas,Doniphan,20,13,5,2,100000.0
+New York,Fulton,20,10,7,3,42000.0
+New York,Wyoming,20,12,7,1,830000.0
+California,Stanislaus,20,1,17,2,20600.0
+Arkansas,Stone,19,10,6,3,10000.0
+Illinois,Jersey,19,8,4,7,100000.0
+Illinois,Johnson,19,11,5,3,1780000.0
+Georgia,Clayton,19,4,8,7,2456000.0
+North Carolina,Davie,19,12,4,3,178000.0
+Arkansas,Lee,19,11,8,0,25000.0
+Missouri,Andrew,19,10,9,0,100000.0
+Wisconsin,Door,19,16,1,2,20000.0
+Texas,La Salle,19,11,7,1,432000.0
+Texas,Marion,19,12,2,5,1925000.0
+North Carolina,Avery,19,6,10,3,49219000.0
+Puerto Rico,Salinas,19,0,19,0,242400.0
+Missouri,Howard,19,7,11,1,300000.0
+Maine,Coastal Hancock,19,0,18,1,0.0
+Texas,San Jacinto,19,10,9,0,350007000.0
+Puerto Rico,Guayama,19,0,19,0,502200.0
+Virginia,Nottoway,19,4,14,1,150000.0
+Arkansas,Cleburne,19,12,4,3,70000.0
+Pennsylvania,Sullivan,19,3,14,2,7500000.0
+Louisiana,West Feliciana,19,10,4,5,15240000.0
+Florida,Monroe/Upper Keys,19,0,12,7,600500.0
+Michigan,Saginaw,19,10,5,4,10650000.0
+Virginia,Gloucester,19,5,5,9,359000.0
+Texas,Crane,19,18,1,0,0.0
+Tennessee,Moore,19,7,10,2,0.0
+California,Colusa,19,1,17,1,8020000.0
+Kentucky,Mercer,19,9,8,2,0.0
+Indiana,Starke,19,15,1,3,1257000.0
+Tennessee,Clay,19,11,6,2,790640.0
+Georgia,Twiggs,19,2,1,16,540000.0
+Georgia,Ware,19,4,3,12,40500.0
+Virginia,Lunenburg,19,2,16,1,20000.0
+Virginia,King William,19,3,15,1,50000.0
+Indiana,De Kalb,19,18,1,0,286000.0
+Puerto Rico,Ceiba,19,0,19,0,750289100.0
+Wyoming,Carbon,19,14,3,2,0.0
+Georgia,Monroe,19,5,5,9,10535000.0
+Arkansas,Phillips,19,9,6,4,135000.0
+Colorado,La Plata,19,7,12,0,3046000.0
+Georgia,Newton,19,6,3,10,1539000.0
+Iowa,Wayne,19,12,2,5,2660000.0
+Georgia,Henry,19,5,3,11,320000.0
+North Carolina,Vance,19,5,10,4,1231000.0
+Michigan,Menominee,19,13,5,1,1072000.0
+Idaho,Latah,19,2,17,0,1113750.0
+Pennsylvania,Clearfield,19,5,14,0,0.0
+Kentucky,Grant,19,4,12,3,235000.0
+Idaho,Power,19,7,12,0,374500.0
+West Virginia,Summers,19,7,12,0,1240000.0
+Georgia,Bryan,19,14,3,2,0.0
+Florida,Coastal Taylor,19,0,6,13,1034023000.0
+Georgia,Appling,19,6,6,7,0.0
+Missouri,Carroll,19,5,13,1,0.0
+Nebraska,Thurston,19,12,5,2,60000.0
+Georgia,Emanuel,18,2,1,15,536000.0
+North Carolina,Pamlico,18,2,5,11,29900000.0
+Kentucky,Clinton,18,4,9,5,0.0
+New Jersey,Southeastern Burlington,18,0,17,1,0.0
+New Jersey,Northwestern Burlington,18,0,17,1,0.0
+Maryland,Talbot,18,5,12,1,0.0
+New York,Southwest Suffolk,18,0,16,2,3000000.0
+Idaho,Ada,18,6,11,1,5000000.0
+Michigan,Allegan,18,9,0,9,5925000.0
+Missouri,Chariton,18,9,8,1,0.0
+New York,Seneca,18,2,16,0,1854000.0
+Texas,Lavaca,18,9,6,3,130000.0
+Idaho,Blaine,18,2,16,0,17865000.0
+Texas,Dimmit,18,13,5,0,0.0
+Nevada,Eureka,18,4,14,0,7188000.0
+Georgia,Fayette,18,8,3,7,180000.0
+Florida,Lafayette,18,0,8,10,1015703000.0
+Missouri,Ralls,18,12,5,1,0.0
+Missouri,Monroe,18,12,4,2,20000.0
+Texas,Wharton,18,4,4,10,200560000.0
+Texas,Delta,18,9,7,2,179000.0
+Georgia,Peach,18,5,2,11,365000.0
+Virginia,Middlesex,18,3,7,8,440000.0
+Louisiana,East Cameron,18,0,14,4,500000000.0
+Indiana,Miami,18,13,0,5,155000.0
+Florida,Coastal Franklin,18,0,7,11,310312000.0
+Florida,Coastal Hillsborough,18,0,7,11,67335000.0
+Florida,Coastal Dixie,18,0,6,12,134293000.0
+Texas,Zavala,18,14,4,0,15000.0
+California,Sutter,18,4,13,1,5000.0
+California,North Bay Interior Valleys,18,0,18,0,0.0
+Louisiana,West Baton Rouge,18,6,7,5,21325000.0
+Kentucky,Allen,18,3,12,3,350000.0
+Pennsylvania,Lower Bucks,18,0,17,1,0.0
+Vermont,Franklin,18,10,8,0,1292000.0
+North Carolina,Hertford,18,5,7,6,860000.0
+Minnesota,Faribault,18,10,1,7,0.0
+North Carolina,Hatteras Island,18,0,11,7,0.0
+North Dakota,Divide,18,18,0,0,10000.0
+South Carolina,Dillon,18,4,8,6,17606750.0
+Nebraska,Wheeler,18,13,1,4,250000.0
+Wisconsin,Rusk,18,14,1,3,940000.0
+Minnesota,Kanabec,18,14,3,1,325000.0
+Illinois,Hardin,18,2,15,1,104000.0
+Alabama,Baldwin Coastal,18,0,11,7,242940000.0
+Alabama,Clay,17,9,3,5,0.0
+Illinois,Fayette,17,7,4,6,768000.0
+New York,Franklin,17,6,11,0,1075000.0
+Montana,Broadwater,17,14,3,0,100000.0
+Oregon,Grant,17,11,5,1,1400000.0
+Indiana,Adams,17,10,3,4,184000.0
+North Carolina,Madison,17,7,6,4,37253000.0
+Michigan,Bay,17,12,4,1,6010000.0
+Georgia,Telfair,17,2,4,11,250000.0
+Pennsylvania,Adams,17,10,6,1,6000.0
+Pennsylvania,Bedford,17,3,12,2,70000.0
+Utah,Duchesne,17,8,8,1,257100.0
+Texas,Kleberg County Islands,17,0,13,4,255000.0
+Michigan,Otsego,17,14,2,1,50020500.0
+Alaska,Kenai Peninsula,17,0,17,0,11700000.0
+Colorado,Garfield,17,3,14,0,31600.0
+Montana,Treasure,17,16,1,0,0.0
+Tennessee,Dekalb,17,10,3,4,385000.0
+Indiana,Jasper,17,6,7,4,288000.0
+Virginia,Bath,17,5,12,0,52000.0
+Michigan,Iron,17,7,8,2,4771000.0
+Mississippi,Sharkey,17,5,6,6,84516000.0
+South Carolina,Union,17,9,0,8,2060000.0
+New York,Putnam,17,3,11,3,350000.0
+Virginia,Mathews,17,3,10,4,185000.0
+Texas,Washington,17,6,9,2,160010000.0
+New Jersey,Sussex,17,9,5,3,0.0
+Georgia,Walker,17,6,6,5,363000.0
+Iowa,Decatur,17,10,5,2,800000.0
+Georgia,Brantley,17,5,4,8,0.0
+South Carolina,Mccormick,17,10,3,4,12000120.0
+Idaho,Cassia,17,7,8,2,5415000.0
+Florida,Coastal Charlotte,17,0,4,13,3038450000.0
+Missouri,Cooper,17,7,8,2,100000.0
+North Carolina,Richmond,17,5,8,4,23902500.0
+Georgia,Lincoln,17,11,4,2,7915340.0
+Texas,Nueces County Islands,17,0,14,3,15375000.0
+Iowa,Audubon,17,12,2,3,240000.0
+Pennsylvania,Northumberland,17,8,8,1,0.0
+Georgia,Wilkinson,17,1,2,14,470000.0
+Mississippi,Humphreys,17,9,4,4,14037000.0
+Texas,Colorado,17,7,8,2,2550000.0
+Texas,Culberson,17,13,4,0,22000.0
+Connecticut,Middlesex,17,7,10,0,50270.0
+Kentucky,Bourbon,17,1,15,1,15000.0
+Texas,Waller,17,4,4,9,357565000.0
+Georgia,Putnam,17,4,8,5,200000.0
+Puerto Rico,Canovanas,17,0,17,0,750524400.0
+Montana,Park,17,16,1,0,0.0
+West Virginia,Hardy,17,3,14,0,10000.0
+Florida,Highlands,17,3,0,14,361375000.0
+Tennessee,Sequatchie,17,6,10,1,100000.0
+Washington,Stevens,17,7,10,0,2517700.0
+Nebraska,Greeley,17,12,2,3,3250000.0
+Alaska,Susitna Valley,17,0,17,0,9240000.0
+Louisiana,Assumption,17,7,2,8,16150000.0
+Massachusetts,Nantucket,17,1,13,3,111200.0
+South Carolina,Greenwood,17,7,4,6,15269000.0
+Minnesota,Koochiching,17,14,3,0,2400000.0
+North Carolina,Warren,16,4,9,3,830000.0
+Virginia,Colonial Heights (C),16,1,15,0,65000.0
+Michigan,Chippewa,16,13,2,1,25000.0
+Wyoming,Big Horn,16,8,7,1,10000.0
+Georgia,Gilmer,16,5,4,7,280000.0
+Mississippi,Tallahatchie,16,6,6,4,2507000.0
+Mississippi,Tippah,16,9,2,5,1165000.0
+Michigan,Antrim,16,8,3,5,731000.0
+Georgia,Crawford,16,4,3,9,537000.0
+Kentucky,Lee,16,3,13,0,3000.0
+South Carolina,Chester,16,9,1,6,675000.0
+Georgia,Elbert,16,5,7,4,1877000.0
+Texas,Mcmullen,16,8,8,0,60000.0
+Georgia,Baldwin,16,2,5,9,183000.0
+Puerto Rico,Naranjito,16,0,16,0,97500.0
+Georgia,Clinch,16,5,1,10,5000.0
+Georgia,Fannin,16,4,8,4,327000.0
+Puerto Rico,North Central,16,0,12,4,16900.0
+Puerto Rico,Yabucoa,16,0,16,0,76500.0
+South Carolina,Barnwell,16,3,2,11,2500300.0
+New York,Yates,16,4,11,1,323000.0
+Kentucky,Garrard,16,3,8,5,80000.0
+Oregon,Union,16,13,3,0,1000000.0
+Idaho,Jefferson,16,7,7,2,3161500.0
+Indiana,Henry,16,9,5,2,120500.0
+Tennessee,Campbell,16,8,8,0,6753000.0
+Florida,Glades,16,4,3,9,20115000.0
+Indiana,Jay,16,7,2,7,656000.0
+Arkansas,Cleveland,16,7,7,2,20000.0
+Alabama,Mobile Central,16,0,10,6,1250000.0
+Kentucky,Gallatin,16,2,13,1,143000.0
+Louisiana,Plaquemines,16,11,0,5,310000.0
+Alabama,Butler,16,4,4,8,267000.0
+Iowa,Davis,16,11,3,2,520000.0
+Illinois,Scott,16,8,5,3,0.0
+Ohio,Fulton,16,13,2,1,2000.0
+Michigan,Huron,16,10,3,3,2005500.0
+Maryland,Caroline,16,3,9,4,0.0
+Tennessee,Hamblen,16,3,13,0,12230000.0
+Georgia,Baker,16,1,5,10,50195000.0
+Kentucky,Johnson,16,5,11,0,27000.0
+Texas,Schleicher,16,8,7,1,500000.0
+Georgia,Jones,16,3,6,7,356000.0
+Louisiana,St. Helena,16,2,2,12,73700000.0
+Montana,Beaverhead,15,10,2,3,200000.0
+Wyoming,Washakie,15,5,8,2,120000.0
+Alabama,Baldwin Central,15,0,10,5,823000.0
+Colorado,Chaffee,15,3,12,0,0.0
+Michigan,Delta,15,10,4,1,730000.0
+North Carolina,Jackson,15,6,7,2,10137000.0
+Colorado,Grand,15,1,14,0,120000.0
+Virginia,Salem (C),15,3,11,1,1640000.0
+California,Plumas,15,3,12,0,2040000.0
+Texas,King,15,12,0,3,0.0
+Georgia,Clarke,15,10,3,2,2693000.0
+Georgia,Taylor,15,4,1,10,270000.0
+Georgia,Stephens,15,11,1,3,25000.0
+Tennessee,Grundy,15,3,8,4,2080000.0
+Pennsylvania,Warren,15,6,4,5,2135000.0
+Texas,Presidio,15,12,3,0,20000.0
+Louisiana,Lower St. Bernard,15,0,9,6,285000000.0
+Virginia,Powhatan,15,1,11,3,113000.0
+Florida,Coastal Sarasota,15,0,4,11,2007535000.0
+Georgia,Calhoun,15,2,4,9,52656000.0
+Virginia,Fluvanna,15,4,8,3,350000.0
+Texas,Matagorda,15,2,9,4,501410000.0
+Kentucky,Russell,15,6,7,2,0.0
+Kentucky,Fleming,15,2,12,1,2272200.0
+Illinois,Putnam,15,8,3,4,0.0
+Illinois,Edwards,15,7,8,0,20000.0
+Georgia,Terrell,15,4,5,6,6020000.0
+Idaho,Madison,15,5,10,0,1751000.0
+Georgia,Wilcox,15,2,3,10,985000.0
+Kentucky,Wayne,15,11,3,1,110100.0
+Florida,Okeechobee,15,3,2,10,164255000.0
+Florida,Coastal Jefferson,15,0,3,12,120000.0
+Tennessee,Jefferson,15,9,4,2,8000.0
+Maine,Washington,15,7,7,1,323000.0
+Puerto Rico,Hatillo,15,0,15,0,2032400.0
+Utah,Davis,15,9,5,1,1330000.0
+Georgia,Atkinson,15,5,2,8,2000.0
+Tennessee,Warren,15,9,3,3,606180.0
+Indiana,Perry,15,2,11,2,100000.0
+Mississippi,Tunica,15,7,6,2,2046000.0
+Puerto Rico,Corozal,15,3,12,0,1027100.0
+Florida,Monroe/Middle Keys,15,0,6,9,0.0
+North Carolina,Washington,15,7,1,7,14000.0
+Kentucky,Lincoln,15,3,11,1,350000.0
+Idaho,Bonner,15,8,7,0,2044000.0
+Texas,Hudspeth,14,8,5,1,2000000.0
+Michigan,Gladwin,14,7,6,1,17753000.0
+Florida,Sumter,14,2,1,11,23747000.0
+Indiana,Ohio,14,5,5,4,195000.0
+Georgia,Franklin,14,8,3,3,185000.0
+Wyoming,Lincoln,14,5,9,0,225000.0
+Ohio,Williams,14,14,0,0,1000.0
+North Carolina,Haywood,14,7,5,2,402930000.0
+South Carolina,Coastal Horry,14,0,6,8,67034000.0
+Michigan,Lapeer,14,12,2,0,0.0
+Georgia,Wheeler,14,2,1,11,30000.0
+Maine,Hancock,14,8,6,0,615000.0
+Maine,Lincoln,14,3,9,2,13811000.0
+Puerto Rico,Dorad,14,0,14,0,1044000.0
+Puerto Rico,Coamo,14,2,12,0,510600.0
+Florida,Coastal Levy,14,0,4,10,2333000.0
+Puerto Rico,Cayey,14,0,14,0,750099800.0
+Indiana,Parke,14,7,4,3,730500.0
+Louisiana,Lower Terrebonne,14,0,9,5,820860000.0
+Virginia,Galax (C),14,4,10,0,2455000.0
+Louisiana,West Cameron,14,0,9,5,250002000.0
+Idaho,Nez Perce,14,0,14,0,2875000.0
+Montana,Lake,14,12,1,1,12000.0
+Kentucky,Jessamine,14,6,5,3,100000.0
+Ohio,Ashtabula,14,6,7,1,17000000.0
+Puerto Rico,Catano,14,0,14,0,750265500.0
+Tennessee,Loudon,14,9,4,1,103000.0
+Michigan,Ionia,14,6,2,6,2090000.0
+Utah,Carbon,14,6,8,0,4071000.0
+Texas,Goliad,14,13,0,1,1275000.0
+Tennessee,Meigs,14,6,6,2,2000.0
+North Carolina,Yancey,14,3,8,3,102127000.0
+Florida,Charlotte,14,1,0,13,2440000.0
+New York,Southern Queens,14,0,13,1,0.0
+Puerto Rico,San Juan And Vicinity,14,0,11,3,8300.0
+Florida,Gilchrist,14,4,2,8,510.0
+Louisiana,Lower Lafourche,14,0,9,5,1560000000.0
+Louisiana,Lower Jefferson,14,0,9,5,1025750000.0
+Louisiana,St. Bernard,14,0,10,4,80100000.0
+Indiana,Fountain,14,11,2,1,521000.0
+Georgia,Long,14,10,1,3,0.0
+New Hampshire,Strafford,14,7,6,1,142000.0
+Georgia,Catoosa,14,5,4,5,385000.0
+Puerto Rico,Southeast,14,0,4,10,12000.0
+Alaska,Taiya Inlet,14,0,14,0,353000.0
+Oregon,Wallowa,14,8,5,1,179000.0
+Virginia,Portsmouth (C),14,1,13,0,3000000.0
+Virginia,Harrisonburg (C),14,2,12,0,0.0
+Oregon,Washington,14,2,11,1,114000.0
+Indiana,Union,14,2,11,1,55000.0
+Missouri,Moniteau,14,9,4,1,200000.0
+Georgia,Heard,14,7,2,5,585000.0
+Georgia,Screven,14,7,1,6,225000.0
+Virginia,Craig,14,4,9,1,295650.0
+Missouri,Adair,14,10,4,0,0.0
+Texas,Calhoun,14,0,10,4,282018000.0
+Michigan,Lenawee,14,12,1,1,250000.0
+Virginia,Staunton (C),14,5,9,0,0.0
+Wisconsin,Pepin,14,9,3,2,520000.0
+Virginia,Hampton/Poquoson,13,0,8,5,320000.0
+Virginia,Greensville,13,6,4,3,484000.0
+Montana,Powell,13,11,2,0,70500.0
+Ohio,Paulding,13,7,1,5,240500.0
+Montana,Madison,13,8,5,0,0.0
+Nevada,Humboldt,13,5,6,2,3004100.0
+Georgia,Dawson,13,4,5,4,652000.0
+Virginia,King And Queen,13,4,7,2,510000.0
+Georgia,Banks,13,2,4,7,640000.0
+South Carolina,Coastal Georgetown,13,0,4,9,34046000.0
+Georgia,Lumpkin,13,1,6,6,641000.0
+Arkansas,Cross,13,1,3,9,151135000.0
+Alabama,Lowndes,13,3,4,6,0.0
+Wisconsin,Langlade,13,11,2,0,320500.0
+Georgia,Pierce,13,5,1,7,0.0
+Tennessee,Lake,13,7,3,3,5015000.0
+Florida,Inland Hillsborough,13,0,0,13,6960000.0
+Michigan,Kalamazoo,13,10,1,2,51100000.0
+Florida,Coastal Citrus,13,0,3,10,104987000.0
+Florida,Coastal Lee,13,0,5,8,7240240000.0
+Georgia,Montgomery,13,2,3,8,101000.0
+Texas,Jackson,13,1,10,2,500613000.0
+Puerto Rico,Orocovis,13,0,13,0,54200.0
+Puerto Rico,Northwest,13,0,12,1,18600.0
+Pennsylvania,Columbia,13,4,8,1,0.0
+Idaho,Shoshone,13,3,10,0,761500.0
+Puerto Rico,Trujillo Alto,13,0,12,1,9500.0
+Idaho,Custer,13,2,11,0,4780000.0
+Michigan,Newaygo,13,9,3,1,1780000.0
+Georgia,Butts,13,3,1,9,75000.0
+Missouri,Knox,13,9,2,2,0.0
+Illinois,Brown,13,10,1,2,100000.0
+Indiana,Whitley,13,8,4,1,357500.0
+Pennsylvania,Union,13,3,6,4,180000.0
+Pennsylvania,Potter,13,3,10,0,0.0
+Pennsylvania,Mckean,13,9,4,0,0.0
+Florida,Dixie,13,2,11,0,10075000.0
+Rhode Island,Newport,13,2,8,3,581000.0
+Texas,Loving,13,12,0,1,0.0
+Pennsylvania,Cumberland,13,5,6,2,7000.0
+Massachusetts,Southern Bristol,13,0,7,6,110400.0
+North Carolina,Cherokee,13,6,5,2,1000000.0
+Idaho,Lemhi,13,5,8,0,272000.0
+Idaho,Kootenai,13,6,7,0,592500.0
+California,Lassen,13,2,8,3,500000.0
+Michigan,Luce,13,11,1,1,1015000.0
+Virginia,Scott,13,3,9,1,2000.0
+Florida,Suwannee,13,0,4,9,0.0
+Virginia,Charles City (C),13,2,10,1,125000.0
+Georgia,Hart,13,7,2,4,1175000.0
+North Carolina,Mitchell,13,3,8,2,37107500.0
+New York,Genesee,13,2,7,4,95000.0
+Michigan,Tuscola,13,7,2,4,4202000.0
+Michigan,Shiawassee,13,5,2,6,10900000.0
+Alabama,Bullock,13,0,2,11,0.0
+Idaho,Bingham,13,4,5,4,1182800.0
+Indiana,Tipton,12,11,1,0,10000.0
+Wyoming,Sweetwater,12,3,5,4,751000.0
+Wyoming,Sublette,12,4,5,3,21000.0
+Michigan,Branch,12,5,0,7,190500.0
+California,Amador,12,1,11,0,50000.0
+Idaho,Butte,12,3,8,1,533000.0
+Pennsylvania,Snyder,12,8,1,3,24000.0
+Puerto Rico,Barranquitas,12,2,10,0,750294400.0
+Texas,Somervell,12,9,3,0,25000.0
+Puerto Rico,Eastern Interior,12,0,1,11,2000000.0
+South Carolina,Williamsburg,12,5,4,3,5301100.0
+Illinois,Stark,12,4,2,6,100000.0
+Maine,Waldo,12,4,8,0,210000.0
+South Carolina,Abbeville,12,4,2,6,3191000.0
+South Carolina,Allendale,12,4,0,8,936000.0
+Florida,Coastal Gulf,12,0,3,9,201125000.0
+South Dakota,Buffalo,12,7,5,0,151000.0
+Georgia,Seminole,12,0,4,8,300406000.0
+Virginia,Russell,12,2,10,0,691000.0
+Kentucky,Trimble,12,4,7,1,0.0
+Washington,Walla Walla,12,2,10,0,8930000.0
+Georgia,Sumter,12,2,2,8,447000.0
+Nevada,Douglas,12,1,10,1,5750000.0
+Georgia,Morgan,12,0,8,4,224000.0
+Tennessee,Hancock,12,8,3,1,0.0
+Georgia,Jeff Davis,12,1,4,7,0.0
+North Carolina,Macon,12,4,7,1,2260500.0
+Georgia,Greene,12,2,4,6,826000.0
+Georgia,Inland Chatham,12,0,1,11,10000000.0
+Virginia,Hopewell (C),12,6,6,0,0.0
+Missouri,Pike,12,8,2,2,15000.0
+Oregon,Curry,12,0,12,0,0.0
+Oregon,Clackamas,12,4,6,2,100000.0
+Michigan,Ontonagon,12,7,5,0,9680000.0
+Virginia,Essex,12,3,8,1,4500000.0
+California,Siskiyou,12,5,7,0,0.0
+Virginia,Highland,12,2,10,0,0.0
+Alaska,Lower Kuskokwim Valley,12,0,12,0,60000.0
+Virginia,Chesapeake,12,0,7,5,385000.0
+Louisiana,Tensas,12,5,2,5,645000.0
+Indiana,Carroll,12,3,4,5,146750.0
+Oregon,Jackson,12,9,3,0,0.0
+Idaho,Franklin,12,6,6,0,1822600.0
+Pennsylvania,Clinton,12,7,4,1,300000.0
+Vermont,Essex,12,2,10,0,707000.0
+Pennsylvania,Huntingdon,12,6,5,1,100000.0
+Florida,Coastal Pasco,12,0,2,10,7050000.0
+Georgia,Bleckley,12,0,0,12,161000.0
+North Carolina,Hyde,12,3,7,2,0.0
+Wyoming,Hot Springs,12,10,1,1,1050000.0
+New Mexico,Taos,12,3,8,1,670000.0
+Indiana,Vermillion,12,9,3,0,4000.0
+California,Yuba,12,1,10,1,1021000.0
+New York,Southeast Suffolk,12,0,9,3,3000000.0
+North Carolina,Coastal New Hanover,12,0,6,6,25000.0
+Indiana,Warren,12,11,0,1,0.0
+New York,Schuyler,12,5,7,0,107000.0
+Washington,Cowlitz,12,1,10,1,250025000.0
+Montana,Silver Bow,12,9,3,0,16000.0
+Illinois,Bond,11,5,3,3,445000.0
+Washington,Clark,11,0,7,4,44000.0
+North Carolina,Ocracoke Island,11,0,8,3,0.0
+Washington,Yakima,11,0,11,0,320000.0
+Massachusetts,Eastern Norfolk,11,0,9,2,3500.0
+Maryland,Kent,11,3,7,1,0.0
+Puerto Rico,Sabana Grande,11,0,11,0,36200.0
+Maine,Sagadahoc,11,0,9,2,23185000.0
+Puerto Rico,Mayaguez And Vicinity,11,0,5,6,26000.0
+Puerto Rico,Jayuya,11,0,11,0,1005200.0
+Colorado,Montezuma,11,3,8,0,70350.0
+South Carolina,Lee,11,6,1,4,52200.0
+Arkansas,Dallas,11,2,5,4,0.0
+Puerto Rico,Central Interior,11,0,0,11,3000000.0
+Puerto Rico,Cidra,11,0,11,0,528100.0
+Utah,Cache,11,7,3,1,4010000.0
+Maine,Coastal Washington,11,0,10,1,0.0
+Georgia,Wilkes,11,4,3,4,284000.0
+Washington,Douglas,11,4,6,1,1030500.0
+Montana,Liberty,11,9,2,0,50000.0
+Michigan,Wexford,11,11,0,0,0.0
+New Mexico,Luna,11,1,9,1,25000.0
+Illinois,Greene,11,4,3,4,100000.0
+Georgia,Dooly,11,4,1,6,432000.0
+Indiana,Scott,11,4,4,3,250000.0
+Georgia,Haralson,11,6,0,5,1086000.0
+Wisconsin,Forest,11,10,0,1,0.0
+North Carolina,Swain,11,1,7,3,1161000.0
+Georgia,Macon,11,0,3,8,285000.0
+Tennessee,Rhea,11,7,4,0,10000.0
+Indiana,Blackford,11,10,0,1,3000.0
+Michigan,Missaukee,11,11,0,0,0.0
+Florida,Inland Citrus,11,0,0,11,2975000.0
+Missouri,Worth,11,9,1,1,0.0
+Alaska,Anchorage Muni To Bird Creek,11,0,10,1,0.0
+Georgia,Jefferson,11,1,2,8,235000.0
+Idaho,Minidoka,11,7,4,0,6566000.0
+Florida,Inland Wakulla,11,0,0,11,101703000.0
+Oregon,Marion,11,2,6,3,65200.0
+Oregon,Klamath,11,6,4,1,20000.0
+Ohio,Wyandot,11,5,6,0,965000.0
+Montana,Granite,11,9,2,0,50000.0
+Florida,Inland Taylor,11,0,0,11,1016178000.0
+Florida,Inland Dixie,11,0,0,11,1016198000.0
+Virginia,Cumberland,11,5,6,0,0.0
+Texas,Coastal Cameron,11,0,10,1,10000.0
+Oregon,Polk,11,0,11,0,0.0
+Oregon,Northern Oregon Coast,11,0,11,0,0.0
+Vermont,Orange,11,5,5,1,2510000.0
+Idaho,Lewis,11,8,3,0,203000.0
+Texas,Coastal Willacy,11,0,10,1,60001870.0
+Pennsylvania,Forest,11,5,1,5,30000.0
+Georgia,Johnson,11,5,1,5,270000.0
+Georgia,Murray,11,4,3,4,613000.0
+California,Mono,10,2,8,0,0.0
+Colorado,Moffat,10,4,6,0,18000.0
+Puerto Rico,Aguas Buenas,10,0,10,0,750226000.0
+Florida,Coastal Hernando,10,0,1,9,8325000.0
+Utah,Box Elder,10,4,5,1,8030000.0
+Puerto Rico,Isabela,10,0,10,0,510000.0
+Puerto Rico,Lajas,10,1,8,1,135000.0
+Michigan,Calhoun,10,7,0,3,1700000.0
+Michigan,Barry,10,6,0,4,1670000.0
+South Carolina,Inland Berkeley,10,0,1,9,1500000.0
+Idaho,Canyon,10,4,6,0,1500000.0
+Michigan,Eaton,10,8,1,1,170000.0
+Idaho,Bear Lake,10,4,6,0,1008000.0
+Florida,Coastal Bay,10,0,2,8,6700148000.0
+Florida,De Soto,10,0,1,9,2015000.0
+Pennsylvania,Juniata,10,5,3,2,525000.0
+Texas,Coastal Nueces County,10,0,7,3,37725000.0
+Michigan,Mecosta,10,6,2,2,3075000.0
+Oregon,Wheeler,10,4,5,1,1005000.0
+Utah,Weber,10,4,4,2,2134000.0
+Pennsylvania,Elk,10,3,0,7,375000.0
+Guam,Micronesia,10,0,5,5,93106000.0
+Louisiana,Upper St. Bernard,10,0,4,6,285050000.0
+Idaho,Elmore,10,4,4,2,102000.0
+Michigan,Leelanau,10,7,3,0,95000.0
+Idaho,Clearwater,10,7,3,0,3506000.0
+Michigan,Montmorency,10,9,1,0,0.0
+Florida,Escambia Coastal,10,0,5,5,0.0
+Texas,Coastal Calhoun County,10,0,5,5,255000.0
+California,Orange County Coastal,10,0,9,1,75000.0
+Montana,Toole,10,8,2,0,0.0
+Michigan,Sanilac,10,5,1,4,1000000.0
+Colorado,Eagle,10,0,10,0,100000.0
+Virginia,Newport News,10,0,5,5,185000.0
+Florida,Inland Jefferson,10,0,0,10,16682000.0
+Florida,Inland Lee,10,0,0,10,240140000.0
+Virginia,Martinsville (C),10,0,10,0,888910.0
+Mississippi,Issaquena,10,3,1,6,170000.0
+Oregon,Douglas,10,2,8,0,0.0
+Florida,Inland Franklin,10,0,0,10,308000.0
+Florida,Hamilton,10,4,4,2,35000.0
+Oregon,Benton,10,0,9,1,0.0
+Montana,Pondera,10,8,2,0,0.0
+Georgia,Stewart,10,0,0,10,700000.0
+Virginia,Waynesboro (C),10,2,7,1,200000.0
+Idaho,Twin Falls,10,8,1,1,2500000.0
+Indiana,Lagrange,10,8,1,1,359000.0
+Georgia,Barrow,10,6,1,3,95000.0
+Idaho,Owyhee,10,6,2,2,0.0
+Kentucky,Martin,10,0,10,0,6500.0
+Nevada,Lander,10,2,7,1,5901000.0
+Georgia,Quitman,10,1,1,8,398000.0
+Mississippi,Benton,10,7,0,3,475000.0
+Georgia,Jasper,10,1,4,5,77000.0
+California,Trinity,10,7,3,0,3202000.0
+Tennessee,Pickett,10,7,2,1,45000.0
+Georgia,Lamar,10,1,3,6,290000.0
+West Virginia,Pleasants,10,3,7,0,21000.0
+Georgia,Clay,10,0,0,10,1323000.0
+New Mexico,Catron,10,3,7,0,335000.0
+Indiana,White,10,3,1,6,270000.0
+North Carolina,Clay,10,3,6,1,0.0
+Michigan,Van Buren,9,9,0,0,15000.0
+Michigan,Roscommon,9,7,1,1,245000.0
+North Carolina,Northern Outer Banks,9,0,3,6,0.0
+Tennessee,Grainger,9,4,4,1,900000.0
+Tennessee,Houston,9,1,7,1,632990.0
+Illinois,Calhoun,9,6,2,1,50000.0
+Tennessee,Van Buren,9,4,5,0,5000.0
+Nevada,Lyon,9,0,9,0,1325000.0
+Nevada,Mineral,9,1,8,0,0.0
+North Carolina,Tyrrell,9,3,1,5,1170000.0
+Colorado,Gunnison,9,0,8,1,551000.0
+Florida,Inland Pasco,9,0,0,9,3020000.0
+Georgia,Treutlen,9,1,0,8,126000.0
+Georgia,Mcduffie,9,5,1,3,16000200.0
+Georgia,Madison,9,4,0,5,201000.0
+Washington,South Coast,9,0,9,0,0.0
+Mississippi,Coahoma,9,7,2,0,1150000.0
+Colorado,Costilla,9,0,8,1,150000.0
+Virginia,Radford (C),9,0,9,0,50000.0
+Georgia,Schley,9,5,0,4,550000.0
+Montana,Sanders,9,4,5,0,101000.0
+Montana,Meagher,9,7,2,0,0.0
+Washington,Asotin,9,4,5,0,1644000.0
+Florida,Citrus,9,5,1,3,10550000.0
+Rhode Island,Bristol,9,1,6,2,201300.0
+Maryland,Maryland Beaches,9,0,3,6,310000.0
+Puerto Rico,Camuy,9,0,9,0,750267400.0
+Puerto Rico,Comerio,9,0,9,0,250537000.0
+Puerto Rico,Moca,9,0,9,0,12500.0
+Puerto Rico,Maunabo,9,0,9,0,2009400.0
+Pennsylvania,Carbon,9,6,2,1,0.0
+Georgia,Webster,9,2,0,7,226000.0
+Puerto Rico,Arroyo,9,0,9,0,750000000.0
+Pennsylvania,Pike,9,4,5,0,94000.0
+Louisiana,Upper Plaquemines,9,0,3,6,625000000.0
+Oregon,Malheur,9,3,6,0,0.0
+Virgin Islands,St. Thomas / St. John And Adjacent Islands,9,0,2,7,0.0
+Indiana,Clay,9,4,5,0,126000.0
+Colorado,Pitkin,9,0,9,0,6000.0
+Virginia,Franklin (C),9,5,4,0,460000.0
+Indiana,Benton,9,3,2,4,0.0
+Florida,Inland Hernando,9,0,0,9,600000.0
+Puerto Rico,Penuelas,9,1,8,0,11000.0
+California,Del Norte,9,2,7,0,588800.0
+Georgia,Charlton,9,1,3,5,0.0
+Georgia,Evans,9,3,3,3,107500.0
+Colorado,Archuleta,9,1,8,0,46500.0
+New York,Northeast Suffolk,9,0,6,3,0.0
+New Mexico,Los Alamos,9,9,0,0,0.0
+Texas,Brazoria Islands,8,0,5,3,0.0
+Louisiana,Southeast St. Tammany Parish,8,0,5,3,110000000.0
+Texas,Brooks,8,4,2,2,270000.0
+North Carolina,Western Currituck,8,0,2,6,575000.0
+Kentucky,Robertson,8,0,7,1,90000.0
+Florida,South Walton,8,0,1,7,148000.0
+Washington,Pend Oreille,8,3,5,0,8302500.0
+Georgia,Oglethorpe,8,2,1,5,182000.0
+Georgia,Oconee,8,4,1,3,101000.0
+Tennessee,Johnson,8,0,7,1,7400000.0
+North Carolina,East Carteret,8,0,2,6,0.0
+Georgia,Hancock,8,0,2,6,90000.0
+Idaho,Gooding,8,4,4,0,1850000.0
+Florida,South Central Duval,8,0,6,2,0.0
+Washington,Benton,8,3,3,2,20000.0
+Washington,Lincoln,8,1,5,2,801300.0
+Virginia,Suffolk,8,0,4,4,195000.0
+Georgia,Marion,8,2,2,4,98000.0
+Georgia,Bacon,8,0,0,8,0.0
+Oregon,Crook,8,5,3,0,35000.0
+Oregon,Harney,8,2,4,2,1000000.0
+Florida,Inland Gulf,8,0,0,8,100075000.0
+Florida,Inland Levy,8,0,0,8,130000.0
+Virginia,Fredericksburg (C),8,1,7,0,25000.0
+Florida,Inland Manatee,8,0,0,8,3000000.0
+Puerto Rico,Anasco,8,1,7,0,750017600.0
+Pennsylvania,Perry,8,5,2,1,40000.0
+Connecticut,Southern New Haven,8,0,7,1,10000000.0
+Florida,Coastal Volusia County,8,0,3,5,537100000.0
+Utah,Uintah,8,6,2,0,100000.0
+Oregon,Baker,8,6,2,0,250000.0
+Louisiana,Upper Jefferson,8,0,2,6,1025500000.0
+Oregon,Lincoln,8,0,7,1,8000.0
+Florida,Inland Bay,8,0,0,8,200147000.0
+Florida,Eastern Putnum,8,0,3,5,0.0
+Colorado,Rio Blanco,8,4,4,0,200000.0
+Texas,Calhoun County Islands,8,0,4,4,25000.0
+Alaska,Matanuska Valley,8,0,8,0,1400000.0
+Oregon,Jefferson,8,7,1,0,0.0
+Puerto Rico,Gurabo,8,0,8,0,1001400.0
+Puerto Rico,Lares,8,0,8,0,5500.0
+Maryland,Southern Baltimore,8,0,8,0,0.0
+Colorado,Saguache,8,2,4,2,0.0
+Colorado,Routt,8,0,7,1,4500.0
+Alaska,Wrn P.W. Snd & Kenai Mtns,8,0,8,0,1742000.0
+California,Coastal North Bay Including Point Reyes National Seashore,8,0,8,0,10.0
+Puerto Rico,Guanica,8,0,8,0,506000.0
+Michigan,Arenac,8,5,1,2,4515000.0
+Idaho,Boise,8,2,6,0,100000.0
+Connecticut,Southern Fairfield,8,0,7,1,9000000.0
+Michigan,Hillsdale,8,6,0,2,112000.0
+South Carolina,Northern Colleton,8,0,0,8,576000.0
+Michigan,Alcona,8,7,1,0,40000.0
+Tennessee,Union,8,3,5,0,0.0
+New York,Southern Westchester,8,0,7,1,0.0
+Tennessee,Polk,8,3,3,2,1000.0
+Wyoming,Teton,8,4,2,2,11000.0
+California,Southern Monterey Bay And Big Sur Coast,7,0,7,0,0.0
+Wisconsin,Florence,7,5,0,2,0.0
+Michigan,Isabella,7,3,4,0,70285000.0
+Michigan,Lake,7,4,1,2,1025000.0
+Nevada,White Pine,7,1,6,0,0.0
+Georgia,Coastal Mcintosh,7,0,3,4,1934000.0
+Texas,Galveston Island And Bolivar Peninsula,7,0,6,1,0.0
+Florida,Okaloosa Coastal,7,0,3,4,17320000.0
+Florida,North Walton,7,0,0,7,98000.0
+Idaho,Benewah,7,1,6,0,1210000.0
+Nevada,Storey,7,0,7,0,400000.0
+Michigan,Ogemaw,7,4,1,2,560000.0
+Florida,Southern Brevard Barrier Islands,7,0,2,5,0.0
+Georgia,Pulaski,7,2,1,4,102000.0
+Florida,Union,7,0,0,7,0.0
+Michigan,Gratiot,7,5,1,1,370000.0
+Mississippi,Quitman,7,2,3,2,2750000.0
+Colorado,Delta,7,0,7,0,23000.0
+Georgia,Mcintosh,7,6,1,0,25000.0
+Washington,Klickitat,7,6,1,0,0.0
+Michigan,Muskegon,7,6,1,0,6525000.0
+Michigan,Montcalm,7,6,1,0,260000.0
+Texas,Aransas County Islands,7,0,4,3,35000.0
+Indiana,Fulton,7,4,1,2,274000.0
+California,Modoc,7,0,7,0,1000000.0
+Oregon,Multnomah,7,0,4,3,36000.0
+Oregon,Linn,7,2,3,2,240000.0
+Florida,Central Walton,7,0,0,7,98000.0
+Texas,Kenedy,7,6,0,1,0.0
+Utah,Beaver,7,3,4,0,45000.0
+Texas,Coastal Matagorda,7,0,5,2,0.0
+Texas,Coastal Aransas County,7,0,4,3,540000.0
+Texas,Coastal Harris,7,0,6,1,0.0
+Florida,Inland Charlotte,7,0,0,7,100000.0
+Virginia,Goochland,7,1,4,2,125000.0
+Missouri,Schuyler,7,7,0,0,0.0
+Texas,Coastal Refugio County,7,0,4,3,25000.0
+Florida,Inland Sarasota,7,0,0,7,8000000.0
+Florida,Northern Brevard Barrier Islands,7,0,2,5,0.0
+Idaho,Oneida,7,1,6,0,328000.0
+New York,Northern Cayuga,7,0,7,0,0.0
+South Carolina,Tidal Berkeley,7,0,2,5,465000.0
+Puerto Rico,Santa Isabel,7,0,7,0,1100.0
+Puerto Rico,Southwest,7,0,1,6,0.0
+Texas,Matagorda Islands,7,0,4,3,0.0
+North Carolina,Eastern Dare,7,0,3,4,9700000.0
+Georgia,Chattahoochee,7,0,2,5,92000.0
+New York,Northern Nassau,7,0,5,2,0.0
+Puerto Rico,Juncos,7,0,7,0,26900.0
+Alaska,Yukon Delta Coast,7,0,7,0,245000.0
+Alaska,Yukon Delta,7,0,7,0,0.0
+Maine,Coastal Waldo,7,0,5,2,1285000.0
+Puerto Rico,Ciales,7,2,5,0,1001000.0
+Puerto Rico,Aibonito,7,0,7,0,750028000.0
+Oregon,Columbia,7,1,5,1,95000.0
+Guam,Marshall Islands,7,0,7,0,78000.0
+Puerto Rico,Morovis,7,0,7,0,11500.0
+Puerto Rico,San Lorenzo,7,0,7,0,73500.0
+Florida,Coastal Indian River,7,0,2,5,0.0
+Louisiana,Eastern Orleans Parish,6,0,3,3,301010000.0
+Georgia,Taliaferro,6,1,1,4,50000.0
+Kentucky,Woodford,6,2,3,1,0.0
+Montana,Lincoln,6,2,4,0,31000000.0
+North Carolina,Western Hyde,6,0,0,6,13800000.0
+North Carolina,Western Dare,6,0,0,6,0.0
+North Carolina,West Carteret,6,0,0,6,0.0
+Colorado,Dolores,6,1,5,0,28500.0
+Georgia,Jenkins,6,3,2,1,290000.0
+North Carolina,Southern Craven,6,0,2,4,0.0
+Michigan,Kalkaska,6,6,0,0,0.0
+Florida,Metropolitan Miami-Dade,6,0,3,3,0.0
+Florida,Mainland Monroe,6,0,5,1,100000.0
+Florida,Levy,6,5,1,0,10000.0
+California,San Diego County Coastal Areas,6,0,5,1,0.0
+Florida,Coastal St. Lucie,6,0,2,4,0.0
+Connecticut,Southern Middlesex,6,0,4,2,1300000.0
+Virginia,Charlottesville (C),6,1,5,0,0.0
+Oregon,Clatsop,6,3,3,0,0.0
+Pennsylvania,Mifflin,6,4,1,1,500000.0
+Texas,Coastal Galveston,6,0,5,1,0.0
+Georgia,Warren,6,1,0,5,50000.0
+Florida,Hernando,6,0,3,3,5630000.0
+Florida,Inland Duval,6,0,0,6,0.0
+Texas,Coastal Kleberg County,6,0,2,4,155000.0
+Texas,Coastal Kenedy County,6,0,5,1,11870.0
+Louisiana,Upper Lafourche,6,0,1,5,1286000000.0
+Utah,Wasatch,6,2,3,1,16000.0
+Puerto Rico,Barceloneta,6,0,6,0,750262400.0
+Louisiana,Upper Terrebonne,6,0,0,6,795100000.0
+California,Northern Humboldt Coast,6,0,6,0,205000.0
+Connecticut,Southern New London,6,0,3,3,1500000.0
+Puerto Rico,Juana Diaz,6,2,4,0,510500.0
+Puerto Rico,Culebra,6,0,3,3,506100.0
+Alaska,Yukon Flats Nearby Uplands,6,0,6,0,0.0
+Puerto Rico,Guayanilla,6,0,6,0,506000.0
+Florida,Coastal Martin,6,0,2,4,250000.0
+Texas,Lower Jefferson County,6,0,5,1,3000.0
+Colorado,San Miguel,6,1,5,0,7000.0
+Puerto Rico,Toa Alta,6,1,5,0,10700.0
+Maryland,Inland Worcester,6,0,2,4,280000.0
+Idaho,Teton,6,1,5,0,118900.0
+New York,Kings (Brooklyn),6,0,5,1,7140000.0
+California,San Francisco Bay Shoreline,6,0,6,0,0.0
+Wisconsin,Menominee (C),5,1,1,3,0.0
+Tennessee,Unicoi,5,2,3,0,10150000.0
+Virginia,Manassas (C),5,1,4,0,0.0
+Alaska,Copper River Basin,5,0,5,0,0.0
+Louisiana,Southern Tangipahoa,5,0,1,4,350600000.0
+Alaska,Bristol Bay,5,1,4,0,0.0
+Puerto Rico,Rincon,5,0,5,0,1010000.0
+Puerto Rico,Quebradillas,5,0,5,0,4500.0
+Idaho,Boundary,5,2,3,0,4500.0
+Louisiana,Lower St. Martin,5,0,0,5,22350000.0
+Florida,Inland Northern Brevard,5,0,0,5,0.0
+Florida,Mainland Southern Brevard,5,0,0,5,1300000.0
+Michigan,Jackson,5,2,0,3,305000.0
+California,Northern Monterey Bay,5,0,5,0,30.0
+New York,Northwest Suffolk,5,0,3,2,0.0
+Alaska,Upper Koyukuk Valley,5,0,5,0,0.0
+Maryland,Southeast Harford,5,0,4,1,0.0
+Michigan,Presque Isle,5,5,0,0,0.0
+South Carolina,Central Horry,5,0,0,5,43000.0
+Florida,Mainland Northern Brevard,5,0,0,5,0.0
+Hawaii,Oahu South Shore,5,0,1,4,0.0
+Guam,Saipan,5,0,2,3,500000000.0
+Rhode Island,Eastern Kent,5,0,3,2,15500.0
+Florida,Inland Southern Brevard,5,0,0,5,0.0
+Florida,Inalnd St. Johns,5,0,2,3,0.0
+Georgia,Glascock,5,0,1,4,75000.0
+Georgia,Echols,5,1,1,3,0.0
+Rhode Island,Block Island,5,0,1,4,0.0
+Washington,Grant,5,0,4,1,151000.0
+Alaska,Srn Seward Peninsula Coast,5,0,5,0,0.0
+Idaho,Jerome,5,2,2,1,2750000.0
+Montana,Mineral,5,3,2,0,4020000.0
+Utah,Millard,5,1,4,0,1006000.0
+Virginia,Covington (C),5,2,3,0,3000000.0
+Virginia,Bland,5,0,5,0,120000.0
+Michigan,Oceana,5,5,0,0,0.0
+Puerto Rico,Loiza,5,0,5,0,1800.0
+Idaho,Clark,5,0,5,0,760000.0
+Texas,Coastal San Patrico County,5,0,3,2,150000.0
+Georgia,Rockdale,5,0,2,3,150000.0
+Florida,Southern Lake County,5,0,0,5,0.0
+Michigan,Clinton,5,3,1,1,285000.0
+Oregon,Wasco,5,3,2,0,0.0
+Virgin Islands,St. Thomas,5,0,5,0,6000.0
+Michigan,Crawford,5,4,0,1,21000.0
+Michigan,Benzie,5,5,0,0,0.0
+Michigan,Alpena,5,5,0,0,0.0
+Alaska,Lower Yukon River,5,0,5,0,425000.0
+Virginia,Eastern Essex,5,0,5,0,0.0
+Michigan,Schoolcraft,5,5,0,0,0.0
+Idaho,Washington,5,0,5,0,1002000.0
+Washington,Pacific,5,0,4,1,990000.0
+Florida,Eastern Alachua,5,0,0,5,0.0
+Guam,Northern Marianas,5,0,0,5,1500000000.0
+Florida,Santa Rosa Coastal,5,0,2,3,115800000.0
+Texas,Jim Hogg,4,3,0,1,50000.0
+Florida,Inland Collier County,4,0,1,3,280000000.0
+Virginia,Emporia,4,0,3,1,300000.0
+Michigan,Oscoda,4,4,0,0,0.0
+Texas,Bolivar Peninsula,4,0,3,1,0.0
+South Carolina,Coastal Jasper,4,0,0,4,930000.0
+Maryland,Queen Annes,4,0,3,1,0.0
+Massachusetts,Southern Plymouth,4,0,2,2,27800.0
+Florida,Inland St. Lucie,4,0,0,4,0.0
+Puerto Rico,Ponce And Vicinity,4,0,2,2,0.0
+Alaska,Ern Norton Sound Nulato Hills,4,0,4,0,0.0
+Florida,Inland Indian River,4,0,0,4,0.0
+Georgia,Coastal Liberty,4,0,2,2,2900000.0
+Florida,Inland Martin,4,0,0,4,0.0
+Florida,Western Alachua,4,0,0,4,0.0
+Florida,Western Marion,4,0,0,4,0.0
+Alaska,Chukchi Sea Coast,4,0,4,0,20000.0
+Alabama,Lower Mobile,4,0,4,0,0.0
+Georgia,Inland Bryan,4,0,0,4,0.0
+Georgia,Inland Liberty,4,0,1,3,0.0
+Indiana,Pulaski,4,3,1,0,38500.0
+Michigan,Iosco,4,3,1,0,1200000.0
+Louisiana,Lower Vermilion Parish,4,0,3,1,0.0
+Florida,Eastern Clay,4,0,1,3,0.0
+Michigan,Charlevoix,4,4,0,0,45000.0
+Michigan,Cheboygan,4,3,1,0,1000.0
+Utah,Piute,4,0,4,0,76100.0
+Washington,Grays Harbor,4,0,3,1,3509000.0
+Virginia,Western Essex,4,0,4,0,0.0
+Florida,Metro Palm Beach County,4,0,0,4,300000000.0
+Michigan,Mackinac,4,4,0,0,0.0
+Alaska,Nern P.W. Snd,4,0,4,0,0.0
+Michigan,Clare,4,2,0,2,2350000.0
+Virgin Islands,St. John,4,0,4,0,0.0
+Puerto Rico,Florida,4,0,4,0,1001000.0
+Idaho,Gem,4,1,3,0,1000.0
+Idaho,Adams,4,3,1,0,403000.0
+Washington,Snohomish,4,0,4,0,2749000.0
+Rhode Island,Southeast Providence,4,0,2,2,9500.0
+Washington,Garfield,4,2,2,0,0.0
+Utah,Juab,4,2,1,1,2000.0
+Guam,Rota,4,0,0,4,1000000.0
+North Carolina,Coastal Brunswick,4,0,1,3,0.0
+Alaska,St Lawrence Is. Bering Strait,4,0,4,0,0.0
+Louisiana,Upper St. Martin,4,0,0,4,90250000.0
+Louisiana,Western Orleans Parish,4,0,1,3,500020000.0
+Washington,Columbia,4,1,3,0,0.0
+North Carolina,Eastern Hyde,4,0,0,4,0.0
+North Carolina,Coastal Pender,4,0,2,2,0.0
+Idaho,Payette,4,3,1,0,2000.0
+Alabama,Baldwin Inland,4,0,2,2,25000.0
+New Mexico,Hidalgo,4,1,2,1,0.0
+Puerto Rico,Vieques,4,0,2,2,0.0
+North Carolina,Inland Pender,4,0,0,4,300000000.0
+North Carolina,Inland Onslow,4,0,0,4,0.0
+North Carolina,Inland New Hanover,4,0,1,3,1000000000.0
+Alabama,Mobile Inland,4,0,0,4,100000.0
+Kentucky,Elliott,4,2,2,0,10100.0
+North Carolina,Inland Brunswick,3,0,0,3,200000.0
+New York,Richmond (Staten Is.),3,0,2,1,3800000.0
+Georgia,North Fulton,3,0,0,3,250000.0
+New York,Northern Queens,3,0,2,1,0.0
+North Carolina,Graham,3,2,0,1,0.0
+Alabama,Lower Baldwin,3,0,3,0,20000.0
+Pennsylvania,Montour,3,1,2,0,0.0
+Washington,Central Coast,3,0,3,0,3000000.0
+Washington,Adams,3,1,2,0,205000.0
+Alaska,Nrn & Intr. Seward Peninsula,3,0,3,0,600000.0
+Washington,Clallam,3,0,3,0,6221000.0
+Georgia,Northern Ware,3,0,0,3,0.0
+Washington,Lewis,3,0,3,0,3426000.0
+Washington,Mason,3,0,2,1,163600.0
+Washington,Skagit,3,0,3,0,15103400.0
+Texas,Inland Calhoun County,3,0,0,3,25000.0
+Washington,Thurston,3,0,2,1,126000.0
+Alaska,Southern Seward Peninsula Coast,3,0,3,0,0.0
+Utah,Summit,3,2,1,0,1000.0
+Idaho,Lincoln,3,0,3,0,2427000.0
+Connecticut,Northern New London,3,0,0,3,1500000.0
+Colorado,Clear Creek,3,3,0,0,0.0
+Mississippi,Southern Hancock County,3,0,2,1,10000.0
+Mississippi,Southern Harrison County,3,0,2,1,10000.0
+Mississippi,Southern Jackson County,3,0,2,1,30000.0
+Utah,Sevier,3,0,3,0,1000000.0
+Florida,Metro Broward County,3,0,0,3,0.0
+Oregon,Morrow,3,0,3,0,5000.0
+Oregon,Lake,3,2,1,0,0.0
+Virginia,Williamsburg (C),3,1,2,0,0.0
+Michigan,Mason,3,2,1,0,600000.0
+Guam,Belau,3,0,1,2,3900000.0
+Utah,Rich,3,0,3,0,330000.0
+Florida,Central Marion,3,0,0,3,0.0
+South Carolina,Inland Georgetown,3,0,0,3,34000000.0
+Louisiana,Lower Tangipahoa Parish,3,0,2,1,10000.0
+Alaska,Yukon Flats,3,0,3,0,25000.0
+Louisiana,Southern Livingston Parish,3,0,2,1,30000.0
+Florida,Western Putnum,3,0,0,3,0.0
+Colorado,Ouray,3,0,3,0,52000.0
+New York,Northern Westchester,3,0,2,1,0.0
+Georgia,Inland Camden,3,0,1,2,0.0
+Louisiana,Southwestern St. Tammany Parish,3,0,2,1,0.0
+Florida,Inland Miami-Dade,3,0,0,3,0.0
+Alaska,Baldwin Pen. & Selawik Valley,3,0,3,0,0.0
+Florida,Western Clay,3,0,0,3,0.0
+Arizona,Greenlee,3,0,3,0,325000.0
+Alaska,Upr Tanana Vly Fortymile,3,0,3,0,0.0
+Hawaii,Oahu Koolau,3,0,0,3,0.0
+Florida,Inland Nassau,3,0,0,3,0.0
+Florida,Inland Palm Beach County,3,0,0,3,0.0
+Florida,Inland Flagler,3,0,1,2,0.0
+Alaska,Kuskokwim Delta Coast And Nunivak Island,3,0,3,0,2000000.0
+Michigan,Emmet,3,1,2,0,85000.0
+South Carolina,Southeastern Orangeburg,3,0,0,3,2000000.0
+Colorado,Hinsdale,3,1,2,0,500.0
+Alaska,Middle Tanana Valley,3,1,2,0,0.0
+Virginia,Fairfax (C),3,0,3,0,0.0
+American Samoa,Manu'A,3,0,2,1,255000.0
+Maine,Central Washington,3,0,2,1,0.0
+Oregon,Yamhill,3,0,3,0,0.0
+Virginia,Bristol (C),3,1,2,0,0.0
+Louisiana,Lower St. Bernard Parish,3,0,2,1,0.0
+Puerto Rico,Las Marias,3,3,0,0,200.0
+South Carolina,Central Orangeburg,3,0,0,3,4900000.0
+Colorado,Jackson,3,1,0,2,0.0
+Massachusetts,Southern Worcester,3,0,0,3,17000.0
+Virginia,Norton (C),3,0,3,0,8000.0
+Michigan,Osceola,3,3,0,0,50000.0
+Texas,Coastal Brazoria,3,0,2,1,0.0
+Louisiana,Northwest St. Tammany Parish,3,0,2,1,600000000.0
+Louisiana,Northern Tangipahoa,3,0,0,3,100500000.0
+Montana,Deer Lodge,3,2,1,0,685000.0
+Georgia,Towns,3,0,1,2,32500.0
+Nevada,Esmeralda,3,0,3,0,351000.0
+Rhode Island,Western Kent,2,0,0,2,43000.0
+Massachusetts,Western Hampshire,2,0,0,2,4300.0
+Rhode Island,Northwest Providence,2,0,0,2,82800.0
+Idaho,Valley,2,1,1,0,420000.0
+New Jersey,Eastern Essex,2,0,1,1,0.0
+Texas,Inland Kleberg County,2,0,0,2,55000.0
+Texas,Inland Nueces County,2,0,0,2,25000.0
+Texas,Northern Newton,2,0,0,2,107000000.0
+Massachusetts,Eastern Hampden,2,0,0,2,80000.0
+North Carolina,Mcdowell Mountains,2,0,0,2,3020000.0
+Georgia,Northeastern Charlton,2,0,0,2,0.0
+Florida,Okaloosa Inland,2,0,0,2,0.0
+Washington,Franklin,2,0,2,0,3000000.0
+Virginia,Winchester (C),2,0,2,0,0.0
+Texas,Northern Jasper,2,0,0,2,72000000.0
+Georgia,Coastal Bryan,2,0,0,2,450000.0
+North Carolina,Greater Burke,2,0,0,2,3000000.0
+North Carolina,Eastern Mcdowell,2,0,0,2,4030000.0
+North Carolina,Coastal Onslow,2,0,1,1,0.0
+Texas,Southern Jasper,2,0,0,2,73000000.0
+Florida,Northeast Coastal St. Johns County,2,0,2,0,0.0
+Georgia,South Fulton,2,0,0,2,250000.0
+Washington,Kittitas,2,0,1,1,0.0
+South Carolina,Southern Lancaster,2,0,0,2,300000.0
+South Carolina,Pickens Mountains,2,0,0,2,203000.0
+Alaska,Lower Yukon Valley,2,0,2,0,0.0
+Alaska,Lower Yukon And Innoko Valleys,2,0,2,0,85000.0
+Washington,Tacoma Area,2,0,2,0,0.0
+Maine,Southern Penobscot,2,0,1,1,0.0
+California,Alpine,2,1,1,0,0.0
+South Carolina,Northern Lancaster,2,0,0,2,200000.0
+Vermont,Grand Isle,2,2,0,0,0.0
+Oregon,Gilliam,2,2,0,0,0.0
+Louisiana,Coastal Jefferson Parish,2,0,1,1,1010000.0
+Oregon,Josephine,2,0,2,0,0.0
+Florida,Southeast Coastal St. Johns County,2,0,2,0,0.0
+Florida,Southeastern Columbia,2,0,0,2,0.0
+Florida,Southern Columbia,2,0,0,2,0.0
+Washington,South Washington Coast,2,0,2,0,10000.0
+California,Sierra,2,0,2,0,6800000.0
+Virginia,Buena Vista (C),2,1,1,0,0.0
+Oregon,Central Oregon Coast,2,0,2,0,900000.0
+Virginia,Charles City,2,0,2,0,0.0
+Texas,Inland Kenedy County,2,0,0,2,0.0
+Massachusetts,Western Norfolk,2,0,0,2,15000.0
+Massachusetts,Western Middlesex,2,0,0,2,6500.0
+Utah,Morgan,2,1,1,0,5000.0
+Alaska,Shishmaref,2,0,2,0,0.0
+South Carolina,Greater Pickens,2,0,0,2,207000.0
+South Carolina,Greater Oconee,2,0,0,2,3000.0
+Texas,Coastal San Patricio County,2,0,1,1,25000.0
+Colorado,Rio Grande,2,2,0,0,0.0
+Texas,Southern Newton,2,0,0,2,107000000.0
+Georgia,Western Charlton,2,0,0,2,0.0
+Washington,Whatcom,2,0,2,0,42500000.0
+Alaska,Central Beaufort Sea Coast,2,0,2,0,0.0
+Florida,Northern Columbia,2,0,0,2,0.0
+Texas,Cameron Island,2,0,2,0,2500000.0
+Texas,Coastal Kenedy,2,0,0,2,0.0
+Virginia,Falls Church (C),2,2,0,0,0.0
+South Carolina,Inland Horry,2,0,0,2,67000000.0
+Massachusetts,Northern Bristol,2,0,0,2,27000.0
+Idaho,Camas,2,1,1,0,0.0
+Alaska,Wrn Tanana Vly Wrn Yukon Vly,2,0,2,0,282000.0
+Hawaii,Waianae Coast,2,0,0,2,0.0
+South Carolina,Greenville Mountains,2,0,0,2,5000.0
+Massachusetts,Southeast Middlesex,2,0,0,2,14000.0
+Florida,Western St. Johns County,2,0,2,0,0.0
+Georgia,Inland Mcintosh,2,0,0,2,0.0
+Washington,Western Whatcom County,2,0,2,0,100000.0
+Florida,Eastern Hamilton,2,0,0,2,0.0
+California,Coastal Del Norte,2,0,2,0,0.0
+Texas,Galveston Island,2,0,1,1,0.0
+South Carolina,Northwestern Orangeburg,2,0,0,2,2000000.0
+South Carolina,Oconee Mountains,2,0,0,2,2000.0
+Florida,Eastern Marion,2,0,0,2,0.0
+Florida,Escambia Inland,2,0,0,2,0.0
+Florida,Far South Miami-Dade County,2,0,0,2,0.0
+Michigan,Keweenaw,2,1,1,0,1000000.0
+Louisiana,Lower St. Mary Parish,2,0,1,1,10000000.0
+Hawaii,Windward Haleakala,2,0,0,2,0.0
+Alaska,Baldwin Peninsula,2,0,2,0,1200000.0
+Alaska,Eastern Norton Sound And Nulato Hills,2,0,2,0,0.0
+Virginia,Lexington (C),2,1,1,0,0.0
+California,Southwestern Humboldt,2,0,2,0,0.0
+North Carolina,Burke Mountains,2,0,0,2,1000000.0
+Wyoming,Uinta,2,2,0,0,0.0
+California,San Diego County Valleys,1,0,0,1,0.0
+Minnesota,Southern Cook,1,0,1,0,0.0
+North Carolina,Eastern Polk,1,0,0,1,4000000.0
+Connecticut,Northern Middlesex,1,0,0,1,1300000.0
+New Jersey,Western Union,1,0,0,1,0.0
+New Jersey,Western Passaic,1,0,0,1,0.0
+New Jersey,Western Essex,1,0,0,1,0.0
+New Jersey,Western Bergen,1,0,0,1,0.0
+North Carolina,Greater Caldwell,1,0,0,1,1500000.0
+New York,New York (Manhattan),1,0,0,1,4500000.0
+New York,Eastern Ulster,1,0,1,0,0.0
+Virginia,Manassas Park (C),1,1,0,0,0.0
+Alaska,Fairbanks Metro Area,1,1,0,0,0.0
+Alaska,Eastern Aleutians,1,0,1,0,0.0
+Alaska,Denali,1,0,1,0,0.0
+Alaska,Deltana And Tanana,1,0,1,0,0.0
+Alaska,Dalton Highway Summits,1,0,1,0,0.0
+Louisiana,Northern St. Tammany Parish,1,0,0,1,60000.0
+Louisiana,Northern Livingston Parish,1,0,0,1,0.0
+Alaska,Central Brooks Range,1,0,1,0,0.0
+Alaska,Central Arctic Plains,1,0,1,0,0.0
+Louisiana,Southern Calcasieu Parish,1,0,1,0,0.0
+Louisiana,Lower Jefferson Parish,1,0,0,1,1000000.0
+Louisiana,Lower Iberia Parish,1,0,0,1,25000.0
+Alaska,Inland Kuskokwim Delta,1,0,1,0,10000000.0
+Alaska,Hoonah Channels,1,0,1,0,674000.0
+Alaska,Kodiak Peninsula,1,0,1,0,0.0
+Alaska,Kivalina And Red Dog Dock,1,0,1,0,800000.0
+Alaska,Ketchikan Gateway Borough,1,0,1,0,0.0
+Texas,Coastal Jackson,1,0,1,0,0.0
+California,San Diego County Mountains,1,0,0,1,0.0
+California,San Diego County Deserts,1,0,0,1,0.0
+Florida,Inland Broward County,1,0,0,1,0.0
+South Carolina,Northern Horry,1,0,0,1,0.0
+Massachusetts,Northern Worcester,1,0,0,1,57000.0
+Massachusetts,Northern Berkshire,1,0,0,1,0.0
+Texas,Inland San Patrico County,1,0,0,1,0.0
+Alaska,Lower Koyukuk Valley,1,0,1,0,120000.0
+Alaska,Kuskokwim Valley West,1,0,1,0,0.0
+Alaska,Glacier Bay,1,0,1,0,250000.0
+Alaska,Fortymile Country,1,0,1,0,0.0
+California,San Bernardino County Mountains,1,0,0,1,0.0
+California,San Bernardino And Riverside County Valleys - The Inland Empire,1,0,0,1,0.0
+California,Riverside County Mountains,1,0,0,1,0.0
+California,Orange County Inland,1,0,0,1,0.0
+South Carolina,Southern Greenville,1,0,0,1,15000000.0
+Louisiana,Upper St. Bernard Parish,1,0,0,1,3000.0
+Louisiana,Upper Plaquemines Parish,1,0,0,1,20000.0
+Louisiana,Upper Jefferson Parish,1,0,0,1,1000000.0
+Louisiana,Upper Iberia Parish,1,0,0,1,25000.0
+Virginia,Eastern King William,1,0,1,0,0.0
+Virginia,Eastern King And Queen,1,0,1,0,0.0
+Alaska,Middle Yukon Valley,1,0,1,0,30000.0
+South Carolina,Northern Spartanburg,1,0,0,1,25000000.0
+Texas,Inland Harris,1,0,0,1,0.0
+Texas,Inland Galveston,1,0,1,0,0.0
+Texas,Inland Brazoria,1,0,0,1,0.0
+Massachusetts,Western Plymouth,1,0,0,1,40000.0
+California,Apple And Lucerne Valleys,1,0,0,1,0.0
+Colorado,Gilpin,1,1,0,0,0.0
+Georgia,Southern Ware,1,0,0,1,0.0
+Pennsylvania,Eastern Chester,1,0,0,1,0.0
+Pennsylvania,Cameron,1,1,0,0,0.0
+Oregon,Hood River,1,1,0,0,0.0
+Mississippi,Northern Jackson County,1,0,0,1,100000.0
+Mississippi,Northern Harrison County,1,0,0,1,0.0
+Mississippi,Northern Hancock County,1,0,0,1,5000.0
+Oregon,South Central Oregon Coast,1,0,1,0,0.0
+Oregon,Sherman,1,1,0,0,0.0
+Florida,Santa Rosa Inland,1,0,0,1,0.0
+Louisiana,Central Plaquemines Parish,1,0,0,1,0.0
+Louisiana,Eastern Ascension Parish,1,0,0,1,1000000.0
+Washington,Kitsap,1,0,0,1,1180000.0
+Washington,King,1,0,1,0,474000.0
+Washington,Jefferson,1,0,1,0,554000.0
+Pennsylvania,Eastern Montgomery,1,0,0,1,0.0
+Florida,Coastal Santa Rosa,1,0,1,0,0.0
+Utah,Daggett,1,0,1,0,0.0
+Maine,Central Penobscot,1,0,0,1,0.0
+Connecticut,Southern Litchfield,1,0,0,1,0.0
+California,Mendocino Coast,1,0,1,0,0.0
+Washington,Everett And Vicinity,1,0,1,0,0.0
+Washington,Bremerton And Vicinity,1,0,1,0,0.0
+Washington,Skamania,1,1,0,0,0.0
+Washington,Seattle And Vicinity,1,0,1,0,0.0
+Washington,San Juan,1,0,1,0,475000.0
+Maine,Interior Hancock,1,0,0,1,0.0
+Maine,Interior Cumberland Highlands,1,0,0,1,0.0
+Maine,Central Interior Cumberland,1,0,0,1,40000.0
+Louisiana,Western Ascension Parish,1,0,0,1,62000.0
+Louisiana,Upper St. Mary Parish,1,0,0,1,10000000.0
+Pennsylvania,Western Montgomery,1,0,0,1,0.0
+Pennsylvania,Western Chester,1,0,0,1,0.0
+Pennsylvania,Upper Bucks,1,0,0,1,0.0
+Texas,Willacy Island,1,0,1,0,0.0
+Alaska,St. Lawrence Island,1,0,1,0,0.0
+Utah,Sanpete,1,0,1,0,0.0
+Texas,Inland Matagorda,1,0,0,1,0.0
+South Carolina,Central Greenville,1,0,0,1,15000000.0
+Alaska,S. Slopes Of Ern Brooks Range,1,0,1,0,0.0
+Maine,Interior York,1,0,0,1,0.0
+Maine,Interior Waldo,1,0,0,1,0.0
+Washington,North Coast,1,0,1,0,0.0
+California,Santa Ana Mountains And Foothills,1,0,0,1,0.0
+Colorado,Conejos,1,0,0,1,0.0
+Alaska,Nenana,1,0,1,0,20000.0
+Alaska,Ne. Slopes Of The Ern Ak Rng,1,0,1,0,14000000.0
+Texas,Southern Liberty,1,0,0,1,0.0
+Texas,Southern Hidalgo County,1,0,0,1,304940000.0
+Alaska,Southwest Kenai Peninsula,1,0,1,0,0.0
+Alaska,South Slopes Of The Central Brooks Range,1,0,1,0,0.0
+Alaska,Sern P.W. Snd,1,0,1,0,0.0
+Texas,Inland San Patricio County,1,0,0,1,25000.0
+Texas,Inland Refugio County,1,0,0,1,0.0
+Connecticut,Northern New Haven,1,0,0,1,10000000.0
+South Carolina,Greater Greenville,1,0,0,1,150000.0
+South Carolina,Southern Spartanburg,1,0,0,1,10000000.0
+California,San Gorgonio Pass Near Banning,1,0,0,1,0.0
+California,San Francisco Peninsula Coast,1,0,1,0,0.0
+Washington,Southwest Interior,1,0,1,0,0.0
+Maine,Southern Piscataquis,1,0,0,1,0.0
+Maine,Southern Oxford,1,0,0,1,0.0
+Maine,Southern Franklin,1,0,0,1,0.0
+Maine,Southeast Aroostook,1,0,0,1,0.0
+Maine,Northern Washington,1,0,0,1,0.0
+Maine,Northern Penobscot,1,0,0,1,0.0
+Maine,Northern Oxford,1,0,0,1,0.0
+Maine,Northern Franklin,1,0,0,1,0.0
+Maine,Northeast Aroostook,1,0,0,1,0.0
+Maine,Central Piscataquis,1,0,0,1,0.0
+Alaska,Northern Seward Peninsula,1,0,1,0,0.0
+Alaska,Northern Arctic Coast,1,0,1,0,0.0
+Florida,Southwr Columbia,1,0,0,1,0.0
+Washington,Western Skagit County,1,0,1,0,0.0
+Ohio,Ashtabula Lakeshore,1,0,1,0,85000.0
+Florida,Trout River,1,0,0,1,0.0
+Nevada,Pershing,1,0,1,0,0.0
+Massachusetts,Southern Berkshire,1,0,0,1,0.0
+Maryland,Prince Georges,1,0,0,1,0.0
+Maryland,Northwest Howard,1,0,0,1,5000.0
+Hawaii,Big Island Summit,1,0,0,1,0.0
+Hawaii,Big Island Interior,1,0,0,1,0.0
+Hawaii,Big Island East,1,0,0,1,0.0
+Guam,Wake Island,1,0,1,0,0.0
+Colorado,Summit,1,1,0,0,0.0
+Hawaii,Leeward Haleakala,1,0,0,1,0.0
+Hawaii,Kona,1,0,0,1,10000.0
+Hawaii,Honolulu Metro,1,0,1,0,0.0
+Connecticut,Northern Litchfield,1,0,0,1,0.0
+California,Coachella Valley,1,0,0,1,0.0
+Colorado,Mineral,1,0,1,0,0.0
+Connecticut,Northern Fairfield,1,0,0,1,9000000.0
+Massachusetts,Western Hampden,1,0,0,1,3000.0
+Massachusetts,Western Franklin,1,0,0,1,3000.0
+Georgia,Inland Glynn,1,0,0,1,0.0
+Florida,Western Duval,1,0,0,1,0.0
+Florida,Wr Hamilton,1,0,0,1,0.0
+New Hampshire,Southern Coos,1,0,0,1,0.0
+North Carolina,Northern Jackson,1,0,0,1,1000000.0
+North Carolina,Southern Jackson,1,0,0,1,1000000.0
+North Carolina,Rutherford Mountains,1,0,0,1,1000000.0
+New Hampshire,Southern Carroll,1,0,0,1,0.0
+New Hampshire,Northern Grafton,1,0,0,1,0.0
+New Hampshire,Northern Coos,1,0,0,1,0.0
+New Hampshire,Northern Carroll,1,0,0,1,50000.0
+New Hampshire,Interior Rockingham,1,0,0,1,0.0
+New Hampshire,Eastern Hillsborough,1,0,0,1,0.0
+Alaska,Bering Strait Coast,1,0,1,0,0.0
+Alaska,Alaska Peninsula,1,0,1,0,5000.0
+Maryland,Central And Southeast Montgomery,1,0,0,1,100000.0
+Maryland,Central And Southeast Howard,1,0,0,1,5000.0
+Alaska,Wrangell Channels,1,0,1,0,0.0
+Alaska,Western Arctic Coast,1,0,1,0,0.0
+Alaska,Upper Tanana Valley,1,1,0,0,0.0
+Alaska,Upper Kuskokwim Valley,1,0,1,0,301000.0
+Alaska,Upper Kobuk Valleys,1,0,1,0,0.0
+Alaska,Upper Kobuk And Noatak Vlys,1,0,1,0,0.0
+North Carolina,Caldwell Mountains,1,0,0,1,500000.0
+Massachusetts,Eastern Hampshire,1,0,0,1,6000.0
+Massachusetts,Eastern Franklin,1,0,0,1,800.0
+Texas,Kenedy Island,1,0,1,0,0.0
+Texas,Northern Hidalgo County,1,0,0,1,33250000.0
+North Carolina,Greater Rutherford,1,0,0,1,4000000.0
+North Carolina,Northern Craven,1,0,0,1,0.0
+North Carolina,Polk Mountains,1,0,0,1,1000000.0
+New Jersey,Eastern Union,1,0,1,0,0.0
+New Jersey,Eastern Passaic,1,0,0,1,0.0
+New Jersey,Eastern Bergen,1,0,0,1,0.0
+New Hampshire,Western And Central Hillsborough,1,0,0,1,0.0
+New Hampshire,Southern Grafton,1,0,0,1,0.0

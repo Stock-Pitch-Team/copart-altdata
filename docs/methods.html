@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data &amp; methods — Copart (CPRT) research</title>
+<meta name="description" content="Sources, methods and known gaps for every dataset behind the Copart research site.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2213%22 font-size=%2213%22>📊</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+/* Stamp the saved theme before first paint so there is no flash. */
+(function(){try{var t=localStorage.getItem("cprt-theme");if(t)document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-ticker">CPRT</span>
+      <span class="brand-sub">Alt-data research</span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="index.html">Thesis</a>
+      <a href="company.html">Copart</a>
+      <a href="competition.html">Copart vs IAA</a>
+      <a href="industry.html">Industry funnel</a>
+      <a href="valuation.html">Valuation</a>
+      <a href="methods.html" aria-current="page">Data &amp; methods</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Switch theme">&#9790;</button>
+  </div>
+</header>
+
+<main>
+  <div class="page-head">
+    <div class="eyebrow">Provenance</div>
+    <h1>Every number, where it came from, and what is wrong with it</h1>
+<p class="lede">This page exists so a reader can check us. Each collected dataset lists its source, how it was built, and its known gaps. Where we used licensed broker research we credit the figures and do not reproduce the documents.</p>  </div>
+
+
+<div class="callout risk">
+  <div class="callout-title">Licensed research is credited, never reproduced</div>
+  <p style="margin:0">Some figures come from Barclays, J.P. Morgan and Freedom Broker notes and
+  from a Bloomberg terminal export. Those documents are licensed to a named individual and are
+  marked as not for reproduction or redistribution. We cite the figures and attribute them, and
+  the files themselves are excluded from the public repository. Anything published here is either
+  a public-domain government source, a company filing or disclosure, a press report, or our own
+  calculation.</p>
+</div>
+
+<h2>Collected datasets</h2>
+<p>Built automatically by the collectors in <code>src/collect</code> and the models in
+<code>src/build</code>. Re-running a collector refreshes the data and the timestamp.</p>
+
+<div class="data-table">
+  <table>
+<caption>One row per automatically collected dataset</caption>  <thead>
+    <tr><th class="wrap" scope="col">Dataset</th><th scope="col">Frequency</th><th scope="col">Rows</th><th scope="col">Collected (UTC)</th><th scope="col">Source</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row" class="wrap">macro_cpi_long</th><td>monthly</td><td>807</td><td>2026-09-17 23:57 UTC</td><td>US Bureau of Labor Statistics public API (api.bls.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">macro_cpi_wide</th><td>monthly</td><td>116</td><td>2026-09-17 23:57 UTC</td><td>US Bureau of Labor Statistics public API (api.bls.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">sec_annual</th><td>annual</td><td>447</td><td>2026-09-17 23:51 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">sec_balance_sheet</th><td>quarterly (as filed)</td><td>1239</td><td>2026-09-17 23:51 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">sec_quarterly</th><td>quarterly</td><td>1321</td><td>2026-09-17 23:51 UTC</td><td>SEC EDGAR XBRL company facts API (data.sec.gov), public domain</td></tr>
+    <tr><th scope="row" class="wrap">storm_county</th><td>cumulative over the period</td><td>3730</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
+    <tr><th scope="row" class="wrap">storm_state</th><td>cumulative over the period</td><td>55</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
+    <tr><th scope="row" class="wrap">storm_year_type</th><td>annual</td><td>87</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
+    <tr><th scope="row" class="wrap">tlf_nowcast</th><td>quarterly</td><td>35</td><td>2026-09-18 00:00 UTC</td><td>Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.</td></tr>
+    <tr><th scope="row" class="wrap">tlf_nowcast_stats</th><td>one row</td><td>1</td><td>2026-09-18 00:00 UTC</td><td>Computed by src/build/tlf_nowcast.py</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Hand-curated datasets</h2>
+<p>Neither Copart nor RB Global publishes a machine-readable panel of operating metrics such as
+unit growth by segment, average selling prices or cost per car. Those figures exist only in
+earnings-call transcripts and research notes, so they are transcribed by hand into
+<code>data/manual</code>. Every row carries a <code>source</code> column naming the document it
+came from, and derived rather than reported values are labelled as derived.</p>
+
+<div class="data-table">
+  <table>
+<caption>Hand-entered source files, each row individually cited</caption>  <thead>
+    <tr><th class="wrap" scope="col">File</th><th scope="col">Rows</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row" class="wrap">analyst_targets.csv</th><td>10</td></tr>
+    <tr><th scope="row" class="wrap">catalysts.csv</th><td>9</td></tr>
+    <tr><th scope="row" class="wrap">cprt_quarterly_financials.csv</th><td>11</td></tr>
+    <tr><th scope="row" class="wrap">cprt_quarterly_kpis.csv</th><td>44</td></tr>
+    <tr><th scope="row" class="wrap">industry_annual.csv</th><td>28</td></tr>
+    <tr><th scope="row" class="wrap">industry_share_tracking.csv</th><td>2</td></tr>
+    <tr><th scope="row" class="wrap">peer_multiples.csv</th><td>12</td></tr>
+    <tr><th scope="row" class="wrap">progressive_pif.csv</th><td>3</td></tr>
+    <tr><th scope="row" class="wrap">rba_automotive_kpis.csv</th><td>20</td></tr>
+    <tr><th scope="row" class="wrap">scenarios.csv</th><td>4</td></tr>
+    <tr><th scope="row" class="wrap">tlf_quarterly.csv</th><td>28</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Source, method and known gaps, dataset by dataset</h2>
+
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">macro_cpi_long</h3>
+  <p class="card-sub" style="margin-top:0">
+    monthly &middot; 807 rows &middot; collected 2026-09-17 23:57 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> US Bureau of Labor Statistics public API (api.bls.gov), public domain</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Monthly seasonally-adjusted CPI index levels for vehicle repair, used vehicles, new vehicles, motor vehicle insurance, gasoline, transportation and all items. Year-over-year percent change computed as a 12-month change on the index level. Collected via v1 (keyless).</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> The keyless v1 endpoint returns at most a 10-year window, so history before 2017 requires a free BLS_API_KEY. CPI measures consumer prices, which proxy but do not equal the insurer-paid repair costs that drive total-loss decisions. The Manheim wholesale index is not published by BLS and is hand-entered in data/manual instead.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">macro_cpi_wide</h3>
+  <p class="card-sub" style="margin-top:0">
+    monthly &middot; 116 rows &middot; collected 2026-09-17 23:57 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> US Bureau of Labor Statistics public API (api.bls.gov), public domain</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Same data as macro_cpi_long, pivoted to one column per series for charting.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> See macro_cpi_long.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">sec_annual</h3>
+  <p class="card-sub" style="margin-top:0">
+    annual &middot; 447 rows &middot; collected 2026-09-17 23:51 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> SEC EDGAR XBRL company facts API (data.sec.gov), public domain</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> As sec_quarterly but keeping duration facts of 300-400 days as fiscal years.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Fiscal years differ across companies: Copart ends 31 July, the others 31 December.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">sec_balance_sheet</h3>
+  <p class="card-sub" style="margin-top:0">
+    quarterly (as filed) &middot; 1239 rows &middot; collected 2026-09-17 23:51 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> SEC EDGAR XBRL company facts API (data.sec.gov), public domain</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Point-in-time (instant) facts such as cash, PP&amp;E, equity and goodwill.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Reported at each filing date, so the series is quarterly but irregular.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">sec_quarterly</h3>
+  <p class="card-sub" style="margin-top:0">
+    quarterly &middot; 1321 rows &middot; collected 2026-09-17 23:51 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> SEC EDGAR XBRL company facts API (data.sec.gov), public domain</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Downloaded the companyfacts bundle for CPRT, RBA, ACVA and PGR. Kept duration facts of 60-120 days as quarters. Where an issuer files no Q4 10-Q, fiscal Q4 is derived as the 10-K full year minus the three reported quarters (flagged frame=derived_fy_minus_q1q2q3). Where the same period appears in several filings the most recently filed restated value is kept.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Diluted EPS is not derived for Q4 because per-share figures do not sum. Copart stopped tagging GrossProfit and cost of revenue after FY2020, so gross margin for recent quarters comes from the hand-curated panel in data/manual/cprt_quarterly_financials.csv instead. Segment detail (US vs International, insurance vs non-insurance units, ASPs) is reported only as XBRL dimensions, which the companyfacts API strips out, so that also comes from the manual panel. RB Global&#39;s gross transaction value is not an XBRL concept at all. The most recent fiscal quarter appears only after the 10-Q or 10-K is filed, which lags the earnings release by days to weeks.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">storm_county</h3>
+  <p class="card-sub" style="margin-top:0">
+    cumulative over the period &middot; 3730 rows &middot; collected 2026-09-18 00:26 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> NOAA National Centers for Environmental Information, Storm Events Database (public domain)</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Downloaded the yearly &#39;details&#39; files for 2016-2026 and kept only event types that plausibly total a vehicle: hail, flood, flash flood, coastal flood, storm surge, hurricane, tornado and tropical storm. Heat, drought, cold and straight-line wind are excluded. Property damage strings such as &#39;2.50K&#39; and &#39;1.2M&#39; are parsed to dollars and summed.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Storm Events counts REPORTED events, so densely populated counties are over-represented relative to sparsely populated ones. Property damage is an all-property figure, not vehicle-specific, so it proxies rather than measures salvage supply. County names come from NOAA&#39;s CZ_NAME field, which mixes counties and forecast zones, so joining to yard locations needs care. The current year is incomplete. Separately: NOAA&#39;s August 2026 seasonal outlook gives a 75 percent chance of a below-normal Atlantic hurricane season, so this data supports a claim about durable land advantage, not a forecast of catastrophe-driven upside this year.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">storm_state</h3>
+  <p class="card-sub" style="margin-top:0">
+    cumulative over the period &middot; 55 rows &middot; collected 2026-09-18 00:26 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> NOAA National Centers for Environmental Information, Storm Events Database (public domain)</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Downloaded the yearly &#39;details&#39; files for 2016-2026 and kept only event types that plausibly total a vehicle: hail, flood, flash flood, coastal flood, storm surge, hurricane, tornado and tropical storm. Heat, drought, cold and straight-line wind are excluded. Property damage strings such as &#39;2.50K&#39; and &#39;1.2M&#39; are parsed to dollars and summed.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Storm Events counts REPORTED events, so densely populated counties are over-represented relative to sparsely populated ones. Property damage is an all-property figure, not vehicle-specific, so it proxies rather than measures salvage supply. County names come from NOAA&#39;s CZ_NAME field, which mixes counties and forecast zones, so joining to yard locations needs care. The current year is incomplete. Separately: NOAA&#39;s August 2026 seasonal outlook gives a 75 percent chance of a below-normal Atlantic hurricane season, so this data supports a claim about durable land advantage, not a forecast of catastrophe-driven upside this year.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">storm_year_type</h3>
+  <p class="card-sub" style="margin-top:0">
+    annual &middot; 87 rows &middot; collected 2026-09-18 00:26 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> NOAA National Centers for Environmental Information, Storm Events Database (public domain)</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Downloaded the yearly &#39;details&#39; files for 2016-2026 and kept only event types that plausibly total a vehicle: hail, flood, flash flood, coastal flood, storm surge, hurricane, tornado and tropical storm. Heat, drought, cold and straight-line wind are excluded. Property damage strings such as &#39;2.50K&#39; and &#39;1.2M&#39; are parsed to dollars and summed.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Storm Events counts REPORTED events, so densely populated counties are over-represented relative to sparsely populated ones. Property damage is an all-property figure, not vehicle-specific, so it proxies rather than measures salvage supply. County names come from NOAA&#39;s CZ_NAME field, which mixes counties and forecast zones, so joining to yard locations needs care. The current year is incomplete. Separately: NOAA&#39;s August 2026 seasonal outlook gives a 75 percent chance of a below-normal Atlantic hurricane season, so this data supports a claim about durable land advantage, not a forecast of catastrophe-driven upside this year.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">tlf_nowcast</h3>
+  <p class="card-sub" style="margin-top:0">
+    quarterly &middot; 35 rows &middot; collected 2026-09-18 00:00 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Defined the repair-to-value &#39;scissors&#39; as repair CPI year-over-year minus used-vehicle CPI year-over-year, averaged monthly CPI to calendar quarters, then fitted ordinary least squares of total-loss frequency on (a) the scissors lagged 3 quarter(s) and (b) a linear time trend that represents the structural drift from the ageing fleet and rising vehicle complexity. Lags 0-3 were tested and the highest adjusted R-squared chosen (R2=0.656, adjusted 0.629, n=28). Fitted: scissors +0.0618 pts per point of spread (p=0.0002), trend +0.396 pts per year (p=0.0006). The nowcast band is the 95 percent residual interval and is populated only for quarters after the last published CCC actual (2026-06-30).</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">tlf_nowcast_stats</h3>
+  <p class="card-sub" style="margin-top:0">
+    one row &middot; 1 rows &middot; collected 2026-09-18 00:00 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> Computed by src/build/tlf_nowcast.py</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Regression diagnostics for the chosen specification.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> See tlf_nowcast.</p>  </div>
+</div>
+
+<h2>Rules we hold ourselves to</h2>
+<div class="panel">
+  <ul>
+    <li><strong>No invented numbers.</strong> If a figure is not in a filing, a transcript, a
+    public dataset or our own calculation from those, it does not appear.</li>
+    <li><strong>Derived is labelled derived.</strong> Where we computed something the company did
+    not report, such as RB Global's implied Q1 take rate, the table says so.</li>
+    <li><strong>Scraped counts are listings, not sales.</strong> Inventory-tracker output is
+    always described as listings observed, never as reported unit sales.</li>
+    <li><strong>Models state their sample size.</strong> Every regression reports its number of
+    observations, R-squared and confidence interval, and we say plainly when a sample is small.</li>
+    <li><strong>Every chart has a table.</strong> No value is reachable only by hovering, which
+    also keeps the site readable in print and for colour-vision-deficient readers.</li>
+    <li><strong>Disconfirming evidence gets equal billing.</strong> The competitive data that
+    supports the bear case is presented first on its own page, not buried.</li>
+  </ul>
+</div>
+
+<h2>Reproducing this site</h2>
+<div class="panel">
+  <ol>
+    <li>Clone the repository and create the virtual environment.</li>
+    <li>Copy <code>.env.example</code> to <code>.env</code> and set at least
+    <code>SEC_USER_AGENT</code> to your name and email, which the SEC requires.</li>
+    <li>Run <code>python -m src.collect.sec_financials</code> and
+    <code>python -m src.collect.macro</code>.</li>
+    <li>Run <code>python -m src.build.tlf_nowcast</code>.</li>
+    <li>Run <code>python -m src.site.build_site</code> and open <code>docs/index.html</code>.</li>
+  </ol>
+  <p style="margin:10px 0 0;font-size:13px;color:var(--text-secondary)">The full step-by-step
+  version, written for someone who has never used an API key, is in <code>SETUP.md</code> in the
+  repository.</p>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p><strong>Not investment advice.</strong> This site is student work prepared for a
+    stock-pitch competition. Nothing here is a recommendation to buy or sell any security.
+    The authors hold no position and are not licensed advisers.</p>
+    <p>Every figure is sourced. Where a number came from a licensed broker report, the
+    report is credited but not reproduced. Scraped listing counts are labelled
+    "listings observed" and are never presented as reported unit sales. Model outputs
+    state their sample size and confidence interval. See
+    <a href="methods.html">Data &amp; methods</a> for every source, method and known gap.</p>
+    <p>Built 18 September 2026 00:27 UTC. Data as of the collection dates shown under each chart.</p>
+  </div>
+</footer>
+
+<!-- app.js loads ECharts itself, trying each CDN in turn. If every source fails
+     it switches all cards to their table view, so no value becomes unreachable. -->
+<script src="assets/app.js"></script>
+</body>
+</html>

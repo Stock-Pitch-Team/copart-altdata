@@ -1,0 +1,45 @@
+fiscal_period,period_end,metric,value,unit,source
+FY26Q1,2025-10-31,us_insurance_units_yoy,-10.0,pct,JPM F1Q26 note 24-Nov-2025
+FY26Q1,2025-10-31,us_insurance_units_yoy_ex_cat,-7.0,pct,JPM F1Q26 note 24-Nov-2025
+FY26Q1,2025-10-31,dealer_units_yoy,5.0,pct,JPM F1Q26 note 24-Nov-2025
+FY26Q1,2025-10-31,us_insurance_asp_yoy,8.0,pct,JPM F1Q26 note 24-Nov-2025
+FY26Q1,2025-10-31,total_loss_frequency,22.6,pct,JPM F1Q26 citing CCC (3Q25 calendar)
+FY26Q2,2026-01-31,us_insurance_units_yoy,-10.7,pct,Barclays F2Q26 review 20-Feb-2026
+FY26Q2,2026-01-31,us_insurance_units_yoy_ex_cat,-4.8,pct,Barclays F2Q26 review 20-Feb-2026
+FY26Q3,2026-04-30,us_insurance_units_yoy,-4.2,pct,Barclays F3Q26 review 22-May-2026
+FY26Q4,2026-07-31,us_insurance_units_yoy,-7.5,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,us_insurance_units_yoy_ex_lost_customer,2.3,pct,Copart FY26Q4 call: ex one single customer loss domestic insurance assignments would be up 2.3pct
+FY26Q4,2026-07-31,global_insurance_units_yoy,-4.2,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,intl_insurance_units_yoy,11.2,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,global_units_yoy,-2.9,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,us_units_yoy,-5.7,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,intl_units_yoy,10.0,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,us_noninsurance_units_yoy,0.2,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,dealer_units_yoy,5.8,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,global_asp_yoy,3.5,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,us_insurance_asp_yoy,3.7,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,us_noninsurance_asp_yoy,5.9,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,intl_asp_yoy,3.3,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,revenue_per_unit_yoy,5.4,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,opex_per_car_yoy,12.7,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,us_facility_cost_yoy,7.7,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,us_facility_cost_per_unit_yoy,14.2,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,intl_facility_cost_yoy,11.4,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,intl_facility_cost_per_unit_yoy,7.2,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,global_inventory_yoy,-1.0,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,us_inventory_yoy,-3.4,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,intl_inventory_yoy,10.4,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,intl_buyer_share_of_units,38.2,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,intl_buyer_share_of_dollars,45.7,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,total_loss_frequency,23.3,pct,Copart FY26Q4 call citing CCC for calendar Q2 2026; described as highest second-quarter level on record
+FY26Q4,2026-07-31,collision_claim_frequency_yoy,-3.4,pct,Copart FY26Q4 earnings call 10-Sep-2026
+FY26Q4,2026-07-31,collision_severity_usd,6300,usd,Copart FY26Q4 call: collision severity above 6300 usd per claim up 8.8pct
+FY26FY,2026-07-31,us_insurance_units_yoy,-8.0,pct,Copart FY26Q4 earnings call 10-Sep-2026 (full fiscal year)
+FY26FY,2026-07-31,us_noninsurance_units_yoy,-3.9,pct,Copart FY26Q4 earnings call 10-Sep-2026 (full fiscal year)
+FY26FY,2026-07-31,dealer_units_yoy,3.9,pct,Copart FY26Q4 earnings call 10-Sep-2026 (full fiscal year)
+FY26FY,2026-07-31,global_asp_yoy,5.5,pct,Copart FY26Q4 earnings call 10-Sep-2026 (full fiscal year)
+FY26FY,2026-07-31,us_insurance_asp_yoy,5.5,pct,Copart FY26Q4 earnings call 10-Sep-2026 (full fiscal year)
+FY26FY,2026-07-31,intl_asp_yoy,7.3,pct,Copart FY26Q4 earnings call 10-Sep-2026 (full fiscal year)
+FY26FY,2026-07-31,revenue_per_unit_yoy,5.7,pct,Copart FY26Q4 earnings call 10-Sep-2026 (full fiscal year)
+FY26FY,2026-07-31,buyback_usd_mn,1630,usd_mn,Copart FY26Q4 earnings call 10-Sep-2026
+FY26FY,2026-07-31,total_liquidity_usd_mn,5700,usd_mn,Copart FY26Q4 call: approx 5.7bn including undrawn 2.05bn revolver

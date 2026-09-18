@@ -1,0 +1,12 @@
+fiscal_period,period_end,revenue_actual,revenue_consensus,ebit_actual,ebit_consensus,eps_actual,eps_consensus,gross_margin_actual,source
+FY24Q3,2024-04-30,1127.0,,437.2,,,,,Freedom Broker initiation 26-Jun-2026 Graph 12 and 13 (Copart filings)
+FY24Q4,2024-07-31,1069.0,,359.5,,0.33,,42.43,Bloomberg consensus quarterly export 27-Aug-2026 and Freedom Broker Graph 13
+FY25Q1,2024-10-31,1146.8,,406.4,,0.37,,44.65,Bloomberg consensus quarterly export 27-Aug-2026
+FY25Q2,2025-01-31,1163.3,,426.2,,0.40,,45.18,Bloomberg consensus quarterly export 27-Aug-2026
+FY25Q3,2025-04-30,1211.7,,451.5,,0.42,,45.57,Bloomberg consensus quarterly export 27-Aug-2026
+FY25Q4,2025-07-31,1125.1,,412.6,,0.41,,45.30,Bloomberg consensus quarterly export 27-Aug-2026
+FY26Q1,2025-10-31,1155.0,1170.0,430.7,443.0,0.41,0.39,46.49,Actuals Bloomberg export; consensus and JPMe from JPM F1Q26 note 24-Nov-2025
+FY26Q2,2026-01-31,1121.7,1170.0,388.7,426.0,0.36,0.39,43.94,Actuals Bloomberg export; consensus from Barclays F2Q26 review 20-Feb-2026
+FY26Q3,2026-04-30,1237.1,1197.0,464.3,447.0,0.43,0.41,46.29,Actuals Bloomberg export; consensus from Barclays F3Q26 review 22-May-2026
+FY26Q4,2026-07-31,1200.0,1140.0,368.9,403.3,0.35,0.38,41.80,Actuals Copart Q4 FY26 press release 10-Sep-2026; consensus from Bloomberg export 27-Aug-2026
+FY27Q1,2026-10-31,,1170.6,,427.6,,0.40,,"Bloomberg consensus quarterly export 27-Aug-2026 (estimate, not yet reported)"

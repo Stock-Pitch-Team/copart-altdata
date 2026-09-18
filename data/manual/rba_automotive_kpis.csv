@@ -1,0 +1,21 @@
+calendar_period,period_end,metric,value,unit,source
+CY25Q4,2025-12-31,automotive_units_yoy,8.0,pct,Barclays F2Q26 review 20-Feb-2026 citing RB Global 4Q disclosure
+CY26Q1,2026-03-31,service_take_rate,20.6,pct,Derived: RB Global H1-26 take rate 20.3pct with Q2 at 20.0pct implies Q1 near 20.6pct. DERIVED not reported - replace with 10-Q figure
+CY26Q2,2026-06-30,automotive_units,658800,units,RB Global Q2 2026 earnings call 4-Aug-2026
+CY26Q2,2026-06-30,automotive_units_yoy,11.0,pct,RB Global Q2 2026 earnings call 4-Aug-2026 (sixth consecutive quarter of outperforming the broader market)
+CY26Q2,2026-06-30,automotive_gtv_usd_mn,2448.7,usd_mn,RB Global Q2 2026 results 8-K exhibit 99.1
+CY26Q2,2026-06-30,automotive_gtv_yoy,13.0,pct,RB Global Q2 2026 results 8-K exhibit 99.1
+CY26Q2,2026-06-30,service_take_rate,20.0,pct,RB Global Q2 2026 results: take rate down 110bp YoY to 20.0pct
+CY26Q2,2026-06-30,service_take_rate_yoy_bp,-110,bp,RB Global Q2 2026 results: attributed to acquisition mix and automotive pricing incentives tied to higher transaction volumes
+CY26Q2,2026-06-30,us_insurance_asp_yoy,4.0,pct,RB Global Q2 2026 earnings call 4-Aug-2026
+CY26Q2,2026-06-30,automotive_asp_yoy,2.0,pct,RB Global Q2 2026 earnings call 4-Aug-2026
+CY25Q2,2025-06-30,service_take_rate,21.1,pct,Barclays / RB Global: prior-year Q2 take rate before the 110bp decline
+CY26H1,2026-06-30,service_take_rate,20.3,pct,RB Global H1 2026: ratio fell 140bp to 20.3pct
+CY26FY,2026-12-31,gtv_growth_guidance_low,9.0,pct,RB Global Q2 2026 guidance raised from 6pct
+CY26FY,2026-12-31,gtv_growth_guidance_high,11.0,pct,RB Global Q2 2026 guidance raised from 9pct
+CY26FY,2026-12-31,adj_ebitda_guidance_low_usd_mn,1495,usd_mn,RB Global Q2 2026 guidance
+CY26FY,2026-12-31,adj_ebitda_guidance_high_usd_mn,1545,usd_mn,RB Global Q2 2026 guidance
+CY26FY,2026-12-31,capex_guidance_low_usd_mn,350,usd_mn,RB Global Q2 2026 guidance
+CY26FY,2026-12-31,capex_guidance_high_usd_mn,400,usd_mn,RB Global Q2 2026 guidance
+CY26Q2,2026-06-30,net_debt_to_ebitda,1.6,x,RB Global Q2 2026 results as of 30-Jun-2026
+CY26Q2,2026-06-30,long_term_debt_usd_mn,2885.6,usd_mn,RB Global Q2 2026 results

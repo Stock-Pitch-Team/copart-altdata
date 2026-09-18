@@ -1,0 +1,5 @@
+scenario,probability,us_insurance_units_fy27,gross_margin_fy27,eps_fy27,multiple,multiple_basis,implied_price,rationale
+Bear,0.25,-6.0,42.0,1.50,15.0,P/E on FY27E,23.00,A second large carrier follows Progressive to IAA. Cost per car stays inflated and Manheim rolls over so ASP support fades. This is roughly the Barclays 26 dollar target at 10x EV/EBITDA.
+Base,0.35,-1.5,44.0,1.65,17.5,P/E on FY27E,29.00,Consensus. Progressive loss laps but nothing re-accelerates. US service revenue roughly flat and margin recovers only partially. Close to where the stock trades today.
+Our case,0.30,0.5,45.0,1.78,21.0,P/E on FY27E,37.50,Reported US insurance units inflect from -7pct in Q1 to positive by Q3 as the Progressive base laps and the ex-customer book keeps growing 2-3pct. Fixed-cost absorption returns gross margin to 45pct. Modest re-rating toward the low end of the historical range.
+Bull,0.10,3.0,46.0,1.90,25.0,P/E on FY27E,47.50,The above plus either a significant hail or flood catastrophe quarter or a second-carrier RFP win that reverses the share narrative outright. Multiple returns toward the 10-year average of 27x.

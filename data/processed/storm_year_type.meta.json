@@ -1,0 +1,15 @@
+{
+  "dataset": "storm_year_type",
+  "source": "NOAA National Centers for Environmental Information, Storm Events Database (public domain)",
+  "method": "Downloaded the yearly 'details' files for 2016-2026 and kept only event types that plausibly total a vehicle: hail, flood, flash flood, coastal flood, storm surge, hurricane, tornado and tropical storm. Heat, drought, cold and straight-line wind are excluded. Property damage strings such as '2.50K' and '1.2M' are parsed to dollars and summed.",
+  "gaps": "Storm Events counts REPORTED events, so densely populated counties are over-represented relative to sparsely populated ones. Property damage is an all-property figure, not vehicle-specific, so it proxies rather than measures salvage supply. County names come from NOAA's CZ_NAME field, which mixes counties and forecast zones, so joining to yard locations needs care. The current year is incomplete. Separately: NOAA's August 2026 seasonal outlook gives a 75 percent chance of a below-normal Atlantic hurricane season, so this data supports a claim about durable land advantage, not a forecast of catastrophe-driven upside this year.",
+  "units": "event counts",
+  "frequency": "annual",
+  "rows": 87,
+  "columns": [
+    "year",
+    "event_type",
+    "events"
+  ],
+  "collected_utc": "2026-09-18 00:26 UTC"
+}
