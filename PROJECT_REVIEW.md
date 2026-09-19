@@ -6,8 +6,8 @@
 # Verified project review — 18 September 2026
 
 This is a useful, shareable **research v1**, not a completed investment pitch.
-The site is a static Python/Jinja/ECharts build: six pages, 18 charts with table
-views, 11 manual CSVs and 10 processed datasets with provenance sidecars.
+The site is a static Python/Jinja/ECharts build: six pages, 19 charts with table
+views, 11 manual CSVs and 12 processed datasets with provenance sidecars.
 
 ## Complete and reproduced
 
