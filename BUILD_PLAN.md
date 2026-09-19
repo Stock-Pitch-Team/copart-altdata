@@ -1,5 +1,7 @@
 # Build plan — Tier 1 approved
 
+**Version 2 update:** Six executable research workflows, public carrier comparisons, operating sensitivities and validated private imports are now implemented. See [RESEARCH_WORKFLOWS.md](RESEARCH_WORKFLOWS.md) for current status, limitations and commands; it supersedes earlier implementation-status notes below.
+
 Six projects, sequenced so each one produces a chart on the website rather than
 a notebook only you can read. Audit update (18 September 2026): see PROJECT_REVIEW.md for verified status.
 Two research projects have working implementations; the remaining projects are partial or unbuilt.

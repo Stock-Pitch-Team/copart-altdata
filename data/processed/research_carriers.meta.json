@@ -1,0 +1,18 @@
+{
+  "dataset": "research_carriers",
+  "source": "https://investor.progressive.com/financials/financial-news-releases/news-details/2026/Progressive-Reports-June-2026-Results/default.aspx; https://www.sec.gov/Archives/edgar/data/899051/000089905126000117/allcorp63026earningsreleas.htm; https://www.sec.gov/Archives/edgar/data/80661/000008066126000322/pgr202608ex99earningsrelea.htm",
+  "method": "Personal auto policies: Progressive agency plus direct; Allstate Protection auto. Compare June with June. August is an update, not a synchronized comparison.",
+  "gaps": "Two carriers only; policies are not claims or salvage units. Different products and territories; allocation to auctioneers is unknown.",
+  "units": "Thousands of policies; percent",
+  "frequency": "Monthly/quarterly",
+  "rows": 3,
+  "columns": [
+    "carrier",
+    "period",
+    "auto_policies_thousands",
+    "prior_year_thousands",
+    "source_url",
+    "policy_growth_pct"
+  ],
+  "collected_utc": "2026-09-19 02:05 UTC"
+}

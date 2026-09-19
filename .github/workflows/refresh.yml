@@ -59,6 +59,12 @@ jobs:
       - name: Validate forecast performance
         run: python -m src.build.tlf_backtest
 
+      - name: Build research workstreams
+        run: python -m src.build.research_suite --public-only
+
+      - name: Test research calculations
+        run: python -m unittest discover -s tests -v
+
       - name: Rebuild the website
         run: python -m src.site.build_site
 

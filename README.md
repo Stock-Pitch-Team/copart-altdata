@@ -1,5 +1,7 @@
 # Copart (CPRT) — alt-data research
 
+**Version 2 update:** Six executable research workflows, public carrier comparisons, operating sensitivities and validated private imports are now implemented. See [RESEARCH_WORKFLOWS.md](RESEARCH_WORKFLOWS.md) for current status, limitations and commands; it supersedes earlier implementation-status notes below.
+
 Long-thesis research on Copart for the Citadel / Point72 stock-pitch
 competition. The output is a website your whole team can read, backed by
 collectors that pull from public sources and models whose assumptions are

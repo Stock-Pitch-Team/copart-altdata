@@ -1,0 +1,20 @@
+{
+  "recovery": {
+    "pairs": 0
+  },
+  "inventory": [],
+  "coverage": [],
+  "earnings_baseline": {
+    "service": 3969.52,
+    "vehicle": 696.689,
+    "facility": 1755.747,
+    "vehicle_cost": 616.463,
+    "other_cost": 641.409,
+    "interest": 181.923,
+    "other_income": 0.464,
+    "nci_loss": 3.873,
+    "tax_rate": 0.19323402963633876,
+    "shares": 956.86
+  },
+  "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-ex99_1.htm"
+}

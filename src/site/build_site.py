@@ -27,6 +27,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
 from jinja2 import Environment, FileSystemLoader, select_autoescape  # noqa: E402
 
 from src.common import DOCS, MANUAL, PROCESSED, ROOT, get_logger, read_meta  # noqa: E402
+from src.site.research_page import page_research
 from src.site import charts as ch  # noqa: E402
 
 log = get_logger("build_site")
@@ -36,6 +37,7 @@ TEMPLATES = HERE / "templates"
 STATIC = HERE / "static"
 
 NAV = [
+    {"href": "research.html", "label": "Research lab"},
     {"href": "index.html", "label": "Thesis"},
     {"href": "company.html", "label": "Copart"},
     {"href": "competition.html", "label": "Copart vs IAA"},
@@ -1193,6 +1195,7 @@ def render() -> int:
         page_industry(),
         page_valuation(),
         page_methods(),
+        page_research(),
     ]
 
     build_time = datetime.now(timezone.utc).strftime("%d %B %Y %H:%M UTC")
@@ -1207,6 +1210,7 @@ def render() -> int:
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
 
     nav_map = {
+        "Research lab": "research.html",
         "Thesis": "index.html",
         "Copart": "company.html",
         "Copart vs IAA": "competition.html",

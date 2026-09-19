@@ -1,0 +1,23 @@
+{
+  "dataset": "research_earnings",
+  "source": "https://www.sec.gov/Archives/edgar/data/900075/000119312526387902/cprt-ex99_1.htm",
+  "method": "FY2026 consolidated revenue and costs. Service revenue scales by volume and RPU; vehicle revenue/cost scale by volume. Facility costs split fixed/variable with assumed 60% variable; other operating costs inflate. Reported tax rate and NCI adjustment; diluted shares adjusted by scenario.",
+  "gaps": "Fixed/variable split is assumed, not disclosed. Cost inflation bundles fuel and wages. No acquisition contributions, purchase accounting, capex, working capital or full cash-flow forecast. Scenarios are not price targets.",
+  "units": "USD millions; EPS USD",
+  "frequency": "Annual scenario",
+  "rows": 4,
+  "columns": [
+    "scenario",
+    "volume_growth_pct",
+    "service_rpu_growth_pct",
+    "cost_inflation_pct",
+    "facility_variable_share_pct",
+    "interest_delta_m",
+    "share_change_pct",
+    "revenue_m",
+    "operating_income_m",
+    "operating_margin_pct",
+    "eps"
+  ],
+  "collected_utc": "2026-09-19 02:05 UTC"
+}

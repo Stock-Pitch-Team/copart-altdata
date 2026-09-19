@@ -444,3 +444,9 @@ td.wrap, th.wrap { white-space: normal; min-width: 200px; }
   html { scroll-behavior: auto; }
   * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
+/* Research inputs and wide evidence tables */
+#research-controls label { display: flex; flex-direction: column; gap: 6px; }
+#research-controls input { width: 100%; min-width: 0; padding: 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface-1); color: var(--text); font: inherit; }
+#research-output { display: block; padding: 16px; font-weight: 600; background: var(--surface-1); border-left: 3px solid var(--series-1); }
+.research-source { overflow-wrap: anywhere; }

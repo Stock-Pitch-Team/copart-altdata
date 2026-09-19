@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card" style="padding:24px">
+<h2>What would establish an advantage?</h2>
+<p>Copart needs to generate higher net seller recoveries and dependable selling speed on comparable cars, and turn its footprint into profitable throughput. Rising repair costs alone cannot establish those advantages. The existing TLF model still loses to the last-observation baseline in historical validation.</p>
+<p><a href="#recovery">Recovery</a> · <a href="#inventory">Inventory</a> · <a href="#coverage">Storm coverage</a> · <a href="#scenarios">Explore assumptions</a></p>
+</section>
+<section class="card" id="recovery" style="padding:24px;margin-top:24px">
+<h2>1. Matched net recoveries</h2>
+<p><strong>{{ 'Imported observational sample' if results.recovery.pairs else 'Awaiting confirmed sold-lot data' }}</strong></p>
+<p>Match without replacement on model year, make, model, damage, title, region and sale week, with mileage within 10,000 miles. Subtract seller fees, transport and storage from confirmed sale prices. Buyer fees are not seller proceeds. Report matched coverage, mileage balance and paired differences; bootstrap intervals require at least ten pairs.</p>
+{% if results.recovery.pairs %}<pre>{{ results.recovery | tojson(indent=2) }}</pre>{% endif %}
+<p><strong>Support:</strong> a persistent positive net-recovery difference across regions and vehicle cohorts. <strong>Challenge:</strong> the difference vanishes after costs or matching. Exact categories need consistent source definitions; hidden condition, seller selection and clustered observations can still bias results. Intervals are exploratory, not causal proof.</p>
+</section>
+<section class="card" id="inventory" style="padding:24px;margin-top:24px">
+<h2>2. Inventory and observed selling speed</h2>
+<p><strong>{{ 'Imported observational sample' if results.inventory else 'Awaiting dated snapshots and completeness manifests' }}</strong></p>
+<p>Require a manifest for each platform/day. Incomplete collection days are excluded. Only an explicit sold status confirms a sale; disappearance never does. Track reappearances across complete snapshots, unresolved/withdrawn lots and observed listing-to-sale days.</p>
+{% if results.inventory %}<pre>{{ results.inventory | tojson(indent=2) }}</pre>{% endif %}
+<p><strong>Support:</strong> faster confirmed sales for comparable cohorts without lower net proceeds. <strong>Challenge:</strong> more unresolved lots or slower sales. Sold-only median is selected and first-seen dates are left truncated; these diagnostics do not yet estimate population time-to-sale or causal turnover. Reappearances are not necessarily auction relistings.</p>
+</section>
+{% for t in tables %}
+{% if loop.index == 3 %}<section class="card" id="coverage" style="padding:24px;margin-top:24px">
+<h2>4. Yard proximity to storms</h2>
+<p><strong>{{ 'Imported geographic sample' if results.coverage else 'Awaiting sourced yard coordinates and normalized storm locations' }}</strong></p>
+<p>Haversine nearest-yard distances at 50, 100 and 150 miles count each event once per platform, even where yard catchments overlap. Coordinates must refer to consistent event locations; existing NOAA county/forecast-zone labels cannot be treated as precise points.</p>
+{% if results.coverage %}<pre>{{ results.coverage | tojson(indent=2) }}</pre>{% endif %}
+<p><strong>Support:</strong> greater coverage in the same event sample and verified spare capacity. <strong>Challenge:</strong> IAA has equivalent proximity or Copart lacks available capacity. A partial yard list is only sample coverage; acreage and ownership do not measure usable capacity. Straight-line miles are not towing distance.</p>
+</section>
+{% endif %}
+<section class="card" style="padding:24px;margin-top:24px">
+<h2>{{ t.title }}</h2>
+<div style="overflow-x:auto"><table class="data-table"><thead><tr>{% for c in t.columns %}<th scope="col">{{ c }}</th>{% endfor %}</tr></thead><tbody>{% for row in t.rows %}<tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>{% endfor %}</tbody></table></div>
+<p><strong>Method:</strong> {{ t.meta.method }}</p><p><strong>Limits:</strong> {{ t.meta.gaps }}</p><p class="research-source"><strong>Source:</strong> {% for source in t.meta.source.split("; ") %}{% if source.startswith("https://") %}<a href="{{ source }}">Official release {{ loop.index }}</a>{% else %}{{ source }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</p>
+</section>
+{% endfor %}
+<section class="card" id="scenarios" style="padding:24px;margin-top:24px">
+<h2>Change the assumptions</h2><p>These are sensitivities, not forecasts. Supply uses a starting TLF of 22% and five years; earnings uses the FY2026 consolidated baseline, 60% variable facility cost, unchanged interest and shares.</p>
+<form id="research-controls" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px">
+<label>Annual exposure growth (%) <input name="exposure" type="number" min="-20" max="20" step="0.5" value="1" required></label>
+<label>Annual claims frequency change (%) <input name="claims" type="number" min="-20" max="20" step="0.5" value="-2.5" required></label>
+<label>Ending total-loss frequency (%) <input name="tlf" type="number" min="1" max="100" step="0.5" value="25" required></label>
+<label>One-year Copart volume growth (%) <input name="volume" type="number" min="-50" max="50" step="0.5" value="3" required></label>
+<label>Service revenue per unit growth (%) <input name="rpu" type="number" min="-50" max="50" step="0.5" value="2" required></label>
+<label>Operating cost inflation (%) <input name="inflation" type="number" min="-20" max="50" step="0.5" value="2.5" required></label>
+</form><p><output id="research-output" aria-live="polite"></output></p>
+<p>Industry supply is separate from Copart volume: market share and carrier allocation must connect them. Acquisition effects are excluded; fuel and wages are bundled into inflation because their cost shares are not disclosed.</p>
+</section>
+<section class="card" style="padding:24px;margin-top:24px"><h2>Import and reproduce</h2>
+<p>Copy the header-only templates in <code>data/templates</code>; fill them with public or authorized data and retain source URLs. Run <code>python -m src.analysis.imports sales path/to/sales.csv</code> (replace <code>sales</code> with <code>inventory</code>, <code>manifests</code>, <code>yards</code> or <code>storms</code>). Each import replaces that local dataset, so inventory imports must include accumulated history. Then run <code>python run_all.py --site</code>.</p>
+<p>Raw imports stay in ignored <code>data/private</code>; only aggregate diagnostics enter the site. No sample auction results are published. Read <a href="https://github.com/Stock-Pitch-Team/copart-altdata/blob/main/RESEARCH_WORKFLOWS.md">the schema and research guide</a> before importing.</p></section>
+<script type="application/json" id="earnings-baseline">{{ results.earnings_baseline | tojson }}</script>
+<script src="assets/research.js" defer></script>
+{% endblock %}

@@ -24,6 +24,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install validation dependencies
+        run: pip install pandas numpy requests beautifulsoup4 lxml jinja2 python-dotenv pyyaml tenacity statsmodels
+      - name: Test and rebuild
+        run: |
+          python -m unittest discover -s tests -v
+          python run_all.py --check
+          python -m src.build.research_suite --public-only
+          python -m src.site.build_site
+          python -m src.site.validate_site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

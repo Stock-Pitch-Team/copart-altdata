@@ -28,6 +28,7 @@ COLLECT = [
     ("src.collect.macro", "BLS repair and used-vehicle price indices"),
 ]
 BUILD = [
+    ("src.build.research_suite", "Six research workstreams and aggregate imports"),
     ("src.build.tlf_nowcast", "Total-loss-frequency nowcast model"),
     ("src.build.tlf_backtest", "Historical nowcast validation versus baselines"),
 ]
@@ -145,7 +146,7 @@ def main(argv: list[str]) -> int:
     if site_ok:
         print(f"\nOpen the site:  {ROOT / 'docs' / 'index.html'}")
         print("Or serve it:    .venv/Scripts/python.exe -m http.server 8765 --directory docs")
-    return 0 if site_ok else 1
+    return 0 if all(ok for _, ok in results) else 1
 
 
 if __name__ == "__main__":

@@ -1,5 +1,7 @@
 > Follow-up: historical validation is now implemented and published. On 15 test
 > quarters, spread + trend MAE is 1.69 points versus 1.30 for last available actual.
+**Version 2 update:** Six executable research workflows, public carrier comparisons, operating sensitivities and validated private imports are now implemented. See [RESEARCH_WORKFLOWS.md](RESEARCH_WORKFLOWS.md) for current status, limitations and commands; it supersedes earlier implementation-status notes below.
+
 > This uses current revised data and assumed publication delay, not vintage data.
 > See RESEARCH_NEXT_STEPS.md for the prioritized evidence plan and inventory access findings.
 

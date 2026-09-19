@@ -1,5 +1,7 @@
 # Research tests and next deliverables
 
+**Version 2 update:** Six executable research workflows, public carrier comparisons, operating sensitivities and validated private imports are now implemented. See [RESEARCH_WORKFLOWS.md](RESEARCH_WORKFLOWS.md) for current status, limitations and commands; it supersedes earlier implementation-status notes below.
+
 ## What we are trying to establish
 
 Separate three questions: does Copart deliver better economics than IAA; does

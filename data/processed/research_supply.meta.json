@@ -1,0 +1,19 @@
+{
+  "dataset": "research_supply",
+  "source": "Analyst sensitivity assumptions; not observed projections",
+  "method": "Exposure \u00d7 claim frequency \u00d7 total-loss frequency. Five years of compounded exposure and claims, endpoint TLF ratio. Base volume = 100.",
+  "gaps": "22% starting TLF is a round scenario anchor, not a new measurement. Excludes market share, catastrophic spikes and non-insurance units. No probabilities assigned.",
+  "units": "Percent; normalized units",
+  "frequency": "Scenario",
+  "rows": 9,
+  "columns": [
+    "exposure_growth_pct",
+    "annual_claim_frequency_change_pct",
+    "starting_tlf_pct",
+    "ending_tlf_pct",
+    "years",
+    "volume_index",
+    "break_even_ending_tlf_pct"
+  ],
+  "collected_utc": "2026-09-19 02:05 UTC"
+}

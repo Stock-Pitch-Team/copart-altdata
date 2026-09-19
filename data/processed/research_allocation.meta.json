@@ -1,0 +1,16 @@
+{
+  "dataset": "research_allocation",
+  "source": "Public carrier exposure dataset; analyst scenarios",
+  "method": "100 \u00d7 [starting Progressive weight \u00d7 policy growth factor \u00d7 retained allocation + remaining weight \u00d7 Allstate policy growth factor]. Claims and TLF held flat.",
+  "gaps": "Weights and retained allocation are hypothetical; Allstate is only a proxy for the remaining book. Not an estimate of actual Copart volume.",
+  "units": "Starting volume = 100",
+  "frequency": "Scenario",
+  "rows": 9,
+  "columns": [
+    "progressive_starting_weight_pct",
+    "progressive_allocation_retained_pct",
+    "other_book_growth_proxy_pct",
+    "volume_index"
+  ],
+  "collected_utc": "2026-09-19 02:05 UTC"
+}
