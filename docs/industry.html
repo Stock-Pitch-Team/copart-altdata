@@ -34,13 +34,48 @@
 
 <main>
   <div class="callout warn"><strong>Research v1 — working draft, 18 September 2026.</strong>
-  Valuation assumptions are provisional; the nowcast has not been tested out of sample.
+  Valuation assumptions are provisional; the nowcast does not yet beat a last-actual baseline in historical validation.
   The inventory tracker is not built. See <a href="methods.html">Data &amp; methods</a> for limitations.</div>
   <div class="page-head">
     <div class="eyebrow">Structural drivers</div>
     <h1>Repair economics support total-loss frequency; unit supply also depends on claims</h1>
 <p class="lede">A higher fraction of claims can become total losses even while claim counts fall, and the reason is arithmetic: repair costs keep climbing while used-car values do not. We can track that spread monthly from public data and use it to nowcast total-loss frequency ahead of the quarterly industry release.</p>  </div>
 
+    <figure class="card" data-view="chart" style="margin-inline:0">
+  <div class="card-head">
+    <div>
+      <h3 class="card-title">Does our model beat a simple baseline? Not yet</h3>
+<p class="card-sub">The spread model modestly improves on a trend-only forecast but loses to carrying forward the last available actual. This is a historical simulation using today&#39;s revised data, not proof of real-time predictive edge.</p>    </div>
+    <div class="view-toggle" role="group" aria-label="View as chart or table">
+      <button type="button" data-view-btn="chart" aria-pressed="true">Chart</button>
+      <button type="button" data-view-btn="table" aria-pressed="false">Table</button>
+    </div>
+  </div>
+
+  <div class="chart" id="tlf-validation" role="img"
+       aria-label="Does our model beat a simple baseline? Not yet. The spread model modestly improves on a trend-only forecast but loses to carrying forward the last available actual. This is a historical simulation using today&#39;s revised data, not proof of real-time predictive edge. The same data is available in the table view."></div>
+  <script type="application/json" data-chart="tlf-validation">{"animationDuration":400,"textStyle":{"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif"},"legend":{"show":false},"grid":{"left":8,"right":14,"top":16,"bottom":6,"containLabel":true},"tooltip":{"trigger":"axis","axisPointer":{"type":"line","lineStyle":{"color":"@baseline","width":1}},"backgroundColor":"@surface-1","borderColor":"@gridline","borderWidth":1,"padding":[8,10],"textStyle":{"color":"@text-primary","fontSize":12},"extraCssText":"box-shadow:0 4px 16px rgba(0,0,0,0.10);border-radius:6px;","valueSuffix":" pts","valueDecimals":1},"xAxis":{"type":"value","axisLine":{"show":false},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","formatter":"{value} pts"},"splitLine":{"show":true,"lineStyle":{"color":"@gridline","width":1,"type":"solid"}}},"yAxis":{"type":"category","data":["Spread + trend","Trend only","Last available actual"],"axisLine":{"show":true,"lineStyle":{"color":"@baseline","width":1}},"axisTick":{"show":false},"axisLabel":{"color":"@text-muted","fontSize":11,"fontFamily":"system-ui, -apple-system, \"Segoe UI\", sans-serif","rotate":0,"hideOverlap":true},"splitLine":{"show":false},"inverse":true},"series":[{"name":"Mean absolute error","type":"bar","data":[1.6867850649,1.8095361503362368,1.3],"itemStyle":{"borderRadius":[0,4,4,0],"color":"@series-1"},"barMaxWidth":34,"barGap":"12%","barCategoryGap":"34%"}]}</script>
+
+  <div class="table-view">
+    <table>
+<caption>Historical forecast errors on identical test quarters; lower is better</caption>  <thead>
+    <tr><th class="wrap" scope="col">Model</th><th scope="col">Test quarters</th><th scope="col">Mean absolute error (pts)</th><th scope="col">RMSE (pts)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th scope="row" class="wrap">Spread + trend</th><td>15</td><td>1.69</td><td>2.02</td></tr>
+    <tr><th scope="row" class="wrap">Trend only</th><td>15</td><td>1.81</td><td>2.04</td></tr>
+    <tr><th scope="row" class="wrap">Last available actual</th><td>15</td><td>1.30</td><td>1.61</td></tr>
+  </tbody>
+</table>
+  </div>
+
+  <figcaption class="footnote">
+    <strong>Source.</strong> Local CCC manual panel and BLS CPI; current dataset vintages.
+    <details>
+      <summary>Method and known gaps</summary>
+<p style="margin:6px 0 0"><strong>Method.</strong> Expanding window with at least 12 training observations. Assume a one-quarter TLF publication delay: target Q trains through Q-2. CPI lags 1-3 only. Re-select lag using training error on identical training rows at each origin. Compare with trend-only and last available actual on identical target quarters.</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> Pseudo-out-of-sample, not a real-time vintage backtest. CPI revisions and historical CCC publication dates are unavailable. Quarterly means can have missing months. Lag zero from the original in-sample search is excluded because target-quarter CPI would be unavailable at this forecast origin. Small test sample, overlapping training windows and mixed CCC definitions limit conclusions.</p>    </details>
+  </figcaption>
+</figure>
     <figure class="card" data-view="chart" style="margin-inline:0">
   <div class="card-head">
     <div>
@@ -105,7 +140,7 @@
     <strong>Source.</strong> Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.
     <details>
       <summary>Method and known gaps</summary>
-<p style="margin:6px 0 0"><strong>Method.</strong> Defined the repair-to-value &#39;scissors&#39; as repair CPI year-over-year minus used-vehicle CPI year-over-year, averaged monthly CPI to calendar quarters, then fitted ordinary least squares of total-loss frequency on (a) the scissors lagged 3 quarter(s) and (b) a linear time trend that represents the structural drift from the ageing fleet and rising vehicle complexity. Lags 0-3 were tested and the highest adjusted R-squared chosen (R2=0.656, adjusted 0.629, n=28). Fitted: scissors +0.0618 pts per point of spread (p=0.0002), trend +0.396 pts per year (p=0.0006). The nowcast band is the 95 percent residual interval and is populated only for quarters after the last published CCC actual (2026-06-30).</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> Lag selection and fit use the same sample, with no held-out validation. The band is plus/minus 1.96 residual standard deviations, not a calibrated forecast interval; it excludes parameter and lag-selection uncertainty and serial correlation. Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.</p>    </details>
+<p style="margin:6px 0 0"><strong>Method.</strong> Defined the repair-to-value &#39;scissors&#39; as repair CPI year-over-year minus used-vehicle CPI year-over-year, averaged monthly CPI to calendar quarters, then fitted ordinary least squares of total-loss frequency on (a) the scissors lagged 3 quarter(s) and (b) a linear time trend that represents the structural drift from the ageing fleet and rising vehicle complexity. Lags 0-3 were tested and the highest adjusted R-squared chosen (R2=0.656, adjusted 0.629, n=28). Fitted: scissors +0.0618 pts per point of spread (p=0.0002), trend +0.396 pts per year (p=0.0006). The nowcast band is the 95 percent residual interval and is populated only for quarters after the last published CCC actual (2026-06-30).</p><p style="margin:6px 0 0"><strong>Gaps and caveats.</strong> This fit selects lags in-sample; separate historical validation is in tlf_backtest. The band is plus/minus 1.96 residual standard deviations, not a calibrated forecast interval; it excludes parameter and lag-selection uncertainty and serial correlation. Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.</p>    </details>
   </figcaption>
 </figure>
     <figure class="card" data-view="chart" style="margin-inline:0">
@@ -318,7 +353,7 @@
     "listings observed" and are never presented as reported unit sales. Model outputs
     state their sample size and uncertainty band. See
     <a href="methods.html">Data &amp; methods</a> for every source, method and known gap.</p>
-    <p>Built 18 September 2026 19:05 UTC. Data as of the collection dates shown under each chart.</p>
+    <p>Built 19 September 2026 01:49 UTC. Data as of the collection dates shown under each chart.</p>
   </div>
 </footer>
 

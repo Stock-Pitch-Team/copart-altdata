@@ -1,3 +1,8 @@
+> Follow-up: historical validation is now implemented and published. On 15 test
+> quarters, spread + trend MAE is 1.69 points versus 1.30 for last available actual.
+> This uses current revised data and assumed publication delay, not vintage data.
+> See RESEARCH_NEXT_STEPS.md for the prioritized evidence plan and inventory access findings.
+
 # Verified project review — 18 September 2026
 
 This is a useful, shareable **research v1**, not a completed investment pitch.

@@ -29,6 +29,7 @@ COLLECT = [
 ]
 BUILD = [
     ("src.build.tlf_nowcast", "Total-loss-frequency nowcast model"),
+    ("src.build.tlf_backtest", "Historical nowcast validation versus baselines"),
 ]
 SITE = ("src.site.build_site", "Static website into docs/")
 

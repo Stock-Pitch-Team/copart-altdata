@@ -1,0 +1,21 @@
+{
+  "dataset": "tlf_backtest",
+  "source": "Local CCC manual panel and BLS CPI; current dataset vintages.",
+  "method": "Expanding window with at least 12 training observations. Assume a one-quarter TLF publication delay: target Q trains through Q-2. CPI lags 1-3 only. Re-select lag using training error on identical training rows at each origin. Compare with trend-only and last available actual on identical target quarters.",
+  "gaps": "Pseudo-out-of-sample, not a real-time vintage backtest. CPI revisions and historical CCC publication dates are unavailable. Quarterly means can have missing months. Lag zero from the original in-sample search is excluded because target-quarter CPI would be unavailable at this forecast origin. Small test sample, overlapping training windows and mixed CCC definitions limit conclusions.",
+  "units": "percentage points for errors; percent for TLF",
+  "frequency": "quarterly",
+  "rows": 45,
+  "columns": [
+    "quarter_end",
+    "forecast_origin",
+    "last_training_actual",
+    "model",
+    "n_train",
+    "selected_lag",
+    "actual",
+    "prediction",
+    "error"
+  ],
+  "collected_utc": "2026-09-19 01:49 UTC"
+}

@@ -56,6 +56,9 @@ jobs:
       - name: Run the total-loss-frequency model
         run: python -m src.build.tlf_nowcast
 
+      - name: Validate forecast performance
+        run: python -m src.build.tlf_backtest
+
       - name: Rebuild the website
         run: python -m src.site.build_site
 

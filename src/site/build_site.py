@@ -736,6 +736,17 @@ def page_competition() -> dict:
 def page_industry() -> dict:
     cards = []
 
+    validation = processed("tlf_backtest_summary")
+    if validation is not None:
+        src, method, gaps = meta_bits("tlf_backtest_summary")
+        cards.append(card(
+            "tlf-validation", "Does our model beat a simple baseline? Not yet",
+            ch.bar(list(validation["model"]), [{"name": "Mean absolute error", "data": jnull(validation["mae"]), "color": ch.SERIES[0]}], value_suffix=" pts", horizontal=True),
+            {"caption": "Historical forecast errors on identical test quarters; lower is better", "columns": ["Model", "Test quarters", "Mean absolute error (pts)", "RMSE (pts)"],
+             "rows": [[r["model"], int(r["n_test"]), fmt_num(r["mae"],2), fmt_num(r["rmse"],2)] for _,r in validation.iterrows()]},
+            subtitle="The spread model modestly improves on a trend-only forecast but loses to carrying forward the last available actual. This is a historical simulation using today's revised data, not proof of real-time predictive edge.",
+            source=src, method=method, gaps=gaps))
+
     now = processed("tlf_nowcast")
     stats = processed("tlf_nowcast_stats")
     if now is not None:

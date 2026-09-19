@@ -34,7 +34,7 @@
 
 <main>
   <div class="callout warn"><strong>Research v1 — working draft, 18 September 2026.</strong>
-  Valuation assumptions are provisional; the nowcast has not been tested out of sample.
+  Valuation assumptions are provisional; the nowcast does not yet beat a last-actual baseline in historical validation.
   The inventory tracker is not built. See <a href="methods.html">Data &amp; methods</a> for limitations.</div>
   <div class="page-head">
     <div class="eyebrow">Provenance</div>
@@ -70,8 +70,10 @@
     <tr><th scope="row" class="wrap">storm_county</th><td>cumulative over the period</td><td>3730</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
     <tr><th scope="row" class="wrap">storm_state</th><td>cumulative over the period</td><td>55</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
     <tr><th scope="row" class="wrap">storm_year_type</th><td>annual</td><td>87</td><td>2026-09-18 00:26 UTC</td><td>NOAA National Centers for Environmental Information, Storm Events Database (public domain)</td></tr>
-    <tr><th scope="row" class="wrap">tlf_nowcast</th><td>quarterly</td><td>35</td><td>2026-09-18 19:04 UTC</td><td>Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.</td></tr>
-    <tr><th scope="row" class="wrap">tlf_nowcast_stats</th><td>one row</td><td>1</td><td>2026-09-18 19:04 UTC</td><td>Computed by src/build/tlf_nowcast.py</td></tr>
+    <tr><th scope="row" class="wrap">tlf_backtest</th><td>quarterly</td><td>45</td><td>2026-09-19 01:49 UTC</td><td>Local CCC manual panel and BLS CPI; current dataset vintages.</td></tr>
+    <tr><th scope="row" class="wrap">tlf_backtest_summary</th><td>quarterly</td><td>3</td><td>2026-09-19 01:49 UTC</td><td>Local CCC manual panel and BLS CPI; current dataset vintages.</td></tr>
+    <tr><th scope="row" class="wrap">tlf_nowcast</th><td>quarterly</td><td>35</td><td>2026-09-19 01:49 UTC</td><td>Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.</td></tr>
+    <tr><th scope="row" class="wrap">tlf_nowcast_stats</th><td>one row</td><td>1</td><td>2026-09-19 01:49 UTC</td><td>Computed by src/build/tlf_nowcast.py</td></tr>
   </tbody>
 </table>
 </div>
@@ -171,17 +173,33 @@ came from, and derived rather than reported values are labelled as derived.</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> Downloaded the yearly &#39;details&#39; files for 2016-2026 and kept only event types that plausibly total a vehicle: hail, flood, flash flood, coastal flood, storm surge, hurricane, tornado and tropical storm. Heat, drought, cold and straight-line wind are excluded. Property damage strings such as &#39;2.50K&#39; and &#39;1.2M&#39; are parsed to dollars and summed.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Storm Events counts REPORTED events, so densely populated counties are over-represented relative to sparsely populated ones. Property damage is an all-property figure, not vehicle-specific, so it proxies rather than measures salvage supply. County names come from NOAA&#39;s CZ_NAME field, which mixes counties and forecast zones, so joining to yard locations needs care. The current year is incomplete. Separately: NOAA&#39;s August 2026 seasonal outlook gives a 75 percent chance of a below-normal Atlantic hurricane season, so this data supports a claim about durable land advantage, not a forecast of catastrophe-driven upside this year.</p>  </div>
 </div>
 <div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">tlf_backtest</h3>
+  <p class="card-sub" style="margin-top:0">
+    quarterly &middot; 45 rows &middot; collected 2026-09-19 01:49 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> Local CCC manual panel and BLS CPI; current dataset vintages.</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Expanding window with at least 12 training observations. Assume a one-quarter TLF publication delay: target Q trains through Q-2. CPI lags 1-3 only. Re-select lag using training error on identical training rows at each origin. Compare with trend-only and last available actual on identical target quarters.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Pseudo-out-of-sample, not a real-time vintage backtest. CPI revisions and historical CCC publication dates are unavailable. Quarterly means can have missing months. Lag zero from the original in-sample search is excluded because target-quarter CPI would be unavailable at this forecast origin. Small test sample, overlapping training windows and mixed CCC definitions limit conclusions.</p>  </div>
+</div>
+<div class="card">
+  <h3 class="card-title" style="margin-bottom:8px">tlf_backtest_summary</h3>
+  <p class="card-sub" style="margin-top:0">
+    quarterly &middot; 3 rows &middot; collected 2026-09-19 01:49 UTC  </p>
+  <div class="footnote" style="border-top:0;padding-top:0">
+    <p style="margin:8px 0 0"><strong>Source.</strong> Local CCC manual panel and BLS CPI; current dataset vintages.</p>
+<p style="margin:8px 0 0"><strong>Method.</strong> Expanding window with at least 12 training observations. Assume a one-quarter TLF publication delay: target Q trains through Q-2. CPI lags 1-3 only. Re-select lag using training error on identical training rows at each origin. Compare with trend-only and last available actual on identical target quarters.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Pseudo-out-of-sample, not a real-time vintage backtest. CPI revisions and historical CCC publication dates are unavailable. Quarterly means can have missing months. Lag zero from the original in-sample search is excluded because target-quarter CPI would be unavailable at this forecast origin. Small test sample, overlapping training windows and mixed CCC definitions limit conclusions.</p>  </div>
+</div>
+<div class="card">
   <h3 class="card-title" style="margin-bottom:8px">tlf_nowcast</h3>
   <p class="card-sub" style="margin-top:0">
-    quarterly &middot; 35 rows &middot; collected 2026-09-18 19:04 UTC  </p>
+    quarterly &middot; 35 rows &middot; collected 2026-09-19 01:49 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> Total-loss frequency from CCC Intelligent Solutions as cited in J.P. Morgan research (calendar 1Q19-3Q25) and by Copart on its FY26Q4 earnings call (calendar 2Q26). Repair and used-vehicle CPI from the US Bureau of Labor Statistics public API.</p>
-<p style="margin:8px 0 0"><strong>Method.</strong> Defined the repair-to-value &#39;scissors&#39; as repair CPI year-over-year minus used-vehicle CPI year-over-year, averaged monthly CPI to calendar quarters, then fitted ordinary least squares of total-loss frequency on (a) the scissors lagged 3 quarter(s) and (b) a linear time trend that represents the structural drift from the ageing fleet and rising vehicle complexity. Lags 0-3 were tested and the highest adjusted R-squared chosen (R2=0.656, adjusted 0.629, n=28). Fitted: scissors +0.0618 pts per point of spread (p=0.0002), trend +0.396 pts per year (p=0.0006). The nowcast band is the 95 percent residual interval and is populated only for quarters after the last published CCC actual (2026-06-30).</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> Lag selection and fit use the same sample, with no held-out validation. The band is plus/minus 1.96 residual standard deviations, not a calibrated forecast interval; it excludes parameter and lag-selection uncertainty and serial correlation. Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.</p>  </div>
+<p style="margin:8px 0 0"><strong>Method.</strong> Defined the repair-to-value &#39;scissors&#39; as repair CPI year-over-year minus used-vehicle CPI year-over-year, averaged monthly CPI to calendar quarters, then fitted ordinary least squares of total-loss frequency on (a) the scissors lagged 3 quarter(s) and (b) a linear time trend that represents the structural drift from the ageing fleet and rising vehicle complexity. Lags 0-3 were tested and the highest adjusted R-squared chosen (R2=0.656, adjusted 0.629, n=28). Fitted: scissors +0.0618 pts per point of spread (p=0.0002), trend +0.396 pts per year (p=0.0006). The nowcast band is the 95 percent residual interval and is populated only for quarters after the last published CCC actual (2026-06-30).</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> This fit selects lags in-sample; separate historical validation is in tlf_backtest. The band is plus/minus 1.96 residual standard deviations, not a calibrated forecast interval; it excludes parameter and lag-selection uncertainty and serial correlation. Only 28 overlapping quarterly observations, so this is directional rather than precise. Consumer CPI proxies but does not equal insurer-paid repair cost or wholesale salvage value. The relationship is correlational: fleet age, claim mix and deductible changes also move total-loss frequency. The CCC series cited by J.P. Morgan (percent of claims flagged total loss) and the annual CCC Crash Course figures use slightly different definitions.</p>  </div>
 </div>
 <div class="card">
   <h3 class="card-title" style="margin-bottom:8px">tlf_nowcast_stats</h3>
   <p class="card-sub" style="margin-top:0">
-    one row &middot; 1 rows &middot; collected 2026-09-18 19:04 UTC  </p>
+    one row &middot; 1 rows &middot; collected 2026-09-19 01:49 UTC  </p>
   <div class="footnote" style="border-top:0;padding-top:0">
     <p style="margin:8px 0 0"><strong>Source.</strong> Computed by src/build/tlf_nowcast.py</p>
 <p style="margin:8px 0 0"><strong>Method.</strong> Regression diagnostics for the chosen specification.</p><p style="margin:8px 0 0"><strong>Gaps and caveats.</strong> See tlf_nowcast.</p>  </div>
@@ -233,7 +251,7 @@ came from, and derived rather than reported values are labelled as derived.</p>
     "listings observed" and are never presented as reported unit sales. Model outputs
     state their sample size and uncertainty band. See
     <a href="methods.html">Data &amp; methods</a> for every source, method and known gap.</p>
-    <p>Built 18 September 2026 19:05 UTC. Data as of the collection dates shown under each chart.</p>
+    <p>Built 19 September 2026 01:49 UTC. Data as of the collection dates shown under each chart.</p>
   </div>
 </footer>
 

@@ -246,7 +246,7 @@ def main() -> int:
             f"CCC actual ({stats['last_published_actual']})."
         ),
         gaps=(
-            "Lag selection and fit use the same sample, with no held-out validation. The band is "
+            "This fit selects lags in-sample; separate historical validation is in tlf_backtest. The band is "
             "plus/minus 1.96 residual standard deviations, not a calibrated forecast interval; "
             "it excludes parameter and lag-selection uncertainty and serial correlation. "
             f"Only {stats['n']} overlapping quarterly observations, so this is directional "

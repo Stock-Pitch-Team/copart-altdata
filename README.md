@@ -9,6 +9,8 @@ written down.
 
 **Team website:** https://stock-pitch-team.github.io/copart-altdata/
 
+**Current research tests:** [RESEARCH_NEXT_STEPS.md](RESEARCH_NEXT_STEPS.md), including the baseline comparison and inventory access findings.
+
 **Start here:**
 
 | File | What it is |
@@ -63,7 +65,7 @@ Then open `docs/index.html`, or serve it:
 | `src/collect/macro.py` | BLS public API | No (key raises limits) | Working — through August 2026 |
 | `src/collect/noaa_storms.py` | NOAA Storm Events | No | Working — 184k events, 3,730 county/forecast-zone labels |
 | `src/build/tlf_nowcast.py` | Derived | No | Working — R² 0.66, n=28 |
-| `src/site/build_site.py` | Local CSVs | No | Working — 18 charts, 6 pages |
+| `src/site/build_site.py` | Local CSVs | No | Working — 19 charts, 6 pages |
 
 Verified against the filings: fiscal Q3 2026 operating income of $464.3mn and
 revenue of $1,237.1mn both match exactly.
